@@ -93,6 +93,7 @@ button:hover, a.button:hover {
    BOUTONS QCM
 ============================ */
 .answer-btn {
+  -webkit-tap-highlight-color: transparent;
   display: block;
   width: 100%;
   padding: 0.8rem 1.2rem;
@@ -107,9 +108,12 @@ button:hover, a.button:hover {
   font-size: 1.2rem; /* taille par défaut */
 }
 
-.answer-btn.selected {
-  background: #f39c12; /* orange */
-  color: white;
+/* Force le rendu sur mobile */
+.answer-btn.selected,
+.answer-btn.selected:active,
+.answer-btn.selected:focus {
+  background: #f39c12 !important;
+  color: white !important;
 }
 
 .answer-btn.correct {
