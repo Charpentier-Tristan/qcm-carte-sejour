@@ -109,9 +109,7 @@ button:hover, a.button:hover {
 }
 
 /* Force le rendu sur mobile */
-.answer-btn.selected,
-.answer-btn.selected:active,
-.answer-btn.selected:focus {
+.answer-btn.selected {
   background: #f39c12 !important;
   color: white !important;
 }
