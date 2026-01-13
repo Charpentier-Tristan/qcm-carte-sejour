@@ -10,18 +10,19 @@
   <h1>QCM</h1>
 </header>
 
-<main>
-  <div class="card" id="qcmContainer">
-    <h2 id="question"></h2>
+<main id="qcmContainer">
+  <div class="card">
+    <p id="counter">1 / 10</p>
+    <h2 id="question">Question</h2>
     <div id="answers"></div>
-    <button id="nextBtn">Suivant</button>
-    <p class="small center" id="counter"></p>
+    <div class="center">
+      <button id="prevBtn">Précédent</button>
+      <button id="nextBtn" disabled>Suivant</button>
+    </div>
   </div>
 </main>
 
-<footer>
-  <p class="center">© Tristan Charpentier</p>
-</footer>
+<a href="index.html" class="floating-back">Accueil</a>
 
 <script src="js/qcm.js"></script>
 </body>

@@ -4,11 +4,9 @@ const theme = params.get("theme");
 
 let questions = [];
 let current = 0;
-let score = 0;
-let userAnswers = [];
+let userAnswers = []; // Stocke les réponses choisies
 
 function loadQuestions() {
-  let url;
   if(type === "examen") {
     const themeFiles = [
       "questions/principes_republique.json",
@@ -24,8 +22,7 @@ function loadQuestions() {
         showQuestion();
       });
   } else if(type === "theme") {
-    url = `questions/${theme}.json`;
-    fetch(url)
+    fetch(`questions/${theme}.json`)
       .then(r => r.json())
       .then(data => {
         questions = data;
@@ -37,49 +34,56 @@ function loadQuestions() {
 
 function showQuestion() {
   if(current >= questions.length){
-    questions.forEach((q,i) => q.userAnswer = userAnswers[i]);
-    localStorage.setItem("lastScore", score);
+    localStorage.setItem("lastScore", calculateScore());
     localStorage.setItem("totalQuestions", questions.length);
-    localStorage.setItem("questions", JSON.stringify(questions));
+    localStorage.setItem("questions", JSON.stringify(questions.map((q,i)=>({
+      ...q, userAnswer: userAnswers[i] !== undefined ? q.answers[userAnswers[i]] : ""
+    }))));
     window.location.href = "resultat.html";
     return;
   }
 
   const q = questions[current];
   document.getElementById("question").textContent = q.question;
-
   const answersDiv = document.getElementById("answers");
   answersDiv.innerHTML = "";
 
-  q.answers.forEach((a, i) => {
+  q.answers.forEach((a,i)=>{
     const btn = document.createElement("button");
     btn.textContent = a;
     btn.classList.add("answer-btn");
+    if(userAnswers[current]===i) btn.classList.add("selected");
     btn.onclick = () => selectAnswer(btn, i);
     answersDiv.appendChild(btn);
   });
 
-  const nextBtn = document.getElementById("nextBtn");
-  nextBtn.disabled = true;
-  nextBtn.onclick = () => {
-    if(userAnswers[current] === q.correct) score++;
-    current++;
-    showQuestion();
-  };
-
   document.getElementById("counter").textContent = `${current+1} / ${questions.length}`;
+
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+
+  nextBtn.disabled = userAnswers[current] === undefined;
+  nextBtn.onclick = () => { current++; showQuestion(); };
+  prevBtn.disabled = current === 0;
+  prevBtn.onclick = () => { current--; showQuestion(); };
 }
 
-function selectAnswer(btn, index) {
+function selectAnswer(btn,index){
   const buttons = document.querySelectorAll(".answer-btn");
-  buttons.forEach(b => b.classList.remove("selected"));
+  buttons.forEach(b=>b.classList.remove("selected"));
   btn.classList.add("selected");
   userAnswers[current] = index;
-
-  const nextBtn = document.getElementById("nextBtn");
-  nextBtn.disabled = false;
+  document.getElementById("nextBtn").disabled = false;
 }
 
-function shuffle(a){return a.sort(()=>Math.random()-0.5)}
+function calculateScore(){
+  let score = 0;
+  questions.forEach((q,i)=>{
+    if(userAnswers[i] === q.correct) score++;
+  });
+  return score;
+}
+
+function shuffle(a){ return a.sort(()=>Math.random()-0.5); }
 
 loadQuestions();
