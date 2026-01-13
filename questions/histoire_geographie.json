@@ -1,0 +1,35 @@
+[
+  {
+    "question": "En quelle année la République française a‑t‑elle été proclamée ?",
+    "answers": [
+      "1789",
+      "1792",
+      "1804",
+      "1870"
+    ],
+    "correct": 1,
+    "explanation": "La Première République française est proclamée en 1792."
+  },
+  {
+    "question": "Quel fleuve traverse Paris ?",
+    "answers": [
+      "Le Rhône",
+      "La Loire",
+      "La Seine",
+      "Le Rhin"
+    ],
+    "correct": 2,
+    "explanation": "La Seine traverse Paris."
+  },
+  {
+    "question": "Quel monument est un symbole de la France ?",
+    "answers": [
+      "Statue de la Liberté",
+      "Big Ben",
+      "Tour Eiffel",
+      "Colisée"
+    ],
+    "correct": 2,
+    "explanation": "La Tour Eiffel est un symbole emblématique de la France."
+  }
+]

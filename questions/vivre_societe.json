@@ -1,0 +1,35 @@
+[
+  {
+    "question": "Que signifie être citoyen en France ?",
+    "answers": [
+      "Fonctionnaire de l’État",
+      "Membre d’une société avec droits et devoirs",
+      "Étranger vivant en France",
+      "Simple visiteur"
+    ],
+    "correct": 1,
+    "explanation": "Un citoyen est quelqu’un qui a des droits et des devoirs dans la société française."
+  },
+  {
+    "question": "Quel principe favorise la vie en société ?",
+    "answers": [
+      "Ignorer les lois",
+      "Respect des règles",
+      "Individualisme strict",
+      "Liberté totale"
+    ],
+    "correct": 1,
+    "explanation": "Le respect des règles favorise la vie en société."
+  },
+  {
+    "question": "Quelle organisation protège les droits des citoyens ?",
+    "answers": [
+      "La police uniquement",
+      "La Croix‑Rouge",
+      "Les tribunaux et les institutions judiciaires",
+      "Un parti politique"
+    ],
+    "correct": 2,
+    "explanation": "Ce sont les tribunaux et les institutions judiciaires qui protègent les droits des citoyens."
+  }
+]

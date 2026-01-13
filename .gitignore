@@ -1,0 +1,17 @@
+# Node modules si jamais utilisés
+node_modules/
+
+# Fichiers temporaires
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE / éditeurs
+.vscode/
+.idea/
+
+# Cache du navigateur
+*.cache
+
+# Secrets (si jamais tu en as)
+.env

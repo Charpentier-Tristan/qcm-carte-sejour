@@ -1,0 +1,35 @@
+[
+  {
+    "question": "Quel droit n’est pas inscrit dans la Constitution française ?",
+    "answers": [
+      "Liberté d’expression",
+      "Droit de vote",
+      "Droit à Internet",
+      "Liberté de religion"
+    ],
+    "correct": 2,
+    "explanation": "La Constitution ne garantit pas spécifiquement un 'droit à Internet'."
+  },
+  {
+    "question": "Quel devoir est attendu de chaque citoyen ?",
+    "answers": [
+      "Respecter la loi",
+      "Acheter une maison",
+      "Adhérer à un parti",
+      "Travailler pour l’État"
+    ],
+    "correct": 0,
+    "explanation": "Respecter la loi est un devoir fondamental de toute personne vivant dans la société française."
+  },
+  {
+    "question": "Quel âge minimum faut‑il pour voter en France ?",
+    "answers": [
+      "18 ans",
+      "21 ans",
+      "16 ans",
+      "25 ans"
+    ],
+    "correct": 0,
+    "explanation": "L’âge minimum pour voter en France est 18 ans."
+  }
+]

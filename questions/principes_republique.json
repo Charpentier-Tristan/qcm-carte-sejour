@@ -1,0 +1,35 @@
+[
+  {
+    "question": "Quelle est la devise de la République française ?",
+    "answers": [
+      "Liberté, Égalité, Fraternité",
+      "Paix, Justice, Liberté",
+      "Travail, Famille, Patrie",
+      "Unité, Force, Justice"
+    ],
+    "correct": 0,
+    "explanation": "La devise officielle de la République française est 'Liberté, Égalité, Fraternité'."
+  },
+  {
+    "question": "Quel symbole représente la République française ?",
+    "answers": [
+      "La Tour Eiffel",
+      "Le drapeau français",
+      "Le coq gaulois",
+      "La Marianne"
+    ],
+    "correct": 3,
+    "explanation": "La Marianne est un symbole de la République française, représentant la liberté et la raison."
+  },
+  {
+    "question": "Quelle valeur n’est pas dans la devise de la République ?",
+    "answers": [
+      "Fraternité",
+      "Liberté",
+      "Justice",
+      "Égalité"
+    ],
+    "correct": 2,
+    "explanation": "La devise nationale est 'Liberté, Égalité, Fraternité' — 'Justice' n’en fait pas partie."
+  }
+]
