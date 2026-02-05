@@ -81,23 +81,35 @@ function loadQuestions() {
 
     loadExamQuestions(level)
       .then(data => {
+        if (!data || data.length === 0) {
+          redirectError("Aucune question trouvée pour ce niveau.", "Vérifiez les fichiers JS dans le dossier questions.");
+          return;
+        }
         const normalized = data.map(normalizeQuestion);
         questions = normalized;
         questions.shuffle();
         questions = questions.slice(0, 40);
         showQuestion();
       })
-      .catch(e => console.error("Erreur chargement examen:", e));
+      .catch(e => {
+        redirectError("Fichier d'examen introuvable.", e && e.message ? e.message : "");
+      });
   } else if(type === "theme") {
     localStorage.removeItem("examType");
     localStorage.removeItem("examTypeLabel");
     if (level) localStorage.setItem("examLevel", level);
     loadThemeQuestions(theme, level)
       .then(data => {
+        if (!data || data.length === 0) {
+          redirectError("Aucune question trouvée pour ce thème.", "Vérifiez le fichier JS du thème.");
+          return;
+        }
         questions = data.map(normalizeQuestion);
         showQuestion();
       })
-      .catch(e => console.error("Erreur chargement thème:", e));
+      .catch(e => {
+        redirectError("Fichier du thème introuvable.", e && e.message ? e.message : "");
+      });
   }
 }
 
@@ -194,4 +206,10 @@ function extractQuestionsFromScript(text, varName) {
   const data = fn();
   if (!data) throw new Error(`Variable ${varName} introuvable`);
   return data;
+}
+
+function redirectError(message, details) {
+  const msg = encodeURIComponent(message || "Erreur de chargement.");
+  const det = encodeURIComponent(details || "");
+  window.location.href = `error.html?message=${msg}&details=${det}`;
 }
