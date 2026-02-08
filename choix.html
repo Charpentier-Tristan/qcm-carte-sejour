@@ -2,14 +2,13 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Choisissez un niveau et un type de QCM pour l'examen civique.">
   <title>Choix du QCM</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header>
-  <h1>Choix du QCM</h1>
-  <h2 id="levelLabel">Sélection du niveau</h2>
-</header>
+<header id="app-header" data-title="Choix du QCM" data-subtitle="Sélection du niveau" data-subtitle-id="levelLabel"></header>
 
 <main>
   <div class="card center">
@@ -19,9 +18,12 @@
   <div class="theme-buttons center" id="examList"></div>
 </main>
 
-<a href="index.html" class="floating-back">Accueil</a>
+<footer id="app-footer"></footer>
 
+<script src="js/app.core.js"></script>
+<script src="js/app.storage.js"></script>
 <script src="js/questions_config.js"></script>
+<script src="js/layout.js"></script>
 <script src="js/choix.js"></script>
 </body>
 </html>

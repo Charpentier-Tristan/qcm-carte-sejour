@@ -1,9 +1,29 @@
 /* ============================
+   THEME TOKENS
+============================ */
+:root {
+  --bg: #f3f6fb;
+  --bg-2: #e7efff;
+  --text: #0b1021;
+  --muted: #5b6b8c;
+  --card: #ffffff;
+  --accent: #3b6fff;
+  --accent-2: #4cc9ff;
+  --accent-3: #2bd67b;
+  --danger: #ff4d6d;
+  --warning: #ffb84d;
+  --shadow: 0 12px 30px rgba(16, 30, 66, 0.12);
+  --shadow-soft: 0 6px 18px rgba(16, 30, 66, 0.08);
+  --radius: 18px;
+  --radius-pill: 999px;
+}
+
+/* ============================
    RESET & BOX MODEL
 ============================ */
 * {
   box-sizing: border-box;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: "SF Pro Display", "SF Pro Text", "Segoe UI", "Helvetica Neue", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -18,30 +38,101 @@ html, body {
 }
 
 body {
-  background: #f6f7f9;
-  color: #222;
+  color: var(--text);
+  background:
+    radial-gradient(1200px 500px at 10% -10%, #cfe0ff 0%, transparent 60%),
+    radial-gradient(900px 500px at 90% 0%, #bff2ff 0%, transparent 55%),
+    linear-gradient(180deg, #f0f4ff 0%, #e3ecff 100%);
 }
 
 /* ============================
    HEADER
 ============================ */
 header {
-  background: #0a3d62;
-  color: white;
-  padding: 1rem;
+  color: var(--text);
+  padding: 1.6rem 1.5rem 1.2rem;
   text-align: center;
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
+  border-bottom: 1px solid rgba(24, 42, 90, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: var(--shadow-soft);
+  position: relative;
+}
+
+.header-nav {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+}
+
+.nav-back {
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--accent);
+  border: none;
+  border-radius: var(--radius-pill);
+  padding: 0.5rem 0.9rem;
+  font-size: 0.95rem;
+  box-shadow: var(--shadow-soft);
+  cursor: pointer;
+}
+
+.nav-back:active {
+  animation: bounce 220ms ease-out;
+}
+
+.home-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.home-link:hover {
+  text-decoration: none;
+}
+
+.breadcrumb {
+  margin-top: 0.4rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.breadcrumb .crumb {
+  color: rgba(255, 255, 255, 0.95);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.breadcrumb .crumb.current {
+  font-weight: 700;
+}
+
+.breadcrumb .crumb-sep {
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0 0.2rem;
 }
 
 h1 {
   color: #ffffff;
-  font-size: clamp(2rem, 6vw, 2.5rem); /* plus grand sur mobile */
-  margin-bottom: 0.5rem;
+  font-size: clamp(2.2rem, 6vw, 3rem);
+  margin-bottom: 0.4rem;
+  letter-spacing: -0.02em;
 }
 
 h2 {
-  color: #0a3d62;
-  font-size: clamp(1.5rem, 5vw, 2rem); /* plus grand */
-  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: clamp(1.2rem, 4vw, 1.6rem);
+  margin-bottom: 0.8rem;
+  font-weight: 500;
+}
+
+main h2,
+.card h2,
+#question {
+  color: var(--text);
 }
 
 /* ============================
@@ -49,23 +140,25 @@ h2 {
 ============================ */
 main {
   flex: 1;
-  max-width: 800px;
-  width: 95%;
+  max-width: 900px;
+  width: 92%;
   margin: auto;
-  padding: 1.5rem;
-  font-size: 1.2rem; /* par défaut */
-  line-height: 1.5;
+  padding: 1.5rem 1rem 2rem;
+  font-size: 1.15rem;
+  line-height: 1.6;
 }
 
 /* ============================
    CARDS / BLOCS
 ============================ */
 .card {
-  background: white;
-  padding: 1.5rem;
+  background: var(--card);
+  padding: 1.6rem;
   margin-bottom: 1.5rem;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(24, 42, 90, 0.06);
+  backdrop-filter: blur(8px);
 }
 
 /* ============================
@@ -73,20 +166,35 @@ main {
 ============================ */
 button, a.button {
   display: inline-block;
-  padding: 1rem 1.5rem; /* plus grand */
+  padding: 0.95rem 1.6rem;
   margin: 0.5rem 0;
-  font-size: 1.2rem; /* par défaut */
-  background: #0a3d62;
+  font-size: 1.15rem;
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
   color: white;
   border: none;
-  border-radius: 6px;
+  border-radius: var(--radius-pill);
   text-decoration: none;
   cursor: pointer;
-  transition: background 0.3s;
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+  position: relative;
+  overflow: hidden;
 }
 
 button:hover, a.button:hover {
-  background: #07406b;
+  transform: translateY(-1px);
+  filter: brightness(1.02);
+}
+
+button:active, a.button:active {
+  animation: bounce 220ms ease-out;
+}
+
+@keyframes bounce {
+  0% { transform: scale(1); }
+  40% { transform: scale(0.94); }
+  70% { transform: scale(1.02); }
+  100% { transform: scale(1); }
 }
 
 /* ============================
@@ -96,32 +204,39 @@ button:hover, a.button:hover {
   -webkit-tap-highlight-color: transparent;
   display: block;
   width: 100%;
-  padding: 0.8rem 1.2rem;
-  margin-bottom: 1rem;
-  background: #0a3d62;
-  color: white;
-  border: none;
-  border-radius: 6px;
+  padding: 0.9rem 1.2rem;
+  margin-bottom: 0.9rem;
+  background: #f7f9ff;
+  color: var(--text);
+  border: 1px solid rgba(24, 42, 90, 0.08);
+  border-radius: 16px;
   text-align: left;
   cursor: pointer;
-  transition: background 0.3s;
-  font-size: 1.2rem; /* taille par défaut */
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  font-size: 1.15rem;
+  box-shadow: var(--shadow-soft);
 }
 
-/* Force le rendu sur mobile */
+.answer-btn:hover {
+  transform: translateY(-1px);
+}
+
 .answer-btn.selected {
-  background: #f39c12 !important;
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%) !important;
   color: white !important;
+  border-color: transparent !important;
 }
 
 .answer-btn.correct {
-  background: #28a745; /* vert */
+  background: linear-gradient(135deg, #16c26e 0%, var(--accent-3) 100%);
   color: white;
+  border-color: transparent;
 }
 
 .answer-btn.incorrect {
-  background: #dc3545; /* rouge */
+  background: linear-gradient(135deg, #ff5a7a 0%, var(--danger) 100%);
   color: white;
+  border-color: transparent;
 }
 
 .answer-btn.disabled {
@@ -129,50 +244,48 @@ button:hover, a.button:hover {
   opacity: 0.7;
 }
 
-.answer-btn:hover {
-  background: #07406b;
-}
-
 /* ============================
    RESULTATS
 ============================ */
 .result-card {
-  padding: 1rem;
+  padding: 1.1rem 1.2rem;
   margin-bottom: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-  transition: transform 0.2s;
-  font-size: 1.2rem; /* taille par défaut */
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: transform 0.2s ease;
+  font-size: 1.1rem;
+  border: 1px solid rgba(24, 42, 90, 0.06);
+  background: var(--card);
 }
 
 .result-card.correct {
-  background-color: #d4edda;
-  border-left: 6px solid #28a745;
+  border-left: 6px solid #16c26e;
 }
 
 .result-card.wrong {
-  background-color: #f8d7da;
-  border-left: 6px solid #dc3545;
+  border-left: 6px solid var(--danger);
 }
 
 .result-card:hover {
-  transform: scale(1.02);
+  transform: translateY(-2px);
 }
 
 .result-card h3 {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
 }
 
 .result-card p {
   margin: 0.2rem 0;
+  color: var(--text);
 }
 
 .result-card .explanation {
-  background-color: #f1f1f1;
-  padding: 0.5rem;
-  border-radius: 6px;
-  margin-top: 0.5rem;
+  background-color: #f4f7ff;
+  padding: 0.6rem 0.8rem;
+  border-radius: 12px;
+  margin-top: 0.6rem;
   font-style: italic;
+  color: var(--muted);
 }
 
 /* ============================
@@ -180,54 +293,52 @@ button:hover, a.button:hover {
 ============================ */
 .theme-buttons a.button {
   display: block;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
   text-align: center;
 }
-
-/* ============================
-   BOUTON FLOTTANT RETOUR
-============================ */
-.floating-back {
-  position: fixed;
-  bottom: 1rem;
-  right: 1rem;
-  background: #620a0a;
-  color: white;
-  padding: 0.8rem 1.2rem;
-  border-radius: 50px;
-  text-decoration: none;
-  font-size: 1rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-  transition: background 0.3s, transform 0.2s;
-  z-index: 1000;
-}
-
-.floating-back:hover {
-  background: #07406b;
-  transform: translateY(-2px);
-}
-
-/* Sur mobile, le bouton reste lisible */
-@media (max-width: 600px) {
-  .floating-back {
-    font-size: 1.2rem;
-    padding: 1rem 1.5rem;
-  }
-}
-
 
 /* ============================
    FOOTER
 ============================ */
 footer {
-  background: #0a3d62;
-  color: white;
-  padding: 1rem;
+  color: #ffffff;
+  padding: 1.2rem 1.5rem 1.6rem;
   text-align: center;
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
+  border-top: 1px solid rgba(24, 42, 90, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: var(--shadow-soft);
+  font-size: 1.05rem;
 }
 
 footer a.button {
   margin: 0.5rem;
+}
+
+footer p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+footer a.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: #ffffff;
+  color: var(--accent);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+footer a.button:hover {
+  filter: brightness(0.98);
+}
+
+.footer-sep {
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 600;
 }
 
 /* ============================
@@ -239,7 +350,7 @@ footer a.button {
 
 .small {
   font-size: 1rem;
-  color: #555;
+  color: var(--muted);
 }
 
 ul {
@@ -255,22 +366,99 @@ li {
    RESPONSIVE MOBILE
 ============================ */
 @media (max-width: 600px) {
-  /* Texte QCM et résultats plus gros sur mobile */
-  .answer-btn, .result-card, main#qcmContainer, main#results {
-    font-size: 1.5rem;
-    padding: 1rem 1.5rem;
+  :root {
+    --radius: 16px;
+  }
+
+  main {
+    width: 96%;
+    padding: 1.2rem 0.8rem 2.2rem;
+    font-size: 1.3rem;
+  }
+
+  header {
+    padding: 2.8rem 1rem 1.1rem;
+  }
+
+  .header-nav {
+    left: 0.8rem;
+    top: 0.6rem;
+  }
+
+  .nav-back {
+    font-size: 0.9rem;
+    padding: 0.45rem 0.75rem;
   }
 
   h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+    line-height: 1.1;
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+
+  .breadcrumb {
+    font-size: 0.9rem;
+  }
+
+  .card {
+    padding: 1.3rem;
+  }
+
+  .answer-btn, .result-card, main#qcmContainer, main#results {
+    font-size: 1.3rem;
+  }
+
+  main#results {
+    width: 96%;
+  }
+
+  .result-card {
+    padding: 1.2rem;
+  }
+
+  .result-card h3 {
+    font-size: 1.2rem;
+    line-height: 1.3;
+  }
+
+  .result-card p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+
+  .result-card .explanation {
+    font-size: 1.05rem;
+  }
+
+  .answer-btn {
+    padding: 1.1rem 1.1rem;
   }
 
   button, a.button {
-    padding: 1rem 1.2rem;
-    font-size: 1.4rem; /* boutons plus grands sur mobile */
+    padding: 1.05rem 1.2rem;
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .theme-buttons a.button {
+    margin-bottom: 1rem;
+  }
+
+  footer p {
+    flex-direction: row;
+    gap: 0.5rem;
+    font-size: 1.05rem;
+  }
+
+  footer a.button {
+    width: auto;
+    justify-content: center;
+    padding: 0.7rem 0.9rem;
+    font-size: 0.95rem;
   }
 }

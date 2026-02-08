@@ -2,28 +2,37 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact et support pour le QCM de l'examen civique.">
   <title>Contact</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<header>
-  <h1>Contact</h1>
-</header>
+<header id="app-header" data-title="Contact" data-breadcrumb="false"></header>
 
 <main>
-  <div class="card center">
-    <p>Une question ou une suggestion ?</p>
-    <a href="mailto:tristan07.charpentier@gmail.com" class="button">Envoyer un email</a>
-    <p>LinkedIn : <a href="https://www.linkedin.com/in/tristan-charpentier-5584221bb/" target="_blank" class="button">Voir mon profil</a></p>
+  <div class="card">
+    <h2>Écrivez-moi</h2>
+    <p>Une question, un bug, une suggestion d'amélioration ?</p>
+    <p>
+      <a href="mailto:tristan07.charpentier@gmail.com" class="button">Envoyer un email</a>
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Réseaux</h2>
+    <p>Retrouvez les mises à jour et le profil professionnel.</p>
+    <p>
+      <a href="https://www.linkedin.com/in/tristan-charpentier-5584221bb/" target="_blank" rel="noopener" class="button">LinkedIn</a>
+    </p>
   </div>
 </main>
 
-<a href="index.html" class="floating-back">Retour à l'accueil</a>
+<footer id="app-footer"></footer>
 
-<footer>
-  <p>© 2026 Tristan Charpentier</p>
-</footer>
+<script src="js/app.core.js"></script>
+<script src="js/layout.js"></script>
 
 </body>
 </html>

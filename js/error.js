@@ -1,9 +1,11 @@
-const params = new URLSearchParams(window.location.search);
-const message = params.get("message");
-const details = params.get("details");
+App.dom.onReady(function () {
+  var params = new URLSearchParams(window.location.search);
+  var message = params.get("message");
+  var details = params.get("details");
 
-const messageEl = document.getElementById("errorMessage");
-const detailsEl = document.getElementById("errorDetails");
+  var messageEl = App.dom.byId("errorMessage");
+  var detailsEl = App.dom.byId("errorDetails");
 
-if (message && messageEl) messageEl.textContent = decodeURIComponent(message);
-if (details && detailsEl) detailsEl.textContent = decodeURIComponent(details);
+  if (message && messageEl) messageEl.textContent = decodeURIComponent(message);
+  if (details && detailsEl) detailsEl.textContent = decodeURIComponent(details);
+});

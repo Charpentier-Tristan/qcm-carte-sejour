@@ -2,27 +2,38 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mentions legales du site QCM examen civique.">
   <title>Mentions légales</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<header>
-  <h1>Mentions légales</h1>
-</header>
+<header id="app-header" data-title="Mentions légales" data-breadcrumb="false"></header>
 
 <main>
   <div class="card">
-    <p>Ce site est édité par Tristan Charpentier.</p>
-    <p>Adresse : Grenoble, France</p>
+    <h2>Éditeur du site</h2>
+    <p>Tristan Charpentier</p>
+    <p>Grenoble, France</p>
+  </div>
+
+  <div class="card">
+    <h2>Contact</h2>
     <p>Email : tristan07.charpentier@gmail.com</p>
-    <p><a href="index.html" class="button">Retour à l'accueil</a></p>
+    <p><a href="contact.html" class="button">Page contact</a></p>
+  </div>
+
+  <div class="card">
+    <h2>Responsabilité</h2>
+    <p>Ce site est un outil pédagogique. Les informations peuvent évoluer. Merci de verifier les sources officielles.</p>
+    <p><a href="sources.html" class="button">Sources officielles</a></p>
   </div>
 </main>
-<a href="index.html" class="floating-back">Retour à l'accueil</a>
-<footer>
-  <p>© 2026 Tristan Charpentier</p>
-</footer>
+<footer id="app-footer"></footer>
+
+<script src="js/app.core.js"></script>
+<script src="js/layout.js"></script>
 
 </body>
 </html>
