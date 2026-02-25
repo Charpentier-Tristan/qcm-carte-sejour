@@ -1,0 +1,253 @@
+[
+  {
+    "id": "territoire_csp_001",
+    "theme": "territoire",
+    "level": "CSP",
+    "type": "multi",
+    "question": "Quel fleuve coule en France ?",
+    "answers": [
+      { "id": "seine", "label": "La Seine" },
+      { "id": "garonne", "label": "La Garonne" },
+      { "id": "loire", "label": "La Loire" },
+      { "id": "rhone", "label": "Le Rhône" },
+      { "id": "rhin", "label": "Le Rhin" },
+      { "id": "tage", "label": "Le Tage" },
+      { "id": "mississipi", "label": "Le Mississipi" },
+      { "id": "ebre", "label": "L\'Èbre" },
+      { "id": "amazone", "label": "L\'Amazone" },
+      { "id": "po", "label": "Le Pô" },
+      { "id": "gange", "label": "Le Gange" },
+      { "id": "nil", "label": "Le Nil" }
+      ],
+    "correct": ["seine", "garonne", "loire", "rhone", "rhin"],
+    "explanation": "La Seine et la Loire coulent entièrement en France. Une partie du Rhin est frontière avec l\'Allemagne. Le Rhône prend sa source en Suisse, la Garonne dans les Pyrénées espagnoles."
+  },
+  {
+    "id": "territoire_csp_002",
+    "theme": "territoire",
+    "level": "CSP",
+    "type": "multi",
+    "question": "Quelle ville est française ?",
+    "answers": [
+      { "id": "paris", "label": "Paris" },
+      { "id": "lyon", "label": "Lyon" },
+      { "id": "marseille", "label": "Marseille" },
+      { "id": "lille", "label": "Lille" },
+      { "id": "toulouse", "label": "Toulouse" },
+      { "id": "bordeaux", "label": "Bordeaux" },
+      { "id": "hambourg", "label": "Hambourg" },
+      { "id": "londres", "label": "Londres" },
+      { "id": "naples", "label": "Naples" },
+      { "id": "barcelone", "label": "Barcelone" },
+      { "id": "rome", "label": "Rome" },
+      { "id": "bruxelles", "label": "Bruxelles" },
+      { "id": "gand", "label": "Gand" },
+      { "id": "genes", "label": "Gênes" },
+      { "id": "anvers", "label": "Anvers" },
+      { "id": "geneve", "label": "Genève" }
+      ],
+    "correct": ["paris", "lyon", "marseille", "lille", "toulouse", "bordeaux"],
+    "explanation": "Les villes françaises dont l\'agglomération approche ou dépasse le million d\'habitants sont Paris, Lyon, Marseille, Lille, Bordeaux et Toulouse."
+  },
+  {
+    "id": "territoire_csp_003",
+    "theme": "territoire",
+    "level": "CSP",
+    "type": "single",
+    "question": "Quel océan borde la côte ouest française ?",
+    "answers": [
+      { "id": "atlantique", "label": "Atlantique" },
+      { "id": "pacifique", "label": "Pacifique" },
+      { "id": "indien", "label": "Indien" },
+      { "id": "arctique", "label": "Arctique" },
+      { "id": "mediterranee", "label": "Méditerranée" },
+      { "id": "adriatique", "label": "Adriatique" }
+      ],
+    "correct": ["Atlantique"],
+    "explanation": "L\'océan Atlantique borde la côte ouest. Il prend le nom de \"Manche\" au nord-ouest, entre la France et l\'Angleterre, de \"mer du Nord\" ensuite."
+  },
+  {
+    "id": "territoire_csp_004",
+    "theme": "territoire",
+    "level": "CSP",
+    "type": "single",
+    "question": "Qu\'est-ce que Paris",
+    "answers": [
+      { "id": "cap_france", "label": "La capitale de la France" },
+      { "id": "siege_parlement", "label": "Le siège du parlement européen" },
+      { "id": "mus", "label": "Une ville musée" },
+      { "id": "club", "label": "Un club de football" },
+      { "id": "parc", "label": "Un parc d\'attraction" }
+    ],
+    "correct": ["cap_france"],
+    "explanation": "Paris est la capitale de la France. C\'est le siège du parlement et de la présidence de la République. C\'est aussi la principale ville de France, avec 2 millions d’habitants dans la ville elle-même et 10 millions dans l’agglomération de 400 communes autour."
+  },
+  {
+    "id": "territoire_csp_005",
+    "theme": "territoire",
+    "level": "CSP",
+    "type": "single",
+    "question": "Quelle est la capitale de la France ?",
+    "answers": [
+      { "id": "paris", "label": "Paris" },
+      { "id": "lyon", "label": "Lyon" },
+      { "id": "vichy", "label": "Vichy" },
+      { "id": "marseille", "label": "Marseille" },
+      { "id": "bruxelles", "label": "Bruxelles" },
+      { "id": "newyork", "label": "New-York" }
+    ],
+    "correct": ["Paris"],
+    "explanation": "Paris est la capitale de la France. C\'est le siège du parlement et de la présidence de la République. C\'est aussi la principale ville de France, avec 2 millions d’habitants dans la ville elle-même et 10 millions dans l’agglomération de 400 communes autour."
+  },
+  {
+    "id": "territoire_csp_006",
+    "theme": "territoire",
+    "level": "CSP",
+    "type": "single",
+    "question": "Sur quel continent se trouve la France métropolitaine",
+    "answers": [
+      { "id": "europe", "label": "Le continent européen" },
+      { "id": "afrique", "label": "Le continent africain" },
+      { "id": "amerique", "label": "Le continent américain" },
+      { "id": "asie", "label": "Le continent asiatique" },
+      { "id": "oceanie", "label": "Le continent océanien" }
+    ],
+    "correct": ["europe"],
+    "explanation": "La France métropolitaine se situe à l\'extrémité ouest du continent européen. Le France comporte aussi des territoires d\'outre-mer en Amérique, au large de l\'Afrique et en Océanie."
+  },
+  {
+    "id": "territoire_csp_007",
+    "theme": "territoire",
+    "level": "CSP",
+    "type": "multi",
+    "question": "Quelle île est un département d\'outre-mer français ?",
+    "answers": [
+      { "id": "guadeloupe", "label": "La Guadeloupe" },
+      { "id": "martinique", "label": "La Martinique" },
+      { "id": "mayotte", "label": "Mayotte" },
+      { "id": "reunion", "label": "La Réunion" },
+      { "id": "guyane", "label": "La Guyane" },
+      { "id": "saint_pierre", "label": "Saint-Pierre et Miquelon" },
+      { "id": "tahiti", "label": "Tahiti" },
+      { "id": "caledonie", "label": "La Nouvelle-Calédonie" },
+      { "id": "corse", "label": "La Corse" }
+    ],
+    "correct": ["guadeloupe", "martinique", "mayotte", "reunion"],
+    "explanation": "Il y a cinq départements d\'outre-mer, qui sont aussi des régions : La Guadeloupe, La Martinique, Mayotte, La Réunion et La Guyane, mais cette dernière n\'est pas une île. La Corse est une région formée de deux départements, avec un statut particulier, et elle fait partie de la France métropolitaine. Saint-Pierre et Miquelon, Saint-Martin, Saint-Barthélémy, Wallis et Futuna et Tahiti sont des collectivités d\'outre-mer. La Nouvelle-Calédonie est un territoire d\'outre-mer à statut particulier."
+  },
+  {
+    "id": "territoire_csp_008",
+    "theme": "territoire",
+    "level": "CSP",
+    "type": "single",
+    "question": "Combien y a-t-il de régions en France métropolitaine ?",
+    "answers": [
+      { "id": "treize", "label": "Treize" },
+      { "id": "douze", "label": "Douze" },
+      { "id": "dixhuit", "label": "Dix-huit" },
+      { "id": "vingtquatre", "label": "Vingt-quatre" }
+      { "id": "dix", "label": "Dix" }
+      { "id": "quinze", "label": "Quinze" }
+    ],
+    "correct": ["treize"],
+    "explanation": "Il y a treize régions en France métropolitaine, dont douze sur le continent, et la Corse qui est une île avec un statut particulier. Les treize régions sont Auvergne-Rhône-Alpes, Bourgogne-Franche-Comté, Bretagne, Centre-Val de Loire, Corse, Grand Est, Hauts-de-France, Île-de-France, Normandie, Nouvelle-Aquitaine, Occitanie, Pays de la Loire, Provence-Alpes-Côte d\'Azur. Il y a en plus cinq régions d\'outre-mer, qui sont aussi des départements, ce qui porte le total des régions françaises à dix-huit."
+  },
+  {
+    "id": "territoire_csp_009",
+    "theme": "territoire",
+    "level": "CSP",
+    "type": "multi",
+    "question": "Quelle ville est un grand port maritime ?",
+    "answers": [
+      { "id": "dunkerque", "label": "Dunkerque" },
+      { "id": "nantes", "label": "Nantes - Saint-Nazaire" },
+      { "id": "larochelle", "label": "La Rochelle" },
+      { "id": "bordeaux", "label": "Bordeaux" },
+      { "id": "marseille", "label": "Marseille" },
+      { "id": "paris", "label": "Paris" },
+      { "id": "lyon", "label": "Lyon" },
+      { "id": "strasbourg", "label": "Strasbourg" },
+      { "id": "lille", "label": "Lille" },
+      { "id": "arles", "label": "Arles" },
+      { "id": "avignon", "label": "Avignon" }
+    ],
+    "correct": ["dunkerque", "nantes", "larochelle", "bordeaux", "marseille"],
+    "explanation": "Dunkerque, Nantes - Saint-Nazaire, La Rochelle, Bordeaux et Marseille sont les cinq ports maritimes les plus importants en France. Paris, Lyon, Strasbourg, Lille, Arles, Avignon, sont des ports fluviaux."
+  },
+  {
+    "id": "territoire_csp_010",
+    "theme": "territoire",
+    "level": "CSP",
+    "type": "single",
+    "question": "Quelle est la mer au sud de la France métropolitaine ?",
+    "answers": [
+      { "id": "mediterranee", "label": "Mer Méditerranée" },
+      { "id": "nord", "label": "Mer du Nord" },
+      { "id": "sargasses", "label": "Mer des Sargasses" },
+      { "id": "aral", "label": "Mer d\'Aral" },
+      { "id": "noire", "label": "Mer Noire" },
+      { "id": "adriatique", "label": "Mer Adriatique" },
+      { "id": "caspienne", "label": "Mer Caspienne" }
+    ],
+    "correct": ["mediterranee"],
+    "explanation": "La Mer Méditerranée. Le littoral méditerranéen attire de nombreux touristes, en particulier sur la côte d\'Azur, de Marseille jusqu\'à Menton, à la frontière italienne."
+  },
+  {
+    "id": "territoire_csp_011",
+    "theme": "territoire",
+    "level": "CSP",
+    "type": "multi",
+    "question": "Quelle ville est située au bord de la mer Méditerranée ?",
+    "answers": [
+      { "id": "marseille", "label": "Marseille" },
+      { "id": "toulon", "label": "Toulon" },
+      { "id": "nice", "label": "Nice" },
+      { "id": "montpellier", "label": "Montpellier" },
+      { "id": "beziers", "label": "Béziers" },
+      { "id": "narbonne", "label": "Narbonne" },
+      { "id": "perpignan", "label": "Perpignan" },
+      { "id": "dunkerque", "label": "Dunkerque" },
+      { "id": "bordeaux", "label": "Bordeaux" },
+      { "id": "lehavre", "label": "Le Havre" },
+      { "id": "larochelle", "label": "La Rochelle" }
+    ],
+    "correct": ["marseille", "toulon", "nice"],
+    "explanation": "Marseille, Toulon, Nice, sont les villes les plus importantes au bord de la mer Méditerranée. Montpellier, Béziers, Narbonne, Perpignan sont proches de la côte, mais pas en bord de mer. Dunkerque, Le Havre, La Rochelle, Bordeaux, sont des ports de l\'océan Atlantique."
+  },
+  {
+    "id": "territoire_csp_012",
+    "theme": "territoire",
+    "level": "CSP",
+    "type": "single",
+    "question": "Où se situe la Corse ?",
+    "answers": [
+      { "id": "mediterranee", "label": "En mer Méditerranée" },
+      { "id": "espagne", "label": "En Espagne" },
+      { "id": "italie", "label": "En Italie" },
+      { "id": "atlantique", "label": "Dans l\'océan Atlantique" },
+      { "id": "nordouest", "label": "Au nord-ouest des côtes françaises" },
+      { "id": "iledefrance", "label": "En Île-de-France" }
+    ],
+    "correct": ["mediterranee"],
+    "explanation": "La Corse est une île de la mer Méditerranée, au sud-est de la France. La distance la plus courte aux côtes françaises est de 160 km, aux côtes italiennes de 82 km."
+  },
+  {
+    "id": "territoire_csp_013",
+    "theme": "territoire",
+    "level": "CSP",
+    "type": "single",
+    "question": "Quelle chaîne de montagnes est située entre la France et l\'Italie ?",
+    "answers": [
+      { "id": "alpes", "label": "Les Alpes" },
+      { "id": "pyrenees", "label": "Les Pyrénées" },
+      { "id": "jura", "label": "Le Jura" },
+      { "id": "vosges", "label": "Les Vosges" },
+      { "id": "central", "label": "Le Massif Central" },
+      { "id": "appenins", "label": "Les Apennins" },
+      { "id": "carpates", "label": "Les Carpates" },
+      { "id": "oural", "label": "L\'Oural" }
+    ],
+    "correct": ["alpes"],
+    "explanation": "Les Alpes sont situées entre la France et l\'Italie. Les Pyrénées sont entre la France et l\'Espagne, le Jura entre la France et la Suisse. Les Vosges et le Massif central sont entièrement en France. Les Appenins, les Carpates, l\'Oural sont des montagnes européennes mais ne sont pas en France."
+  }
+]

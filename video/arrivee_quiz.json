@@ -1,0 +1,262 @@
+[
+  {
+    "id": "arrivee_quiz_001",
+    "theme": "arrivee",
+    "level": "VID",
+    "type": "single",
+    "question": "Pour séjourner en France pendant deux mois il faut :",
+    "answers": [
+      { "id": "vish", "label": "un visa Schengen" },
+      { "id": "seplu", "label": "une carte de séjour pluriannuelle" },
+      { "id": "carre", "label": "une carte de résident" },
+      { "id": "natfr", "label": "la nationalité française" },
+      { "id": "petra", "label": "un permis de travail" },
+      { "id": "vils", "label": "un visa de long séjour" }
+    ],
+    "correct": ["vish"],
+    "explanation": "Pour une personne qui ne réside pas dans l\'un des pays de l\'espace Schengen, il faut un visa de court séjour, ou visa Schengen, pour séjourner en France moins de 90 jours. Ce visa donne le droit de se déplacer dans tous les pays de l\'espace Schengen."
+  },
+  {
+    "id": "arrivee_quiz_002",
+    "theme": "arrivee",
+    "level": "VID",
+    "type": "single",
+    "question": "Pour séjourner en France pendant six mois il faut :",
+    "answers": [
+      { "id": "vish", "label": "un visa Schengen" },
+      { "id": "seplu", "label": "une carte de séjour pluriannuelle" },
+      { "id": "carre", "label": "une carte de résident" },
+      { "id": "natfr", "label": "la nationalité française" },
+      { "id": "petra", "label": "un permis de travail" },
+      { "id": "vils", "label": "un visa de long séjour" }
+      ],
+    "correct": ["vils"],
+    "explanation": "Pour une personne qui ne réside pas dans l\'un des pays de l\'espace Schengen, il faut un visa de long séjour pour séjourner en France plus de 90 jours. Il est valable jusqu\'à 12 mois. Ce visa donne le droit de se déplacer dans tous les pays de l\'espace Schengen."
+  },
+  {
+    "id": "arrivee_quiz_003",
+    "theme": "arrivee",
+    "level": "VID",
+    "type": "single",
+    "question": "Un visa Schengen est valable",
+    "answers": [
+      { "id": "quat", "label": "90 jours" },
+      { "id": "simo", "label": "six mois" },
+      { "id": "unmo", "label": "un mois" },
+      { "id": "unan", "label": "un an" },
+      { "id": "deux", "label": "deux ans" },
+      { "id": "avie", "label": "à vie" }
+    ],
+    "correct": ["quat"],
+    "explanation": "Pour une personne qui ne réside pas dans l\'un des pays de l\'espace Schengen, il faut un visa de court séjour, ou visa Schengen, pour séjourner en France jusqu\'à trois mois. Ce visa est valable 90 jours. Il donne le droit de se déplacer dans tous les pays de l\'espace Schengen."
+  },
+  {
+    "id": "arrivee_quiz_004",
+    "theme": "arrivee",
+    "level": "VID",
+    "type": "single",
+    "question": "Les demandes de visa se font :",
+    "answers": [
+      { "id": "frvi", "label": "En ligne sur France Visas" },
+      { "id": "mair", "label": "À la mairie du lieu de résidence" },
+      { "id": "frtr", "label": "En ligne sur France Travail" },
+      { "id": "pref", "label": "À la préfecture du département de résidence" },
+      { "id": "super", "label": "Dans un supermarché" },
+      { "id": "disco", "label": "Dans une discothèque" }
+    ],
+    "correct": ["frvi"],
+    "explanation": "Après avoir rempli votre demande sur le site France Visa, vous devez prendre rendez-vous au consulat de France du pays dans lequel vous résidez. En plus de votre dossier de demande, et de vos documents d\'identité, on pourra vous demander des précisions sur l\'objet et les conditions de votre séjour en France."
+  },
+  {
+    "id": "arrivee_quiz_005",
+    "theme": "arrivee",
+    "level": "VID",
+    "type": "single",
+    "question": "Comment s\'appelle l\'espace européen de libre circulation des personnes ?",
+    "answers": [
+      { "id": "essch", "label": "Espace Schengen" },
+      { "id": "esmaa", "label": "Espace Maastricht" },
+      { "id": "trrom", "label": "Traité de Rome" },
+      { "id": "uneur", "label": "Union Européenne" },
+      { "id": "comeu", "label": "Communauté européenne" },
+      { "id": "coeur", "label": "Conseil Européen" }
+    ],
+    "correct": ["essch"],
+    "explanation": "L\'espace Schengen est un espace de libre circulation sans contrôles aux frontières intérieures. Il comprend 29 pays, dont 25 font partie de l\'Union Européenne."
+  },
+  {
+    "id": "arrivee_quiz_006",
+    "theme": "arrivee",
+    "level": "VID",
+    "type": "single",
+    "question": "Quel nom de capitale porte la procédure qui permet de renvoyer les migrants dans le pays par où ils sont entrés en Europe ?",
+    "answers": [
+      { "id": "dubli", "label": "Dublin" },
+      { "id": "bruxe", "label": "Bruxelles" },
+      { "id": "rome", "label": "Rome" },
+      { "id": "paris", "label": "Paris" },
+      { "id": "londr", "label": "Londres" },
+      { "id": "berli", "label": "Berlin" }
+    ],
+    "correct": ["dubli"],
+    "explanation": "Le principe de la procédure Dublin est qu\'un seul État européen est responsable de la demande d\'asile d\'une personne ressortissante d\'un État tiers. Le but est d\'empêcher un demandeur de solliciter l\'asile dans différents pays européens et de ne pas lui donner le choix du pays qui examinera sa demande."
+  },
+  {
+    "id": "arrivee_quiz_007",
+    "theme": "arrivee",
+    "level": "VID",
+    "type": "single",
+    "question": "Le droit d\'asile figure dans :",
+    "answers": [
+      { "id": "dudh", "label": "la Déclaration universelle des droits de l\'homme de 1948" },
+      { "id": "rome", "label": "le traité de Rome" },
+      { "id": "masst", "label": "le traité de Maastricht" },
+      { "id": "schen", "label": "les accords de Schengen" },
+      { "id": "dubli", "label": "la procédure Dublin" },
+      { "id": "ddhc", "label": "la Déclaration des droits de l\'homme et du citoyen de 1789" }
+    ],
+    "correct": ["dudh"],
+    "explanation": "L\'article 14 de la Déclaration universelle des droits de l\'homme de 1948 dit \"Devant la persécution, toute personne a le droit de chercher asile et de bénéficier de l\'asile en d\'autres pays\"."
+  },
+  {
+    "id": "arrivee_quiz_008",
+    "theme": "arrivee",
+    "level": "VID",
+    "type": "single",
+    "question": "Un étranger de moins de 18 ans en France a le droit de :",
+    "answers": [
+      { "id": "proen", "label": "bénéficier de la protection de l\'enfance" },
+      { "id": "repas", "label": "commander un repas gratuit" },
+      { "id": "avie", "label": "séjourner en France à vie" },
+      { "id": "natf", "label": "recevoir la nationalité française" },
+      { "id": "noel", "label": "recevoir des cadeaux de Noël" },
+      { "id": "trav", "label": "travailler en France" }
+    ],
+    "correct": ["proen"],
+    "explanation": "Un étranger de moins de 18 ans qui n\'est pas accompagné par ses parents est un \"Mineur Isolé Étranger\". Afin de bénéficier de la protection de l\'enfance, il est adressé au bureau de l\'aide sociale à l\'enfance (ASE)."
+  },
+  {
+    "id": "arrivee_quiz_009",
+    "theme": "arrivee",
+    "level": "VID",
+    "type": "single",
+    "question": "À quel versement d\'argent les demandeurs d\'asile ont-ils droit ?",
+    "answers": [
+      { "id": "ada", "label": "Allocation pour demandeur d\'asile (ADA)" },
+      { "id": "smic", "label": "Salaire Minimum Interprofessionnel de Croissance (SMIC)" },
+      { "id": "rsa", "label": "Revenu de Solidarité Active (RSA)" },
+      { "id": "rmi", "label": "Revenu Minimum d\'Insertion (RMI)" },
+      { "id": "alfam", "label": "Allocations Familiales (AF)" },
+      { "id": "asi", "label": "Allocation Supplémentaire d\'Invalidité (ASI)" }
+    ],
+    "correct": ["ada"],
+    "explanation": "L\'allocation pour demandeur d\'asile (ADA) est une allocation versée aux demandeurs d\'asile majeurs en France pendant la période d\'instruction de leur demande. Le montant varie selon que la personne est seule ou accompagnée, et selon ses conditions d\'hébergement. Elle fait partie des \"conditions matérielles d\'accueil\" qui doivent être proposées aux demandeurs d\'asile en application de la directive européenne \"accueil\" de 2013."
+  },
+  {
+    "id": "arrivee_quiz_010",
+    "theme": "arrivee",
+    "level": "VID",
+    "type": "single",
+    "question": "La première demande d\'asile est examinée par :",
+    "answers": [
+      { "id": "ofpra", "label": "l\'OFPRA" },
+      { "id": "ofii", "label": "l\'OFII" },
+      { "id": "guda", "label": "le GUDA" },
+      { "id": "cada", "label": "le CADA" },
+      { "id": "huda", "label": "l\'HUDA" },
+      { "id": "dada", "label": "le DADA" }
+    ],
+    "correct": ["ofpra"],
+    "explanation": "C\'est l\'Office Français de Protection des Réfugiés ou Apatrides (OFPRA) qui examine les demandes d\'asile. Il décide si le demandeur relève de l\'asile politique, de l\'asile constitutionnel ou de la protection subsidiaire."
+  },
+  {
+    "id": "arrivee_quiz_011",
+    "theme": "arrivee",
+    "level": "VID",
+    "type": "single",
+    "question": "Si un demandeur d\'asile voit son dossier refusé, il peut déposer un recours auprès de la ou du :",
+    "answers": [
+      { "id": "cnda", "label": "CNDA" },
+      { "id": "ofpra", "label": "OFPRA" },
+      { "id": "cada", "label": "CADA" },
+      { "id": "ofii", "label": "OFII" },
+      { "id": "guda", "label": "GUDA" },
+      { "id": "huda", "label": "HUDA" }
+    ],
+    "correct": ["cnda"],
+    "explanation": "La Cour Nationale du Droit d\'Asile (CNDA) est une juridiction administrative spécialisée statuant sur les recours formés contre les décisions de l\'Office français de protection des réfugiés et apatrides (OFPRA). Elle se prononce sur le droit du demandeur à la qualité de réfugié ou au bénéfice de la protection subsidiaire."
+  },
+  {
+    "id": "arrivee_quiz_012",
+    "theme": "arrivee",
+    "level": "VID",
+    "type": "single",
+    "question": "Pour les soins médicaux, les demandeurs d\'asile ont droit à :",
+    "answers": [
+      { "id": "ame", "label": "l\'aide médicale de l\'État" },
+      { "id": "secu", "label": "la sécurité sociale" },
+      { "id": "puma", "label": "la protection universelle maladie" },
+      { "id": "sant", "label": "la mutuelle santé" },
+      { "id": "vita", "label": "la carte vitale" },
+      { "id": "assu", "label": "l\'assurance maladie" }
+    ],
+    "correct": ["ame"],
+    "explanation": "L\'aide médicale de l\'État (AME) est un dispositif permettant aux étrangers en situation irrégulière de bénéficier d\'un accès aux soins. Elle permet d\'être dispensé de l\'avance des frais. Elle est attribuée sous conditions de résidence et de ressources."
+  },
+  {
+    "id": "arrivee_quiz_013",
+    "theme": "arrivee",
+    "level": "VID",
+    "type": "multi",
+    "question": "Quelle organisation se consacre particulièrement à l\'aide aux demandeurs d\'asile ?",
+    "answers": [
+      { "id": "ada", "label": "ADA" },
+      { "id": "cimade", "label": "CIMADE" },
+      { "id": "adate", "label": "ADATE" },
+      { "id": "apardap", "label": "APARDAP" },
+      { "id": "secat", "label": "Secours Catholique" }
+      { "id": "sepop", "label": "Secours Populaire" },
+      { "id": "restc", "label": "Restos du coeur" }
+      { "id": "terra", "label": "France Terre d\'Asile" },
+      { "id": "gisti", "label": "GISTI" }
+    ],
+    "correct": ["ada","cimade,"adate","apardap"],
+    "explanation": "Toutes les associations d\'aide ont l\'occasion de rendre service ponctuellement à des demandeurs d\'asile. Certaines associations se consacrent spécifiquement à cette tâche, comme l\'ADA, la CIMADE, l\'ADATE et l\'APARDAP."
+  },
+  {
+    "id": "arrivee_quiz_014",
+    "theme": "arrivee",
+    "level": "VID",
+    "type": "multi",
+    "question": "Quelle structure héberge des demandeurs d\'asile ?",
+    "answers": [
+      { "id": "cada", "label": "CADA" },
+      { "id": "huda", "label": "HUDA" },
+      { "id": "adate", "label": "ADATE" },
+      { "id": "apardap", "label": "APARDAP" },
+      { "id": "guda", "label": "GUDA" },
+      { "id": "ofpra", "label": "OFPRA" },
+      { "id": "cnda", "label": "CNDA" },
+      { "id": "ofii", "label": "OFII" }
+    ],
+    "correct": ["cada","huda"],
+    "explanation": "Parmi les structures d\'hébergement, les plus importantes sont les Centres d\'Accueil pour Demandeurs d\'Asile (CADA) et les Hébergements d\'Urgence pour Demandeurs d\'Asile (HUDA)."
+  },
+  {
+    "id": "arrivee_quiz_015",
+    "theme": "arrivee",
+    "level": "VID",
+    "type": "single",
+    "question": "Quel pourcentage de demandes d\'asile sont finalement acceptées ?",
+    "answers": [
+      { "id": "cinq", "label": "environ 50 %" },
+      { "id": "dix", "label": "environ 10 %" },
+      { "id": "quat", "label": "83 %" },
+      { "id": "un", "label": "1,72 %" },
+      { "id": "entre", "label": "entre 29 et 30 %" },
+      { "id": "moins", "label": "moins de 5 %" }
+    ],
+    "correct": ["cinq"],
+    "explanation": "D\'après les chiffres du ministère de l\'Intérieur, en 2025 52,1 % d\'asiles ont été attribués. Ce chiffre totalise les premières attributions par l\'OFPRA, les recours acceptés par la CNDA et les attributions aux Mineurs Isolés Étrangers."
+  }
+]

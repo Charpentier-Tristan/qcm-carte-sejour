@@ -1,0 +1,290 @@
+[
+  {
+    "id": "europe_quiz_001",
+    "theme": "europe",
+    "level": "VID",
+    "type": "single",
+    "question": "Quelle institution défend l\'intérêt général de l\'Union Européenne ?",
+    "answers": [
+      { "id": "comeu", "label": "La Commission européenne" },
+      { "id": "conse", "label": "Le Conseil de l\'Europe" },
+      { "id": "consn", "label": "Le Conseil européen" },
+      { "id": "consu", "label": "Le Conseil de l\'Union européenne" },
+      { "id": "pare", "label": "Le Parlement Européen" },
+      { "id": "courj", "label": "La Cour européenne de justice" }
+    ],
+    "correct": ["comeu"],
+    "explanation": "Les membres de la Commission européenne ne représentent pas leur pays mais agissent dans l\'intérêt général de l\'Union. Ils sont chargés chacun d\'un domaine particulier auquel ils appliquent les lois européennes, et pour lequel ils proposent de nouvelles mesures."
+  },
+  {
+    "id": "europe_quiz_002",
+    "theme": "europe",
+    "level": "VID",
+    "type": "single",
+    "question": "Qui fait partie du conseil européen ?",
+    "answers": [
+      { "id": "chgou", "label": "Les chefs d\'état et de gouvernement" },
+      { "id": "chcom", "label": "Les chefs d\'état et les commissaires européens"},
+      { "id": "conde", "label": "Les conseillers départementaux" },
+      { "id": "minag", "label": "Les ministres de l\'agriculture " },
+      { "id": "deeur", "label": "Les députés européens" },
+      { "id": "grpar", "label": "Les présidents des groupes parlementaires" }
+    ],
+    "correct": ["chgou"],
+    "explanation": "Les membres du Conseil européen sont les chefs d\'État ou de gouvernement des 27 États membres de l\'UE, le président du Conseil européen et le président de la Commission européenne."
+  },
+  {
+    "id": "europe_quiz_003",
+    "theme": "europe",
+    "level": "VID",
+    "type": "single",
+    "question": "Qui fait partie du conseil de l\'Union Européenne ?",
+    "answers": [
+      { "id": "mini", "label": "Les ministres de chaque État" },
+      { "id": "pres", "label": "Les présidents de chaque État" },
+      { "id": "dep", "label": "Les députés de chaque État" },
+      { "id": "nom", "label": "Les membres nommés par le Président du conseil" },
+      { "id": "syn", "label": "Les représentants des syndicats de l\'Union" },
+      { "id": "pers", "label": "Les délégués du personnel de l\'UE" }
+    ],
+    "correct": ["mini"],
+    "explanation": "Le Conseil de l\'Union européenne est l\'instance où se réunissent les ministres des gouvernements de chacun des États membres."
+  },
+  {
+    "id": "europe_quiz_004",
+    "theme": "europe",
+    "level": "VID",
+    "type": "single",
+    "question": "Que font les commissaires européens ?",
+    "answers": [
+      { "id": "int", "label": "Ils agissent dans l\'intérêt général de l\'Union" },
+      { "id": "pay", "label": "Ils défendent les intérêts de leur pays" },
+      { "id": "loi", "label": "Ils contrôlent les lois des autres pays" },
+      { "id": "doit", "label": "Ils défendent le droit syndical" },
+      { "id": "dep", "label": "Ils défendent les intérêts des députés" },
+      { "id": "vac", "label": "Ils partent en vacances" }
+    ],
+    "correct": ["int"],
+    "explanation": "Les commissaires européens ne représentent pas leur pays mais agissent dans l\'intérêt général de l\'Union. Ils sont chargés chacun d\'un domaine particulier auquel ils appliquent les lois européennes, et pour lequel ils proposent de nouvelles mesures."
+  },
+  {
+    "id": "europe_quiz_005",
+    "theme": "europe",
+    "level": "VID",
+    "type": "single",
+    "question": "Où siège la commission européenne ?",
+    "answers": [
+      { "id": "bru", "label": "À Bruxelles" },
+      { "id": "par", "label": "À Paris" },
+      { "id": "lux", "label": "À Luxembourg" },
+      { "id": "stra", "label": "À Strasbourg" },
+      { "id": "fra", "label": "À Francfort" },
+      { "id": "ber", "label": "À Berlin" }
+    ],
+    "correct": ["bru"],
+    "explanation": "Le siège de la Commission européenne est situé à Bruxelles, dans le bâtiment Berlaymont."
+  },
+  {
+    "id": "europe_quiz_006",
+    "theme": "europe",
+    "level": "VID",
+    "type": "single",
+    "question": "Quelle est la durée du mandat d\'un député européen ?",
+    "answers": [
+      { "id": "cinq", "label": "Cinq ans" },
+      { "id": "six", "label": "Six ans" },
+      { "id": "sept", "label": "Sept ans" },
+      { "id": "dix", "label": "Dix ans" },
+      { "id": "dou", "label": "Douze ans" },
+      { "id": "vin", "label": "Vingt ans" }
+    ],
+    "correct": ["cinq"],
+    "explanation": "Un parlementaire européen est élu pour un mandat renouvelable de 5 ans."
+  },
+  {
+    "id": "europe_quiz_007",
+    "theme": "europe",
+    "level": "VID",
+    "type": "single",
+    "question": "Combien y a-t-il de commissaires européens ?",
+    "answers": [
+      { "id": "vise", "label": "27" },
+      { "id": "desd", "label": "270" },
+      { "id": "ciqu", "label": "54" },
+      { "id": "douz", "label": "12" },
+      { "id": "cevi", "label": "120" },
+      { "id": "sevi", "label": "720" }
+    ],
+    "correct": ["vise"],
+    "explanation": "La commission européenne compte autant de membres que de pays dans l\'UE. Il y a donc 27 commissaires européens."
+  },
+  {
+    "id": "europe_quiz_008",
+    "theme": "europe",
+    "level": "VID",
+    "type": "single",
+    "question": "Combien y a-t-il de députés européens ?",
+    "answers": [
+      { "id": "sevi", "label": "720" },
+      { "id": "ciss", "label": "577" },
+      { "id": "mivi", "label": "1020" },
+      { "id": "desd", "label": "270" },
+      { "id": "vise", "label": "27" },
+      { "id": "demi", "label": "2000" }
+    ],
+    "correct": ["sevi"],
+    "explanation": "Le Parlement européen est composé de 720 députés, qui représentent environ 360 millions d\'électeurs inscrits dans les 27 États membres et répartis selon des règles fixées dans les traités."
+  },
+  {
+    "id": "europe_quiz_009",
+    "theme": "europe",
+    "level": "VID",
+    "type": "single",
+    "question": "Dans quelle ville siège le parlement européen ?",
+    "answers": [
+      { "id": "str", "label": "Strasbourg" },
+      { "id": "bru", "label": "Bruxelles" },
+      { "id": "lux", "label": "Luxembourg" },
+      { "id": "fra", "label": "Francfort" },
+      { "id": "par", "label": "Paris" },
+      { "id": "ber", "label": "Berlin" }
+    ],
+    "correct": ["str"],
+    "explanation": "Le Parlement européen siège au sein du bâtiment Louise-Weiss, à Strasbourg (France), où se tient l\'ensemble des séances plénières mensuelles."
+  },
+  {
+    "id": "europe_quiz_010",
+    "theme": "europe",
+    "level": "VID",
+    "type": "single",
+    "question": "Quelle ville est le siège de la cour de justice de l\'Union européenne ?",
+    "answers": [
+      { "id": "lux", "label": "Luxembourg" },
+      { "id": "bru", "label": "Bruxelles" },
+      { "id": "stra", "label": "Strasbourg" },
+      { "id": "fran", "label": "Francfort" },
+      { "id": "par", "label": "Paris" },
+      { "id": "ber", "label": "Berlin" }
+    ],
+    "correct": ["lux"],
+    "explanation": "La Cour de justice de l\'Union européenne siègent à Luxembourg. Elle veille au respect du droit européen en contrôlant les actes des autres institutions mais aussi son application par les États membres."
+  },
+  {
+    "id": "europe_quiz_011",
+    "theme": "europe",
+    "level": "VID",
+    "type": "multi",
+    "question": "Quelle cour européenne siège à Luxembourg ?",
+    "answers": [
+      { "id": "just", "label": "La Cour de justice de l\'Union européenne" },
+      { "id": "comp", "label": "La Cour des comptes européenne" },
+      { "id": "xiv", "label": "La Cour de Louis XIV" },
+      { "id": "inter", "label": "La Cour internationale de justice" },
+      { "id": "droit", "label": "La Cour européenne des droits de l\'homme" },
+      { "id": "gran", "label": "La Cour des Grands" }
+    ],
+    "correct": ["just","comp"],
+    "explanation": "La Cour des comptes européenne et la Cour de justice de l\'Union européenne siègent à Luxembourg. La première est une instance indépendante chargée de contrôler les finances de l\'Union européenne. La seconde veille au respect du droit européen en contrôlant les actes des autres institutions mais aussi son application par les États membres."
+  },
+  {
+    "id": "europe_quiz_012",
+    "theme": "europe",
+    "level": "VID",
+    "type": "single",
+    "question": "Que signifie le sigle PAC ?",
+    "answers": [
+      { "id": "agri", "label": "Politique Agricole Commune" },
+      { "id": "acier", "label": "Pacte sur l\'Acier et le Charbon" },
+      { "id": "cann", "label": "Prélèvement Autorisé sur le Cannabis" },
+      { "id": "acer", "label": "Procrastination Acerbe Critique" },
+      { "id": "alba", "label": "Parti Albanais Communiste" }
+    ],
+    "correct": ["agri"],
+    "explanation": "Mise en place en 1962, la politique agricole commune (PAC) est le principal poste de dépenses de l\'Union européenne."
+  },
+  {
+    "id": "europe_quiz_013",
+    "theme": "europe",
+    "level": "VID",
+    "type": "single",
+    "question": "Au parlement européen, la France a moins de députés que :",
+    "answers": [
+      { "id": "all", "label": "l\'Allemagne" },
+      { "id": "esp", "label": "l\'Espagne" },
+      { "id": "ita", "label": "l\'Italie" },
+      { "id": "dan", "label": "le Danemark" },
+      { "id": "gre", "label": "la Grèce" },
+      { "id": "lux", "label": "le Luxembourg" }
+    ],
+    "correct": ["all"],
+    "explanation": "Actuellement, la  France a 81 députés contre 96 pour l\'Allemagne qui est plus peuplée. Les autres pays en ont moins."
+  },
+  {
+    "id": "europe_quiz_014",
+    "theme": "europe",
+    "level": "VID",
+    "type": "multi",
+    "question": "Au parlement européen, l\'Espagne a moins de députés que :",
+    "answers": [
+      { "id": "fra", "label": "la France" },
+      { "id": "all", "label": "l\'Allemagne" },
+      { "id": "lux", "label": "le Luxembourg" },
+      { "id": "dan", "label": "le Danemark" },
+      { "id": "est", "label": "l\'Estonie" },
+      { "id": "fin", "label": "la Finlande" }
+    ],
+    "correct": ["fra","all"],
+    "explanation": "Actuellement, l\'Espagne a 61 députés européens, contre 76 pour l\'Italie, 81 pour la France, 96 pour l\'Allemagne."
+  },
+  {
+    "id": "europe_quiz_015",
+    "theme": "europe",
+    "level": "VID",
+    "type": "single",
+    "question": "Quel pays est le premier producteur agricole dans l\'UE ?",
+    "answers": [
+      { "id": "fra", "label": "La France" },
+      { "id": "all", "label": "L\'Allemagne" },
+      { "id": "esp", "label": "L\'Espagne" },
+      { "id": "dan", "label": "Le Danemark" },
+      { "id": "aut", "label": "L\'Autriche" },
+      { "id": "gre", "label": "La Grèce" }
+    ],
+    "correct": ["fra"],
+    "explanation": "La France est le premier producteur agricole européen. Elle produit 18% de la production de l\'Union Européenne, en valeur. Derrière elle, les autres grands pays agricoles de l\'Europe sont l\'Allemagne, l\'Italie, l\'Espagne, les Pays-Bas, la Pologne et la Roumanie."
+  },
+  {
+    "id": "europe_quiz_015",
+    "theme": "europe",
+    "level": "VID",
+    "type": "single",
+    "question": "Que représente le drapeau de l\'Europe",
+    "answers": [
+      { "id": "", "label": "12 étoiles d\'or sur fond bleu" },
+      { "id": "", "label": "6 étoiles d\'or sur fond bleu" },
+      { "id": "", "label": "27 étoiles d\'or sur fond bleu" },
+      { "id": "", "label": "12 étoiles bleues sur fond jaune" },
+      { "id": "", "label": "27 étoiles bleues sur fond rouge" },
+      { "id": "", "label": "6 étoiles rouges sur fond bleu" }
+    ],
+    "correct": ["fra"],
+    "explanation": "Le drapeau européen est composé de 12 étoiles d\'or sur un fond bleu. Il a été choisi comme emblème par le Parlement européen en 1983."
+  },
+  {
+    "id": "europe_quiz_015",
+    "theme": "europe",
+    "level": "VID",
+    "type": "single",
+    "question": "Quel est l\'hymne européen ?",
+    "answers": [
+      { "id": "oj", "label": "L\'Ode à la joie" },
+      { "id": "hj", "label": "L\'hymne à la joie" },
+      { "id": "lm", "label": "La Marseillaise" },
+      { "id": "cp", "label": "Le Chant des partisans" },
+      { "id": "of", "label": "L\'Ode à la fraternité" },
+      { "id": "fm", "label": "Les Feuilles mortes" }
+    ],
+    "correct": ["oj"],
+    "explanation": "L\'Ode à la joie, hymne européen depuis 1985, prend sa source dans une oeuvre de Ludwig van Beethoven composée au début du XIXe siècle."
+  }
+]

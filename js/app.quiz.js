@@ -28,7 +28,7 @@ App.quiz = {
   buildDisplayAnswers: function (answers, correct) {
     var correctSet = new Set(correct);
     var correctAnswers = answers.filter(function (a) { return correctSet.has(a.id); });
-    if (correctAnswers.length > 1) {
+    if (correctAnswers.length >= 1) {
       var displayedCorrect = correctAnswers[Math.floor(Math.random() * correctAnswers.length)];
       var wrongAnswers = answers.filter(function (a) { return !correctSet.has(a.id); });
       var pickedWrong = App.utils.shuffleArray(wrongAnswers).slice(0, 3);

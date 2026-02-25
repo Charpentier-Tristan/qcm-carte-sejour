@@ -1,0 +1,276 @@
+[
+  {
+    "id": "troisieme_quiz_001",
+    "theme": "troisieme",
+    "level": "VID",
+    "type": "single",
+    "question": "Quelle bataille a provoqué la chute de Napoléon III ?",
+    "answers": [
+      { "id": "sed", "label": "Sedan" },
+      { "id": "wat", "label": "Waterloo" },
+      { "id": "mar", "label": "Marengo" },
+      { "id": "sol", "label": "Solferino" },
+      { "id": "nan", "label": "Marignan" },
+      { "id": "azi", "label": "Azincourt" }
+    ],
+    "correct": ["sed"],
+    "explanation": "La bataille de Sedan a lieu le 1er septembre 1870, durant la guerre franco-allemande. Elle oppose l\'armée française à l\'armée prussienne. Il s\'agit d\'une victoire décisive des forces prussiennes, qui entraîne la chute de Napoléon III, fait prisonnier."
+  },
+  {
+    "id": "troisieme_quiz_002",
+    "theme": "troisieme",
+    "level": "VID",
+    "type": "single",
+    "question": "Contre quel pays la France se battait-elle en 1870 ?",
+    "answers": [
+      { "id": "all", "label": "Allemagne" },
+      { "id": "esp", "label": "Espagne" },
+      { "id": "ang", "label": "Angleterre" },
+      { "id": "rus", "label": "Russie" },
+      { "id": "dan", "label": "Danemark" },
+      { "id": "sue", "label": "Suède" }
+    ],
+    "correct": ["all"],
+    "explanation": "La France se battait contre une coalition d\'états allemands, dirigée par la Prusse. C\'est grâce à la victoire contre la France en 1870 que l\'unification de l\'Allemagne a été achevée. La victoire de la Prusse a entraîné le ralliement des derniers États d\'Allemagne et Guillaume 1er, le roi de Prusse, a été couronné empereur d\'Allemagne dans la galerie des glaces à Versailles le 18 janvier 1871."
+  },
+  {
+    "id": "troisieme_quiz_003",
+    "theme": "troisieme",
+    "level": "VID",
+    "type": "single",
+    "question": "Dans quelle ville la Commune a-t-elle été la plus importante en 1871 ?",
+    "answers": [
+      { "id": "par", "label": "Paris" },
+      { "id": "ber", "label": "Berlin" },
+      { "id": "rom", "label": "Rome" },
+      { "id": "lon", "label": "Londres" },
+      { "id": "col", "label": "Colmar" },
+      { "id": "str", "label": "Strasbourg" }
+    ],
+    "correct": ["par"],
+    "explanation": "Les communes insurrectionnelles en France en 1870-1871 ont éclaté dans des villes refusant à la fois la capitulation française face à Bismarck et la soumission à l\'autorité du gouvernement de Versailles. Si les premières communes à se soulever sont la Commune de Lyon et la Commune de Marseille, la plus importante fut la Commune de Paris."
+  },
+  {
+    "id": "troisieme_quiz_004",
+    "theme": "troisieme",
+    "level": "VID",
+    "type": "single",
+    "question": "Quel homme politique a laissé son nom aux lois sur l\'école primaire ?",
+    "answers": [
+      { "id": "fer", "label": "Jules Ferry" },
+      { "id": "cle", "label": "Geoges Clemenceau" },
+      { "id": "wal", "label": "Pierre Waldeck-Rousseau" },
+      { "id": "gam", "label": "Léon Gambetta" },
+      { "id": "nap", "label": "Napoléon III" },
+      { "id": "gau", "label": "le général de Gaulle" }
+    ],
+    "correct": ["fer"],
+    "explanation": "Les lois Ferry de 1881 et 1882 visent à rendre l\'enseignement primaire gratuit, laïque et obligatoire pour tous les enfants âgés de 6 à 13 ans. Si elles posent les fondements de l\'école républicaine, ces lois ont été précédées par d\'autres textes, quelques années plus tôt, visant à libérer l\'enseignement public de l\'influence religieuse."
+  },
+  {
+    "id": "troisieme_quiz_005",
+    "theme": "troisieme",
+    "level": "VID",
+    "type": "single",
+    "question": "En quelle année a été votée la loi garantissant la liberté d\'association ?",
+    "answers": [
+      { "id": "neun", "label": "1901" },
+      { "id": "huqd", "label": "1882" },
+      { "id": "neci", "label": "1905" },
+      { "id": "huqv", "label": "1880" },
+      { "id": "nedn", "label": "1919" },
+      { "id": "neqa", "label": "1940" }
+    ],
+    "correct": ["neun"],
+    "explanation": "Le 1er juillet 1901, Pierre Waldeck-Rousseau fait adopter, au terme d\'une longue bataille parlementaire, la \"loi relative au contrat d\'association\", d\'une portée considérable et qui garantit une des grandes libertés républicaines. Depuis, tout citoyen dispose du droit de s\'associer, sans autorisation préalable."
+  },
+  {
+    "id": "troisieme_quiz_006",
+    "theme": "troisieme",
+    "level": "VID",
+    "type": "single",
+    "question": "En quelle année a été votée la loi garantissant les libertés syndicales ?",
+    "answers": [
+      { "id": "huqq", "label": "1884" },
+      { "id": "neun", "label": "1901" },
+      { "id": "neci", "label": "1905" },
+      { "id": "huqv", "label": "1880" },
+      { "id": "nedn", "label": "1919" },
+      { "id": "neqa", "label": "1940" }
+    ],
+    "correct": ["huqq"],
+    "explanation": "La loi Waldeck-Rousseau du 21 mars 1884 autorise la création des syndicats professionnels, de patrons et de salariés : elle est vue comme l\'acte de naissance du syndicalisme français mais aussi comme la première garantie historique des libertés syndicales."
+  },
+  {
+    "id": "troisieme_quiz_007",
+    "theme": "troisieme",
+    "level": "VID",
+    "type": "single",
+    "question": "Quand a été votée la loi concernant la séparation des Églises et de l\'État ?",
+    "answers": [
+      { "id": "neuc", "label": "1905" },
+      { "id": "huiq", "label": "1882" },
+      { "id": "neuq", "label": "1945" },
+      { "id": "neuh", "label": "1958" },
+      { "id": "necs", "label": "1957" },
+      { "id": "neqd", "label": "1992" }
+    ],
+    "correct": ["neuc"],
+    "explanation": "La \"Loi du 9 décembre 1905 concernant la séparation des Églises et de l\'État\" instaure une nouvelle organisation fondée sur le principe républicain de laïcité, bien que ce terme n\'apparaisse pas dans le texte de loi. Elle proclame la liberté de conscience et garantit le droit au libre exercice des cultes. En outre; la loi dispose que \"la République ne reconnaît, ne salarie ni ne subventionne aucun culte\". L\'État se veut désormais neutre : il n\'y a plus de religion légalement consacrée, et tous les cultes sont traités de manière égale. "
+  },
+  {
+    "id": "troisieme_quiz_008",
+    "theme": "troisieme",
+    "level": "VID",
+    "type": "single",
+    "question": "Quelle était la confession religieuse du capitaine Dreyfus ?",
+    "answers": [
+      { "id": "jui", "label": "Juive" },
+      { "id": "pro", "label": "Protestante" },
+      { "id": "ort", "label": "Orthodoxe" },
+      { "id": "mus", "label": "Musulmane" },
+      { "id": "bou", "label": "Bouddhiste" },
+      { "id": "shi", "label": "Shintoïste" }
+    ],
+    "correct": ["jui"],
+    "explanation": "En 1894, le capitaine de l\'armée française Alfred Dreyfus, de confession juive, a été accusé à tort d\'avoir livré aux Allemands des documents secrets. Condamné au bagne et déporté sur l\'île du Diable, il n'a été réhabilité qu\'en 1906."
+  },
+  {
+    "id": "troisieme_quiz_009",
+    "theme": "troisieme",
+    "level": "VID",
+    "type": "single",
+    "question": "Quel homme politique s\'est battu pour rendre justice au capitaine Dreyfus ?",
+    "answers": [
+      { "id": "cle", "label": "Georges Clemenceau" },
+      { "id": "fer", "label": "Jules Ferry" },
+      { "id": "nap", "label": "Napoléon III" },
+      { "id": "gau", "label": "le général de Gaulle" },
+      { "id": "pet", "label": "Philippe Pétain" },
+      { "id": "gam", "label": "Léon Gambetta" }
+    ],
+    "correct": ["cle"],
+    "explanation": "À la suite de son article \"J'accuse\", le procès de Zola et du journal l\'Aurore est l\'occasion pour Clemenceau de dénoncer les irrégularités du procès Dreyfus aux fins de sa révision. Clemenceau en fait son combat en publiant quotidiennement sur l\'affaire dans L\'Aurore et La Dépêche (environ 700 articles). Il faut attendre l\'arrêt de la Cour de cassation en date du 12 juillet 1906 pour la réhabilitation pleine et entière de Dreyfus. Georges Clemenceau est à ce moment ministre de l\'Intérieur."
+  },
+  {
+    "id": "troisieme_quiz_010",
+    "theme": "troisieme",
+    "level": "VID",
+    "type": "single",
+    "question": "En quelle année la Troisième République a-t-elle été proclamée ?",
+    "answers": [
+      { "id": "husd", "label": "1870" },
+      { "id": "huqh", "label": "1848" },
+      { "id": "seqd", "label": "1792" },
+      { "id": "nedn", "label": "1919" },
+      { "id": "neqs", "label": "1946" },
+      { "id": "nech", "label": "1958" }
+    ],
+    "correct": ["husd"],
+    "explanation": "Le 4 septembre 1870, deux jours après la chute de Napoléon III, Léon Gambetta proclame la République depuis le balcon de l\'Hôtel de Ville de Paris. C\'est la naissance de la Troisième République. La Première avait été proclamée sous la Révolution en 1792, la Seconde à la chute de Louis-Philippe en 1848. La Quatrième date de 1946, la Cinquième de 1958."
+  },
+  {
+    "id": "troisieme_quiz_011",
+    "theme": "troisieme",
+    "level": "VID",
+    "type": "single",
+    "question": "Le traité de paix qui a suivi la Première Guerre mondiale a été signé à :",
+    "answers": [
+      { "id": "ver", "label": "Versailles" },
+      { "id": "ber", "label": "Berlin" },
+      { "id": "rom", "label": "Rome" },
+      { "id": "maa", "label": "Maastricht" },
+      { "id": "lon", "label": "Londres" },
+      { "id": "gen", "label": "Genève" }
+    ],
+    "correct": ["ver"],
+    "explanation": "Le traité de paix qui a suivi la Première Guerre mondiale a été signé au château de Versailles le 28 juin 1919 entre l\'Allemagne et les Alliés."
+  },
+  {
+    "id": "troisieme_quiz_012",
+    "theme": "troisieme",
+    "level": "VID",
+    "type": "single",
+    "question": "Comment s\'appelait la coalition arrivée au pouvoir en France en 1936 ?",
+    "answers": [
+      { "id": "fro", "label": "Front Populaire" },
+      { "id": "ras", "label": "Rassemblement Républicain" },
+      { "id": "int", "label": "Internationale Socialiste" },
+      { "id": "par", "label": "Parti des Travailleurs" },
+      { "id": "car", "label": "Cartel des Gauches" },
+      { "id": "gro", "label": "Groupement National" }
+    ],
+    "correct": ["fro"],
+    "explanation": "Le Front populaire est une coalition politique de gauche, qui a remporté une large victoire lors des élections législatives de 1936. Elle rassemblait le Parti radical, la Section française de l\'Internationale ouvrière (SFIO) et le Parti communiste."
+  },
+  {
+    "id": "troisieme_quiz_013",
+    "theme": "troisieme",
+    "level": "VID",
+    "type": "single",
+    "question": "En quelle année la Troisième République a-t-elle pris fin ?",
+    "answers": [
+      { "id": "neqa", "label": "1940" },
+      { "id": "nedn", "label": "1919" },
+      { "id": "neqs", "label": "1946" },
+      { "id": "neci", "label": "1905" },
+      { "id": "nech", "label": "1958" },
+      { "id": "nets", "label": "1936" }
+    ],
+    "correct": ["neqa"],
+    "explanation": "À la suite de la défaite de 1940, le maréchal Pétain fait
+    voter au Parlement une loi qui lui donne les pleins pouvoirs. La République française n\'existe plus : elle est remplacée par l\'État français."
+  },
+  {
+    "id": "troisieme_quiz_014",
+    "theme": "troisieme",
+    "level": "VID",
+    "type": "single",
+    "question": "Contre quel pays la France se battait-elle en 1940 ?",
+    "answers": [
+      { "id": "all", "label": "Allemagne" },
+      { "id": "jap", "label": "Japon" },
+      { "id": "gra", "label": "Grande-Bretagne" },
+      { "id": "rus", "label": "Russie" },
+      { "id": "eta", "label": "États-Unis" },
+      { "id": "esp", "label": "Espagne" }
+    ],
+    "correct": ["all"],
+    "explanation": "Fidèles à leur engagement de respecter les frontières de la Pologne, la Grande-Bretagne et la France déclarent la guerre à l\'Allemagne le 3 septembre 1939. Deux jours auparavant, l\'Allemagne avait envahi la Pologne. L\'offensive allemande de mai 1940 entraîne la défaite de la France."
+  },
+  {
+    "id": "troisieme_quiz_015",
+    "theme": "troisieme",
+    "level": "VID",
+    "type": "single",
+    "question": "Comment s\'appelait le régime politique qui a succédé à la Troisième République ?",
+    "answers": [
+      { "id": "eta", "label": "L\'État français" },
+      { "id": "qua", "label": "La Quatrième République" },
+      { "id": "gou", "label": "Le Gouvernement Provisoire de la République" },
+      { "id": "emp", "label": "L\'Empire" },
+      { "id": "mon", "label": "La Monarchie absolue" },
+      { "id": "dic", "label": "La Dictature du prolétariat" }
+    ],
+    "correct": ["eta"],
+    "explanation": "À la suite de la défaite de 1940, le maréchal Pétain fait
+    voter au Parlement une loi qui lui donne les pleins pouvoirs. La République française n\'existe plus : elle est remplacée par l\'État français."
+  },
+  {
+    "id": "troisieme_quiz_015",
+    "theme": "troisieme",
+    "level": "VID",
+    "type": "single",
+    "question": "Quelle avancée sociale est due au Front Populaire ?",
+    "answers": [
+      { "id": "con", "label": "Les congés payés" },
+      { "id": "enf", "label": "L\'interdiction du travail des enfants" },
+      { "id": "ass", "label": "Le droit d\'association" },
+      { "id": "syn", "label": "Les libertés syndicales" },
+      { "id": "mor", "label": "L\'abolition de la peine de mort" },
+      { "id": "avo", "label": "La légalisation de l\'avortement" }
+    ],
+    "correct": ["con"],
+    "explanation": "La loi sur les congés payés, adoptée en juin 1936, constitue l\'un des symboles les plus forts du Front populaire."
+  }
+]

@@ -1,0 +1,133 @@
+[
+  {
+    "id": "parent_csp_001",
+    "theme": "parent",
+    "level": "CSP",
+    "type": "single",
+    "question": "Quand faut-il déclarer son enfant au service d\'état civil de la mairie ?",
+    "answers": [
+      { "id": "cin", "label": "Dans les 5 jours suivant l\'accouchement" },
+      { "id": "len", "label": "Le lendemain de l\'accouchement" },
+      { "id": "maj", "label": "Avant la majorité de l\'enfant" },
+      { "id": "ava", "label": "Avant l\'accouchement" },
+      { "id": "des", "label": "Dès que l\'enfant a été baptisé" }
+      ],
+    "correct": ["cin"],
+    "explanation": "La déclaration de naissance est obligatoire. Elle doit être faite dans les 5 jours qui suivent le jour de l\'accouchement, à la mairie du lieu de naissance."
+  },
+  {
+    "id": "parent_csp_002",
+    "theme": "parent",
+    "level": "CSP",
+    "type": "single",
+    "question": "Jusqu\'à quel âge l\'école est-elle obligatoire ?",
+    "answers": [
+      { "id": "sei", "label": "16 ans" },
+      { "id": "dih", "label": "18 ans" },
+      { "id": "dix", "label": "10 ans" },
+      { "id": "viu", "label": "21 ans" },
+      { "id": "qui", "label": "15 ans" }
+      ],
+    "correct": ["sei"],
+    "explanation": "L\'instruction est obligatoire pour tout enfant entre 3 et 16 ans. Des parents qui ne respectent pas cette obligation peuvent recevoir une amende et faire une peine de prison."
+  },
+  {
+    "id": "parent_csp_003",
+    "theme": "parent",
+    "level": "CSP",
+    "type": "multi",
+    "question": "L\'autorité parentale prévoit l\'obligation :",
+    "answers": [
+      { "id": "sur", "label": "de surveillance et de protection" },
+      { "id": "edu", "label": "d\'éducation" },
+      { "id": "div", "label": "de divertissement" },
+      { "id": "acc", "label": "d\'accès aux réseaux sociaux" },
+      { "id": "deb", "label": "de prévenir les débordements" },
+      { "id": "ani", "label": "de fournir un animal de compagnie" },
+      { "id": "ecr", "label": "maintenir la disponibilité des écrans" }
+      ],
+    "correct": ["sur","edu"],
+    "explanation": "Les parents ont le devoir : de surveillance et de protection de l\'enfant ; d\'assurer son éducation, sa santé et son entretien ; de protéger sa vie privée et son image."
+  },
+  {
+    "id": "parent_csp_004",
+    "theme": "parent",
+    "level": "CSP",
+    "type": "single",
+    "question": "Pour qui l\'école est-elle obligatoire ?",
+    "answers": [
+      { "id": "tou", "label": "Pour tous les enfants de 3 à 16 ans" },
+      { "id": "fra", "label": "Pour les enfants français" },
+      { "id": "seu", "label": "Pour les garçons seulement" },
+      { "id": "fil", "label": "Pour certaines filles" },
+      { "id": "imm", "label": "Pour les enfants d\'immigrés" }
+      ],
+    "correct": ["tou"],
+    "explanation": "L\'instruction est obligatoire pour tout enfant entre 3 et 16 ans. Des parents qui ne respectent pas cette obligation peuvent recevoir une amende et faire une peine de prison."
+  },
+  {
+    "id": "parent_csp_005",
+    "theme": "parent",
+    "level": "CSP",
+    "type": "single",
+    "question": "Quel diplôme obtient-on à la fin du lycée ?",
+    "answers": [
+      { "id": "bac", "label": "Le baccalauréat" },
+      { "id": "lic", "label": "La licence" },
+      { "id": "bts", "label": "Le BTS" },
+      { "id": "cap", "label": "Le CAP" },
+      { "id": "bre", "label": "Le brevet des collèges" },
+      { "id": "lic", "label": "La licence" }
+      ],
+    "correct": ["bac"],
+    "explanation": "Le baccalauréat est un diplôme national qui sanctionne la fin des études secondaires. Il peut être général, technologique ou professionnel, et ouvre l\'accès à des études supérieures."
+  },
+  {
+    "id": "parent_csp_006",
+    "theme": "parent",
+    "level": "CSP",
+    "type": "single",
+    "question": "Dans quels établissements scolaires vont les élèves après l\'école élémentaire ?",
+    "answers": [
+      { "id": "col", "label": "Au collège, puis au lycée" },
+      { "id": "uni", "label": "Dans les universités" },
+      { "id": "clu", "label": "Dans les clubs sportifs" },
+      { "id": "lig", "label": "Dans les formations en ligne" },
+      { "id": "par", "label": "Là où Parcoursup les envoie" }
+      ],
+    "correct": ["col"],
+    "explanation": "L\'école élémentaire est le second niveau du système éducatif. Après l\'école élémentaire vient le collège (de 11 à 15 ans), puis le lycée (de 15 à 18 ans)."
+  },
+  {
+    "id": "parent_csp_007",
+    "theme": "parent",
+    "level": "CSP",
+    "type": "single",
+    "question": "Un enfant inscrit à l\'école :",
+    "answers": [
+      { "id": "doi", "label": "doit assister aux cours prévus dans son emploi du temps" },
+      { "id": "dis", "label": "peut se dispenser des cours qu\'il n\'aime pas" },
+      { "id": "mat", "label": "doit assister aux cours de maths et de français" },
+      { "id": "obl", "label": "n\'est pas obligé d\'y aller" },
+      { "id": "par", "label": "peut ne pas y aller si ses parents le décident" }
+      ],
+    "correct": ["doi"],
+    "explanation": "Un enfant inscrit à l\'école, au collège ou au lycée doit assister aux cours prévus dans son emploi du temps. Les absences sont contrôlées et peuvent être sanctionnées. Toute absence, quelle qu\'en soit la date et le motif, devra être justifiée."
+  },
+  {
+    "id": "parent_csp_008",
+    "theme": "parent",
+    "level": "CSP",
+    "type": "single",
+    "question": "Les enfants qui ne parlent pas français :",
+    "answers": [
+      { "id": "dis", "label": "Sont soutenus par des dispositifs d\'intégration adaptés" },
+      { "id": "exc", "label": "Sont exclus de l\'école" },
+      { "id": "pay", "label": "Doivent payer un montant forfaitaire" },
+      { "id": "app", "label": "Ne reviendront à l\'école qu\'après avoir appris" },
+      { "id": "obl", "label": "Ne sont pas obligés d\'aller à l\'école" }
+      ],
+    "correct": ["dis"],
+    "explanation": "En France, tous les enfants de 3 à 16 ans doivent aller à l’école. Cette obligation concerne donc aussi les enfants qui ne parlent pas français. Plusieurs dispositifs sont prévus pour leur enseigner le français, et les préparer à une scolarité normale."
+  }
+]

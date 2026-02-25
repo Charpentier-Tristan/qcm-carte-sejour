@@ -1,0 +1,292 @@
+[
+  {
+    "id": "principes_quiz_001",
+    "theme": "principes",
+    "level": "VID",
+    "type": "single",
+    "question": "Quelle est la devise de la République française ?",
+    "answers": [
+      { "id": "lef", "label": "Liberté, Égalité, Fraternité" },
+      { "id": "fle", "label": "Fraternité, Liberté, Égalité" },
+      { "id": "efl", "label": "Égalité, Fraternité, Liberté" },
+      { "id": "lfe", "label": "Liberté, Fraternité, Égalité" },
+      { "id": "fel", "label": "Fraternité, Égalité, Liberté" },
+      { "id": "elf", "label": "Égalité, Liberté, Fraternité" }
+    ],
+    "correct": ["lef"],
+    "explanation": "Depuis 1848, la devise de la République française est \"Liberté, Égalité, Fraternité\". Elle est inscrite dans l\'article 2 de la Constitution de 1958."
+  },
+  {
+    "id": "principes_quiz_002",
+    "theme": "principes",
+    "level": "VID",
+    "type": "single",
+    "question": "Quels sont les principes de la République ?",
+    "answers": [
+      { "id": "ilds", "label": "Indivisible, laïque, démocratique et sociale" },
+      { "id": "drdt", "label": "Divisible, religieuse, dynamique et tolérante" },
+      { "id": "eluj", "label": "Égalitaire, laïque, unitaire et juridique" },
+      { "id": "ildp", "label": "Incontournable, louable, durable et plurielle" },
+      { "id": "jsrf", "label": "Judiciaire, socialiste, reliquaire et féministe" },
+      { "id": "scas", "label": "Séparable, catholique, absolutiste et soliste" }
+    ],
+    "correct": ["ilds"],
+    "explanation": "L\'article 1er de la Constitution de 1958 commence par : \"La France est une République indivisible, laïque, démocratique et sociale. Elle assure l\'égalité devant la loi de tous les citoyens sans distinction d\'origine, de race ou de religion. Elle respecte toutes les croyances.\"."
+  },
+  {
+    "id": "principes_quiz_003",
+    "theme": "principes",
+    "level": "VID",
+    "type": "single",
+    "question": "Quand le drapeau tricolore a-t-il été adopté pour la première fois ?",
+    "answers": [
+      { "id": "seqq", "label": "1794" },
+      { "id": "seqn", "label": "1789" },
+      { "id": "huqa", "label": "1804" },
+      { "id": "huqi", "label": "1815" },
+      { "id": "huqh", "label": "1848" },
+      { "id": "susd", "label": "1870" }
+    ],
+    "correct": ["seqq"],
+    "explanation": "Le 15 février 1794, la Convention nationale ordonne par décret que le pavillon de la Marine "sera formé des trois couleurs nationales, disposées en bandes verticalement, de manière que le bleu soit attaché à la gaule du pavillon, le blanc au milieu et le rouge flottant dans les airs"."
+  },
+  {
+    "id": "principes_quiz_004",
+    "theme": "principes",
+    "level": "VID",
+    "type": "single",
+    "question": "Que représentent les couleurs bleu et rouge du drapeau français ?",
+    "answers": [
+      { "id": "vipa", "label": "La ville de Paris" },
+      { "id": "drga", "label": "Les partis de droite et de gauche" },
+      { "id": "vica", "label": "Les villes et les campagnes" },
+      { "id": "hofe", "label": "Les hommes et les femmes" },
+      { "id": "jevi", "label": "Les jeunes et les vieux" },
+      { "id": "rona", "label": "Le roi et la nation" }
+    ],
+    "correct": ["vipa"],
+    "explanation": "Le drapeau tricolore est né sous la Révolution, de la réunion des couleurs du roi (blanc) et de la ville de Paris (bleu et rouge). L\'alliance des trois couleurs était donc le symbole de l\'alliance du roi et du peuple et reste le symbole d\'une France unie. C\'est le drapeau de la France depuis 1830. La Constitution de 1958 dans son article 2 dit \"L\'emblème national est le drapeau tricolore, bleu, blanc, rouge\"."
+  },
+  {
+    "id": "principes_quiz_005",
+    "theme": "principes",
+    "level": "VID",
+    "type": "single",
+    "question": "Que porte Marianne sur la tête ?",
+    "answers": [
+      { "id": "phr", "label": "Un bonnet phrygien" },
+      { "id": "rien", "label": "Rien" },
+      { "id": "cas", "label": "Une casquette" },
+      { "id": "bon", "label": "Un bonnet" },
+      { "id": "pom", "label": "Un casque de pompier" },
+      { "id": "fou", "label": "Un foulard" }
+    ],
+    "correct": ["phr"],
+    "explanation": "La figure de Marianne apparaît pendant la Révolution française pour représenter la République. Avec son prénom féminin populaire, elle symbolise le fait que la République est fondée sur la volonté du peuple et la démocratie. Elle porte le bonnet phrygien, comme les esclaves de l\'Antiquité qui avaient retrouvé leur liberté. De plus en plus utilisée au fil du temps, elle finit par devenir un symbole officiel de la République. Son buste figure dans toutes les mairies, son image est représentée sur les logos officiels."
+  },
+  {
+    "id": "principes_quiz_006",
+    "theme": "principes",
+    "level": "VID",
+    "type": "single",
+    "question": "Depuis quand le 14 juillet est-il le jour de la fête nationale ?",
+    "answers": [
+      { "id": "huqa", "label": "1880" },
+      { "id": "seqn", "label": "1789" },
+      { "id": "seqd", "label": "1790" },
+      { "id": "neci", "label": "1905" },
+      { "id": "nedh", "label": "1918" },
+      { "id": "neqc", "label": "1945" }
+    ],
+    "correct": ["huqa"],
+    "explanation": "Le 14 juillet commémore à la fois la prise de la Bastille en 1789 et la fête de la Fédération en 1790. Il est devenu le jour de la fête nationale sous la IIIe République, par la loi du 6 juillet 1880."
+  },
+  {
+    "id": "principes_quiz_007",
+    "theme": "principes",
+    "level": "VID",
+    "type": "single",
+    "question": "Le 14 juillet commémore :",
+    "answers": [
+      { "id": "bafe", "label": "La prise de la Bastille et la fête de la Fédération" },
+      { "id": "prba", "label": "La prise de la Bastille" },
+      { "id": "fefe", "label": "La fête de la Fédération" },
+      { "id": "napo", "label": "La victoire de Napoléon" },
+      { "id": "neqz", "label": "L\'armistice de 1914" },
+      { "id": "neqc", "label": "L\'armistice de 1945" }
+    ],
+    "correct": ["bafe"],
+    "explanation": "Le 14 juillet commémore à la fois la prise de la Bastille en 1789 et la fête de la Fédération en 1790. Il est devenu le jour de la fête nationale sous la IIIe République, par la loi du 6 juillet 1880."
+  },
+  {
+    "id": "principes_quiz_008",
+    "theme": "principes",
+    "level": "VID",
+    "type": "single",
+    "question": "Qui a composé la Marseillaise ?",
+    "answers": [
+      { "id": "roli", "label": "Rouget de Lisle" },
+      { "id": "chla", "label": "Choderlos de Laclos" },
+      { "id": "alla", "label": "Alphonse de Lamartine" },
+      { "id": "bope", "label": "Boucher de Perthes" },
+      { "id": "emch", "label": "Émilie du Châtelet" },
+      { "id": "maro", "label": "Maximilien de Robespierre" }
+    ],
+    "correct": ["roli"],
+    "explanation": "L\'hymne national est \"La Marseillaise\". Ce chant militaire a été composé en 1792. Il représente les valeurs de liberté, de résistance et d\'unité du peuple français. Il est devenu l\'hymne national d\'abord en 1795, puis définitivement en 1879 durant la 3ème République."
+  },
+  {
+    "id": "principes_quiz_009",
+    "theme": "principes",
+    "level": "VID",
+    "type": "single",
+    "question": "Citez les trois symboles de la République inscrits dans la Constitution de 1958",
+    "answers": [
+      { "id": "dhd", "label": "Le drapeau, l\'hymne, la devise" },
+      { "id": "mcq", "label": "Marianne, le coq, le 14 juillet" },
+      { "id": "dcq", "label": "Le drapeau, le coq, le 14 juillet" },
+      { "id": "mdd", "label": "La Marseillaise, le drapeau du PSG, le drapeau de l\'OM" },
+      { "id": "qfc", "label": "Le 14 juillet, la finale du top 14, la coupe de France" },
+      { "id": "mdf", "label": "Marianne, le drapeau rouge, la fleur de lys" }
+    ],
+    "correct": ["dhd"],
+    "explanation": "L\'article 2 de la Constitution dit : \"L\'emblème national est le drapeau tricolore, bleu, blanc, rouge. L\'hymne national est \"La Marseillaise\". La devise de la République est \"Liberté, Égalité, Fraternité\"."
+  },
+  {
+    "id": "principes_quiz_010",
+    "theme": "principes",
+    "level": "VID",
+    "type": "single",
+    "question": "Dans le drapeau français le blanc est la couleur :",
+    "answers": [
+      { "id": "mon", "label": "du roi" },
+      { "id": "rep", "label": "de la République" },
+      { "id": "als", "label": "du vin d\'Alsace" },
+      { "id": "foo", "label": "de l\'équipe de France de football" },
+      { "id": "par", "label": "de la ville de Paris" },
+      { "id": "mis", "label": "de l\'écharpe de Miss France" }
+    ],
+    "correct": ["mon"],
+    "explanation": "Le drapeau tricolore est né sous la Révolution, de la réunion des couleurs du roi (blanc) et de la ville de Paris (bleu et rouge). L\'alliance des trois couleurs était donc le symbole de l\'alliance du roi et du peuple et reste le symbole d\'une France unie. C\'est le drapeau de la France depuis 1830. La constitution de 1958 dans son article 2 dit \"L\'emblème national est le drapeau tricolore, bleu, blanc, rouge\"."
+  },
+  {
+    "id": "principes_quiz_011",
+    "theme": "principes",
+    "level": "VID",
+    "type": "single",
+    "question": "Quel principe garantit que tous les citoyens soient traités de manière identique ?",
+    "answers": [
+      { "id": "ega", "label": "L\'égalité" },
+      { "id": "lib", "label": "La liberté" },
+      { "id": "fra", "label": "La Fraternité" },
+      { "id": "lai", "label": "La Laïcité" },
+      { "id": "sol", "label": "La solidarité" },
+      { "id": "dem", "label": "La démocratie" }
+    ],
+    "correct": ["ega"],
+    "explanation": "En France, l\'égalité s\'applique de différentes manières : l\'égalité devant la loi : la loi est la même pour toutes les personnes ;
+    l\'égalité des droits civiques : tous les citoyens français ont les mêmes droits civiques : voter, se présenter à une élection, participer à un conseil municipal ; l\'égalité des droits sociaux : ces droits sont accessibles à tous : éducation, santé, logement, emploi, etc."
+  },
+  {
+    "id": "principes_quiz_012",
+    "theme": "principes",
+    "level": "VID",
+    "type": "single",
+    "question": "Qu\'implique la valeur de fraternité dans la République ?",
+    "answers": [
+      { "id": "soci", "label": "La solidarité entre les citoyens" },
+      { "id": "ampr", "label": "L\'amour du prochain" },
+      { "id": "doeg", "label": "Le don aux Églises" },
+      { "id": "drgr", "label": "Le respect du droit de grève" },
+      { "id": "egfe", "label": "L\'égalité femme-homme" },
+      { "id": "nere", "label": "La neutralité religieuse" }
+    ],
+    "correct": ["soci"],
+    "explanation": "La fraternité, c\'est la solidarité entre les citoyens. Elle se manifeste de différentes manières. La solidarité collective, c\'est une aide organisée par des institutions publiques ; par exemple la Sécurité sociale. La solidarité entre les générations, c\'est l\'entraide entre les personnes d\'âges différents : les retraites sont financées par les cotisations des personnes plus jeunes. La solidarité se manifeste aussi par l\'engagement associatif : aide alimentaire, soutien scolaire, aide aux réfugiés."
+  },
+  {
+    "id": "principes_quiz_013",
+    "theme": "principes",
+    "level": "VID",
+    "type": "single",
+    "question": "Que garantit la valeur de liberté ?",
+    "answers": [
+      { "id": "prdr", "label": "la protection des droits" },
+      { "id": "lidr", "label": "la limitation des droits" },
+      { "id": "inre", "label": "l\'interdiction des religions" },
+      { "id": "regr", "label": "la restriction du droit de grève" },
+      { "id": "obfi", "label": "l\'obligation fiscale" },
+      { "id": "enop", "label": "l\'encadrement des opinions" }
+    ],
+    "correct": ["prdr"],
+    "explanation": "En France, chaque personne peut penser, s\'exprimer et vivre comme elle le souhaite. La seule limite est de ne pas empêcher une autre personne d\'en faire autant. Il existe deux types de libertés, individuelles et collectives ; individuelles : exprimer une opinion, vivre avec la personne de son choix etc ; collective : participer à une manifestation, adhérer à un syndicat, créer une association, etc."
+  },
+  {
+    "id": "principes_quiz_014",
+    "theme": "principes",
+    "level": "VID",
+    "type": "single",
+    "question": "Quel est le régime politique actuel de la France ?",
+    "answers": [
+      { "id": "rd", "label": "Démocratie représentative" },
+      { "id": "mc", "label": "Monarchie constitutionnelle" },
+      { "id": "dp", "label": "Dictature prolétarienne" },
+      { "id": "ma", "label": "Monarchie absolue" },
+      { "id": "au", "label": "Autocratie ploutocratique" },
+      { "id": "ol", "label": "Oligarchie parlementaire" }
+    ],
+    "correct": ["rd"],
+    "explanation": "D'après l'article 3 de la Constitution de la Ve République de 1958, \"La souveraineté nationale appartient au peuple qui l\'exerce par ses représentants et par la voie du référendum\". Le système politique de la Ve République reconnaît à une assemblée restreinte le droit de représenter le peuple français et de prendre des décisions le concernant."
+  },
+  {
+    "id": "principes_quiz_014",
+    "theme": "principes",
+    "level": "VID",
+    "type": "single",
+    "question": "De quelle année date la Constitution de la Cinquième République ?",
+    "answers": [
+      { "id": "chuit", "label": "1958" },
+      { "id": "quarq", "label": "1944" },
+      { "id": "quarc", "label": "1945" },
+      { "id": "quat", "label": "1914" },
+      { "id": "soix", "label": "1968" }
+    ],
+    "correct": ["chuit"],
+    "explanation": "La constitution de la Cinquième République a été soumise aux français par référendum le 18 septembre 1958, et promulguée le 4 octobre."
+  },
+  {
+    "id": "principes_quiz_016",
+    "theme": "principes",
+    "level": "VID",
+    "type": "single",
+    "question": "Qu\'est-ce que la laïcité ?",
+    "answers": [
+      { "id": "sep", "label": "La séparation de l\'Église et de l\'État" },
+      { "id": "int", "label": "L\'interdiction de pratiquer une religion" },
+      { "id": "ath", "label": "Une forme d\'athéisme" },
+      { "id": "eta", "label": "La promotion d\'une religion d\'État" },
+      { "id": "opi", "label": "Le contrôle des opinions" },
+      { "id": "con", "label": "Le pouvoir sur les consciences" }
+    ],
+    "correct": ["sep"],
+    "explanation": "La laïcité garantit que les institutions politiques ne favorisent aucune religion, permettant ainsi la liberté de conscience.
+    La laïcité n\'est pas une croyance, mais le principe qui rend possible la coexistence de toutes les croyances."
+  },
+  {
+    "id": "principes_quiz_017",
+    "theme": "principes",
+    "level": "VID",
+    "type": "single",
+    "question": "En France la laïcité est :",
+    "answers": [
+      { "id": "con", "label": "Un principe constitutionnel" },
+      { "id": "rel", "label": "Une religion" },
+      { "id": "tra", "label": "Une tradition" },
+      { "id": "ide", "label": "Une idéologie" },
+      { "id": "eur", "label": "Une loi européenne" },
+      { "id": "uni", "label": "Un principe universel" }
+    ],
+    "correct": ["con"],
+    "explanation": "La laïcité est devenue un principe à valeur constitutionnelle avec la Constitution du 4 octobre 1958, dont l\'article 1er dit : \"La France est une République indivisible, laïque, démocratique et sociale\". Elle n\'est pas un principe universel ni une loi européenne : chaque pays a ses propres règles."
+  }
+]

@@ -1,0 +1,229 @@
+[
+  {
+    "id": "patrimoine_ini_001",
+    "theme": "patrimoine",
+    "level": "INI",
+    "type": "single",
+    "question": "Qui était Molière ?",
+    "answers": [
+      { "id": "the", "label": "Un auteur de théâtre" },
+      { "id": "rom", "label": "Un influenceur" },
+      { "id": "pei", "label": "Un groupe de rock" },
+      { "id": "mus", "label": "Un présentateur télé" },
+      { "id": "pol", "label": "Un rappeur" }
+      ],
+    "correct": ["the"],
+    "explanation": "Molière (1622-1673) est le plus célèbre auteur de théâtre français. Il a vécu au temps de Louis XIV. On lui doit des comédies comme \"L\'Avare\"."
+  },
+  {
+    "id": "patrimoine_ini_002",
+    "theme": "patrimoine",
+    "level": "INI",
+    "type": "single",
+    "question": "Qui était Charles Baudelaire ?",
+    "answers": [
+      { "id": "poe", "label": "Un poète français" },
+      { "id": "pei", "label": "Un influenceur" },
+      { "id": "mus", "label": "Un guitariste" },
+      { "id": "scu", "label": "Un présentateur télé" },
+      { "id": "com", "label": "Un tagueur" }
+      ],
+    "correct": ["poe"],
+    "explanation": "Charles Baudelaire (1821-1867) est un poète français, auteur d\'un important recueil de poèmes, \"Les Fleurs du mal\"."
+  },
+  {
+    "id": "patrimoine_ini_003",
+    "theme": "patrimoine",
+    "level": "INI",
+    "type": "single",
+    "question": "Qui était George Sand ?",
+    "answers": [
+      { "id": "ecr", "label": "Une écrivaine française" },
+      { "id": "aut", "label": "Une influenceuse" },
+      { "id": "pei", "label": "Une chanteuse" },
+      { "id": "cha", "label": "Une rappeuse" },
+      { "id": "inf", "label": "Une présentatrice" }
+      ],
+    "correct": ["ecr"],
+    "explanation": "George Sand (1804-1876) est une écrivaine française. Elle est l\'autrice d\'une centaine de romans dont \"Indiana\" (1832) et \"La Mare au diable\" (1846)."
+  },
+  {
+    "id": "patrimoine_ini_004",
+    "theme": "patrimoine",
+    "level": "INI",
+    "type": "single",
+    "question": "Qui était Simone de Beauvoir ?",
+    "answers": [
+      { "id": "phi", "label": "Une philosophe et écrivaine française" },
+      { "id": "aut", "label": "Une danseuse" },
+      { "id": "pei", "label": "Une chanteuse" },
+      { "id": "cha", "label": "Une rappeuse" },
+      { "id": "inf", "label": "Une influenceuse" }
+      ],
+    "correct": ["phi"],
+    "explanation": "Simone de Beauvoir (1908-1986) est une philosophe et écrivaine française. \"Le deuxième sexe\", publié en 1949 a eu une grande influence sur le Mouvement de libération des femmes."
+  },
+  {
+    "id": "patrimoine_ini_005",
+    "theme": "patrimoine",
+    "level": "INI",
+    "type": "single",
+    "question": "Qui était Albert Camus ?",
+    "answers": [
+      { "id": "ecr", "label": "Un écrivain et philosophe français" },
+      { "id": "pei", "label": "Un rocker" },
+      { "id": "mus", "label": "Un influenceur" },
+      { "id": "scu", "label": "Un rappeur" },
+      { "id": "com", "label": "Un tagueur" }
+      ],
+    "correct": ["ecr"],
+    "explanation": "Albert Camus (1913-1960) est un écrivain et philosophe français, lauréat du prix Nobel de littérature en 1957. \"L\'Étranger\" est son roman le plus célèbre."
+  },
+  {
+    "id": "patrimoine_ini_006",
+    "theme": "patrimoine",
+    "level": "INI",
+    "type": "single",
+    "question": "Qui était Paul Cézanne ?",
+    "answers": [
+      { "id": "pei", "label": "un peintre provençal" },
+      { "id": "rom", "label": "un tagueur" },
+      { "id": "mil", "label": "un rappeur" },
+      { "id": "scu", "label": "un influenceur" },
+      { "id": "cha", "label": "un chanteur" }
+      ],
+    "correct": ["pei"],
+    "explanation": "Paul Cézanne (1839-1906) est un peintre français provençal. Il a notamment réalisé une série de toiles ayant pour motif la montagne Sainte-Victoire. Il est considéré comme le père de l\'art moderne."
+  },
+  {
+    "id": "patrimoine_ini_007",
+    "theme": "patrimoine",
+    "level": "INI",
+    "type": "single",
+    "question": "Qui était Marc Chagall ?",
+    "answers": [
+      { "id": "pei", "label": "un peintre d\'origine russe" },
+      { "id": "mil", "label": "un tagueur" },
+      { "id": "rom", "label": "un rappeur" },
+      { "id": "cha", "label": "un influenceur" },
+      { "id": "art", "label": "un blogueur" }
+      ],
+    "correct": ["pei"],
+    "explanation": "Marc Chagall (1887-1985) est un peintre d\'origine russe, à qui on doit notamment la décoration du plafond de l\'Opéra Garnier de Paris."
+  },
+  {
+    "id": "patrimoine_ini_008",
+    "theme": "patrimoine",
+    "level": "INI",
+    "type": "single",
+    "question": "Qui était Joséphine Baker ?",
+    "answers": [
+      { "id": "ame", "label": "une artiste d\'origine américaine" },
+      { "id": "ang", "label": "une blogueuse" },
+      { "id": "rus", "label": "une tagueuse" },
+      { "id": "egy", "label": "une rappeuse" },
+      { "id": "aus", "label": "une influenceuse" }
+      ],
+    "correct": ["ame"],
+    "explanation": "Josephine Baker (1906-1975), d\'origine américaine, est la première chanteuse, danseuse et meneuse de revue noire reconnue. Elle s\'illustra dans la Résistance lors de la Seconde Guerre mondiale."
+  },
+  {
+    "id": "patrimoine_ini_009",
+    "theme": "patrimoine",
+    "level": "INI",
+    "type": "multi",
+    "question": "Qui était une chanteuse française célèbre ?",
+    "answers": [
+      { "id": "bak", "label": "Joséphine Baker" },
+      { "id": "bak", "label": "Édith Piaf" },
+      { "id": "pis", "label": "Mariah Carey" },
+      { "id": "del", "label": "Beyoncé" },
+      { "id": "del", "label": "Madonna" },
+      { "id": "del", "label": "Taylor Swift" },
+      { "id": "kal", "label": "Oum Kalthoum" },
+      { "id": "bea", "label": "Lady Gaga" }
+      ],
+    "correct": ["bak","pia"],
+    "explanation": "Josephine Baker (1906-1975), d\'origine américaine, est la première chanteuse, danseuse et meneuse de revue noire reconnue. Elle s\'illustra dans la Résistance lors de la Seconde Guerre mondiale. Édith Piaf (1915-1963) est à l\'origine de plusieurs succès devenus des classiques du répertoire, comme \"La Vie en rose\"."
+  },
+  {
+    "id": "patrimoine_ini_010",
+    "theme": "patrimoine",
+    "level": "INI",
+    "type": "single",
+    "question": "Qu\'est-ce que le Louvre ?",
+    "answers": [
+      { "id": "mus", "label": "le plus grand musée du monde" },
+      { "id": "pal", "label": "un blog culinaire" },
+      { "id": "sta", "label": "un groupe de rock" },
+      { "id": "pis", "label": "un rappeur marseillais" },
+      { "id": "cat", "label": "un tagueur" }
+      ],
+    "correct": ["mus"],
+    "explanation": "Le Louvre est l\'ancien palais des rois de France, abandonné par Louis XIV pour Versailles. Transformé en musée à la Révolution, il est actuellement le plus grand musée d\'art du monde, recevant plus de huit millions de visiteurs par an."
+  },
+  {
+    "id": "patrimoine_ini_011",
+    "theme": "patrimoine",
+    "level": "INI",
+    "type": "single",
+    "question": "Qui était Jean de la Fontaine ?",
+    "answers": [
+      { "id": "poe", "label": "un poète du temps de Louis XIV" },
+      { "id": "rom", "label": "un blogueur" },
+      { "id": "pei", "label": "un rappeur" },
+      { "id": "scu", "label": "un influenceur" },
+      { "id": "arc", "label": "un rocker" }
+      ],
+    "correct": ["poe"],
+    "explanation": "Jean de la Fontaine (1621-1695) est un poète, fabuliste et romancier français du temps de Louis XIV. Dans ses fables, il met en scène des animaux avec des traits d\'humains pour critiquer les Hommes."
+  },
+  {
+    "id": "patrimoine_ini_012",
+    "theme": "patrimoine",
+    "level": "INI",
+    "type": "single",
+    "question": "Quel écrivain est français ?",
+    "answers": [
+      { "id": "hug", "label": "Victor Hugo" },
+      { "id": "sha", "label": "Shakespeare" },
+      { "id": "cer", "label": "Cervantes" },
+      { "id": "tol", "label": "Tolstoï" },
+      { "id": "man", "label": "Steinbeck" }
+      ],
+    "correct": ["hug"],
+    "explanation": "Victor Hugo (1802-1885) est un des plus grands écrivains français. Il s\'est engagé contre les inégalités sociales et la peine de mort. Il a écrit \"Les Misérables\" et \"Notre-Dame de Paris\"."
+  },
+  {
+    "id": "patrimoine_ini_013",
+    "theme": "patrimoine",
+    "level": "INI",
+    "type": "single",
+    "question": "Dans quelle ville se trouve la tour Eiffel ?",
+    "answers": [
+      { "id": "par", "label": "Paris" },
+      { "id": "lon", "label": "Ouagadougou" },
+      { "id": "new", "label": "Buenos Aires" },
+      { "id": "mos", "label": "Phnom Penh" },
+      { "id": "lyo", "label": "Novossibirsk" }
+      ],
+    "correct": ["par"],
+    "explanation": "La tour Eiffel est située à Paris, sur le Champ-de-Mars en bordure de la Seine. Construite pour l\'Exposition universelle de Paris de 1889, célébrant le centenaire de la Révolution française, elle est devenue le symbole de la capitale française et un site touristique de premier plan."
+  },
+  {
+    "id": "patrimoine_ini_014",
+    "theme": "patrimoine",
+    "level": "INI",
+    "type": "single",
+    "question": "Quand célèbre-t-on Noël ?",
+    "answers": [
+      { "id": "vin", "label": "Le 25 décembre" },
+      { "id": "qua", "label": "À la Saint-GlinGlin" },
+      { "id": "pre", "label": "À la Saint-Turenoire" },
+      { "id": "neu", "label": "Le 30 février" },
+      { "id": "onz", "label": "Le 52 janvier" }
+      ],
+    "correct": ["vin"],
+    "explanation": "Noël est la fête chrétienne d\'origine romaine qui célèbre la Nativité, le 25 décembre. La tradition du père Noël a ajouté une dimension profane à la fête chrétienne, plus orientée vers les enfants, la familles et les cadeaux."
+  }
+]

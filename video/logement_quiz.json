@@ -1,0 +1,172 @@
+[
+  {
+    "id": "logement_quiz_001",
+    "theme": "logement",
+    "level": "VID",
+    "type": "multi",
+    "question": "Quelle association aide les migrants à trouver un logement ?",
+    "answers": [
+      { "id": "apa", "label": "Apardap" },
+      { "id": "ada", "label": "Adate" },
+      { "id": "res", "label": "Restos du Coeur" },
+      { "id": "med", "label": "Médecins du Monde" },
+      { "id": "aic", "label": "AICF" },
+      { "id": "bus", "label": "Business France" }
+    ],
+    "correct": ["apa","ada"],
+    "explanation": "L\'Apardap et l\'Adate sont deux exemples d\'associations qui gèrent des hébergements d\'urgence pour migrants, où qui les accompagnent dans la recherche d\'un logement. Il y en a heureusement bien d\'autres."
+  },
+  {
+    "id": "logement_quiz_002",
+    "theme": "logement",
+    "level": "VID",
+    "type": "single",
+    "question": "Le sigle CADA signifie :",
+    "answers": [
+      { "id": "acc", "label": "Centre d\'Accueil de Demandeurs d\'asile" },
+      { "id": "ass", "label": "Conseil et Assistance aux Demandeurs d\'Asile" },
+      { "id": "app", "label": "Chambre d\'Appel pour Demandeurs d\'Asile" },
+      { "id": "cum", "label": "Chambre d\'Accumulation des Demandes d\'Asile },
+      { "id": "aid", "label": "Circuit d\'Aide aux Demandes d\'Asile" },
+      { "id": "adm", "label": "Clarification de l\'Administration pour les Demandeurs d\'Asile" }
+    ],
+    "correct": ["acc"],
+    "explanation": "Un centre d\'accueil de demandeurs d\'asile (CADA) relève de la catégorie des établissements et services sociaux et médico-sociaux. Il existe actuellement environ 25 300 places de CADA situées sur l\'ensemble du territoire métropolitain. Pour comparaison, en 2025 l\'OFPRA a enregistré 145 211 demandes d\'asile."
+  },
+  {
+    "id": "logement_quiz_003",
+    "theme": "logement",
+    "level": "VID",
+    "type": "single",
+    "question": "Le sigle HUDA signifie :",
+    "answers": [
+      { "id": "hud", "label": "Hébergement d\'Urgence pour Demandeurs d\'Asile" },
+      { "id": "hot", "label": "Hôtes Unis de Demandeurs d\'Asile" },
+      { "id": "hos", "label": "Hospitalité Unique pour les Dossiers Administratifs" },
+      { "id": "hoc", "label": "Hochets Usés pour Demeurés Assis" },
+      { "id": "hac", "label": "Haches Utiles pour les Débiteurs d\'Arbres" },
+      { "id": "hou", "label": "Houpettes Urticantes des Doubles Assistés" }
+    ],
+    "correct": ["hud"],
+    "explanation": "L\'Hébergement d\'Urgence pour Demandeurs d\'Asile (HUDA) répond aux demandes d\'hébergement des demandeurs d\'asile, qui sont en attente d\'une prise en charge en CADA, ou bien, qui n\'ont pas vocation à être admis en CADA (procédure prioritaire et réexamen, procédure Dublin), qui sont sortants d\'un CADA pour une durée maximale de deux mois (réfugiés, bénéficiaires de la protection subsidiaire, déboutés ou régularisés)."
+  },
+  {
+    "id": "logement_quiz_004",
+    "theme": "logement",
+    "level": "VID",
+    "type": "single",
+    "question": "Si un étranger demande un logement social :",
+    "answers": [
+      { "id": "dro", "label": "il y a droit, selon les mêmes critères que ceux appliqués aux candidats de nationalité française." },
+      { "id": "tra", "label": "il y aura droit quand tous les dossiers français auront été traités" },
+      { "id": "pre", "label": "l\'administration trouvera un prétexte pour le lui refuser" },
+      { "id": "irr", "label": "il pourra y accéder, même s\'il est en situation irrégulière" },
+      { "id": "enf", "label": "il est limité par le nombre d\'enfants à charge" }
+    ],
+    "correct": ["dro"],
+    "explanation": "Les critères d\'accès au logement social sont les mêmes pour les français et pour les étrangers en situation régulière (carte de résident, de séjour ou de ressortissant de la Communauté Européenne). Il faut être en deçà d\'un plafond de revenus, calculé en fonction du nombre de personnes à charge."
+  },
+  {
+    "id": "logement_quiz_005",
+    "theme": "logement",
+    "level": "VID",
+    "type": "single",
+    "question": "Pour une location, une caution c\'est :",
+    "answers": [
+      { "id": "eng", "label": "Une personne qui s\'engage à payer pour le locataire" },
+      { "id": "dro", "label": "Une somme d\'argent qu\'on verse pour avoir le droit de louer" },
+      { "id": "gar", "label": "Un dépôt de garantie en cas de dommage au logement" },
+      { "id": "pla", "label": "La personne qui paiera le loyer à la place du locataire" },
+      { "id": "loc", "label": "Un engagement signé par le locataire" },
+      { "id": "bai", "label": "Un engagement signé par le bailleur" }
+    ],
+    "correct": ["eng"],
+    "explanation": "La caution et le dépôt de garantie sont deux notions distinctes à ne pas confondre. La caution désigne la personne physique ou morale qui s\'engage à payer les dettes locatives en cas de défaillance de paiement de la part du locataire. On a tendance à employer le terme \"caution\" pour désigner le dépôt de garantie, qui est une somme d\'argent versée au bailleur par le locataire. Elle lui est restituée après l\'état des lieux de sortie. Tout propriétaire peut demander cette garantie financière, même lorsqu\'il s\'agit d\'un logement social. Dans le langage courant, on utilise l\'expression \"se porter caution\" pour dire \"être garant\". S\'il est obligatoire pour un locataire de souscrire une assurance habitation, la caution locative ne constitue pas une obligation."
+  },
+  {
+    "id": "logement_quiz_006",
+    "theme": "logement",
+    "level": "VID",
+    "type": "single",
+    "question": "Quel numéro faut-il appeler pour demander un hébergement d\'urgence ?",
+    "answers": [
+      { "id": "cqui", "label": "115" },
+      { "id": "cdou", "label": "112" },
+      { "id": "cqua", "label": "114" },
+      { "id": "quin", "label": "15" },
+      { "id": "dsep", "label": "17" },
+      { "id": "dhu", "label": "18" }
+    ],
+    "correct": ["115"],
+    "explanation": "Le 115 est le numéro national du SAMU social qui attribue les hébergements d\'urgence disponibles. Le 15 est le numéro du SAMU tout court (Service d\'Assistance Médicale d\'Urgence). Le 17 c\'est Police Secours, le 18 les Pompiers. Le 112 est le numéro d\'urgence européen et le 114 est pour les malentendants."
+  },
+  {
+    "id": "logement_quiz_007",
+    "theme": "logement",
+    "level": "VID",
+    "type": "single",
+    "question": "Que signifie le sigle DALO ?",
+    "answers": [
+      { "id": "opp", "label": "Droit Au Logement Opposable" },
+      { "id": "opt", "label": "Direction Assistée de Longue Option" },
+      { "id": "lit", "label": "Descente Ardue pour les Litiges d\'Opposition" },
+      { "id": "dro", "label": "Drôme, Ardèche, Loire et Orne" },
+      { "id": "dec", "label": "Décomposition de l\'Amiante chez les Locuteurs Ouzbèks" },
+      { "id": "oug", "label": "Domicile Affecté aux Libériens Ougandais" }
+    ],
+    "correct": ["opp"],
+    "explanation": "La loi du 5 mars 2007 relative au droit au logement opposable, dite loi DALO, a institué un droit au logement garanti par l\'État à ceux qui ne peuvent accéder à un logement décent et indépendant par leurs propres moyens. Pour ces derniers, et lorsque les démarches ont été vaines, la loi a créé deux recours : un recours amiable devant une commission de médiation, puis un recours contentieux devant le tribunal administratif, afin de garantir à chacun un droit au logement effectif."
+  },
+  {
+    "id": "logement_quiz_008",
+    "theme": "logement",
+    "level": "VID",
+    "type": "single",
+    "question": "Le droit au logement est opposable dans la mesure où :",
+    "answers": [
+      { "id": "loi", "label": "il est reconnu par la loi" },
+      { "id": "ref", "label": "il peut être refusé" },
+      { "id": "com", "label": "il peut faire l\'objet d\'une compétition" },
+      { "id": "par", "label": "il est réservé aux partis d\'opposition" },
+      { "id": "dev", "label": "il s\'oppose au devoir de logement" }
+    ],
+    "correct": ["loi"],
+    "explanation": "Le terme juridique \"opposable\" doit être compris comme \"garanti, incontestable\". Le droit au logement est opposable dans la mesure où la loi du 5 mars 2007 le reconnaît à tout individu. Reste à transformer cette garantie légale en action concrète. Pour avoir droit à la procédure DALO, il faut au moins avoir déposé depuis longtemps une demande de logement social."
+  },
+  {
+    "id": "logement_quiz_009",
+    "theme": "logement",
+    "level": "VID",
+    "type": "multi",
+    "question": "Un motif légitime pour refuser un locataire peut être :",
+    "answers": [
+      { "id": "ins", "label": "l\'insuffisance de ressources" },
+      { "id": "dos", "label": "le dossier incomplet" },
+      { "id": "ori", "label": "l\'origine ethnique" },
+      { "id": "rel", "label": "la religion" },
+      { "id": "age", "label": "l\'âge" },
+      { "id": "con", "label": "les convictions politiques" },
+      { "id": "app", "label": "l\'apparence physique" },
+      { "id": "nom", "label": "le nom de famille" }
+    ],
+    "correct": ["ins","dos"],
+    "explanation": "L\'insuffisance de ressources ou un dossier incomplet sont des motifs légitimes. En revanche, les motifs tels que l\'origine ethnique, la religion, le genre, l\'âge, etc. relèvent de la discrimination et sont illicites. Si un refus de location est motivé par un critère discriminatoire, le propriétaire s\'expose à des sanctions pénales et au versement de dommages et intérêts. "
+  },
+  {
+    "id": "logement_quiz_010",
+    "theme": "logement",
+    "level": "VID",
+    "type": "single",
+    "question": "Quelle est la proportion d\'étrangers parmi les locataires de logements sociaux ?",
+    "answers": [
+      { "id": "dou", "label": "12 %" },
+      { "id": "qua", "label": "40 %" },
+      { "id": "qut", "label": "80 %" },
+      { "id": "deu", "label": "2 %" },
+      { "id": "cin", "label": "5 %" },
+      { "id": "vin", "label": "20 %" }
+    ],
+    "correct": ["dou"],
+    "explanation": "Selon une étude l\'INSEE de 2017, sur l\'ensemble des occupants de logements sociaux, 80 % sont Français de naissance, 8,6 % sont Français par naturalisation et 12 % sont étrangers."
+  }
+]
