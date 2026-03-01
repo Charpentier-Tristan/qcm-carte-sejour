@@ -1,0 +1,307 @@
+let situationdd_INI = [
+  {
+    "id": "situationdd_ini_001",
+    "theme": "situationdd",
+    "level": "INI",
+    "type": "single",
+    "question": "Un candidat à la fonction publique d'État découvre que les correcteurs connaissent son nom et son origine. Il craint une partialité. Quel principe républicain est en jeu ?",
+    "answers": [
+      { "id": "ano", "label": "l'anonymat des copies, garant de l'égalité de traitement" },
+      { "id": "lai", "label": "La laïcité" },
+      { "id": "con", "label": "la liberté d'opinion" },
+      { "id": "dec", "label": "la décentralisation" },
+      { "id": "sol", "label": "la fraternité" }
+    ],
+    "correct": ["ano"],
+    "explanation": "L'anonymat des copies dans les concours de la fonction publique est une règle essentielle pour garantir l'égalité des chances et la neutralité du recrutement."
+  },
+  {
+    "id": "situationdd_ini_002",
+    "theme": "situationdd",
+    "level": "INI",
+    "type": "single",
+    "question": "Une manifestation religieuse dans l'espace public peut être interdite :",
+    "answers": [
+      { "id": "trou", "label": "si elle est de nature à troubler l'ordre public" },
+      { "id": "laic", "label": "au nom du principe de laïcité" },
+      { "id": "athe", "label": "par une association d'athées" },
+      { "id": "neuc", "label": "par la loi de 1905" },
+      { "id": "neut", "label": "parce que l'espace public est réservé" },
+      { "id": "cons", "label": "en vertu de la Constitution de 1958" }
+    ],
+    "correct": ["trou"],
+    "explanation": "Une procession, comme tout rassemblement sur l'espace public, ne peut pas être interdite au nom de la laïcité, mais peut l'être au nom de la préservation de l'ordre public. L'article 27 de la loi du 9 décembre 1905 rend possible les manifestations religieuses sur la voie publique et définit les conditions de leur réalisation afin d'assurer leur bon ordre, la sûreté, la sécurité et la salubrité publics. Ces motifs peuvent être avancés, en étant justifiés de manière objective, pour éventuellement interdire une manifestation. Le maire peut également imposer un itinéraire ou un espace pour ces manifestations religieuses dès lors que se posent des questions de sécurité ou de bon déroulement de la circulation."
+  },
+  {
+    "id": "situationdd_ini_003",
+    "theme": "situationdd",
+    "level": "INI",
+    "type": "single",
+    "question": "Une loi permet aux forces de l'ordre d'accéder, sans contrôle judiciaire préalable, aux données de connexion de toute personne ayant consulté un site web étiqueté comme \"radical\". Un citoyen assigne l'État devant le juge administratif. Le juge pourrait annuler cette loi au nom :",
+    "answers": [
+      { "id": "pri", "label": "du droit au respect de la vie privée et des communications, protégé par la Convention européenne des droits de l'homme" },
+      { "id": "sec", "label": "du secret des affaires" },
+      { "id": "lib", "label": "de la liberté du commerce" },
+      { "id": "sou", "label": "de la souveraineté nationale" },
+      { "id": "opi", "label": "de la liberté d'opinion" }
+    ],
+    "correct": ["pri"],
+    "explanation": "Une telle surveillance généralisée et sans contrôle judiciaire, est susceptible d'être jugée disproportionnée au regard du droit au respect de la vie privée."
+  },
+  {
+    "id": "situationdd_ini_004",
+    "theme": "situationdd",
+    "level": "INI",
+    "type": "single",
+    "question": "Un père, après un divorce conflictuel, apprend que son ex-épouse a changé le nom de famille de leur enfant mineur pour le sien, sans son accord. Cette modification est :",
+    "answers": [
+      { "id": "jug", "label": "illégale, sauf décision du juge aux affaires familiales" },
+      { "id": "com", "label": "illégale, car il faut l'accord des deux parents" },
+      { "id": "mer", "label": "légale, car la mère a l'autorité parentale" },
+      { "id": "enf", "label": "légale, si l'enfant y consent" },
+      { "id": "pref", "label": "légale, après consultation du préfet" }
+    ],
+    "correct": ["jug"],
+    "explanation": "Un changement de nom d'un enfant mineur nécessite l'accord des deux parents titulaires de l'autorité parentale. En cas de désaccord, seule une décision du juge aux affaires familiales peut l'autoriser."
+  },
+  {
+    "id": "situationdd_ini_005",
+    "theme": "situationdd",
+    "level": "INI",
+    "type": "single",
+    "question": "Un citoyen porte plainte contre un policier pour violences lors d'une interpellation. L'enquête est confiée à l'Inspection générale de la police nationale (IGPN). Ce mécanisme vise à garantir :",
+    "answers": [
+      { "id": "ind", "label": "l'indépendance de l'enquête sur les agents de la force publique" },
+      { "id": "imp", "label": "l'impunité des forces de l'ordre" },
+      { "id": "rap", "label": "la rapidité de la procédure" },
+      { "id": "con", "label": "la confidentialité des plaignants" },
+      { "id": "cou", "label": "une couverture médiatique suffisante" }
+    ],
+    "correct": ["ind"],
+    "explanation": "L'IGPN (ou toute autre une autorité administrative indépendante), est chargée d'enquêter sur les dysfonctionnements de la police, pour assurer l'objectivité et l'indépendance de l'enquête."
+  },
+  {
+    "id": "situationdd_ini_006",
+    "theme": "situationdd",
+    "level": "INI",
+    "type": "single",
+    "question": "Une mère célibataire au chômage se voit refuser une aide au logement car elle n'a pas déclaré les modestes revenus de petits travaux occasionnels de son fils de 17 ans. Ce refus est-il justifié au regard des principes de solidarité nationale ?",
+    "answers": [
+      { "id": "sol", "label": "Non, la solidarité nationale implique de ne pas pénaliser lourdement une erreur de bonne foi ou une méconnaissance, surtout pour des sommes modestes, et des procédures de régularisation existent" },
+      { "id": "res", "label": "Oui, toute ressource doit être déclarée" },
+      { "id": "fra", "label": "Oui, car la fraude est un délit" },
+      { "id": "min", "label": "Non, car les revenus d'un mineur ne comptent pas" },
+      { "id": "dis", "label": "Non, car les travaux dissimulés n'ont pas à être déclarés" }
+    ],
+    "correct": ["sol"],
+    "explanation": "Si la déclaration exacte des ressources est obligatoire, le principe de fraternité et de solidarité se traduit par un droit à l'erreur et des procédures correctives, afin de ne pas priver une famille vulnérable d'une aide essentielle, pour une omission mineure."
+  },
+  {
+    "id": "situationdd_ini_007",
+    "theme": "situationdd",
+    "level": "INI",
+    "type": "single",
+    "question": "Un joueur de l'équipe de France de football, célèbre et influent, diffuse sur les réseaux sociaux un message appelant explicitement à voter pour un candidat spécifique à l'élection présidentielle. Cette action est :",
+    "answers": [
+      { "id": "lib", "label": "autorisée, car elle relève de la liberté d'expression de tout citoyen" },
+      { "id": "pol", "label": "interdite car seuls les partis politiques peuvent faire campagne" },
+      { "id": "spo", "label": "interdite, car le joueur représente la Nation" },
+      { "id": "arg", "label": "autorisée, à condition qu'il ne reçoive pas d'argent" },
+      { "id": "vid", "label": "autorisée si les vidéos postées ne contiennent pas de publicités" }
+    ],
+    "correct": ["lib"],
+    "explanation": "En tant que citoyen, il bénéficie de la liberté d'expression et peut soutenir publiquement un candidat, sauf s'il est sous contrat avec une fédération ou un club qui lui impose une clause de neutralité. Il ne représente pas officiellement l'État en faisant cela."
+  },
+  {
+    "id": "situationdd_ini_008",
+    "theme": "situationdd",
+    "level": "INI",
+    "type": "single",
+    "question": "Lors d'un débat public, une personne tient des propos niant l'existence de la Shoah. Elle est poursuivie pour contestation de crime contre l'humanité. Elle invoque la liberté d'expression historique. Quelle est la situation juridique ?",
+    "answers": [
+      { "id": "abu", "label": "Ses propos constituent un abus de la liberté d'expression, puni par la loi" },
+      { "id": "lib", "label": "Ses propos sont protégés par la liberté d'opinion" },
+      { "id": "vio", "label": "Seuls les propos incitant à la violence sont punissables" },
+      { "id": "tro", "label": "Elle ne sera pas poursuivie sauf si ses propos causent un trouble à l'ordre public" },
+      { "id": "mai", "label": "Elle ne sera poursuivie que si le maire de la commune porte plainte" }
+    ],
+    "correct": ["abu"],
+    "explanation": "La contestation de crimes contre l'humanité est réprimée par la loi. La liberté d'expression ne couvre pas la négation de tels crimes."
+  },
+  {
+    "id": "situationdd_ini_009",
+    "theme": "situationdd",
+    "level": "INI",
+    "type": "single",
+    "question": "Une entreprise privée impose, dans son règlement intérieur, l'usage exclusif de la langue française sur le lieu de travail, y compris pendant les pauses. Un salarié est sanctionné pour avoir parlé sa langue maternelle avec un collègue. Cette sanction est :",
+    "answers": [
+      { "id": "jus", "label": "illégale, car elle porte une atteinte disproportionnée à la liberté personnelle des salariés, sans justification professionnelle" },
+      { "id": "lan", "label": "légale car le français est la langue de la République" },
+      { "id": "cli", "label": "légale, par respect pour les clients" },
+      { "id": "mai", "label": "illégale, car le salarié ne parle pas français" },
+      { "id": "com", "label": "légale, car le patron doit comprendre ce que disent ses employés" }
+    ],
+    "correct": ["jus"],
+    "explanation": "Une telle interdiction généralisée et absolue d'une langue autre que le français, en dehors des nécessités du travail, est susceptible d'être jugée disproportionnée."
+  },
+  {
+    "id": "situationdd_ini_010",
+    "theme": "situationdd",
+    "level": "INI",
+    "type": "single",
+    "question": "Un journaliste publie un article révélant des informations classées \"secret défense\" sur un programme militaire, mettant en cause des responsables politiques. Il est arrêté. Peut-il invoquer la liberté de la presse et la protection des sources ?",
+    "answers": [
+      { "id": "rep", "label": "Non, la divulgation de secrets de la défense nationale est un crime sévèrement réprimé et la liberté de la presse connaît cette limite" },
+      { "id": "sou", "label": "Non, la protection des sources ne s'applique pas" },
+      { "id": "rev", "label": "Oui, à condition qu'il démontre l'intérêt de la révélation" },
+      { "id": "abs", "label": "Oui, la liberté de la presse est absolue" },
+      { "id": "pre", "label": "Oui, sous réserve de montrer l'article au Préfet" }
+    ],
+    "correct": ["rep"],
+    "explanation": "La protection des secrets de la défense nationale est une limitation légitime à la liberté de la presse. Le journaliste peut être poursuivi."
+  },
+  {
+    "id": "situationdd_ini_011",
+    "theme": "situationdd",
+    "level": "INI",
+    "type": "single",
+    "question": "Un conseiller municipal vote une délibération attribuant un marché public à une entreprise dont il est actionnaire majoritaire, sans le déclarer. Ce comportement relève :",
+    "answers": [
+      { "id": "con", "label": "d'un conflit d'intérêt, potentiellement sanctionné par la loi" },
+      { "id": "lib", "label": "de la liberté d'opinion de l'élu" },
+      { "id": "err", "label": "d'une simple erreur de procédure" },
+      { "id": "ent", "label": "de la liberté d'entreprendre de l'élu" },
+      { "id": "ret", "label": "d'une rétribution indirecte méritée" }
+      ],
+    "correct": ["con"],
+    "explanation": "Les élus sont tenus à des obligations de transparence, et doivent éviter tout conflit d'intérêt. Le fait de participer à une décision dans laquelle on a un intérêt personnel peut être pénalement sanctionné."
+  },
+  {
+    "id": "situationdd_ini_012",
+    "theme": "situationdd",
+    "level": "INI",
+    "type": "single",
+    "question": "Un enseignant d'une école privée sous contrat, tenu au respect des programmes de l'État, enseigne comme vérité scientifique la théorie du dessein intelligent (créationnisme) en cours de sciences. L'inspection académique peut :",
+    "answers": [
+      { "id": "san", "label": "sanctionner l'établissement, car les écoles sous contrat doivent respecter les programmes officiels, qui excluent l'enseignement du créationnisme comme science" },
+      { "id": "pri", "label": "ignorer ce fait car l'école est privée" },
+      { "id": "fin", "label": "interdire cet enseignement car il est financé par des fonds publics" },
+      { "id": "lib", "label": "laisser faire, au nom de la liberté pédagogique" },
+      { "id": "mod", "label": "modifier les programmes officiels pour y inclure le créationnisme" }
+      ],
+    "correct": ["san"],
+    "explanation": "Les établissements privés sous contrat sont tenus de respecter les programmes et les règles de l'enseignement public. L'enseignement du créationnisme comme vérité scientifique est contraire au programme, et l'établissement doit être sanctionné."
+  },
+  {
+    "id": "situationdd_ini_013",
+    "theme": "situationdd",
+    "level": "INI",
+    "type": "single",
+    "question": "Un maire interdit par arrêté toute manifestation sur la place centrale de la commune, considérant qu'elle perturbe le commerce. Un collectif veut y organiser une manifestation pacifique. L'arrêté est :",
+    "answers": [
+    { "id": "lib", "label": "illégal car il établit une interdiction générale et absolue, disproportionnée au regard de la liberté de manifestation" },
+      { "id": "mai", "label": "légal, car c'est le maire qui décide" },
+      { "id": "pre", "label": "légal, si le préfet l'a approuvé" },
+      { "id": "int", "label": "illégal, car seul le préfet peut interdire une manifestation" },
+      { "id": "com", "label": "légal car les commerçants payent pour pouvoir travailler" }
+      ],
+    "correct": ["lib"],
+    "explanation": "L'interdiction préventive et générale de toute manifestation sur un lieu public emblématique est contraire à la liberté de réunion. Le maire peut règlementer, mais pas interdire de façon absolue."
+  },
+  {
+    "id": "situationdd_ini_014",
+    "theme": "situationdd",
+    "level": "INI",
+    "type": "single",
+    "question": "Une personne placée en centre de rétention administrative en attente d'expulsion se voit refuser tout accès à un téléphone pour prévenir sa famille et contacter un avocat. Cette pratique est :",
+    "answers": [
+      { "id": "rec", "label": "illégale, car elle porte atteinte au droit à un recours effectif et au respect des droits de la défense" },
+      { "id": "sec", "label": "légale pour des raisons de sécurité" },
+      { "id": "cou", "label": "légale si la durée de rétention est courte" },
+      { "id": "mal", "label": "illégale dans le cas où la personne est malade" },
+      { "id": "pay", "label": "légale si la personne paye une contrepartie" }
+      ],
+    "correct": ["rec"],
+    "explanation": "Les droits fondamentaux, dont le droit à un avocat et le droit à contacter sa famille, s'appliquent même en rétention administrative."
+  },
+  {
+    "id": "situationdd_ini_015",
+    "theme": "situationdd",
+    "level": "INI",
+    "type": "single",
+    "question": "Un entrepreneur français souhaite embaucher un ressortissant de l'Union européenne. Il exige que celui-ci produise un titre de séjour français. Cette exigence est :",
+    "answers": [
+      { "id": "cir", "label": "illégale, car les citoyens de l'UE ont le droit de circuler et de travailler librement en France sans titre de séjour pendant une certaine période" },
+      { "id": "etr", "label": "légale, car tout étranger doit avoir un  titre de séjour" },
+      { "id": "sec", "label": "légale, pour des raisons de sécurité sociale" },
+      { "id": "tem", "label": "illégale seulement si le poste est temporaire" },
+      { "id": "fin", "label": "légale, car elle s'accompagne d'une taxe payée par le salarié" }
+      ],
+    "correct": ["cir"],
+    "explanation": "Les citoyens de l'UE bénéficient de la libre circulation. Ils n'ont pas besoin de titre de séjour pour travailler en France pendant les trois premiers mois. Ensuite ils peuvent obtenir un certificat d'enregistrement, mais l'employeur ne peut l'exiger comme préalable à l'embauche."
+  },
+  {
+    "id": "situationdd_ini_016",
+    "theme": "situationdd",
+    "level": "INI",
+    "type": "single",
+    "question": "Un médecin, cité à témoigner sur des violences subies par sa patiente, est sommé par le juge de révéler ce que lui a confié la victime. Doit-il parler ?",
+    "answers": [
+      { "id": "ecr", "label": "Oui, mais seulement avec l'accord écrit de la patiente" },
+      { "id": "int", "label": "Oui, dans l'intérêt de sa patiente" },
+      { "id": "tem", "label": "Oui, il a le devoir de témoigner en justice" },
+      { "id": "abs", "label": "Non, le secret médical est absolu" },
+      { "id": "vul", "label": "Non, sauf si la patiente est mineure" }
+      ],
+    "correct": ["ecr"],
+    "explanation": "le secret professionnel peut être levé avec le consentement exprès de la personne concernée. Sans ce consentement, il ne peut être violé, sauf exception légale très encadrée."
+  },
+  {
+    "id": "situationdd_ini_017",
+    "theme": "situationdd",
+    "level": "INI",
+    "type": "single",
+    "question": "Des parents divorcés s'opposent sur l'éducation religieuse de leur enfant. Qui tranche ?",
+    "answers": [
+      { "id": "jug", "label": "Le juge aux affaires familiales, selon l'intérêt de l'enfant" },
+      { "id": "mai", "label": "Le maire de la commune" },
+      { "id": "per", "label": "Le père, en tant que chef de famille traditionnel" },
+      { "id": "mer", "label": "La mère, si l'enfant réside  habituellement chez elle" },
+      { "id": "enf", "label": "L'enfant lui-même, s'il est jugé suffisamment mature" }
+      ],
+    "correct": ["jug"],
+    "explanation": "En cas de désaccord entre parents exerçant conjointement l'autorité parentale, c'est le juge aux affaires familiales qui tranche, en se fondant sur l'intérêt supérieur de l'enfant."
+  },
+  {
+    "id": "situationdd_ini_018",
+    "theme": "situationdd",
+    "level": "INI",
+    "type": "single",
+    "question": "Une travailleuse handicapée devenue inapte à son poste demande un reclassement. L'employeur n'en trouve pas et la licencie. Cette procédure est-elle légale ?",
+    "answers": [
+      { "id": "rec", "label": "Non, l'employeur a l'obligation de rechercher un reclassement et de l'aménager" },
+      { "id": "ina", "label": "Oui, l'inaptitude médicale justifie le licenciement" },
+      { "id": "ind", "label": "Oui, si l'employeur paie une indemnité de licenciement majorée" },
+      { "id": "dis", "label": "Non, car le licenciement d'une personne handicapée est interdit" },
+      { "id": "pou", "label": "Oui, car le patron fait ce qu'il veut" }
+      ],
+    "correct": ["rec"],
+    "explanation": "L'employeur est tenu à une obligation de reclassement avant tout licenciement pour inaptitude d'origine médicale. L'absence de poste adapté doit être prouvée."
+  },
+  {
+    "id": "situationdd_ini_019",
+    "theme": "situationdd",
+    "level": "INI",
+    "type": "single",
+    "question": "Un élu régional propose de voter une subvention pour un club de football professionnel, dont il est le président bénévole. Il ne participe pas au vote. Ce cas de figure illustre :",
+    "answers": [
+      { "id": "con", "label": "Un conflit d'intérêt potentiel, car l'élu a un intérêt personnel dans la structure bénéficiaire" },
+      { "id": "ges", "label": "Une bonne gestion, car il s'est abstenu" },
+      { "id": "cum", "label": "Un cas de cumul de mandats interdit" },
+      { "id": "par", "label": "Une simple relation de partenariat" },
+      { "id": "pri", "label": "Une rétribution cachée" }
+    ],
+    "correct": ["con"],
+    "explanation": "Même sans voter, le fait pour un élu d'être en situation de défendre les intérêts d'une structure  dont il dirige l'administration, alors que la collectivité qu'il représente lui accorde une subvention, pose un problème de conflit d'intérêt."
+  }
+]

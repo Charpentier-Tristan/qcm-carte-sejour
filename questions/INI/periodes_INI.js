@@ -1,0 +1,339 @@
+let periodes_INI = [
+  {
+    "id": "periodes_ini_001",
+    "theme": "periodes",
+    "level": "INI",
+    "type": "single",
+    "question": "En quelle année a débuté la Révolution française ?",
+    "answers": [
+      { "id": "quatre", "label": "1789" },
+      { "id": "douze", "label": "2026" },
+      { "id": "sept", "label": "1315" },
+      { "id": "huit", "label": "1515" },
+      { "id": "six", "label": "1492" },
+      { "id": "neuf", "label": "1915" }
+    ],
+    "correct": ["quatre"],
+    "explanation": "La Révolution française démarre en 1789 avec la convocation des États généraux (le clergé, la noblesse et le tiers état) par le roi. Le 17 juin, le tiers état proclame l'Assemblée nationale et met fin à la monarchie absolue."
+  },
+  {
+    "id": "periodes_ini_002",
+    "theme": "periodes",
+    "level": "INI",
+    "type": "single",
+    "question": "Qui était Napoléon Ier ?",
+    "answers": [
+      { "id": "emp", "label": "L'empereur des Français, de 1804 à 1815" },
+      { "id": "gen", "label": "Un blogueur" },
+      { "id": "pol", "label": "Un rappeur" },
+      { "id": "ecr", "label": "Un rocker" },
+      { "id": "imp", "label": "Un influenceur" }
+      ],
+    "correct": ["emp"],
+    "explanation": "Napoléon Bonaparte était un général de la Révolution. Il a pris le pouvoir comme Premier consul par un coup d'État en 1799, puis s'est fait couronner empereur en 1804, sous le nom de Napoléon Ier."
+  },
+  {
+    "id": "periodes_ini_003",
+    "theme": "periodes",
+    "level": "INI",
+    "type": "multi",
+    "question": "Lequel de ces personnages historiques est français ?",
+    "answers": [
+      { "id": "nap", "label": "Napoléon Ier" },
+      { "id": "gau", "label": "Charles de Gaulle" },
+      { "id": "vol", "label": "Voltaire" },
+      { "id": "bol", "label": "Vladimir Poutine" },
+      { "id": "eli", "label": "Donald Trump" },
+      { "id": "kan", "label": "Taylor Swift" },
+      { "id": "gen", "label": "John Lennon" },
+      { "id": "ale", "label": "David Bowie" },
+      { "id": "cle", "label": "Ed Sheeran" },
+      { "id": "ces", "label": "Elton John" }
+      ],
+    "correct": ["nap","gau","vol"],
+    "explanation": "Parmi les personnages historiques français les plus célèbres, figurent : Voltaire (1694-1778), le philosophe emblématique du siècle des Lumières ; Napoléon Ier qui a été empereur des Français de 1804 à 1815 ; Charles de Gaulle qui est le fondateur de la Ve République en 1958."
+  },
+  {
+    "id": "periodes_ini_004",
+    "theme": "periodes",
+    "level": "INI",
+    "type": "single",
+    "question": "Dans quelle République est-on aujourd'hui ?",
+    "answers": [
+      { "id": "cin", "label": "La cinquième" },
+      { "id": "pre", "label": "La première" },
+      { "id": "sec", "label": "La seconde" },
+      { "id": "trois", "label": "La douzième" },
+      { "id": "qua", "label": "La centième" }
+      ],
+    "correct": ["cin"],
+    "explanation": "Depuis 1958, nous sommes sous la Cinquième République. La première a duré de 1792 à 1804, la seconde de 1848 à 1851, la troisième de 1870 à 1940 et la quatrième de 1946 à 1958."
+  },
+  {
+    "id": "periodes_ini_005",
+    "theme": "periodes",
+    "level": "INI",
+    "type": "single",
+    "question": "Qu'est-ce que la Shoah ?",
+    "answers": [
+      { "id": "gen", "label": "Le génocide des Juifs organisé pendant la Seconde Guerre mondiale" },
+      { "id": "arm", "label": "Une bataille du Pacifique" },
+      { "id": "ame", "label": "Une guerre coloniale" },
+      { "id": "bab", "label": "Une guerre du Moyen-Âge" },
+      { "id": "egy", "label": "Une bataille au Vietnam" }
+      ],
+    "correct": ["gen"],
+    "explanation": "La Shoah désigne le génocide des Juifs organisé par l'Allemagne nazie pendant la Seconde Guerre mondiale. Environ 6 millions de Juifs ont été assassinés par le régime nazi et ses collaborateurs."
+  },
+  {
+    "id": "periodes_ini_006",
+    "theme": "periodes",
+    "level": "INI",
+    "type": "multi",
+    "question": "Quel pays ou région du monde a été colonisé par la France ?",
+    "answers": [
+      { "id": "alg", "label": "Algérie" },
+      { "id": "mad", "label": "Madagascar" },
+      { "id": "viet", "label": "Vietnam" },
+      { "id": "hai", "label": "Haïti" },
+      { "id": "esp", "label": "Espagne" },
+      { "id": "grb", "label": "Grande-Bretagne" },
+      { "id": "dan", "label": "Danemark" },
+      { "id": "let", "label": "Lettonie" },
+      { "id": "gre", "label": "Grèce" },
+      { "id": "bre", "label": "Groënland" },
+      { "id": "jap", "label": "Japon" }
+      ],
+    "correct": ["alg","mad","viet","hai"],
+    "explanation": "La France a colonisé des territoires en Amérique du Nord (Canada, Louisiane), aux Antilles (Saint-Domingue, Guadeloupe, Martinique), en Afrique (Algérie, Maroc, Tunisie, Afrique Occidentale Française, Afrique Équatoriale Française, Madagascar), en Asie du Sud-Est (Indochine). L'empire colonial français s'est surtout développé à la fin du XIXe siècle, sous la IIIe République."
+  },
+  {
+    "id": "periodes_ini_007",
+    "theme": "periodes",
+    "level": "INI",
+    "type": "single",
+    "question": "Qui a rendu l'école gratuite, laïque et obligatoire ?",
+    "answers": [
+      { "id": "fer", "label": "Jules Ferry" },
+      { "id": "cle", "label": "Elton John" },
+      { "id": "wal", "label": "John Lennon" },
+      { "id": "gam", "label": "Taylor Swift" },
+      { "id": "nap", "label": "Madonna" },
+      { "id": "gau", "label": "Beyoncé" }
+    ],
+    "correct": ["fer"],
+    "explanation": "Les lois Ferry de 1881 et 1882 visent à rendre l'enseignement primaire gratuit, laïque et obligatoire pour tous les enfants âgés de 6 à 13 ans. Si elles posent les fondements de l'école républicaine, ces lois ont été précédées par d'autres textes, quelques années plus tôt, visant à libérer l'enseignement public de l'influence religieuse."
+  },
+  {
+    "id": "periodes_ini_008",
+    "theme": "periodes",
+    "level": "INI",
+    "type": "single",
+    "question": "Quand a eu lieu la Première Guerre mondiale ?",
+    "answers": [
+      { "id": "neq", "label": "De 1914 à 1918" },
+      { "id": "sid", "label": "De 722 à 833" },
+      { "id": "trn", "label": "De 2025 à 2026" },
+      { "id": "trt", "label": "De 1337 à 1453" },
+      { "id": "hus", "label": "En 1515" }
+      ],
+    "correct": ["neq"],
+    "explanation": "La Première Guerre mondiale a éclaté le 3 août 1914 et a duré jusqu'à l'armistice du 11 novembre 1918."
+  },
+  {
+    "id": "periodes_ini_009",
+    "theme": "periodes",
+    "level": "INI",
+    "type": "single",
+    "question": "En quelle année a été créée la Communauté Économique Européenne (CEE) ?",
+    "answers": [
+      { "id": "cins", "label": "1957" },
+      { "id": "quad", "label": "2026" },
+      { "id": "cinu", "label": "1515" },
+      { "id": "quan", "label": "1492" },
+      { "id": "dequ", "label": "1315" },
+      { "id": "devi", "label": "2030" }
+    ],
+    "correct": ["cins"],
+    "explanation": "Le traité instituant la Communauté Économique Européenne (CEE) a été signé à Rome en 1957. Les autres étapes importantes de la construction européenne sont 1951 (Communauté Européenne du Charbon et de l'Acier), 1992 (Traité de Maastricht : Union Européenne), 1999 (monnaie Unique)."
+  },
+  {
+    "id": "periodes_ini_010",
+    "theme": "periodes",
+    "level": "INI",
+    "type": "single",
+    "question": "Le 11 novembre est un jour férié. À quoi correspond cette date ?",
+    "answers": [
+      { "id": "pre", "label": "La fin de la Première Guerre mondiale" },
+      { "id": "sec", "label": "La sortie d'un album de Taylor Swift" },
+      { "id": "cen", "label": "L'anniversaire de Madonna" },
+      { "id": "tre", "label": "L'assassinat de John Lennon" },
+      { "id": "vie", "label": "La communion de Béyoncé" }
+      ],
+    "correct": ["pre"],
+    "explanation": "En plus d'être le jour anniversaire de la signature de l'Armistice de 1918 et le jour de \"commémoration de la Victoire et de la Paix\", la loi du 28 février 2012 élargit cette commémoration à tous les \"morts pour la France\", qu'ils soient civils ou militaires, des conflits anciens ou récents."
+  },
+  {
+    "id": "periodes_ini_011",
+    "theme": "periodes",
+    "level": "INI",
+    "type": "single",
+    "question": "Qui a été le premier Président élu sous la Ve République ?",
+    "answers": [
+      { "id": "gau", "label": "Charles de Gaulle" },
+      { "id": "mit", "label": "John Lennon" },
+      { "id": "bon", "label": "Elton John" },
+      { "id": "fer", "label": "Ed Sheeran" },
+      { "id": "fer", "label": "Voltaire" },
+      { "id": "cle", "label": "Napoléon" }
+      ],
+    "correct": ["gau"],
+    "explanation": "Charles de Gaulle (1890-1970) est président de la République française de 1959 à 1969. Il est le premier président de la Ve République."
+  },
+  {
+    "id": "periodes_ini_012",
+    "theme": "periodes",
+    "level": "INI",
+    "type": "single",
+    "question": "En quelle année l'esclavage a-t-il été aboli définitivement en France ?",
+    "answers": [
+      { "id": "huqh", "label": "1848" },
+      { "id": "seqn", "label": "1515" },
+      { "id": "seqq", "label": "1492" },
+      { "id": "huide", "label": "1315" },
+      { "id": "huqua", "label": "732" },
+      { "id": "neuqh", "label": "2026" }
+    ],
+    "correct": ["huqh"],
+    "explanation": "L'esclavage a été définitivement aboli en France par le décret du 27 avril 1848."
+  },
+  {
+    "id": "periodes_ini_013",
+    "theme": "periodes",
+    "level": "INI",
+    "type": "single",
+    "question": "Depuis quelle année l'école publique est-elle gratuite ?",
+    "answers": [
+      { "id": "huq", "label": "1881" },
+      { "id": "seq", "label": "1492" },
+      { "id": "nec", "label": "1515" },
+      { "id": "neq", "label": "1315" },
+      { "id": "ned", "label": "732" }
+      ],
+    "correct": ["huq"],
+    "explanation": "La loi Ferry du 16 juin 1881 établit la gratuité de l'enseignement primaire dans les écoles publiques."
+  },
+  {
+    "id": "periodes_ini_014",
+    "theme": "periodes",
+    "level": "INI",
+    "type": "single",
+    "question": "Combien y a-t-il eu de républiques en France ?",
+    "answers": [
+      { "id": "cin", "label": "cinq" },
+      { "id": "pre", "label": "une" },
+      { "id": "sec", "label": "douze" },
+      { "id": "trois", "label": "trente" },
+      { "id": "qua", "label": "cent vingt" }
+      ],
+    "correct": ["cin"],
+    "explanation": "Depuis 1958, nous sommes sous la Cinquième République. La première a duré de 1792 à 1804, la seconde de 1848 à 1851, la troisième de 1870 à 1940 et la quatrième de 1946 à 1958."
+  },
+  {
+    "id": "periodes_ini_015",
+    "theme": "periodes",
+    "level": "INI",
+    "type": "single",
+    "question": "Qui était le roi de France au moment de la Révolution française ?",
+    "answers": [
+      { "id": "xvi", "label": "Louis XVI" },
+      { "id": "nap", "label": "Elton John" },
+      { "id": "xiv", "label": "John Lennon" },
+      { "id": "xviii", "label": "Ed Sheeran" },
+      { "id": "chx", "label": "Mickael Jackson" }
+      ],
+    "correct": ["xvi"],
+    "explanation": "Louis XVI s'était placé, avait convoqué les états généraux qui ont déclenché la Révolution. Indécis, il hésitait à ratifier les textes proclamant l'abolition des privilèges et la Déclaration des Droits de l'Homme, établis peu de temps après la prise de la Bastille, le 14 juillet 1789. Peu à peu, il Louis XVI perdit son autorité, et fut renversé en septembre 1792. Il finit guillotiné le 21 janvier 1793."
+  },
+  {
+    "id": "periodes_ini_016",
+    "theme": "periodes",
+    "level": "INI",
+    "type": "single",
+    "question": "Qui a fondé la Ve République ?",
+    "answers": [
+      { "id": "degau", "label": "Le général de Gaulle" },
+      { "id": "napo", "label": "Ed Sheeran" },
+      { "id": "ferry", "label": "Michael Jackson" },
+      { "id": "petain", "label": "John Lennon" },
+      { "id": "clemenceau", "label": "Elton John" },
+      { "id": "mitt", "label": "Louis Armstrong" }
+    ],
+    "correct": ["degau"],
+    "explanation": "La constitution de 1958 a été initiée par le général de Gaulle, qui a été le premier président de la Ve République."
+  },
+  {
+    "id": "periodes_ini_017",
+    "theme": "periodes",
+    "level": "INI",
+    "type": "single",
+    "question": "Que célèbre-t-on le 14 juillet ?",
+    "answers": [
+      { "id": "nat", "label": "La Fête nationale" },
+      { "id": "vac", "label": "La naissance de Madonna" },
+      { "id": "dih", "label": "L'assassinat de John Lennon" },
+      { "id": "quc", "label": "L'anniversaire d'Elton John" },
+      { "id": "mar", "label": "La Sainte-Marianne" }
+      ],
+    "correct": ["nat"],
+    "explanation": "Le 14 juillet devient le jour de la fête nationale en 1880. Ce choix commémore deux événements fondateurs de la République française : le 14 juillet 1789 et le 14 juillet 1790. C'est un moment institutionnel qui rappelle les fondements de la République : un défilé militaire a lieu à Paris, sur les Champs-Élysées, en présence du président de la République. C'est aussi une fête populaire dans tout le pays, pour célébrer l'identité nationale, avec des feux d'artifice, des concerts, des bals etc."
+  },
+  {
+    "id": "periodes_ini_018",
+    "theme": "periodes",
+    "level": "INI",
+    "type": "single",
+    "question": "Quelle guerre a eu lieu entre 1914 et 1918 ?",
+    "answers": [
+      { "id": "pre", "label": "La Première Guerre mondiale" },
+      { "id": "sec", "label": "La guerre de Cent Ans" },
+      { "id": "esp", "label": "La guerre des boutons" },
+      { "id": "vie", "label": "La guerre des images" },
+      { "id": "cor", "label": "La guerre des blogs" }
+      ],
+    "correct": ["pre"],
+    "explanation": "La Première Guerre mondiale a éclaté le 3 août 1914 et a duré jusqu'à l'armistice du 11 novembre 1918."
+  },
+  {
+    "id": "periodes_ini_019",
+    "theme": "periodes",
+    "level": "INI",
+    "type": "single",
+    "question": "Pourquoi l'année 1958 est importante pour la France ?",
+    "answers": [
+      { "id": "ver", "label": "C'est le début de la Ve République" },
+      { "id": "alg", "label": "C'est la naissance de John Lennon" },
+      { "id": "sec", "label": "C'est la mort de Louis Armstrong" },
+      { "id": "eur", "label": "C'est la communion de Taylor Swift" },
+      { "id": "mor", "label": "C'est la circoncision d'Elton John" }
+      ],
+    "correct": ["ver"],
+    "explanation": "C'est l'année de notre changement de régime : la constitution de la Cinquième République a été soumise aux français par référendum le 18 septembre 1958, et promulguée le 4 octobre."
+  },
+  {
+    "id": "periodes_ini_020",
+    "theme": "periodes",
+    "level": "INI",
+    "type": "single",
+    "question": "Quand a eu lieu la Seconde Guerre mondiale ?",
+    "answers": [
+      { "id": "trn", "label": "De 1939 à 1945" },
+      { "id": "sid", "label": "De 722 à 833" },
+      { "id": "trn", "label": "De 2025 à 2026" },
+      { "id": "trt", "label": "De 1337 à 1453" },
+      { "id": "sid", "label": "En 1515" }
+      ],
+    "correct": ["trn"],
+    "explanation": "La Seconde Guerre mondiale a éclaté le 1er septembre 1939 avec l'invasion de la Pologne par l'Allemagne, et a duré jusqu'à la capitulation du Japon, le 15 août 1945."
+  }
+]

@@ -1,0 +1,241 @@
+let cinquieme_VID = [
+  {
+    "id": "cinquieme_vid_001",
+    "theme": "cinquieme",
+    "level": "VID",
+    "type": "single",
+    "question": "Quel homme politique est à l'origine de la Cinquième République ?",
+    "answers": [
+      { "id": "degau", "label": "Le général de Gaulle" },
+      { "id": "napo", "label": "Napoléon III" },
+      { "id": "ferry", "label": "Robert Badinter" },
+      { "id": "petain", "label": "Le maréchal Pétain" },
+      { "id": "clemenceau", "label": "Georges Clemenceau" },
+      { "id": "mitt", "label": "François Mitterand" }
+    ],
+    "correct": ["degau"],
+    "explanation": "La constitution de 1958 a été initiée par le général de Gaulle, qui a été le premier président de la Ve République."
+  },
+  {
+    "id": "cinquieme_vid_002",
+    "theme": "cinquieme",
+    "level": "VID",
+    "type": "single",
+    "question": "Pendant quelle guerre la Cinquième République a-t-elle été instaurée ?",
+    "answers": [
+      { "id": "alg", "label": "La guerre d'Algérie" },
+      { "id": "prem", "label": "La Pemière Guerre mondiale" },
+      { "id": "sec", "label": "La Seconde Guerre mondiale" },
+      { "id": "esp", "label": "La Guerre d'Espagne" },
+      { "id": "mar", "label": "La Guerre du Rif" }
+    ],
+    "correct": ["alg"],
+    "explanation": "Pendant la guerre d'Algérie. Les passions de part et d'autre étaient exacerbées. De Gaulle était le seul à être suffisamment respecté à la fois des militaires et de la population, pour rétablir la situation."
+  },
+  {
+    "id": "cinquieme_vid_003",
+    "theme": "cinquieme",
+    "level": "VID",
+    "type": "single",
+    "question": "De quelle année date la constitution de la Cinquième République ?",
+    "answers": [
+      { "id": "chuit", "label": "1958" },
+      { "id": "quarq", "label": "1944" },
+      { "id": "quarc", "label": "1945" },
+      { "id": "quat", "label": "1914" },
+      { "id": "soix", "label": "1968" }
+    ],
+    "correct": ["chuit"],
+    "explanation": "La constitution de la Cinquième République a été soumise aux français par référendum le 18 septembre 1958, et promulguée le 4 octobre."
+  },
+  {
+    "id": "cinquieme_vid_004",
+    "theme": "cinquieme",
+    "level": "VID",
+    "type": "multi",
+    "question": "Quelle nouveauté la constitution de la Cinquième République contenait-elle ?",
+    "answers": [
+      { "id": "pouv", "label": "Un renforcement du pouvoir présidentiel" },
+      { "id": "ccons", "label": "La création du Conseil constitutionnel" },
+      { "id": "contrac", "label": "La légalisation de la contraception" },
+      { "id": "avort", "label": "La légalisation de l'avortement" },
+      { "id": "mort", "label": "L'abolition de la peine de mort" },
+      { "id": "pma", "label": "La légalisation de la procréation médicalement assistée" },
+      { "id": "mari", "label": "Le mariage pour tous" }
+    ],
+    "correct": ["pouv","ccons"],
+    "explanation": "Avec la constitution de la Cinquième République, la légitimité du président a été renforcée. Elle ne dépend plus du parlement, mais seulement des électeurs. D'autre part la constitution instaurait un contrôle juridique du législatif, en créant le Conseil constitutionnel."
+  },
+  {
+    "id": "cinquieme_vid_005",
+    "theme": "cinquieme",
+    "level": "VID",
+    "type": "multi",
+    "question": "Qui a été président de la cinquième République ?",
+    "answers": [
+      { "id": "degau", "label": "le général de Gaulle" },
+      { "id": "mitter", "label": "François Mitterand" },
+      { "id": "chirac", "label": "Jacques Chirac" },
+      { "id": "petain", "label": "le Maréchal Pétain" },
+      { "id": "clem", "label": "Georges Clemenceau" },
+      { "id": "ferry", "label": "Jules Ferry" },
+      { "id": "debr", "label": "Michel Debré" },
+      { "id": "tren", "label": "Charles Trenet" },
+      { "id": "bras", "label": "Georges Brassens" }
+    ],
+    "correct": ["degau","mitter","chirac"],
+    "explanation": "Depuis 1958, la Cinquième République a eu huit présidents~: le général de Gaulle, Georges Pompidou, Valéry Giscard d'Estaing, François Mitterand, Jacques Chirac, Nicolas Sarkozy, François Hollande et Emmanuel Macron."
+  },
+  {
+    "id": "cinquieme_vid_006",
+    "theme": "cinquieme",
+    "level": "VID",
+    "type": "single",
+    "question": "De quand date le droit de vote des femmes en France ?",
+    "answers": [
+      { "id": "quaq", "label": "1944" },
+      { "id": "dixh", "label": "1918" },
+      { "id": "quac", "label": "1945" },
+      { "id": "soix", "label": "1968" },
+      { "id": "quau", "label": "1981" },
+      { "id": "tren", "label": "1939" }
+    ],
+    "correct": ["quaq"],
+    "explanation": "Par une ordonnance du 21 avril 1944, les femmes devenaient électrices et éligibles en France. Elles ont voté pour la première fois aux élections municipales du 29 avril 1945."
+  },
+  {
+    "id": "cinquieme_vid_007",
+    "theme": "cinquieme",
+    "level": "VID",
+    "type": "single",
+    "question": "De quand date la légalisation de la contraception ?",
+    "answers": [
+      { "id": "soise", "label": "1967" },
+      { "id": "quaq", "label": "1944" },
+      { "id": "soiq", "label": "1974" },
+      { "id": "quac", "label": "1945" },
+      { "id": "soix", "label": "1968" },
+      { "id": "quau", "label": "1981" }
+    ],
+    "correct": ["soise"],
+    "explanation": "Le 19 décembre 1967, en réponse à une forte mobilisation du Mouvement français pour le planning familial, le député Lucien Neuwirth faisait adopter par l'Assemblée nationale une loi autorisant la vente et l'usage des méthodes de contraception en France."
+  },
+  {
+    "id": "cinquieme_vid_008",
+    "theme": "cinquieme",
+    "level": "VID",
+    "type": "single",
+    "question": "De quand date la loi sur l'avortement ?",
+    "answers": [
+      { "id": "soiq", "label": "1975" },
+      { "id": "quaq", "label": "1944" },
+      { "id": "soise", "label": "1967" },
+      { "id": "quac", "label": "1945" },
+      { "id": "soihu", "label": "1968" },
+      { "id": "quau", "label": "1981" }
+    ],
+    "correct": ["soiq"],
+    "explanation": "Le 17 janvier 1975, la loi autorisant l'interruption volontaire de grossesse (IVG) dite \"Loi Veil\" (du nom de la ministre de la Santé Simone Veil) était promulguée. En 2024, l'IVG en tant que liberté fondamentale était inscrite au sein de la Constitution française."
+  },
+  {
+    "id": "cinquieme_vid_009",
+    "theme": "cinquieme",
+    "level": "VID",
+    "type": "single",
+    "question": "Qui a défendu la loi sur l'avortement ?",
+    "answers": [
+      { "id": "sveil", "label": "Simone Veil" },
+      { "id": "yroud", "label": "Yvette Roudy" },
+      { "id": "ydegau", "label": "Yvonne de Gaulle" },
+      { "id": "sdebeau", "label": "Simone de Beauvoir" },
+      { "id": "ghal", "label": "Gisèle Halimi" },
+      { "id": "epiaf", "label": "Édith Piaf" }
+    ],
+    "correct": ["sveil"],
+    "explanation": "Simone Veil, alors ministre de la Santé a défendu la loi sur l'avortement devant une Assemblée Nationale majoritairement composée d'hommes, dont une partie lui étaient violemment hostiles. La loi a été promulguée le 17 janvier 1975, et porte désormais le nom de \"Loi Veil\"."
+  },
+  {
+    "id": "cinquieme_vid_010",
+    "theme": "cinquieme",
+    "level": "VID",
+    "type": "single",
+    "question": "Quand ont eu lieu de grandes manifestations de la jeunesse ?",
+    "answers": [
+      { "id": "soiq", "label": "1975" },
+      { "id": "quaq", "label": "1944" },
+      { "id": "soise", "label": "1967" },
+      { "id": "quac", "label": "1945" },
+      { "id": "soihu", "label": "1968" },
+      { "id": "quau", "label": "1981" }
+    ],
+    "correct": ["soihu"],
+    "explanation": "Les événements de mai-juin 1968, ou plus brièvement Mai 68, sont une période durant laquelle se déroulent, en France, des grandes manifestations ainsi qu'une grève générale."
+  },
+  {
+    "id": "cinquieme_vid_011",
+    "theme": "cinquieme",
+    "level": "VID",
+    "type": "single",
+    "question": "À quel âge atteint-on la majorité civile en France ?",
+    "answers": [
+      { "id": "dixh", "label": "18 ans" },
+      { "id": "vinu", "label": "21 ans" },
+      { "id": "dixs", "label": "17 ans" },
+      { "id": "quin", "label": "15 ans" },
+      { "id": "vint", "label": "23 ans" }
+    ],
+    "correct": ["dixh"],
+    "explanation": "La majorité civile, qui implique le droit de vote, a été abaissée de 21 à 18 ans en 1974."
+  },
+  {
+    "id": "cinquieme_vid_012",
+    "theme": "cinquieme",
+    "level": "VID",
+    "type": "single",
+    "question": "De quand date l'abolition de la peine de mort en France ?",
+    "answers": [
+      { "id": "soiq", "label": "1975" },
+      { "id": "quaq", "label": "1944" },
+      { "id": "soise", "label": "1967" },
+      { "id": "dems", "label": "2007" },
+      { "id": "soihu", "label": "1968" },
+      { "id": "quau", "label": "1981" }
+    ],
+    "correct": ["quau"],
+    "explanation": "Portée par l'engagement et le discours à l'Assemblée nationale du ministre de la Justice de l'époque, Robert Badinter, la loi du 9 octobre 1981 a aboli la peine de mort en France. L'abolition de la peine de mort a été introduite dans la Constitution de la Ve République par la Loi constitutionnelle du 23 février 2007."
+  },
+  {
+    "id": "cinquieme_vid_013",
+    "theme": "cinquieme",
+    "level": "VID",
+    "type": "single",
+    "question": "Qui a défendu l'abolition de la peine de mort en 1981 ?",
+    "answers": [
+      { "id": "rbad", "label": "Robert Badinter" },
+      { "id": "sveil", "label": "Simone Veil" },
+      { "id": "lneuw", "label": "Lucien Neuwirth" },
+      { "id": "degau", "label": "Le général de Gaulle" },
+      { "id": "clem", "label": "Georges Clemenceau" },
+      { "id": "chir", "label": "Jacques Chirac" }
+    ],
+    "correct": ["rbad"],
+    "explanation": "Portée par l'engagement et le discours à l'Assemblée nationale du ministre de la Justice de l'époque, Robert Badinter, la loi du 9 octobre 1981 a aboli la peine de mort en France. L'abolition de la peine de mort a été introduite dans la Constitution de la Ve République par la Loi constitutionnelle du 23 février 2007."
+  },
+  {
+    "id": "cinquieme_vid_014",
+    "theme": "cinquieme",
+    "level": "VID",
+    "type": "multi",
+    "question": "Quel monument a été construit pendant la Cinquième République ?",
+    "answers": [
+      { "id": "millau", "label": "Le viaduc de Millau" },
+      { "id": "pyl", "label": "La pyramide du Louvre" },
+      { "id": "eiff", "label": "La tour Eillel" },
+      { "id": "vers", "label": "Le palais de Versailles" },
+      { "id": "stmi", "label": "Le Mont-Saint-Michel" },
+      { "id": "troca", "label": "Le palais du Trocadéro" }
+    ],
+    "correct": ["millau","pyl"],
+    "explanation": "Parmi les monuments construits pendant la Cinquième République, le viaduc de Millau et la Pyramide du Louvre ont été des mieux acceptés."
+  }
+]

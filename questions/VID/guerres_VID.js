@@ -1,0 +1,262 @@
+let guerres_VID = [
+  {
+    "id": "guerres_vid_001",
+    "theme": "guerres",
+    "level": "VID",
+    "type": "single",
+    "question": "Quelle guerre compte parmi les causes de la guerre de 14-18 ?",
+    "answers": [
+      { "id": "pru", "label": "La guerre Franco-Prussienne de 1870" },
+      { "id": "esp", "label": "La guerre d'Espagne" },
+      { "id": "tre", "label": "La guerre de Trente Ans" },
+      { "id": "sin", "label": "La guerre Sino-Japonaise" },
+      { "id": "mex", "label": "La guerre du Mexique" },
+      { "id": "cen", "label": "La guerre de Cent Ans" }
+    ],
+    "correct": ["pru"],
+    "explanation": "La guerre Franco-Prussienne de 1870 s'était soldée par une cuisante défaite pour la France, avec un lourd tribu à payer, et la perte de l'Alsace et d'une partie de la Lorraine. Le sentiment de rancune et le désir de vengeance qui en ont découlé ont compté parmi les causes de la guerre de 14-18."
+  },
+  {
+    "id": "guerres_vid_002",
+    "theme": "guerres",
+    "level": "VID",
+    "type": "multi",
+    "question": "Quel pays était opposé à la France durant la première guerre mondiale ?",
+    "answers": [
+      { "id": "all", "label": "Allemagne" },
+      { "id": "aut", "label": "Autriche-Hongrie" },
+      { "id": "rus", "label": "Russie" },
+      { "id": "chi", "label": "Chili" },
+      { "id": "ind", "label": "Inde" },
+      { "id": "esp", "label": "Espagne" },
+      { "id": "arg", "label": "Argentine" },
+      { "id": "nor", "label": "Norvège" }
+    ],
+    "correct": ["all","aut"],
+    "explanation": "Avant et au cours de la Première Guerre mondiale, la Triple-Entente est l'alliance militaire de la France, du Royaume-Uni et de l'Empire russe. Ces alliés s'opposent lors de ce conflit à ceux de la Triple-Alliance (Allemagne, Autriche-Hongrie, Italie avant 1915)."
+  },
+  {
+    "id": "guerres_vid_003",
+    "theme": "guerres",
+    "level": "VID",
+    "type": "single",
+    "question": "Dans quelle ville a été signé le traité mettant fin à la Première Guerre mondiale ?",
+    "answers": [
+      { "id": "ver", "label": "Versailles" },
+      { "id": "par", "label": "Paris" },
+      { "id": "ber", "label": "Berlin" },
+      { "id": "rom", "label": "Rome" },
+      { "id": "maa", "label": "Maastricht" },
+      { "id": "tok", "label": "Tokyo" }
+    ],
+    "correct": ["ver"],
+    "explanation": "Le traité mettant fin à la Première Guerre mondiale a été signé à Versailles le 28 juin 1919. "
+  },
+  {
+    "id": "guerres_vid_004",
+    "theme": "guerres",
+    "level": "VID",
+    "type": "single",
+    "question": "Quel dictateur a accédé au pouvoir en Allemagne entre les deux guerres ?",
+    "answers": [
+      { "id": "hit", "label": "Hitler" },
+      { "id": "mus", "label": "Mussolini" },
+      { "id": "pet", "label": "Le maréchal Pétain" },
+      { "id": "roo", "label": "Roosevelt" },
+      { "id": "sta", "label": "Staline" },
+      { "id": "chu", "label": "Churchill" }
+    ],
+    "correct": ["hit"],
+    "explanation": "Adolf Hitler nait en 1889. Il impose sa dictature personnelle au sein des Parti ouvrier allemand puis national-socialiste. Nommé chancelier en 1933 avec le soutien de 230 députés, il obtient les pleins pouvoirs par le vote, déclenche la Seconde Guerre mondiale et se suicide le 30 avril 1945."
+  },
+  {
+    "id": "guerres_vid_005",
+    "theme": "guerres",
+    "level": "VID",
+    "type": "single",
+    "question": " Qui a gagné la bataille de France en 1940 ?",
+    "answers": [
+      { "id": "all", "label": "L'Allemagne" },
+      { "id": "ang", "label": "L'Angleterre" },
+      { "id": "ita", "label": "L'Italie" },
+      { "id": "pol", "label": "La Pologne" },
+      { "id": "fra", "label": "La France" }
+    ],
+    "correct": ["all"],
+    "explanation": "La bataille de France a duré depuis l'offensive Allemande du 10 mai 1940, jusqu'à l'armistice demandé par le maréchal Pétain le 17 juin. Elle s'est soldée par l'occupation d'une grande partie de la France par les troupes Allemandes."
+  },
+  {
+    "id": "guerres_vid_006",
+    "theme": "guerres",
+    "level": "VID",
+    "type": "single",
+    "question": "En quelle année la France a-t-elle été libérée de l'occupation allemande ?",
+    "answers": [
+      { "id": "quac", "label": "1945" },
+      { "id": "quaq", "label": "1871" },
+      { "id": "qua", "label": "1940" },
+      { "id": "dihu", "label": "1918" },
+      { "id": "quat", "label": "1914" },
+      { "id": "huqi", "label": "1815" }
+    ],
+    "correct": ["quac"],
+    "explanation": "La Libération a débuté en Algérie en 1942 et en Corse en 1943. L'essentiel du territoire métropolitain a été libéré pendant l'été 1944 par les troupes débarquées en Normandie. Les dernières poches de résistance allemandes n'ont cédé qu'au printemps 1945."
+  },
+  {
+    "id": "guerres_vid_007",
+    "theme": "guerres",
+    "level": "VID",
+    "type": "single",
+    "question": "Combien de militaires sont morts au combat pendant la première guerre mondiale ?",
+    "answers": [
+      { "id": "dix", "label": "10 millions" },
+      { "id": "qua", "label": "80 millions" },
+      { "id": "un", "label": "1 million" },
+      { "id": "cen", "label": "100 mille" },
+      { "id": "vin", "label": "20 mille" },
+      { "id": "dim", "label": "10 mille" }
+    ],
+    "correct": ["dix"],
+    "explanation": "Parmi les militaires, une dizaine de millions sont morts lors de la Première Guerre mondiale, dont un million quatre cent mille soldats français. Le nombre des blessés arrive à 21 millions, dont 4 milllions pour la France."
+  },
+  {
+    "id": "guerres_vid_008",
+    "theme": "guerres",
+    "level": "VID",
+    "type": "single",
+    "question": "Quelle épidémie a causé des millions de morts à la fin de la première guerre mondiale ?",
+    "answers": [
+      { "id": "grip", "label": "La grippe espagnole" },
+      { "id": "mala", "label": "La malaria" },
+      { "id": "typh", "label": "Le typhus" },
+      { "id": "ebol", "label": "Le virus Ebola" },
+      { "id": "pest", "label": "La peste noire" },
+      { "id": "chol", "label": "Le choléra" }
+    ],
+    "correct": ["grip"],
+    "explanation": "La grippe espagnole s'est répandue en mars 1918 et a fini par s'éteindre dans la seconde moitié de l'année 1919. Cette pandémie a fait de 20 à 50 millions de morts selon l'Institut Pasteur."
+  },
+  {
+    "id": "guerres_vid_009",
+    "theme": "guerres",
+    "level": "VID",
+    "type": "single",
+    "question": "Qui a pris le pouvoir en France à la Libération ?",
+    "answers": [
+      { "id": "dgau", "label": "Le général de Gaulle" },
+      { "id": "eise", "label": "Eisenhower" },
+      { "id": "chur", "label": "Churchill" },
+      { "id": "pet", "label": "le maréchal Pétain" },
+      { "id": "roo", "label": "Roosevelt" },
+      { "id": "sta", "label": "Staline" }
+    ],
+    "correct": ["dgau"],
+    "explanation": "Pendant la Seconde Guerre mondiale, Charles de Gaulle a fondé la France libre ; à la Libération, il préside le gouvernement provisoire à partir de 1944 jusqu'en 1946."
+  },
+  {
+    "id": "guerres_vid_010",
+    "theme": "guerres",
+    "level": "VID",
+    "type": "single",
+    "question": "Combien de militaires russes sont morts pendant la seconde guerre mondiale ?",
+    "answers": [
+      { "id": "dix", "label": "10 millions" },
+      { "id": "un", "label": "1 million" },
+      { "id": "cent", "label": "100 mille" },
+      { "id": "quvi", "label": "80 millions" },
+      { "id": "troi", "label": "3 millions" },
+      { "id": "cice", "label": "500 mille" }
+    ],
+    "correct": ["dix"],
+    "explanation": "On estime les pertes sur le front de l'est à 10,6 millions de soldats de l'Union soviétique."
+  },
+  {
+    "id": "guerres_vid_011",
+    "theme": "guerres",
+    "level": "VID",
+    "type": "single",
+    "question": "Quand les Allemands ont-ils capitulé ?",
+    "answers": [
+    { "id": "quat", "label": "le 14 août 1945" },
+    { "id": "sixa", "label": "le 6 août 1945" },
+    { "id": "juiq", "label": "le 18 juin 1940" },
+    { "id": "maiq", "label": "le 8 mai 1945" },
+    { "id": "juqq", "label": "le 6 juin 1944" }
+    ],
+    "correct": ["maiq"],
+    "explanation": "La reddition sans conditions de l'Allemagne nazie est d'abord actée le 7 mai 1945 à Reims. Une seconde capitulation sera signée le lendemain, à la demande de Staline, au quartier général soviétique, à Berlin. A ce jour, le 8 mai reste la date la plus connue par l'opinion publique, celle qui a apporté la paix en Europe."
+  },
+  {
+    "id": "guerres_vid_012",
+    "theme": "guerres",
+    "level": "VID",
+    "type": "single",
+    "question": "Quand les Japonais ont-il capitulé ?",
+    "answers": [
+      { "id": "quat", "label": "le 14 août 1945" },
+      { "id": "sixa", "label": "le 6 août 1945" },
+      { "id": "juiq", "label": "le 18 juin 1940" },
+      { "id": "maiq", "label": "le 8 mai 1945" },
+      { "id": "juqq", "label": "le 6 juin 1944" }
+    ],
+    "correct": ["quat"],
+    "explanation": "Le gouvernement japonais a accepté la capitulation le 14 août 1945. La signature de l'acte de capitulation a eu lieu le 2 septembre 1945 en baie de Tokyo."
+  },
+  {
+    "id": "guerres_vid_013",
+    "theme": "guerres",
+    "level": "VID",
+    "type": "multi",
+    "question": "Sur quelle ville du Japon une bombe atomique a été lancée~?",
+    "answers": [
+      { "id": "hiro", "label": "Hiroshima" },
+      { "id": "naga", "label": "Nagasaki" },
+      { "id": "okin", "label": "Okinawa" },
+      { "id": "toky", "label": "Tokyo" },
+      { "id": "osak", "label": "Osaka" },
+      { "id": "kyot", "label": "Kyoto" },
+      { "id": "sapp", "label": "Sapporo" },
+      { "id": "kobe", "label": "Kobe" }
+    ],
+    "correct": ["hiro","naga"],
+    "explanation": "La première bombe atomique a été lancée sur Hiroshima le 6 août 1945, la seconde sur Nagasaki le 9 août."
+  },
+  {
+    "id": "guerres_vid_014",
+    "theme": "guerres",
+    "level": "VID",
+    "type": "single",
+    "question": "Dans quelle région de France le débarquement de juin 1944 a-t-il eu lieu ?",
+    "answers": [
+      { "id": "nor", "label": "En Normandie" },
+      { "id": "cha", "label": "En Charente" },
+      { "id": "lan", "label": "En Languedoc" },
+      { "id": "pro", "label": "En Provence" },
+      { "id": "cat", "label": "En Catalogne" },
+      { "id": "sav", "label": "En Savoie" }
+    ],
+    "correct": ["nor"],
+    "explanation": "Le débarquement du 6 juin 1944 a eu lieu sur cinq plages de Normandie."
+  },
+  {
+    "id": "guerres_vid_015",
+    "theme": "guerres",
+    "level": "VID",
+    "type": "multi",
+    "question": "Quel pays a participé à la libération de la France en 1944 ?",
+    "answers": [
+      { "id": "royu", "label": "Royaume-Uni" },
+      { "id": "etau", "label": "États-Unis" },
+      { "id": "cana", "label": "Canada" },
+      { "id": "litu", "label": "Lituanie" },
+      { "id": "ital", "label": "Italie" },
+      { "id": "japo", "label": "Japon" },
+      { "id": "chin", "label": "Chine" },
+      { "id": "arge", "label": "Argentine" },
+      { "id": "mexi", "label": "Mexique" },
+      { "id": "espa", "label": "Espagne" }
+    ],
+    "correct": ["royu","etau","cana"],
+    "explanation": "Lors du Débarquement du 6 juin 1944, et des mois qui ont suivi pour la libération de la France, les troupes engagées venaient majoritairement des  États-Unis, du Royaume-Uni et du Canada."
+  }
+]

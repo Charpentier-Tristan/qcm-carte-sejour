@@ -1,0 +1,140 @@
+let insteurope_CSP = [
+  {
+    "id": "insteurope_csp_001",
+    "theme": "insteurope",
+    "level": "CSP",
+    "type": "single",
+    "question": "Combien d'États font partie de l'Union européenne au 1er janvier 2025 ?",
+    "answers": [
+      { "id": "vis", "label": "27" },
+      { "id": "six", "label": "6" },
+      { "id": "dou", "label": "12" },
+      { "id": "sei", "label": "16" },
+      { "id": "cid", "label": "52" }
+      ],
+    "correct": ["vis"],
+    "explanation": "Au 1er janvier 2025, l'Union européenne comptait 27 pays membres : Allemagne, Autriche, Belgique, Bulgarie, Chypre, Croatie, Danemark, Espagne, Estonie, Finlande, France, Grèce, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays-Bas, Pologne, Portugal, République tchèque, Roumanie, Slovaquie, Slovénie, Suède."
+  },
+  {
+    "id": "insteurope_csp_002",
+    "theme": "insteurope",
+    "level": "CSP",
+    "type": "multi",
+    "question": "Quel État n'est pas membre de l'Union européenne ?",
+    "answers": [
+      { "id": "sui", "label": "Suisse" },
+      { "id": "rus", "label": "Russie" },
+      { "id": "bul", "label": "Bulgarie" },
+      { "id": "mal", "label": "Malte" },
+      { "id": "est", "label": "Estonie" },
+      { "id": "vaq", "label": "Slovaquie" },
+      { "id": "ven", "label": "Slovénie" },
+      { "id": "fin", "label": "Finlande" },
+      { "id": "let", "label": "Lettonie" }
+      ],
+    "correct": ["sui","rus"],
+    "explanation": "Aujourd'hui, l'Union européenne compte 27 pays membres : Allemagne, Autriche, Belgique, Bulgarie, Chypre, Croatie, Danemark, Espagne, Estonie, Finlande, France, Grèce, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays-Bas, Pologne, Portugal, République tchèque, Roumanie, Slovaquie, Slovénie, Suède."
+  },
+  {
+    "id": "insteurope_csp_003",
+    "theme": "insteurope",
+    "level": "CSP",
+    "type": "single",
+    "question": "Quelle condition est nécessaire pour voter aux élections européennes ?",
+    "answers": [
+      { "id": "pay", "label": "avoir la nationalité d'un pays membre de l'Union européenne" },
+      { "id": "age", "label": "être âgé d'au moins 16 ans" },
+      { "id": "con", "label": "habiter sur le continent européen" },
+      { "id": "mon", "label": "être citoyen du monde" },
+      { "id": "dip", "label": "être diplômé d'une université européenne" }
+      ],
+    "correct": ["pay"],
+    "explanation": "Les élections européennes sont organisées tous les cinq ans. Les citoyens et les citoyennes de l'Union européenne votent pour désigner les membres du Parlement européen. On les appelle les députés européens, ou eurodéputés. Pour avoir le droit de voter en France lors des élections européennes, il faut avoir la nationalité d'un pays membre de l'Union européenne ; habiter en France ; avoir au moins 18 ans la veille du 1er tour de l'élection ; être inscrit sur les listes électorales françaises."
+  },
+  {
+    "id": "insteurope_csp_004",
+    "theme": "insteurope",
+    "level": "CSP",
+    "type": "single",
+    "question": "À quelle fréquence les élections européennes sont-elles organisées ?",
+    "answers": [
+      { "id": "cin", "label": "Tous les cinq ans" },
+      { "id": "six", "label": "Tous les six ans" },
+      { "id": "sep", "label": "Tous les sept ans" },
+      { "id": "tro", "label": "Tous les trois ans" },
+      { "id": "ans", "label": "Tous les ans" }
+      ],
+    "correct": ["cin"],
+    "explanation": "Les élections européennes sont organisées tous les cinq ans. Les citoyens et les citoyennes de l'Union européenne votent pour désigner les membres du Parlement européen. On les appelle les députés européens, ou eurodéputés. Pour avoir le droit de voter en France lors des élections européennes, il faut avoir la nationalité d'un pays membre de l'Union européenne ; habiter en France ; avoir au moins 18 ans la veille du 1er tour de l'élection ; être inscrit sur les listes électorales françaises."
+  },
+  {
+    "id": "insteurope_csp_005",
+    "theme": "insteurope",
+    "level": "CSP",
+    "type": "multi",
+    "question": "Quel pays est un pays fondateur de l'Union européenne ?",
+    "answers": [
+      { "id": "fran", "label": "France" },
+      { "id": "all", "label": "Allemagne" },
+      { "id": "ita", "label": "Italie" },
+      { "id": "bel", "label": "Belgique" },
+      { "id": "royu", "label": "Royaume-Uni" },
+      { "id": "sue", "label": "Suede" },
+      { "id": "esp", "label": "Espagne" },
+      { "id": "por", "label": "Portugal" },
+      { "id": "gre", "label": "Grèce" },
+      { "id": "aut", "label": "Autriche" },
+      { "id": "lit", "label": "Lituanie" }
+    ],
+    "correct": ["fran","all","ita","bel"],
+    "explanation": "Les six pays fondateurs de la Communauté Européenne du Charbon et de l'Acier (CECA) puis de la Communauté Économique Européenne (CEE) étaient la France, l'Allemagne, l'Italie, la Belgique, la Hollande et le Luxembourg."
+  },
+  {
+    "id": "insteurope_csp_006",
+    "theme": "insteurope",
+    "level": "CSP",
+    "type": "single",
+    "question": "Quelle est la monnaie utilisée en France ?",
+    "answers": [
+      { "id": "eur", "label": "L'euro" },
+      { "id": "fra", "label": "Le franc" },
+      { "id": "ecu", "label": "L'écu" },
+      { "id": "liv", "label": "La livre" },
+      { "id": "dol", "label": "Le dollar" }
+      ],
+    "correct": ["eur"],
+    "explanation": "Le 1er janvier 1999, l'euro est devenu la monnaie unique de 11 États membres de l'Union européenne, dont la France. La zone euro compte actuellement 21 pays."
+  },
+  {
+    "id": "insteurope_csp_007",
+    "theme": "insteurope",
+    "level": "CSP",
+    "type": "single",
+    "question": "Qui élit les députés européens ?",
+    "answers": [
+      { "id": "cit", "label": "Les citoyennes et les citoyens de l'Union européenne" },
+      { "id": "hab", "label": "Les habitants du continent européen" },
+      { "id": "fra", "label": "Tous les français" },
+      { "id": "par", "label": "Les membres du Parlement" },
+      { "id": "min", "label": "Les ministres de chaque pays de l'Union européenne" }
+      ],
+    "correct": ["cit"],
+    "explanation": "Les élections européennes sont organisées tous les cinq ans. Les citoyens et les citoyennes de l'Union européenne votent pour désigner les membres du Parlement européen. On les appelle les députés européens, ou eurodéputés. Pour avoir le droit de voter en France lors des élections européennes, il faut avoir la nationalité d'un pays membre de l'Union européenne ; habiter en France ; avoir au moins 18 ans la veille du 1er tour de l'élection ; être inscrit sur les listes électorales françaises."
+  },
+  {
+    "id": "insteurope_csp_008",
+    "theme": "insteurope",
+    "level": "CSP",
+    "type": "single",
+    "question": "Quand célèbre-t-on la journée de l'Europe ?",
+    "answers": [
+      { "id": "nem", "label": "Le 9 mai" },
+      { "id": "hum", "label": "Le 8 mai" },
+      { "id": "dhj", "label": "Le 18 juin" },
+      { "id": "onn", "label": "Le 11 novembre" },
+      { "id": "vcd", "label": "Le 25 décembre" }
+      ],
+    "correct": ["nem"],
+    "explanation": "Le 9 mai 1950, le ministre français des Affaires étrangères Robert Schuman prononce une déclaration historique. Il appelle à la mise en commun des productions de charbon et d'acier de la France et de l'Allemagne, au sein d'une organisation ouverte aux autres pays d'Europe. Pour commémorer cette déclaration, la \"journée de l'Europe\" est célébrée tous les ans le 9 mai dans les États membres de l'Union européenne."
+  }
+]

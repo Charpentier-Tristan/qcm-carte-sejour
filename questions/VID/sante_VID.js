@@ -1,0 +1,172 @@
+let sante_VID = [
+  {
+    "id": "sante_vid_001",
+    "theme": "sante",
+    "level": "VID",
+    "type": "single",
+    "question": "L'Aide Médicale de l'État concerne :",
+    "answers": [
+      { "id": "etir", "label": "Les étrangers en situation irrégulière" },
+      { "id": "etna", "label": "Les étrangers naturalisés" },
+      { "id": "frab", "label": "Les français sans abri" },
+      { "id": "care", "label": "Les titulaires d'une carte de résident" },
+      { "id": "csp", "label": "Les titulaires d'une carte de séjour pluriannuel" },
+      { "id": "mie", "label": "Les mineurs isolés étrangers" }
+    ],
+    "correct": ["etir"],
+    "explanation": "L'aide médicale de l'État (AME) s'adresse aux étrangers en situation irrégulière et précaire. L'AME donne droit à la prise en charge à 100 % des soins médicaux et hospitaliers dans la limite des tarifs de la sécurité sociale."
+  },
+  {
+    "id": "sante_vid_002",
+    "theme": "sante",
+    "level": "VID",
+    "type": "single",
+    "question": "La Protection Universelle Maladie concerne :",
+    "answers": [
+      { "id": "etre", "label": "Les étrangers en situation régulière" },
+      { "id": "etir", "label": "Les étrangers en situation irrégulière" },
+      { "id": "trav", "label": "Uniquement les travailleurs" },
+      { "id": "franc", "label": "Uniquement les français" },
+      { "id": "tout", "label": "Toutes les personnes présentes sur le territoire" }
+    ],
+    "correct": ["etre"],
+    "explanation": "La protection universelle maladie (Puma) permet la prise en charge des frais de santé sans rupture de droits. Cela signifie que cette prise en charge est assurée même en cas de changement de situation professionnelle, familiale ou de résidence. Pour avoir droit à la Puma, on doit travailler ou résider en France de manière stable ou régulière."
+  },
+  {
+    "id": "sante_vid_003",
+    "theme": "sante",
+    "level": "VID",
+    "type": "single",
+    "question": "Un étranger qui se rend à l'hôpital doit :",
+    "answers": [
+      { "id": "pas", "label": "demander la PASS" },
+      { "id": "san", "label": "montrer son Pass Santé" },
+      { "id": "sej", "label": "montrer sa carte de séjour" },
+      { "id": "cau", "label": "payer une caution" },
+      { "id": "por", "label": "laisser son passeport" }
+    ],
+    "correct": ["pas"],
+    "explanation": "Une permanence d'accès aux soins de santé (PASS) est une unité de soins hospitalière ouverte à toute personne malade en situation de précarité. Elle assure une prise en charge coordonnée (médicale, sociale, infirmière) ainsi que l'accompagnement dans un parcours de santé."
+  },
+  {
+    "id": "sante_vid_004",
+    "theme": "sante",
+    "level": "VID",
+    "type": "single",
+    "question": "Qui peut se rendre dans un centre de dépistage ?",
+    "answers": [
+      { "id": "mon", "label": "Tout le monde" },
+      { "id": "reg", "label": "Seulement les étrangers en situation régulière" },
+      { "id": "fra", "label": "Seulement les français" },
+      { "id": "sab", "label": "Tous sauf les sans-abri" },
+      { "id": "eur", "label": "Tous sauf les ressortissants européens" }
+    ],
+    "correct": ["mon"],
+    "explanation": "Que ce soit pour les infections sexuellement transmissibles (IST) ou la tuberculose, les centres de dépistage sont anonymes, gratuits et ouverts à tous."
+  },
+  {
+    "id": "sante_vid_005",
+    "theme": "sante",
+    "level": "VID",
+    "type": "single",
+    "question": "Le sigle PASS signifie :",
+    "answers": [
+      { "id": "acc", "label": "Permanence d'accès aux soins de santé" },
+      { "id": "asi", "label": "Précarité, asile, et sauvegarde sanitaire" },
+      { "id": "ass", "label": "Portail d'assimilation pour services sociaux" },
+      { "id": "abo", "label": "Porte d'abordage pour semaines de sécurité" },
+      { "id": "acc", "label": "Péri-accompagnement de septuagénaires sains" },
+      { "id": "ami", "label": "Protéines amino-saccharoïdes sélectionnées" }
+    ],
+    "correct": ["acc"],
+    "explanation": "Une permanence d'accès aux soins de santé (PASS) est une unité de soins hospitalière ouverte à toute personne malade en situation de précarité. Elle assure une prise en charge coordonnée (médicale, sociale, infirmière) ainsi que l'accompagnement dans un parcours de santé."
+  },
+  {
+    "id": "sante_vid_006",
+    "theme": "sante",
+    "level": "VID",
+    "type": "single",
+    "question": "Pour un rendez-vous médical, si on ne parle pas français :",
+    "answers": [
+      { "id": "int", "label": "On peut se faire accompagner d'un interprète" },
+      { "id": "com", "label": "On espère que le médecin saura comprendre" },
+      { "id": "dic", "label": "On amène un dictionnaire" },
+      { "id": "goo", "label": "On demande à Google traduction" },
+      { "id": "pay", "label": "On demande un médecin de son pays" }
+    ],
+    "correct": ["int"],
+    "explanation": "Pour les patients non francophones, il est préférable de faire appel à un interprète, qui peut être soit un proche de confiance, soit un interprète professionnel, mis à la disposition des établissements hospitaliers."
+  },
+  {
+    "id": "sante_vid_007",
+    "theme": "sante",
+    "level": "VID",
+    "type": "single",
+    "question": "Quel document accompagne la protection universelle maladie ?",
+    "answers": [
+      { "id": "vit", "label": "La carte Vitale" },
+      { "id": "mic", "label": "La carte Michelin" },
+      { "id": "ele", "label": "La carte d'électeur" },
+      { "id": "ide", "label": "La carte d'identité" },
+      { "id": "ign", "label": "La carte IGN" },
+      { "id": "cmi", "label": "La carte mobilité inclusion" }
+    ],
+    "correct": ["vit"],
+    "explanation": "La carte Vitale et sa version dématérialisée l'appli carte Vitale contiennent tous les renseignements nécessaires au remboursement des frais de santé."
+  },
+  {
+    "id": "sante_vid_008",
+    "theme": "sante",
+    "level": "VID",
+    "type": "multi",
+    "question": "Quelle association assure des soins bénévoles pour les migrants ?",
+    "answers": [
+      { "id": "mem", "label": "Médecins du Monde" },
+      { "id": "msf", "label": "Médecins sans Frontières" },
+      { "id": "ada", "label": "l'ADA" },
+      { "id": "ofii", "label": "L'OFII" },
+      { "id": "gud", "label": "Le GUDA" },
+      { "id": "ate", "label": "L'Adate" },
+      { "id": "cad", "label": "Le CADA" },
+      { "id": "ofp", "label": "L'OFPRA" }
+    ],
+    "correct": ["mem","msf"],
+    "explanation": "En France, Médecins du monde intervient auprès des migrants depuis 1986. Implantés sur l'ensemble du territoire, les 21 centres d'accueil, de soins et d'orientation accueillent près de 90 % d'étrangers, la plupart primo-arrivants. Les équipes de Médecins Sans Frontières mettent en oeuvre un large éventail de soins : consultations, hospitalisations, interventions chirurgicales, soins psychologiques, soins médico-nutritionnels etc. dans des contextes d'urgence ou de difficultés d'accès aux soins."
+  },
+  {
+    "id": "sante_vid_009",
+    "theme": "sante",
+    "level": "VID",
+    "type": "single",
+    "question": "Dans un centre de dépistage, les tests sont :",
+    "answers": [
+      { "id": "angr", "label": "anonymes et gratuits" },
+      { "id": "anpa", "label": "anonymes et payants" },
+      { "id": "grpu", "label": "gratuits et publics" },
+      { "id": "papu", "label": "payants et publics" },
+      { "id": "lipe", "label": "limités à un par personne" },
+      { "id": "refa", "label": "réduits à un par famille" }
+    ],
+    "correct": ["angr"],
+    "explanation": "Anonyme, gratuit et ouvert à tous, le Centre Gratuit d'Information de Dépistage et de Diagnostic (CeGIDD) assure des consultations de dépistages, de prise en charge et de traitement des infections sexuellement transmissibles (IST). Sa mission est également de sensibiliser et d'informer sur les risques liés aux IST."
+  },
+  {
+    "id": "sante_vid_010",
+    "theme": "sante",
+    "level": "VID",
+    "type": "multi",
+    "question": "Quelle maladie peut être détectée dans un centre de dépistage CeGIDD ?",
+    "answers": [
+      { "id": "sid", "label": "Le SIDA" },
+      { "id": "hep", "label": "L'hépatite" },
+      { "id": "gri", "label": "La grippe" },
+      { "id": "app", "label": "L'appendicite" },
+      { "id": "mal", "label": "La malaria" },
+      { "id": "app", "label": "L'artériosclérose" },
+      { "id": "mal", "label": "L'embolie" },
+      { "id": "den", "label": "La dengue" }
+    ],
+    "correct": ["sid","hep"],
+    "explanation": "Le Centre Gratuit d'Information de Dépistage et de Diagnostic (CeGIDD) assure des consultations de dépistages, de prise en charge et de traitement des infections sexuellement transmissibles (IST),  dont le SIDA et l'hépatite. Pour la tuberculose, il faut s'adresser au CLAT : Centre de Lutte Anti-Tuberculeuse."
+  }
+]

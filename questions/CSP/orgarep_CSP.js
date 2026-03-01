@@ -1,0 +1,248 @@
+let orgarep_CSP = [
+  {
+    "id": "orgarep_csp_001",
+    "theme": "orgarep",
+    "level": "CSP",
+    "type": "single",
+    "question": "Concernant les partis politiques, quelle proposition est correcte ?",
+    "answers": [
+      { "id": "exp", "label": "ils concourent à l'expression du suffrage" },
+      { "id": "enr", "label": "ils visent à l'enrichissement personnel de leurs élus" },
+      { "id": "pou", "label": "ils recherchent le pouvoir personnel" },
+      { "id": "int", "label": "ils n'ont que faire de l'intérêt des citoyens" },
+      { "id": "vis", "label": "ils n'ont pas de vision d'avenir pour le pays" }
+      ],
+    "correct": ["exp"],
+    "explanation": "L'article 4 de la Constitution dit : \"Les partis et groupements politiques concourent à l'expression du suffrage.\". Les partis politiques ont deux fonctions : ils proposent des programmes politiques qu'ils souhaitent mettre en oeuvre ; ils sélectionnent les candidats pour les faire élire."
+  },
+  {
+    "id": "orgarep_csp_002",
+    "theme": "orgarep",
+    "level": "CSP",
+    "type": "single",
+    "question": "Quel est le rôle des députés ?",
+    "answers": [
+      { "id": "loi", "label": "Ils votent les lois et contrôlent l'action du gouvernement" },
+      { "id": "pol", "label": "Ils décident de la politique étrangère" },
+      { "id": "mil", "label": "Ils décident des orientations militaires" },
+      { "id": "aff", "label": "Ils jugent les affaires impliquant des ministres" },
+      { "id": "pol", "label": "Ils ordonnent les opérations de police" }
+      ],
+    "correct": ["loi"],
+    "explanation": "Élu pour représenter la Nation, le député participe à l'exercice de la souveraineté nationale. Il vote la loi et contrôle l'action du Gouvernement. Il bénéficie, comme le sénateur, d'un statut protecteur, conçu non comme un privilège mais comme un moyen destiné à lui assurer l'indépendance et la liberté d'expression nécessaires à l'exercice de son mandat"
+  },
+  {
+    "id": "orgarep_csp_003",
+    "theme": "orgarep",
+    "level": "CSP",
+    "type": "single",
+    "question": "La séparation des pouvoirs est un principe fondamental. Quels sont les trois pouvoirs concernés ?",
+    "answers": [
+      { "id": "lej", "label": "Législatif, Exécutif, Judiciaire" },
+      { "id": "eal", "label": "Exécutif, Administratif, Légal" },
+      { "id": "eja", "label": "Exécutif, Judiciaire, Administratif" },
+      { "id": "lal", "label": "Légal, Administratif, Législatif" },
+      { "id": "lie", "label": "Législatif, Instructif, Explétif" },
+      { "id": "iea", "label": "Inventif, Excessif, Administratif" }
+    ],
+    "correct": ["lej"],
+    "explanation": "Pouvoir législatif (élaboration de la loi) ; Pouvoir exécutif (application de la loi) ; Autorité judiciaire (contrôle et sanction en cas de non-respect de la loi). La théorie de la séparation des pouvoirs plaide pour que chacun d'entre eux soit exercé par des organes distincts, indépendants les uns des autres."
+  },
+  {
+    "id": "orgarep_csp_004",
+    "theme": "orgarep",
+    "level": "CSP",
+    "type": "single",
+    "question": "Qui possède le pouvoir législatif ?",
+    "answers": [
+      { "id": "dep", "label": "Le Parlement (députés et sénateurs)" },
+      { "id": "jug", "label": "Les juges" },
+      { "id": "min", "label": "Les ministres" },
+      { "id": "cac", "label": "Les entreprises du CAC40" },
+      { "id": "bou", "label": "La Bourse" },
+      { "id": "eur", "label": "Les commissaires européens" },
+      { "id": "pre", "label": "Le président de la République" }
+    ],
+    "correct": ["dep"],
+    "explanation": "Le pouvoir législatif est exercé par le Parlement, composé de deux chambres : l'Assemblée nationale (députés), et le Sénat (sénateurs). Ces deux assemblées sont chargées de voter la loi, de contrôler l'action du Gouvernement et d'évaluer les politiques publiques."
+  },
+  {
+    "id": "orgarep_csp_005",
+    "theme": "orgarep",
+    "level": "CSP",
+    "type": "single",
+    "question": "Qui sanctionne l'auteur d'un vol ?",
+    "answers": [
+      { "id": "cor", "label": "Le tribunal correctionnel" },
+      { "id": "pol", "label": "Le tribunal de police" },
+      { "id": "ass", "label": "La cour d'assise" },
+      { "id": "cri", "label": "La cour criminelle" },
+      { "id": "eur", "label": "La cour de justice européenne" }
+      ],
+    "correct": ["cor"],
+    "explanation": "Le vol est un délit, et le délit est une infraction intermédiaire, entre la contravention et le crime. Un délit est puni par une amende supérieure ou égale à 3750 euros et une peine d'emprisonnement entre 2 mois et 10 ans. Il est jugé par le tribunal correctionnel."
+  },
+  {
+    "id": "orgarep_csp_006",
+    "theme": "orgarep",
+    "level": "CSP",
+    "type": "single",
+    "question": "Qui élit les députés ?",
+    "answers": [
+      { "id": "cir", "label": "Les électeurs de leur circonscription" },
+      { "id": "fra", "label": "Tous les Français" },
+      { "id": "sen", "label": "Les sénateurs" },
+      { "id": "hom", "label": "Seulement les hommes" },
+      { "id": "con", "label": "Les délégués des conseils municipaux" }
+      ],
+    "correct": ["cir"],
+    "explanation": "Les 577 députés à l'Assemblée nationale sont élus pour cinq ans, au suffrage universel direct. Les députés sont investis d'un mandat national. Bien qu'élus dans une circonscription, chacun représente la Nation toute entière. Les circonscriptions dans le cadre desquelles se déroule l'élection de chaque député sont délimitées par le code électoral à l'intérieur de chaque département, en fonction de l'importance de la population."
+  },
+  {
+    "id": "orgarep_csp_007",
+    "theme": "orgarep",
+    "level": "CSP",
+    "type": "single",
+    "question": "Qui vote les lois ?",
+    "answers": [
+      { "id": "dep", "label": "Le Parlement (députés et sénateurs)" },
+      { "id": "jug", "label": "Les juges" },
+      { "id": "min", "label": "Les ministres" },
+      { "id": "cac", "label": "Les entreprises du CAC40" },
+      { "id": "bou", "label": "La Bourse" },
+      { "id": "eur", "label": "Les commissaires européens" },
+      { "id": "pre", "label": "Le président de la République" }
+    ],
+    "correct": ["dep"],
+    "explanation": "Le pouvoir législatif est exercé par le Parlement, composé de deux chambres : l'Assemblée nationale (députés), et le Sénat (sénateurs). Ces deux assemblées sont chargées de voter la loi, de contrôler l'action du Gouvernement et d'évaluer les politiques publiques."
+  },
+  {
+    "id": "orgarep_csp_008",
+    "theme": "orgarep",
+    "level": "CSP",
+    "type": "single",
+    "question": "Qui réside au palais de l'Élysée ?",
+    "answers": [
+      { "id": "rep", "label": "Le président de la République" },
+      { "id": "pre", "label": "Le Premier ministre" },
+      { "id": "sen", "label": "Le président du Sénat" },
+      { "id": "ass", "label": "Le président de l'Assemblée nationale" },
+      { "id": "cio", "label": "Le président du CIO" }
+      ],
+    "correct": ["rep"],
+    "explanation": "Le président de la République, qui est le chef de l'État et des armées, réside au Palais de l'Élysée."
+  },
+  {
+    "id": "orgarep_csp_009",
+    "theme": "orgarep",
+    "level": "CSP",
+    "type": "single",
+    "question": "Combien y a-t-il de départements en France ?",
+    "answers": [
+      { "id": "cun", "label": "101" },
+      { "id": "qsz", "label": "96" },
+      { "id": "css", "label": "577" },
+      { "id": "tqh", "label": "348" },
+      { "id": "dih", "label": "18" }
+      ],
+    "correct": ["cun"],
+    "explanation": "Il y a 96 départements en France métropolitaine, et 5 en outre-mer, qui sont aussi des régions (DROM), soit en tout 101 départements."
+  },
+  {
+    "id": "orgarep_csp_010",
+    "theme": "orgarep",
+    "level": "CSP",
+    "type": "single",
+    "question": "Qui représente l'État dans un département ?",
+    "answers": [
+      { "id": "pre", "label": "Le Préfet" },
+      { "id": "min", "label": "Un ministre issu de ce département" },
+      { "id": "dep", "label": "Un député élu du département" },
+      { "id": "sen", "label": "Un sénateur élu du département" },
+      { "id": "con", "label": "Le président du conseil départemental" }
+      ],
+    "correct": ["pre"],
+    "explanation": "Le Préfet est le représentant de l'État dans le département. Il dirige les services de l'État dans son département."
+  },
+  {
+    "id": "orgarep_csp_011",
+    "theme": "orgarep",
+    "level": "CSP",
+    "type": "single",
+    "question": "Qui dirige la commune ?",
+    "answers": [
+      { "id": "mai", "label": "Le maire" },
+      { "id": "dep", "label": "Le député" },
+      { "id": "sen", "label": "Le sénateur" },
+      { "id": "pre", "label": "Le préfet" },
+      { "id": "com", "label": "Le président de la communauté de communes" }
+      ],
+    "correct": ["mai"],
+    "explanation": "Le maire est à la fois exécutif de la commune et agent de l'Etat. Il est seul chargé de l'administration municipale, mais il peut procéder à des délégations de fonctions ou de signature. En outre, le maire est chargé des pouvoirs de police dans sa commune."
+  },
+  {
+    "id": "orgarep_csp_012",
+    "theme": "orgarep",
+    "level": "CSP",
+    "type": "single",
+    "question": "Est-ce que le président de la République a tous les pouvoirs ?",
+    "answers": [
+      { "id": "exe", "label": "Non, seulement un pouvoir exécutif" },
+      { "id": "for", "label": "Oui, la Ve République est un régime présidentiel fort" },
+      { "id": "gue", "label": "Il les aurait en temps de guerre" },
+      { "id": "quo", "label": "Il a tout pouvoir sur le quotidien des français" },
+      { "id": "eco", "label": "Il a le pouvoir économique, qui est le seul important" }
+      ],
+    "correct": ["exe"],
+    "explanation": "Le Président de la République veille au respect de la Constitution. Il assure, par son arbitrage, le fonctionnement régulier des pouvoirs publics ainsi que la continuité de l'État. Il est le garant de l'indépendance nationale, de l'intégrité du territoire et du respect des traités. Il dispose du pouvoir exécutif. En vertu de la séparation des pouvoirs, il n'exerce ni un pouvoir législatif, ni un pouvoir judiciaire."
+  },
+  {
+    "id": "orgarep_csp_013",
+    "theme": "orgarep",
+    "level": "CSP",
+    "type": "single",
+    "question": "Qui est le préfet ?",
+    "answers": [
+      { "id": "rep", "label": "Le représentant de l'État dans le département" },
+      { "id": "com", "label": "L'élu des communes" },
+      { "id": "con", "label": "Le président du conseil départemental" },
+      { "id": "dep", "label": "Le contrôleur des impôts" },
+      { "id": "sen", "label": "Le chef des sénateurs" }
+      ],
+    "correct": ["rep"],
+    "explanation": "Le Préfet est le représentant de l'État dans le département. Il dirige les services de l'État dans son département."
+  },
+  {
+    "id": "orgarep_csp_014",
+    "theme": "orgarep",
+    "level": "CSP",
+    "type": "single",
+    "question": "Quel est le rôle du Parlement ?",
+    "answers": [
+      { "id": "loi", "label": "Voter la loi et contrôler l'action du Gouvernement" },
+      { "id": "pol", "label": "Diriger la police et l'armée" },
+      { "id": "jug", "label": "Juger les procès impliquant des ministres" },
+      { "id": "ord", "label": "Décider des opérations de maintien de l'ordre" },
+      { "id": "etr", "label": "Mener la politique étrangère du pays" }
+      ],
+    "correct": ["loi"],
+    "explanation": "Le pouvoir législatif est exercé par le Parlement, composé de deux chambres : l'Assemblée nationale (députés), et le Sénat (sénateurs). Ces deux assemblées sont chargées de voter la loi, de contrôler l'action du Gouvernement et d'évaluer les politiques publiques."
+  },
+  {
+    "id": "orgarep_csp_015",
+    "theme": "orgarep",
+    "level": "CSP",
+    "type": "single",
+    "question": "Quel est le régime politique de la France aujourd'hui ?",
+    "answers": [
+      { "id": "rd", "label": "Cinquième République" },
+      { "id": "mc", "label": "Monarchie constitutionnelle" },
+      { "id": "dp", "label": "Dictature prolétarienne" },
+      { "id": "ma", "label": "Monarchie absolue" },
+      { "id": "au", "label": "Autocratie ploutocratique" },
+      { "id": "ol", "label": "Oligarchie parlementaire" }
+    ],
+    "correct": ["rd"],
+    "explanation": "La France est une République indivisible, laïque, démocratique et sociale, selon les principes inscrits dans l'article 1 de la Constitution de la Ve République de 1958."
+  }
+]

@@ -2,9 +2,10 @@ window.App = window.App || {};
 
 App.data = {
   LEVELS: [
-    { id: "initiation", label: "Initiation", code: "CI" },
+    { id: "initiation", label: "Initiation", code: "INI" },
     { id: "pluriannuelle", label: "Carte de séjour pluriannuelle", code: "CSP" },
-    { id: "resident", label: "Carte de résident", code: "CR" }
+    { id: "resident", label: "Carte de résident", code: "CRE" },
+    { id: "naturalisation", label: "Naturalisation", code: "NAT" }
   ],
   THEMES: [
     { id: "symboles", label: "Devise et symboles" },

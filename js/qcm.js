@@ -4,6 +4,28 @@ App.dom.onReady(function () {
   var theme = params.get("theme");
   var exam = params.get("exam");
   var levelParam = params.get("level");
+  var THEME_QUESTION_LIMIT = 10;
+  var EXAM_THEME_DISTRIBUTION = [
+    { id: "symboles", count: 3 },
+    { id: "laique", count: 2 },
+    { id: "situationpv", count: 6 },
+    { id: "vote", count: 3 },
+    { id: "orgarep", count: 2 },
+    { id: "insteurope", count: 1 },
+    { id: "droits", count: 2 },
+    { id: "devoirs", count: 3 },
+    { id: "situationdd", count: 6 },
+    { id: "periodes", count: 3 },
+    { id: "territoire", count: 3 },
+    { id: "patrimoine", count: 2 },
+    { id: "resider", count: 1 },
+    { id: "soins", count: 1 },
+    { id: "travailler", count: 1 },
+    { id: "parent", count: 1 }
+  ];
+  var EXAM_TOTAL_QUESTIONS = EXAM_THEME_DISTRIBUTION.reduce(function (sum, item) {
+    return sum + item.count;
+  }, 0);
 
   var questions = [];
   var current = 0;
@@ -37,7 +59,7 @@ App.dom.onReady(function () {
             return;
           }
           var normalized = data.map(App.quiz.normalizeQuestion);
-          questions = App.utils.shuffleArray(normalized).slice(0, 40);
+          questions = App.utils.shuffleArray(normalized).slice(0, EXAM_TOTAL_QUESTIONS);
           showQuestion();
         })
         .catch(function (e) {
@@ -53,7 +75,8 @@ App.dom.onReady(function () {
             redirectError("Aucune question trouvée pour ce thème.", "Vérifiez le fichier JS du thème.");
             return;
           }
-          questions = data.map(App.quiz.normalizeQuestion);
+          var normalizedTheme = data.map(App.quiz.normalizeQuestion);
+          questions = App.utils.shuffleArray(normalizedTheme).slice(0, THEME_QUESTION_LIMIT);
           showQuestion();
         })
         .catch(function (e) {
@@ -63,6 +86,10 @@ App.dom.onReady(function () {
   }
 
   function showQuestion() {
+    if (type === "theme" && questions.length > THEME_QUESTION_LIMIT) {
+      questions = questions.slice(0, THEME_QUESTION_LIMIT);
+    }
+
     if (current >= questions.length) {
       persistResults();
       window.location.href = "resultat.html";
@@ -87,9 +114,12 @@ App.dom.onReady(function () {
 
     var nextBtn = App.dom.byId("nextBtn");
     var prevBtn = App.dom.byId("prevBtn");
+    var isLastQuestion = current === questions.length - 1;
 
     nextBtn.disabled = !(userAnswers[current] && userAnswers[current].length);
+    nextBtn.textContent = isLastQuestion ? "Finir le test" : "Suivant";
     nextBtn.onclick = function () { current++; showQuestion(); };
+    prevBtn.style.display = current === 0 ? "none" : "";
     prevBtn.disabled = current === 0;
     prevBtn.onclick = function () { current--; showQuestion(); };
   }
@@ -135,13 +165,35 @@ App.dom.onReady(function () {
 
   function loadExamQuestions(level) {
     if (!level) return Promise.reject(new Error("Niveau manquant"));
-    var themeIds = typeof THEMES !== "undefined" ? THEMES.map(function (t) { return t.id; }) : [];
-    if (themeIds.length === 0) return Promise.reject(new Error("Thèmes manquants"));
-
-    var loads = themeIds.map(function (themeId) {
-      return loadThemeQuestions(themeId, level).catch(function () { return []; });
+    var loads = EXAM_THEME_DISTRIBUTION.map(function (item) {
+      return loadThemeQuestions(item.id, level)
+        .then(function (data) {
+          return { id: item.id, count: item.count, questions: Array.isArray(data) ? data : [] };
+        })
+        .catch(function () {
+          return { id: item.id, count: item.count, questions: [] };
+        });
     });
-    return Promise.all(loads).then(function (parts) { return parts.flat(); });
+
+    return Promise.all(loads).then(function (parts) {
+      var missing = [];
+      var selected = [];
+
+      parts.forEach(function (part) {
+        if (part.questions.length < part.count) {
+          missing.push(part.id + " (" + part.questions.length + "/" + part.count + ")");
+          return;
+        }
+        var picked = App.utils.shuffleArray(part.questions).slice(0, part.count);
+        selected = selected.concat(picked);
+      });
+
+      if (missing.length > 0) {
+        throw new Error("Questions insuffisantes par theme: " + missing.join(", "));
+      }
+
+      return App.utils.shuffleArray(selected);
+    });
   }
 
   function loadThemeQuestions(themeId, level) {
