@@ -1,4 +1,4 @@
-let parent_CRE = [
+var parent_CRE = [
   {
     "id": "parent_cre_001",
     "theme": "parent",
@@ -157,7 +157,7 @@ let parent_CRE = [
       { "id": "sei", "label": "16 ans" }
       ],
     "correct": ["tro"],
-    "explanation": "L'instruction est obligatoire pour tout enfant entre 3 et 16 ans. Pour les parents, ne pas respecter cette obligation est passible d'une peine de prison assortie d'une amende"
+    "explanation": "L'instruction est obligatoire pour tout enfant entre 3 et 16 ans. Pour les parents, ne pas respecter cette obligation est passible d'une peine de prison assortie d'une amende."
   },
   {
     "id": "parent_cre_011",
@@ -238,7 +238,7 @@ let parent_CRE = [
       { "id": "ass", "label": "Elles sont négociées avec les associations de parents d'élèves" }
       ],
     "correct": ["sam"],
-    "explanation": "Les vacances scolaires de Noël durent deux semaines. Elles vont du samedi précédant le réveillon de Noël au lundi après le jour de l'An"
+    "explanation": "Les vacances scolaires de Noël durent deux semaines. Elles vont du samedi précédant le réveillon de Noël au lundi après le jour de l'An."
   },
   {
     "id": "parent_cre_016",
@@ -256,4 +256,4 @@ let parent_CRE = [
     "correct": ["acc"],
     "explanation": "La loi \"handicap\" du 11 février 2005 affirme le droit pour chaque enfant d’accéder à une scolarisation en milieu ordinaire, au plus près de son domicile, ainsi qu'à un parcours scolaire continu et adapté. Les droits des enfants handicapés sont renforcés par la loi du 8 juillet 2013 sur la refondation de l'école, qui consacre le principe d’inclusion scolaire. La loi reconnaît, d’une part, la responsabilité de l’Éducation nationale vis-à-vis de tous les enfants et adolescents et, d’autre part, le droit pour les enfants qui ont des besoins spécifiques de bénéficier d’un accompagnement adapté."
   }
-]
+];

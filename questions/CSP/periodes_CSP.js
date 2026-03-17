@@ -1,4 +1,4 @@
-let periodes_CSP = [
+var periodes_CSP = [
   {
     "id": "periodes_csp_001",
     "theme": "periodes",
@@ -14,7 +14,7 @@ let periodes_CSP = [
       { "id": "neuf", "label": "1915" }
     ],
     "correct": ["quatre"],
-    "explanation": "La Révolution française démarre en 1789 avec la convocation des États généraux (le clergé, la noblesse et le tiers état) par le roi. Le 17 juin, le tiers état proclame l’Assemblée nationale et met fin à la monarchie absolue."
+    "explanation": "La Révolution française démarre en 1789 avec la convocation des États généraux par le roi Louis XVI. Le 17 juin, le tiers état proclame l’Assemblée nationale et met fin à la monarchie absolue."
   },
   {
     "id": "periodes_csp_002",
@@ -253,7 +253,7 @@ let periodes_CSP = [
       { "id": "chx", "label": "Charles X" }
       ],
     "correct": ["xvi"],
-    "explanation": "Louis XVI s'était placé, avait convoqué les états généraux qui ont déclenché la Révolution. Indécis, il hésitait à ratifier les textes proclamant l'abolition des privilèges et la Déclaration des Droits de l'Homme, établis peu de temps après la prise de la Bastille, le 14 juillet 1789. Peu à peu, il Louis XVI perdit son autorité, et fut renversé en septembre 1792. Il finit guillotiné le 21 janvier 1793."
+    "explanation": "En 1789, Louis XVI avait convoqué les états généraux qui ont déclenché la Révolution. Indécis, il hésitait à ratifier les textes proclamant l'abolition des privilèges et la Déclaration des Droits de l'Homme, établis peu de temps après la prise de la Bastille, le 14 juillet 1789. Peu à peu, il perdit son autorité, et fut renversé en septembre 1792. Il finit guillotiné le 21 janvier 1793."
   },
   {
     "id": "periodes_csp_016",
@@ -318,7 +318,7 @@ let periodes_CSP = [
       { "id": "mor", "label": "C'est l'abolition de la peine de mort" }
       ],
     "correct": ["ver"],
-    "explanation": "C'est l'année de notre changement de régime : la constitution de la Cinquième République a été soumise aux français par référendum le 18 septembre 1958, et promulguée le 4 octobre."
+    "explanation": "C'est l'année d'un changement de régime : la constitution de la Cinquième République a été soumise aux français par référendum le 18 septembre 1958, et promulguée le 4 octobre."
   },
   {
     "id": "periodes_csp_020",
@@ -336,4 +336,4 @@ let periodes_CSP = [
     "correct": ["trn"],
     "explanation": "La Seconde Guerre mondiale a éclaté le 1er septembre 1939 avec l'invasion de la Pologne par l'Allemagne, et a duré jusqu'à la capitulation du Japon, le 15 août 1945."
   }
-]
+];

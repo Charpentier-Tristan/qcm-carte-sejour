@@ -1,4 +1,4 @@
-let esclavage_VID = [
+var esclavage_VID = [
   {
     "id": "esclavage_vid_001",
     "theme": "esclavage",
@@ -251,4 +251,4 @@ let esclavage_VID = [
     "correct": ["xhu"],
     "explanation": "Par l'édit du 3 juillet 1315, le roi de France Louis X affirme que \"selon le droit de nature, chacun doit naître franc\" et abolit ainsi le servage dans le domaine royal."
   }
-]
+];

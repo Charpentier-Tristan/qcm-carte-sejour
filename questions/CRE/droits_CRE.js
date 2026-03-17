@@ -1,4 +1,4 @@
-let droits_CRE = [
+var droits_CRE = [
   {
     "id": "droits_cre_001",
     "theme": "droits",
@@ -31,7 +31,7 @@ let droits_CRE = [
       { "id": "com", "label": "Au nom de la Commission européenne" }
       ],
     "correct": ["int","def"],
-    "explanation": "Nos droits et libertés individuels peuvent être limités par : l’intérêt général ; les libertés des autres ; la défense de l’ordre public ; le respect de la dignité humaine."
+    "explanation": "Nos droits et libertés individuels peuvent être limités par : l'intérêt général ; les libertés des autres ; la défense de l'ordre public ; le respect de la dignité humaine."
   },
   {
     "id": "droits_cre_003",
@@ -59,11 +59,11 @@ let droits_CRE = [
       { "id": "san", "label": "Oui, sans avoir besoin d'une faute" },
       { "id": "moi", "label": "Non, à moins qu'il y ait faute" },
       { "id": "dix", "label": "Non, pas avant 10 ans de mariage" },
-      { "id": "hom", "label": "Oui si c'est l'homme qui choisit" },
+      { "id": "hom", "label": "Oui, si c'est l'homme qui choisit" },
       { "id": "par", "label": "Oui, dès qu'il y a faute" }
       ],
     "correct": ["san"],
-    "explanation": "La liberté conjugale permet aussi à chaque conjoint de mettre fin à l’union dans laquelle il ou elle elle est engagée : le divorce met fin au mariage, sans avoir besoin d’une faute."
+    "explanation": "La liberté conjugale permet aussi à chaque conjoint de mettre fin à l'union dans laquelle il ou elle elle est engagée : le divorce met fin au mariage, sans avoir besoin d'une faute."
   },
   {
     "id": "droits_cre_005",
@@ -72,11 +72,11 @@ let droits_CRE = [
     "type": "single",
     "question": "La peine de mort est :",
     "answers": [
-      { "id": "abo", "label": "Abolie en France" },
-      { "id": "cri", "label": "Réservée aux crimes les plus graves" },
-      { "id": "par", "label": "Applicable par les particuliers" },
-      { "id": "app", "label": "Légale mais non appliquée en France" },
-      { "id": "vig", "label": "Encore en vigueur" }
+      { "id": "abo", "label": "abolie en France" },
+      { "id": "cri", "label": "réservée aux crimes les plus graves" },
+      { "id": "par", "label": "applicable par les particuliers" },
+      { "id": "app", "label": "légale mais non appliquée en France" },
+      { "id": "vig", "label": "encore en vigueur" }
       ],
     "correct": ["abo"],
     "explanation": "La loi du 9 octobre 1981 a mis définitivement fin à la peine capitale en France. La loi constitutionnelle du 23 février 2017 a inscrit l'abolition de la peine de mort dans la Constitution de la Ve République : l'article 66-1 affirme désormais clairement que \"nul ne peut être condamné à la peine de mort\"."
@@ -89,7 +89,7 @@ let droits_CRE = [
     "question": "Laquelle de ces citations est inscrite dans la Déclaration des Droits de l'homme et du Citoyen de 1789 ?",
     "answers": [
       { "id": "egdr", "label": "Tous les hommes naissent et demeurent libres et égaux en droits" },
-      { "id": "egeg", "label": "Tous les hommes naissent et demeurent égaux et égales en droits" },
+      { "id": "egeg", "label": "Tous les hommes naissent et toutes les femmes et demeurent égaux et égales en droits" },
       { "id": "lifr", "label": "Tous les hommes naissent et demeurent libres et fraternels en droits" },
       { "id": "egfr", "label": "Tous les hommes naissent et demeurent égaux et fraternels en droits" },
       { "id": "heli", "label": "Tous les hommes naissent et demeurent heureux et libres en droits" },
@@ -144,7 +144,7 @@ let droits_CRE = [
       { "id": "jou", "label": "L'impossibilité de condamner un journal" }
       ],
     "correct": ["pro"],
-    "explanation": "La liberté de la presse, composante essentielle de la liberté d’expression et pilier fondamental de la démocratie, garantit à chaque citoyen la possibilité de s'exprimer, de produire et de diffuser des informations, dans le respect des lois en vigueur. Elle repose sur le principe fondamental de liberté de communication et sur la notion de droit à l’information."
+    "explanation": "La liberté de la presse, composante essentielle de la liberté d'expression et pilier fondamental de la démocratie, garantit à chaque citoyen la possibilité de s'exprimer, de produire et de diffuser des informations, dans le respect des lois en vigueur. Elle repose sur le principe fondamental de liberté de communication et sur la notion de droit à l'information."
   },
   {
     "id": "droits_cre_010",
@@ -176,7 +176,7 @@ let droits_CRE = [
       { "id": "pub", "label": "Le droit à l'image ne peut pas être détourné par la publicité" }
       ],
     "correct": ["res"],
-    "explanation": "La dignité humaine, c’est le fait que chaque personne a de la valeur et mérite le respect, simplement parce qu’elle est un être humain. Le respect doit être le même, quel que soit l'âge, le sexe, l'état de santé physique ou mentale, la condition sociale, la religion ou l'origine ethnique."
+    "explanation": "La dignité humaine, c'est le fait que chaque personne a de la valeur et mérite le respect, simplement parce qu'elle est un être humain. Le respect doit être le même, quel que soit l'âge, le sexe, l'état de santé physique ou mentale, la condition sociale, la religion ou l'origine ethnique."
   },
   {
     "id": "droits_cre_012",
@@ -185,14 +185,14 @@ let droits_CRE = [
     "type": "single",
     "question": "Que signifie le droit de manifester ?",
     "answers": [
-      { "id": "voi", "label": "Le droit de se réunir sur la voie publique dans le but d’exprimer une conviction collective." },
+      { "id": "voi", "label": "Le droit de se réunir sur la voie publique dans le but d'exprimer une conviction collective." },
       { "id": "mob", "label": "Le droit de détruire le mobilier urbain considéré comme gênant" },
       { "id": "vit", "label": "Le droit de casser les vitrines symbolisant l'oppression capitaliste" },
       { "id": "ins", "label": "Le droit d'insulter publiquement les dirigeants politiques" },
       { "id": "ser", "label": "Le droit de cesser d'assurer un service public" }
       ],
     "correct": ["voi"],
-    "explanation": "Une manifestation est une réunion organisée sur la voie publique dans le but d’exprimer une conviction collective. La liberté de manifestation est un droit fondamental qui obéit à certaines règles afin de prévenir d'éventuelles atteintes à l'ordre public : une manifestation doit être déclarée, en précisant le parcours de la manifestation et en identifiant les organisateurs."
+    "explanation": "Une manifestation est une réunion organisée sur la voie publique dans le but d'exprimer une conviction collective. La liberté de manifestation est un droit fondamental qui obéit à certaines règles afin de prévenir d'éventuelles atteintes à l'ordre public : une manifestation doit être déclarée, en précisant le parcours de la manifestation et en identifiant les organisateurs."
   },
   {
     "id": "droits_cre_013",
@@ -224,7 +224,7 @@ let droits_CRE = [
       { "id": "res", "label": "Le recueil des lois et des résolutions" }
       ],
     "correct": ["con"],
-    "explanation": "La Constitution de la Ve république est une constitution écrite dite \"rigide\". Sa révision est difficile à mettre en oeuvre. Elle nécessite l’adoption d’une loi constitutionnelle, selon une procédure spéciale définie par l’article 89 de la Constitution elle-même."
+    "explanation": "La Constitution de la Ve république est une constitution écrite dite \"rigide\". Sa révision est difficile à mettre en oeuvre. Elle nécessite l'adoption d'une loi constitutionnelle, selon une procédure spéciale définie par l'article 89 de la Constitution elle-même."
   },
   {
     "id": "droits_cre_015",
@@ -306,4 +306,4 @@ let droits_CRE = [
     "correct": ["hom"],
     "explanation": "Le suffrage universel signifie que tous les citoyens qui réunissent les conditions peuvent voter sans distinction de sexe, d'origine, de religion ou d'idéaux politiques. Les conditions sont : avoir la nationalité française ; être majeur (de plus de 18 ans) ; avoir ses droits civiques et politiques (n'avoir pas été condamné) ; être inscrit sur les listes électorales."
   }
-]
+];

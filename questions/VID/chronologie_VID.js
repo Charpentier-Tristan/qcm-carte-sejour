@@ -1,4 +1,4 @@
-let chronologie_VID = [
+var chronologie_VID = [
   {
     "id": "chronologie_vid_001",
     "theme": "chronologie",
@@ -266,7 +266,7 @@ let chronologie_VID = [
       { "id": "neuf", "label": "1915" }
     ],
     "correct": ["quatre"],
-    "explanation": "La Révolution française démarre en 1789 avec la convocation des États généraux (le clergé, la noblesse et le tiers état) par le roi. Le 17 juin, le tiers état proclame l'Assemblée nationale et met fin à la monarchie absolue."
+    "explanation": "La Révolution française démarre en 1789 avec la convocation des États généraux par le roi Louis XVI. Le 17 juin, le tiers état proclame l’Assemblée nationale et met fin à la monarchie absolue."
   },
   {
     "id": "chronologie_vid_017",
@@ -351,6 +351,6 @@ let chronologie_VID = [
       { "id": "rom", "label": "Rome" }
     ],
     "correct": ["paris"],
-    "explanation": "Du 7 au 9 janvier 2015, une série d'attaques terroristes frappe l'Île-de-France. Attentat à la rédaction de Charlie Hebdo, tirs contre des policiers à Paris et à Montrouge, prise d'otages dans un Hyper Cacher de la porte de Vincennes. Le 13 novembre 2015, des attentats terroristes font 130 morts et plusieurs centaines de blessés au Stade de France à Saint-Denis, aux terrasses de cafés et de restaurants à Paris et dans la salle de concert du Bataclan à Paris."
+    "explanation": "Du 7 au 9 janvier 2015, une série d'attaques terroristes frappe l'Île-de-France. Attentat à la rédaction de Charlie Hebdo, tirs contre des policiers à Paris et à Montrouge, prise d'otages dans un Hyper Cacher de la porte de Vincennes. Le 13 novembre 2015, des attentats terroristes font 130 morts et plusieurs centaines de blessés au Stade de France à Saint-Denis, aux terrasses de cafés et de restaurants à Paris et dans la salle de concert du Bataclan, également à Paris."
   }
-]
+];

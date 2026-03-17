@@ -1,4 +1,4 @@
-let soins_CRE = [
+var soins_CRE = [
   {
     "id": "soins_cre_001",
     "theme": "soins",
@@ -13,7 +13,7 @@ let soins_CRE = [
       { "id": "ric", "label": "Il est réservé aux plus riches" }
       ],
     "correct": ["tou"],
-    "explanation": "Les soins médicaux sont accessible à tous, notamment grâce aux Permanences d'Accès aux Soins de Santé (PASS). La protection universelle maladie (Puma) permet la prise en charge des frais de santé sans rupture de droits. Elle est réservée à ceux qui travaillent ou résident en France de manière stable ou régulière. L'aide médicale de l'État (AME) s'adresse aux étrangers en situation irrégulière et précaire. L'AME donne droit à la prise en charge à 100 % des soins médicaux et hospitaliers dans la limite des tarifs de la sécurité sociale."
+    "explanation": "Les soins médicaux sont accessible à tous, notamment grâce aux Permanences d'Accès aux Soins de Santé (PASS). La protection universelle maladie (PUMa) permet la prise en charge des frais de santé sans rupture de droits. Elle est réservée à ceux qui travaillent ou résident en France de manière stable ou régulière. L'aide médicale de l'État (AME) s'adresse aux étrangers en situation irrégulière et précaire. L'AME donne droit à la prise en charge à 100 % des soins médicaux et hospitaliers dans la limite des tarifs de la sécurité sociale."
   },
   {
     "id": "soins_cre_002",
@@ -61,6 +61,6 @@ let soins_CRE = [
       { "id": "fem", "label": "obligatoire pour les femmes" }
       ],
     "correct": ["tou"],
-    "explanation": "L'affiliation en France auprès d'un organisme de santé est obligatoire. Toute personne qui refuse délibérément de s'affilier ou qui persiste à ne pas engager les démarches pour son affiliation obligatoire à un régime de Sécurité sociale est passible d'une peine de prison assortie ou non d'une amende."
+    "explanation": "L'affiliation en France auprès d'un organisme de santé est obligatoire. Toute personne qui refuse délibérément de s'affilier ou qui persiste à ne pas engager les démarches pour son affiliation obligatoire à un régime de Sécurité sociale est passible d'une peine de prison assortie d'une amende."
   }
-]
+];

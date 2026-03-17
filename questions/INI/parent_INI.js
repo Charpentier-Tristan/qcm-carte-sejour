@@ -1,4 +1,4 @@
-let parent_INI = [
+var parent_INI = [
   {
     "id": "parent_ini_001",
     "theme": "parent",
@@ -121,13 +121,13 @@ let parent_INI = [
     "type": "single",
     "question": "Les enfants qui ne parlent pas français :",
     "answers": [
-      { "id": "dis", "label": "Sont soutenus par des dispositifs d'intégration adaptés" },
-      { "id": "exc", "label": "Parlent anglais" },
-      { "id": "pay", "label": "Parlent Swahili" },
-      { "id": "app", "label": "Parlent pour ne rien dire" },
-      { "id": "obl", "label": "Parlent dans le vide" }
+      { "id": "dis", "label": "sont soutenus par des dispositifs d'intégration adaptés" },
+      { "id": "exc", "label": "parlent anglais" },
+      { "id": "pay", "label": "parlent Swahili" },
+      { "id": "app", "label": "parlent pour ne rien dire" },
+      { "id": "obl", "label": "parlent dans le vide" }
       ],
     "correct": ["dis"],
-    "explanation": "En France, tous les enfants de 3 à 16 ans doivent aller à l'école. Cette obligation concerne donc aussi les enfants qui ne parlent pas français. Plusieurs dispositifs sont prévus pour leur enseigner le français, et les préparer à une scolarité normale."
+    "explanation": "En France, tous les enfants de 3 à 16 ans doivent aller à l’école. Cette obligation concerne donc aussi les enfants qui ne parlent pas français. Le code de l'éducation impose l'obligation de mettre en place des actions particulières pour l'accueil et la scolarisation des enfants ne parlant pas le français. Ces actions portent le nom d'Unités pédagogiques pour élèves allophones arrivants (UPE2A)."
   }
-]
+];

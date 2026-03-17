@@ -1,4 +1,4 @@
-let colonialisme_VID = [
+var colonialisme_VID = [
   {
     "id": "colonialisme_vid_001",
     "theme": "colonialisme",
@@ -237,4 +237,4 @@ let colonialisme_VID = [
     "correct": ["franca"],
     "explanation": "L'expression \"Françafrique\", généralement connotée péjorativement, désigne une relation, qualifiée de néo-coloniale par ses détracteurs, entre la France et d'anciennes colonies en Afrique subsaharienne sur les plans économiques, monétaires, diplomatiques ou militaires."
   }
-]
+];

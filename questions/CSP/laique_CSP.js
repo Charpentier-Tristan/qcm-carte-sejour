@@ -1,4 +1,4 @@
-let laique_CSP = [
+var laique_CSP = [
   {
     "id": "laique_csp_001",
     "theme": "laique",
@@ -146,4 +146,4 @@ let laique_CSP = [
     "correct": ["tou"],
     "explanation": "La laïcité garantit la liberté de conscience pour tous, c'est-à-dire que chaque personne est libre d'avoir ou de ne pas avoir de religion, d'en changer ou de ne plus en avoir."
   }
-]
+];

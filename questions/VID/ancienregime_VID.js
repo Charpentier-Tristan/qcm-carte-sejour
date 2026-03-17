@@ -1,4 +1,4 @@
-let ancienregime_VID = [
+var ancienregime_VID = [
   {
     "id": "ancienregime_vid_001",
     "theme": "ancienregime",
@@ -92,13 +92,13 @@ let ancienregime_VID = [
     "type": "single",
     "question": "En France, le roi était de religion~:",
     "answers": [
-      { "id": "catho", "label": "Catholique" },
-      { "id": "protest", "label": "Protestante" },
-      { "id": "ortho", "label": "Orthodoxe" },
-      { "id": "angli", "label": "Anglicane" },
-      { "id": "musul", "label": "Musulmane" },
-      { "id": "boud", "label": "Bouddhiste" },
-      { "id": "juive", "label": "Juive" }
+      { "id": "catho", "label": "catholique" },
+      { "id": "protest", "label": "protestante" },
+      { "id": "ortho", "label": "orthodoxe" },
+      { "id": "angli", "label": "anglicane" },
+      { "id": "musul", "label": "musulmane" },
+      { "id": "boud", "label": "bouddhiste" },
+      { "id": "juive", "label": "juive" }
     ],
     "correct": ["catho"],
     "explanation": "Pendant longtemps, le catholicisme a été quasiment la seule religion en France, et c'était la religion du roi. Le protestantisme, apparu au 16e siècle, est resté minoritaire. La population juive sous l'Ancien Régime ne dépassait pas 1 pour cent du total."
@@ -161,12 +161,12 @@ let ancienregime_VID = [
     "type": "single",
     "question": "Comment les rois de France étaient-ils désignés ?",
     "answers": [
-      { "id": "here", "label": "par hérédité" },
-      { "id": "elec", "label": "par une élection" },
-      { "id": "accl", "label": "par acclamation" },
-      { "id": "incli", "label": "par inclination" },
-      { "id": "divi", "label": "par droit divin" },
-      { "id": "una", "label": "par unanimité" }
+      { "id": "here", "label": "Par hérédité" },
+      { "id": "elec", "label": "Par une élection" },
+      { "id": "accl", "label": "Par acclamation" },
+      { "id": "incli", "label": "Par inclination" },
+      { "id": "divi", "label": "Par droit divin" },
+      { "id": "una", "label": "Par unanimité" }
     ],
     "correct": ["here"],
     "explanation": "La transmission dynastique de la royauté se faisait par hérédité : à la mort du roi, son successeur légitime était le plus âgé de ses fils vivants, ou l'aîné de ses petits-fils. Le successeur de Louis XIV était son arrière-petit-fils Louis XV."
@@ -178,12 +178,12 @@ let ancienregime_VID = [
     "type": "single",
     "question": "Qui représentait Dieu en France ?",
     "answers": [
-      { "id": "roi", "label": "le roi" },
-      { "id": "pape", "label": "le pape" },
-      { "id": "ever", "label": "l'évêque de Reims" },
-      { "id": "arpar", "label": "l'archevêque de Paris" },
-      { "id": "sacr", "label": "le sacristain des Tuileries" },
-      { "id": "abb", "label": "l'abbesse du Louvre" }
+      { "id": "roi", "label": "Le roi" },
+      { "id": "pape", "label": "Le pape" },
+      { "id": "ever", "label": "L'évêque de Reims" },
+      { "id": "arpar", "label": "L'archevêque de Paris" },
+      { "id": "sacr", "label": "Le sacristain des Tuileries" },
+      { "id": "abb", "label": "L'abbesse du Louvre" }
     ],
     "correct": ["roi"],
     "explanation": "Le roi étant \"de droit divin\", il était le représentant de Dieu sur Terre, et donc n'était soumis à aucune autre autorité, même pas celle du pape, pourtant chef de la chrétienté."
@@ -198,6 +198,7 @@ let ancienregime_VID = [
       { "id": "vote", "label": "faire voter les lois" },
       { "id": "legit", "label": "assurer la légitimité du gouvernement" },
       { "id": "elec", "label": "organiser les élections législatives" },
+      { "id": "cont", "label": "juger les infractions à la loi" },
       { "id": "exe", "label": "faire exécuter les lois" }
     ],
     "correct": ["vote"],
@@ -212,6 +213,7 @@ let ancienregime_VID = [
     "answers": [
       { "id": "appli", "label": "faire appliquer la loi" },
       { "id": "exec", "label": "exécuter les condamnés" },
+      { "id": "cont", "label": "juger les infractions à la loi" },
       { "id": "just", "label": "rendre la justice" },
       { "id": "poli", "label": "recruter des policiers" }
     ],
@@ -227,6 +229,7 @@ let ancienregime_VID = [
     "answers": [
       { "id": "justi", "label": "rendre la justice" },
       { "id": "gouv", "label": "gouverner de façon judicieuse" },
+      { "id": "exec", "label": "exécuter les condamnés" },
       { "id": "jugpres", "label": "juger le Président" },
       { "id": "nomm", "label": "nommer les juges" }
     ],
@@ -250,4 +253,4 @@ let ancienregime_VID = [
     "correct": ["catho"],
     "explanation": "Pendant longtemps, le catholicisme a été quasiment la seule religion en France, et c'était la religion du roi. Le protestantisme, apparu au 16e siècle, est resté minoritaire, et a été combattu par le pouvoir royal. La population juive sous l'Ancien Régime ne dépassait pas 1 pour cent du total."
   }
-]
+];

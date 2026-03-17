@@ -1,4 +1,4 @@
-let vote_INI = [
+var vote_INI = [
   {
     "id": "vote_ini_001",
     "theme": "vote",
@@ -294,7 +294,7 @@ let vote_INI = [
     "type": "single",
     "question": "Pour combien de temps sont élus les sénateurs ?",
     "answers": [
-      { "id": "six", "label": "six ans" },
+      { "id": "six", "label": "6 ans" },
       { "id": "cin", "label": "21 ans" },
       { "id": "sep", "label": "72 ans" },
       { "id": "deu", "label": "93 ans" },
@@ -369,4 +369,4 @@ let vote_INI = [
     "correct": ["cit"],
     "explanation": "Selon l'article 3 de la Constitution, \"sont électeurs, dans les conditions déterminées par la loi, tous les nationaux français majeurs des deux sexes, jouissant de leurs droits civils et politiques\". Pour voter, il faut donc disposer de la nationalité française ; avoir plus de 18 ans ; jouir de ses droits civils et politiques (ce qui exclut certaines personnes condamnées) ; être inscrit sur la liste électorale d'une commune."
   }
-]
+];

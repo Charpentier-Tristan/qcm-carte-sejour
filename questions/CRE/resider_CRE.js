@@ -1,4 +1,4 @@
-let resider_CRE = [
+var resider_CRE = [
   {
     "id": "resider_cre_001",
     "theme": "resider",
@@ -81,4 +81,4 @@ let resider_CRE = [
     "correct": ["dis"],
     "explanation": "Certains numéros sont liés à des situations d'urgence. Le 15 est celui du SAMU (urgence médicale) ; le 17 est celui de police secours (pour signaler une infraction) ; le 18 est celui des pompiers (situation de péril ou d'accident) ; le 112 est le numéro d'urgence européen ; le 114 est réservé aux personnes malentendantes."
   }
-]
+];

@@ -1,4 +1,4 @@
-let periodes_INI = [
+var periodes_INI = [
   {
     "id": "periodes_ini_001",
     "theme": "periodes",
@@ -14,7 +14,7 @@ let periodes_INI = [
       { "id": "neuf", "label": "1915" }
     ],
     "correct": ["quatre"],
-    "explanation": "La Révolution française démarre en 1789 avec la convocation des États généraux (le clergé, la noblesse et le tiers état) par le roi. Le 17 juin, le tiers état proclame l'Assemblée nationale et met fin à la monarchie absolue."
+    "explanation": "La Révolution française démarre en 1789 avec la convocation des États généraux par le roi Louis XVI. Le 17 juin, le tiers état proclame l’Assemblée nationale et met fin à la monarchie absolue."
   },
   {
     "id": "periodes_ini_002",
@@ -253,7 +253,7 @@ let periodes_INI = [
       { "id": "chx", "label": "Mickael Jackson" }
       ],
     "correct": ["xvi"],
-    "explanation": "Louis XVI s'était placé, avait convoqué les états généraux qui ont déclenché la Révolution. Indécis, il hésitait à ratifier les textes proclamant l'abolition des privilèges et la Déclaration des Droits de l'Homme, établis peu de temps après la prise de la Bastille, le 14 juillet 1789. Peu à peu, il Louis XVI perdit son autorité, et fut renversé en septembre 1792. Il finit guillotiné le 21 janvier 1793."
+    "explanation": "En 1789, Louis XVI avait convoqué les états généraux qui ont déclenché la Révolution. Indécis, il hésitait à ratifier les textes proclamant l'abolition des privilèges et la Déclaration des Droits de l'Homme, établis peu de temps après la prise de la Bastille, le 14 juillet 1789. Peu à peu, il perdit son autorité, et fut renversé en septembre 1792. Il finit guillotiné le 21 janvier 1793."
   },
   {
     "id": "periodes_ini_016",
@@ -287,8 +287,8 @@ let periodes_INI = [
       ],
     "correct": ["nat"],
     "explanation": "Le 14 juillet devient le jour de la fête nationale en 1880. Ce choix commémore deux événements fondateurs de la République française : le 14 juillet 1789 et le 14 juillet 1790. C'est un moment institutionnel qui rappelle les fondements de la République : un défilé militaire a lieu à Paris, sur les Champs-Élysées, en présence du président de la République. C'est aussi une fête populaire dans tout le pays, pour célébrer l'identité nationale, avec des feux d'artifice, des concerts, des bals etc."
-  },
-  {
+    },
+    {
     "id": "periodes_ini_018",
     "theme": "periodes",
     "level": "INI",
@@ -336,4 +336,4 @@ let periodes_INI = [
     "correct": ["trn"],
     "explanation": "La Seconde Guerre mondiale a éclaté le 1er septembre 1939 avec l'invasion de la Pologne par l'Allemagne, et a duré jusqu'à la capitulation du Japon, le 15 août 1945."
   }
-]
+];

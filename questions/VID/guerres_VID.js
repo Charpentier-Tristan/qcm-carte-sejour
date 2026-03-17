@@ -1,4 +1,4 @@
-let guerres_VID = [
+var guerres_VID = [
   {
     "id": "guerres_vid_001",
     "theme": "guerres",
@@ -259,4 +259,4 @@ let guerres_VID = [
     "correct": ["royu","etau","cana"],
     "explanation": "Lors du Débarquement du 6 juin 1944, et des mois qui ont suivi pour la libération de la France, les troupes engagées venaient majoritairement des  États-Unis, du Royaume-Uni et du Canada."
   }
-]
+];

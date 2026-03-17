@@ -1,4 +1,4 @@
-let laique_INI = [
+var laique_INI = [
   {
     "id": "laique_ini_001",
     "theme": "laique",
@@ -87,11 +87,11 @@ let laique_INI = [
     "type": "single",
     "question": "Pourquoi le principe de laïcité doit-il être respecté à l'école ?",
     "answers": [
-      { "id": "lib", "label": "pour permettre à chaque élève de penser librement" },
-      { "id": "viv", "label": "pour la débarrasser des religions" },
-      { "id": "rav", "label": "pour l'abonner à instagram" },
-      { "id": "dec", "label": "pour en décourager les élèves" },
-      { "id": "ath", "label": "pour imposer l'athéisme" }
+      { "id": "lib", "label": "Pour permettre à chaque élève de penser librement" },
+      { "id": "viv", "label": "Pour la débarrasser des religions" },
+      { "id": "rav", "label": "Pour l'abonner à instagram" },
+      { "id": "dec", "label": "Pour en décourager les élèves" },
+      { "id": "ath", "label": "Pour imposer l'athéisme" }
       ],
     "correct": ["lib"],
     "explanation": "Les écoles publiques sont neutres vis-à-vis des religions. Cette neutralité permet à chaque élève de penser librement et de construire lui-même ses opinions."
@@ -146,4 +146,4 @@ let laique_INI = [
     "correct": ["tou"],
     "explanation": "La laïcité garantit la liberté de conscience pour tous, c'est-à-dire que chaque personne est libre d'avoir ou de ne pas avoir de religion, d'en changer ou de ne plus en avoir."
   }
-]
+];

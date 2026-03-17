@@ -1,4 +1,4 @@
-let patrimoine_CRE = [
+var patrimoine_CRE = [
   {
     "id": "patrimoine_cre_001",
     "theme": "patrimoine",
@@ -193,4 +193,4 @@ let patrimoine_CRE = [
     "correct": ["quj"],
     "explanation": "Le 14 juillet devient le jour de la fête nationale en 1880. Ce choix commémore deux événements fondateurs de la République française : le 14 juillet 1789 et le 14 juillet 1790. C'est un moment institutionnel qui rappelle les fondements de la République : un défilé militaire a lieu à Paris, sur les Champs-Élysées, en présence du président de la République. C'est aussi une fête populaire dans tout le pays, pour célébrer l'identité nationale, avec des feux d'artifice, des concerts, des bals etc."
   }
-]
+];

@@ -1,4 +1,4 @@
-let laicite_VID = [
+var laicite_VID = [
   {
     "id": "laicite_vid_001",
     "theme": "laicite",
@@ -14,8 +14,7 @@ let laicite_VID = [
       { "id": "con", "label": "Le pouvoir sur les consciences" }
     ],
     "correct": ["sep"],
-    "explanation": "La laïcité garantit que les institutions politiques ne favorisent aucune religion, permettant ainsi la liberté de conscience.
-    La laïcité n'est pas une croyance, mais le principe qui rend possible la coexistence de toutes les croyances."
+    "explanation": "La laïcité garantit que les institutions politiques ne favorisent aucune religion, permettant ainsi la liberté de conscience. La laïcité n'est pas une croyance, mais le principe qui rend possible la coexistence de toutes les croyances."
   },
   {
     "id": "laicite_vid_002",
@@ -24,12 +23,12 @@ let laicite_VID = [
     "type": "single",
     "question": "En France la laïcité est :",
     "answers": [
-      { "id": "con", "label": "Un principe constitutionnel" },
-      { "id": "rel", "label": "Une religion" },
-      { "id": "tra", "label": "Une tradition" },
-      { "id": "ide", "label": "Une idéologie" },
-      { "id": "eur", "label": "Une loi européenne" },
-      { "id": "uni", "label": "Un principe universel" }
+      { "id": "con", "label": "un principe constitutionnel" },
+      { "id": "rel", "label": "une religion" },
+      { "id": "tra", "label": "une tradition" },
+      { "id": "ide", "label": "une idéologie" },
+      { "id": "eur", "label": "une loi européenne" },
+      { "id": "uni", "label": "un principe universel" }
     ],
     "correct": ["con"],
     "explanation": "La laïcité est devenue un principe à valeur constitutionnelle avec la Constitution du 4 octobre 1958, dont l'article 1er dit : \"La France est une République indivisible, laïque, démocratique et sociale\". Elle n'est pas un principe universel ni une loi européenne : chaque pays a ses propres règles."
@@ -124,7 +123,7 @@ let laicite_VID = [
     "theme": "laicite",
     "level": "VID",
     "type": "single",
-    "question": "Depuis la loi de 1905, qui réglemente la sonnerie des cloches des églises ?",
+    "question": "Depuis la loi de 1905, qui règlemente la sonnerie des cloches des églises ?",
     "answers": [
       { "id": "mai", "label": "Le maire" },
       { "id": "pre", "label": "Le préfet" },
@@ -286,7 +285,7 @@ let laicite_VID = [
       { "id": "she", "label": "Le sheitel (perruque juive)" },
       { "id": "skh", "label": "Le skhima (robe des moines orthodoxes)" },
       { "id": "col", "label": "Le col romain (collerette de prêtre)" },
-      { "id": "kes", "label": "Le kesa" (robe bouddhiste)}
+      { "id": "kes", "label": "Le kesa (robe bouddhiste)"}
     ],
     "correct": ["niq"],
     "explanation": "La liberté d'expression des convictions religieuses est la règle dans l'espace public et dans les services publics ; y compris par le port d'une tenue vestimentaire ou de signes religieux visibles conformes à des préceptes de nature confessionnelle. Un usager peut donc se rendre à la mairie ou dans un équipement public, se promener dans la rue, en portant un signe religieux quelconque. En revanche, depuis la loi du 11 octobre 2010, \"nul ne peut, dans l'espace public, porter une tenue destinée à dissimuler son visage\", ce qui exclut le niqab."
@@ -308,4 +307,4 @@ let laicite_VID = [
     "correct": ["trou"],
     "explanation": "Une procession, comme tout rassemblement sur l'espace public, ne peut pas être interdite au nom de la laïcité, mais peut l'être au nom de la préservation de l'ordre public. L'article 27 de la loi du 9 décembre 1905 rend possible les manifestations religieuses sur la voie publique et définit les conditions de leur réalisation afin d'assurer leur bon ordre, la sûreté, la sécurité et la salubrité publics. Ces motifs peuvent être avancés, en étant justifiés de manière objective, pour éventuellement interdire une manifestation. Le maire peut également imposer un itinéraire ou un espace pour ces manifestations religieuses dès lors que se posent des questions de sécurité ou de bon déroulement de la circulation."
   }
-]
+];

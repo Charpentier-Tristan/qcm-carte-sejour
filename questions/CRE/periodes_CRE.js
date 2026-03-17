@@ -1,4 +1,4 @@
-let periodes_CRE = [
+var periodes_CRE = [
   {
     "id": "periodes_cre_001",
     "theme": "periodes",
@@ -13,7 +13,7 @@ let periodes_CRE = [
       { "id": "jus", "label": "Le Juste" }
       ],
     "correct": ["sol"],
-    "explanation": "À partir de 1662, la devise \"Nec Pluribus Impar\" (qui signifierait \"À nul autre pareil\" figure au-dessus d'un portrait du roi Louis XIV rayonnant sur le monde. La même année, il est apparu dans un ballet déguisé en soleil. C'est l'origine du surnom de Roi-Soleil qui lui a été donné dès le début de son règne."
+    "explanation": "À partir de 1662, la devise \"Nec Pluribus Impar\" (qui signifierait \"À nul autre pareil\") figure au-dessus d'un portrait du roi Louis XIV rayonnant sur le monde. La même année, il est apparu dans un ballet déguisé en soleil. C'est l'origine du surnom de Roi-Soleil qui lui a été donné dès le début de son règne."
   },
   {
     "id": "periodes_cre_002",
@@ -29,7 +29,7 @@ let periodes_CRE = [
       { "id": "phi", "label": "Louis-Philippe" }
       ],
     "correct": ["xvi"],
-    "explanation": "Louis XVI s'était placé, avait convoqué les états généraux qui ont déclenché la Révolution. Indécis, il hésitait à ratifier les textes proclamant l'abolition des privilèges et la Déclaration des Droits de l'Homme, établis peu de temps après la prise de la Bastille, le 14 juillet 1789. Peu à peu, il Louis XVI perdit son autorité, et fut renversé en septembre 1792. Il finit guillotiné le 21 janvier 1793."
+    "explanation": "En 1789, Louis XVI avait convoqué les états généraux qui ont déclenché la Révolution. Indécis, il hésitait à ratifier les textes proclamant l'abolition des privilèges et la Déclaration des Droits de l'Homme, établis peu de temps après la prise de la Bastille, le 14 juillet 1789. Peu à peu, il perdit son autorité, et fut renversé en septembre 1792. Il finit guillotiné le 21 janvier 1793."
   },
   {
     "id": "periodes_cre_003",
@@ -163,7 +163,7 @@ let periodes_CRE = [
       { "id": "sar", "label": "Nicolas Sarkozy" }
       ],
     "correct": ["mit"],
-    "explanation": "L'abolition de la peine de mmort était un engagement de campagne de François Mitterand, élu en 1981. Portée par son ministre de la Justice Robert Badinter, la loi du 9 octobre 1981 a aboli la peine de mort en France."
+    "explanation": "L'abolition de la peine de mort était un engagement de campagne de François Mitterand, élu en 1981. Portée par son ministre de la Justice Robert Badinter, la loi du 9 octobre 1981 a aboli la peine de mort en France."
   },
   {
     "id": "periodes_cre_011",
@@ -322,9 +322,9 @@ let periodes_CRE = [
       { "id": "fin", "label": "La fin de la Seconde Guerre mondiale" },
       { "id": "arm", "label": "L'armistice de la Première Guerre mondiale" },
       { "id": "pri", "label": "L'arrivée du printemps" },
-      { "id": "tra", "label": "Les travailleurs" }
+      { "id": "tra", "label": "Le travail et l'action syndicale" }
       ],
     "correct": ["vic"],
     "explanation": "Le 8 mai marque la victoire des forces alliées sur l'Allemagne nazie. La Seconde Guerre mondiale était achevée en Europe, mais elle a continué avec le Japon jusqu'en août suivant."
   }
-]
+];

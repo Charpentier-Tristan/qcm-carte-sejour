@@ -1,4 +1,4 @@
-let vote_CRE = [
+var vote_CRE = [
   {
     "id": "vote_cre_001",
     "theme": "vote",
@@ -93,7 +93,7 @@ let vote_CRE = [
       { "id": "tol", "label": "Oui, c'est toléré, à condition de ne pas recommencer" }
       ],
     "correct": ["pro"],
-    "explanation": "Si une personne est absente le jour du vote (élection ou référendum), elle peut charger un autre électeur de voter à sa place dans son bureau de vote. Pour cela, elle doit faire une procuration."
+    "explanation": "Si une personne est absente le jour du vote (élection ou référendum), elle peut charger un autre électeur de voter à sa place dans son bureau de vote. Pour cela, elle doit établir une procuration."
   },
   {
     "id": "vote_cre_007",
@@ -118,7 +118,7 @@ let vote_CRE = [
     "type": "single",
     "question": "À la fin de son mandat, le président de la République peut-il décider de rester au pouvoir ?",
     "answers": [
-      { "id": "ele", "label": "Non, il doit se présenter à nouveau à l'élection présidentielle" },
+      { "id": "ele", "label": "Non, il doit se présenter à nouveau à l'élection présidentielle s'il le souhaite" },
       { "id": "vou", "label": "Oui, autant qu'il voudra" },
       { "id": "env", "label": "Non, pas s'il n'en a pas envie" },
       { "id": "pou", "label": "Oui, il a tous les pouvoirs, dont celui-là" },
@@ -207,4 +207,4 @@ let vote_CRE = [
     "correct": ["jug"],
     "explanation": "Conformément au droit commun, les membres du Gouvernement sont responsables pénalement devant les juridictions répressives ordinaires pour les actes accomplis en dehors de leurs fonctions. Pour les actes commis dans l'exercice de leurs fonctions, ils sont responsables devant la Cour de justice de la République."
   }
-]
+];

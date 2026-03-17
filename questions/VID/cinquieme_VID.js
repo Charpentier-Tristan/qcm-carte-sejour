@@ -1,4 +1,4 @@
-let cinquieme_VID = [
+var cinquieme_VID = [
   {
     "id": "cinquieme_vid_001",
     "theme": "cinquieme",
@@ -238,4 +238,4 @@ let cinquieme_VID = [
     "correct": ["millau","pyl"],
     "explanation": "Parmi les monuments construits pendant la Cinquième République, le viaduc de Millau et la Pyramide du Louvre ont été des mieux acceptés."
   }
-]
+];

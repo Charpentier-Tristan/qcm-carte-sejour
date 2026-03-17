@@ -1,4 +1,4 @@
-let construction_VID = [
+var construction_VID = [
   {
     "id": "construction_vid_001",
     "theme": "construction",
@@ -264,4 +264,4 @@ let construction_VID = [
     "correct": ["fran","all","ita"],
     "explanation": "Les six pays fondateurs de la Communauté Européenne du Charbon et de l'Acier (CECA) puis de la Communauté Économique Européenne (CEE) étaient la France, l'Allemagne, l'Italie, la Belgique, la Hollande et le Luxembourg."
   }
-]
+];

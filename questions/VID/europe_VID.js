@@ -1,4 +1,4 @@
-let europe_VID = [
+var europe_VID = [
   {
     "id": "europe_vid_001",
     "theme": "europe",
@@ -287,4 +287,4 @@ let europe_VID = [
     "correct": ["oj"],
     "explanation": "L'Ode à la joie, hymne européen depuis 1985, prend sa source dans une oeuvre de Ludwig van Beethoven composée au début du XIXe siècle."
   }
-]
+];

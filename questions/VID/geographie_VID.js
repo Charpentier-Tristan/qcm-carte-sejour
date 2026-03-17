@@ -1,4 +1,4 @@
-let geographie_VID = [
+var geographie_VID = [
   {
     "id": "geographie_vid_001",
     "theme": "geographie",
@@ -28,7 +28,7 @@ let geographie_VID = [
       { "id": "dem", "label": "2000 kilomètres" },
       { "id": "ccq", "label": "155 kilomètres" },
       { "id": "trq", "label": "13 400 kilomètres" },
-      { "id": "seq", "label": "1789" kilomètres}
+      { "id": "seq", "label": "1789 kilomètres"}
     ],
     "correct": ["mil"],
     "explanation": "Du nord au sud, la France mesure environ 1000 kilomètres"
@@ -45,7 +45,7 @@ let geographie_VID = [
       { "id": "dem", "label": "2000 kilomètres" },
       { "id": "ccq", "label": "155 kilomètres" },
       { "id": "trq", "label": "13 400 kilomètres" },
-      { "id": "seq", "label": "1789" kilomètres}
+      { "id": "seq", "label": "1789 kilomètres"}
     ],
     "correct": ["mil"],
     "explanation": "D'est en ouest, la France mesure environ 1000 kilomètres"
@@ -262,8 +262,8 @@ let geographie_VID = [
       { "id": "treize", "label": "Treize" },
       { "id": "douze", "label": "Douze" },
       { "id": "dixhuit", "label": "Dix-huit" },
-      { "id": "vingtquatre", "label": "Vingt-quatre" }
-      { "id": "dix", "label": "Dix" }
+      { "id": "vingtquatre", "label": "Vingt-quatre" },
+      { "id": "dix", "label": "Dix" },
       { "id": "quinze", "label": "Quinze" }
     ],
     "correct": ["treize"],
@@ -281,7 +281,7 @@ let geographie_VID = [
       { "id": "larochelle", "label": "La Rochelle" },
       { "id": "bordeaux", "label": "Bordeaux" },
       { "id": "marseille", "label": "Marseille" },
-      { "id": "paris", "label": "Paris" },
+      { "id": "biarritz", "label": "Biarritz" },
       { "id": "lyon", "label": "Lyon" },
       { "id": "strasbourg", "label": "Strasbourg" },
       { "id": "lille", "label": "Lille" },
@@ -289,7 +289,7 @@ let geographie_VID = [
       { "id": "avignon", "label": "Avignon" }
     ],
     "correct": ["dunkerque", "nantes", "larochelle", "bordeaux", "marseille"],
-    "explanation": "Dunkerque, Nantes - Saint-Nazaire, La Rochelle, Bordeaux et Marseille sont les cinq ports maritimes les plus importants en France. Paris, Lyon, Strasbourg, Lille, Arles, Avignon, sont des ports fluviaux."
+    "explanation": "Dunkerque, Nantes - Saint-Nazaire, La Rochelle, Bordeaux et Marseille sont des ports maritimes importants en France. Lyon, Strasbourg, Lille, Arles, Avignon, sont des ports fluviaux."
   },
   {
     "id": "geographie_vid_016",
@@ -350,4 +350,4 @@ let geographie_VID = [
     "correct": ["alpes"],
     "explanation": "Les Alpes sont situées entre la France et l'Italie. Les Pyrénées sont entre la France et l'Espagne, le Jura entre la France et la Suisse. Les Vosges et le Massif central sont entièrement en France. Les Appenins, les Carpates, l'Oural sont des montagnes européennes mais ne sont pas en France."
   }
-]
+];

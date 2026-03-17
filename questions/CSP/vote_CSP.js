@@ -1,4 +1,4 @@
-let vote_CSP = [
+var vote_CSP = [
   {
     "id": "vote_csp_001",
     "theme": "vote",
@@ -71,7 +71,7 @@ let vote_CSP = [
     "question": "A-t-on le droit de ne pas respecter une loi ?",
     "answers": [
       { "id": "ext", "label": "En dernière extrémité, et seulement si on a épuisé tous les moyens légaux de faire valoir son point de vue" },
-      { "id": "adm", "label": "Oui, c'est couramment admis" },
+      { "id": "adm", "label": "Oui, c'est couramment admis et pratiqué" },
       { "id": "ric", "label": "Seulement si on est suffisamment riche" },
       { "id": "ari", "label": "Oui, si on appartient à une lignée aristocratique" },
       { "id": "jam", "label": "Non, jamais" }
@@ -369,4 +369,4 @@ let vote_CSP = [
     "correct": ["cit"],
     "explanation": "Selon l'article 3 de la Constitution, \"sont électeurs, dans les conditions déterminées par la loi, tous les nationaux français majeurs des deux sexes, jouissant de leurs droits civils et politiques\". Pour voter, il faut donc disposer de la nationalité française ; avoir plus de 18 ans ; jouir de ses droits civils et politiques (ce qui exclut certaines personnes condamnées) ; être inscrit sur la liste électorale d'une commune."
   }
-]
+];

@@ -1,4 +1,4 @@
-let travail_VID = [
+var travail_VID = [
   {
     "id": "travail_vid_001",
     "theme": "travail",
@@ -134,18 +134,19 @@ let travail_VID = [
     "id": "travail_vid_009",
     "theme": "travail",
     "level": "VID",
-    "type": "single",
+    "type": "multi",
     "question": "Quel pays régularise de nombreux travailleurs étrangers ?",
     "answers": [
       { "id": "esp", "label": "L'Espagne" },
+      { "id": "all", "label": "L'Allemagne" },
       { "id": "hon", "label": "Le Honduras" },
       { "id": "dan", "label": "Le Danemark" },
       { "id": "sue", "label": "La Suède" },
       { "id": "hon", "label": "La Hongrie" },
       { "id": "gre", "label": "La Grèce" }
     ],
-    "correct": ["esp"],
-    "explanation": "En janvier 2026, le gouvernement espagnol a approuvé la régularisation de plus de 500 000 immigrants sans-papiers. Une décision soutenue par ONG et syndicats, mais aussi par des organisations patronales et la Conférence épiscopale."
+    "correct": ["esp","all"],
+    "explanation": "En janvier 2026, le gouvernement espagnol a approuvé la régularisation de plus de 500 000 immigrants sans-papiers. Une décision soutenue par ONG et syndicats, mais aussi par des organisations patronales et la Conférence épiscopale. L'Allemagne avait régularisé des centaine milliers de migrants au long des années 2010."
   },
   {
     "id": "travail_vid_010",
@@ -211,4 +212,4 @@ let travail_VID = [
     "correct": ["cho"],
     "explanation": "Un étranger en situation d'emploi régulier en France a les mêmes droit qu'un Français. En particulier il peut s'inscrire à France Travail et toucher des indemnités de chômage."
   }
-]
+];

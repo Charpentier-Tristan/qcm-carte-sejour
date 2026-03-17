@@ -1,4 +1,4 @@
-let soins_CSP = [
+var soins_CSP = [
   {
     "id": "soins_csp_001",
     "theme": "soins",
@@ -29,7 +29,7 @@ let soins_CSP = [
       { "id": "ser", "label": "Un numéro de service administratif répondant dans la journée" }
       ],
     "correct": ["sit"],
-    "explanation": "Certains numéros de téléphone sont liés à des situations d\'urgence. Le 15 est celui du SAMU (urgence médicale) ; le 17 est celui de police secours (pour signaler une infraction) ; le 18 est celui des pompiers (situation de péril ou d\'accident) ; le 112 est le numéro d\'urgence européen ; le 114 est réservé aux personnes malentendantes."
+    "explanation": "Certains numéros de téléphone sont liés à des situations d'urgence. Le 15 est celui du SAMU (urgence médicale) ; le 17 est celui de police secours (pour signaler une infraction) ; le 18 est celui des pompiers (situation de péril ou d'accident) ; le 112 est le numéro d'urgence européen ; le 114 est réservé aux personnes malentendantes."
   },
   {
     "id": "soins_csp_003",
@@ -143,4 +143,4 @@ let soins_CSP = [
     "correct": ["com"],
     "explanation": "La mutuelle santé complète la couverture de base assurée par la protection universelle maladie (PUMa). Elle n’est pas obligatoire mais elle est recommandée afin de compléter la prise en charge financière des soins, des médicaments, des indemnités en cas d’arrêt de travail, etc."
   }
-]
+];

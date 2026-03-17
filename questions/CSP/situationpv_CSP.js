@@ -1,4 +1,4 @@
-let situationpv_CSP = [
+var situationpv_CSP = [
   {
     "id": "situationpv_csp_001",
     "theme": "situationpv",
@@ -71,7 +71,7 @@ let situationpv_CSP = [
     "theme": "situationpv",
     "level": "CSP",
     "type": "single",
-    "question": "Vous êtes un agent public. Un usager refuse de respecter une règle en invoquant sa religion",
+    "question": "Vous êtes un agent public. Un usager refuse de respecter une règle en invoquant sa religion.",
     "answers": [
       { "id": "cal", "label": "Vous expliquez calmement que les règles s'appliquent à tous" },
       { "id": "acc", "label": "Vous acceptez sa demande" },
@@ -246,4 +246,4 @@ let situationpv_CSP = [
     "correct": ["dis"],
     "explanation": "Le principe d'égalité interdit les discriminations fondées sur le sexe. Des restrictions doivent être justifiées par des exigences professionnelles essentielles et proportionnées, et non par une exclusion générale."
   }
-]
+];

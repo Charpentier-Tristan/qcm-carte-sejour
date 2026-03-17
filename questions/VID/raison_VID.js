@@ -1,4 +1,4 @@
-let raison_VID = [
+var raison_VID = [
   {
     "id": "raison_vid_001",
     "theme": "raison",
@@ -142,14 +142,14 @@ let raison_VID = [
     "theme": "raison",
     "level": "VID",
     "type": "single",
-    "question": "La Bible affirme que",
+    "question": "La Bible affirme que :",
     "answers": [
-      { "id": "sote", "label": "Le Soleil tourne autour de la Terre" },
-      { "id": "teso", "label": "La Terre tourne autour du Soleil" },
-      { "id": "tevi", "label": "La Terre tourne au vinaigre" },
-      { "id": "solu", "label": "Le Soleil tourne autour de la Lune" },
-      { "id": "luso", "label": "La Lune tourne autour du Soleil" },
-      { "id": "luro", "label": "La Lune tourne en rond" }
+      { "id": "sote", "label": "le Soleil tourne autour de la Terre" },
+      { "id": "teso", "label": "la Terre tourne autour du Soleil" },
+      { "id": "tevi", "label": "la Terre tourne au vinaigre" },
+      { "id": "solu", "label": "le Soleil tourne autour de la Lune" },
+      { "id": "luso", "label": "la Lune tourne autour du Soleil" },
+      { "id": "luro", "label": "la Lune tourne en rond" }
     ],
     "correct": ["sote"],
     "explanation": "À plusieurs endroits, la Bible fait référence à la course du Soleil. En particulier dans Psaumes 19:6-7 : \"Comme un jeune époux qui sort, joyeux, de sa chambre, comme un champion qui s'avance, ravi de prendre la course, surgit le soleil ! Tout à l'orient, il se lève, et son parcours se prolonge jusqu'au seuil de l'horizon\"."
@@ -222,4 +222,4 @@ let raison_VID = [
     "correct": ["rat"],
     "explanation": "René Descartes (1595-1650) est considéré comme le fondateur du rationalisme, qui attribue à la seule raison la capacité de connaître et d'établir la vérité."
   }
-]
+];

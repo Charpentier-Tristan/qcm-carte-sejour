@@ -1,4 +1,4 @@
-let insteurope_CSP = [
+var insteurope_CSP = [
   {
     "id": "insteurope_csp_001",
     "theme": "insteurope",
@@ -137,4 +137,4 @@ let insteurope_CSP = [
     "correct": ["nem"],
     "explanation": "Le 9 mai 1950, le ministre français des Affaires étrangères Robert Schuman prononce une déclaration historique. Il appelle à la mise en commun des productions de charbon et d'acier de la France et de l'Allemagne, au sein d'une organisation ouverte aux autres pays d'Europe. Pour commémorer cette déclaration, la \"journée de l'Europe\" est célébrée tous les ans le 9 mai dans les États membres de l'Union européenne."
   }
-]
+];

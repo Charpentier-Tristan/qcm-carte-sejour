@@ -1,4 +1,4 @@
-let territoire_INI = [
+var territoire_INI = [
   {
     "id": "territoire_ini_001",
     "theme": "territoire",
@@ -172,7 +172,7 @@ let territoire_INI = [
       { "id": "avignon", "label": "Shangaï" }
     ],
     "correct": ["dunkerque", "nantes", "larochelle", "bordeaux", "marseille"],
-    "explanation": "Dunkerque, Nantes - Saint-Nazaire, La Rochelle, Bordeaux et Marseille sont les cinq ports maritimes les plus importants en France."
+    "explanation": "Dunkerque, Nantes - Saint-Nazaire, La Rochelle, Bordeaux et Marseille sont des ports maritimes importants en France."
   },
   {
     "id": "territoire_ini_010",
@@ -250,4 +250,4 @@ let territoire_INI = [
     "correct": ["alpes"],
     "explanation": "Les Alpes sont situées entre la France et l'Italie. Les Pyrénées sont entre la France et l'Espagne, le Jura entre la France et la Suisse. Les Vosges et le Massif central sont entièrement en France."
   }
-]
+];

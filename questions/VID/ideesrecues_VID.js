@@ -1,4 +1,4 @@
-let ideesrecues_VID = [
+var ideesrecues_VID = [
   {
     "id": "ideesrecues_vid_001",
     "theme": "ideesrecues",
@@ -104,7 +104,7 @@ let ideesrecues_VID = [
     "theme": "ideesrecues",
     "level": "VID",
     "type": "single",
-    "question": "Quel est le coût de l'Aide Médicale d''Etat par rapport aux dépenses annuelles de santé ?",
+    "question": "Quel est le coût de l'Aide Médicale d'Etat par rapport aux dépenses annuelles de santé ?",
     "answers": [
       { "id": "dem", "label": "0,5 %" },
       { "id": "tro", "label": "3 %" },
@@ -168,7 +168,7 @@ let ideesrecues_VID = [
     "theme": "ideesrecues",
     "level": "VID",
     "type": "single",
-    "question": "Quelle proportion de français a au moins un grand-parent né à l'étranger ?",
+    "question": "Quelle proportion de Français a au moins un grand-parent né à l'étranger ?",
     "answers": [
       { "id": "tier", "label": "Un tiers" },
       { "id": "dix", "label": "Dix pour cent" },
@@ -198,4 +198,4 @@ let ideesrecues_VID = [
     "correct": ["abs"],
     "explanation": "La science mondiale s'est écrite en arabe pendant sept siècles, depuis le califat abbasside au 8e siècle, jusqu'à la Renaissance européenne. Il en est resté de très nombreux mots courants."
   }
-]
+];

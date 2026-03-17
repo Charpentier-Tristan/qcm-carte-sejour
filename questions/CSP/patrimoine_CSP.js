@@ -1,4 +1,4 @@
-let patrimoine_CSP = [
+var patrimoine_CSP = [
   {
     "id": "patrimoine_csp_001",
     "theme": "patrimoine",
@@ -13,7 +13,7 @@ let patrimoine_CSP = [
       { "id": "pol", "label": "Un homme politique" }
       ],
     "correct": ["the"],
-    "explanation": "Molière (1622-1673) est le plus célèbre auteur de théâtre français. Il a vécu au temps de Louis XIV. On lui doit des comédies comme \"L’Avare\"."
+    "explanation": "Molière (1622-1673) est le plus célèbre auteur de théâtre français. Il a vécu au temps de Louis XIV. On lui doit des comédies comme \"L’Avare\" et \"Le Bourgeois gentilhomme\"."
   },
   {
     "id": "patrimoine_csp_002",
@@ -39,7 +39,7 @@ let patrimoine_CSP = [
     "question": "Qui était George Sand ?",
     "answers": [
       { "id": "ecr", "label": "Une écrivaine française" },
-      { "id": "aut", "label": "Une auteure de théâtre anglaise" },
+      { "id": "aut", "label": "Une autrice de théâtre anglaise" },
       { "id": "pei", "label": "Une peintre ukrainienne" },
       { "id": "cha", "label": "Une chanteuse espagnole" },
       { "id": "inf", "label": "Une infirmière tchèque" }
@@ -55,7 +55,7 @@ let patrimoine_CSP = [
     "question": "Qui était Simone de Beauvoir ?",
     "answers": [
       { "id": "phi", "label": "Une philosophe et écrivaine française" },
-      { "id": "aut", "label": "Une auteure de théâtre anglaise" },
+      { "id": "aut", "label": "Une autrice de théâtre anglaise" },
       { "id": "pei", "label": "Une peintre ukrainienne" },
       { "id": "cha", "label": "Une chanteuse espagnole" },
       { "id": "inf", "label": "Une infirmière tchèque" }
@@ -226,4 +226,4 @@ let patrimoine_CSP = [
     "correct": ["vin"],
     "explanation": "Noël est la fête chrétienne d'origine romaine qui célèbre la Nativité, le 25 décembre. La tradition du père Noël a ajouté une dimension profane à la fête chrétienne, plus orientée vers les enfants, la familles et les cadeaux."
   }
-]
+];

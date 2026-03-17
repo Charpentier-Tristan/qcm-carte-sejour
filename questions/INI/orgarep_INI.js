@@ -1,4 +1,4 @@
-let orgarep_INI = [
+var orgarep_INI = [
   {
     "id": "orgarep_ini_001",
     "theme": "orgarep",
@@ -25,7 +25,7 @@ let orgarep_INI = [
       { "id": "loi", "label": "Ils votent les lois et contrôlent l'action du gouvernement" },
       { "id": "pol", "label": "Ils voyagent à l'étranger" },
       { "id": "mil", "label": "Ils partent en vacance" },
-      { "id": "aff", "label": "Ils scrollent téléphone" },
+      { "id": "aff", "label": "Ils scrollent sur leur téléphone" },
       { "id": "pol", "label": "Ils enregistrent des vidéos" }
       ],
     "correct": ["loi"],
@@ -46,7 +46,7 @@ let orgarep_INI = [
       { "id": "iea", "label": "Inventif, Épanoui, Louangeux" }
     ],
     "correct": ["lej"],
-    "explanation": "Pouvoir législatif (élaboration de la loi) ; Pouvoir exécutif (application de la loi) ; Autorité judiciaire (contrôle et sanction en cas de non-respect de la loi). La théorie de la séparation des pouvoirs plaide pour que chacun d'entre eux soit exercé par des organes distincts, indépendants les uns des autres."
+    "explanation": "Pouvoir législatif (élaboration de la loi) ; pouvoir exécutif (application de la loi) ; pouvoir judiciaire (contrôle et sanction en cas de non-respect de la loi). La théorie de la séparation des pouvoirs plaide pour que chacun d'entre eux soit exercé par des organes distincts, indépendants les uns des autres."
   },
   {
     "id": "orgarep_ini_004",
@@ -159,7 +159,7 @@ let orgarep_INI = [
       { "id": "min", "label": "Un ministre" },
       { "id": "dep", "label": "Un influenceur" },
       { "id": "sen", "label": "Madonna" },
-      { "id": "con", "label": "Le atron de Tik Tok" }
+      { "id": "con", "label": "Le patron de Tik Tok" }
       ],
     "correct": ["pre"],
     "explanation": "Le Préfet est le représentant de l'État dans le département. Il dirige les services de l'État dans son département."
@@ -245,4 +245,4 @@ let orgarep_INI = [
     "correct": ["rd"],
     "explanation": "La France est une République indivisible, laïque, démocratique et sociale, selon les principes inscrits dans l'article 1 de la Constitution de la Ve République de 1958."
   }
-]
+];

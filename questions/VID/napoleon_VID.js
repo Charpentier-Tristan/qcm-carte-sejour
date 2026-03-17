@@ -1,4 +1,4 @@
-let napoleon_VID = [
+var napoleon_VID = [
   {
     "id": "napoleon_vid_001",
     "theme": "napoleon",
@@ -91,7 +91,7 @@ let napoleon_VID = [
     "theme": "napoleon",
     "level": "VID",
     "type": "single",
-    "question": "Dans le Code Civil de Napoléon, une femme mariée était",
+    "question": "Dans le Code Civil de Napoléon, une femme mariée était :",
     "answers": [
       { "id": "dro", "label": "privée de droits juridiques" },
       { "id": "ger", "label": "autorisée à gérer ses biens" },
@@ -125,7 +125,7 @@ let napoleon_VID = [
     "theme": "napoleon",
     "level": "VID",
     "type": "single",
-    "question": "Le Code civil de Napoléon est",
+    "question": "Le Code civil de Napoléon est :",
     "answers": [
       { "id": "loi", "label": "un ensemble de lois rédigées" },
       { "id": "cou", "label": "un ensemble de lois coutumières" },
@@ -226,4 +226,4 @@ let napoleon_VID = [
     "correct": ["dan"],
     "explanation": "Napoléon s'est opposé à la plupart des pays d'Europe. Une exception notable est le royaume de Danemark (dont dépendait la Norvège), qui est entré en guerre aux côtés de la France en 1807. Quand Napoléon a été vaincu, le roi de Danemark a dû céder la Norvège à la Suède."
   }
-]
+];

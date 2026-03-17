@@ -1,4 +1,4 @@
-let situationdd_INI = [
+var situationdd_INI = [
   {
     "id": "situationdd_ini_001",
     "theme": "situationdd",
@@ -78,7 +78,7 @@ let situationdd_INI = [
       { "id": "cou", "label": "une couverture médiatique suffisante" }
     ],
     "correct": ["ind"],
-    "explanation": "L'IGPN (ou toute autre une autorité administrative indépendante), est chargée d'enquêter sur les dysfonctionnements de la police, pour assurer l'objectivité et l'indépendance de l'enquête."
+    "explanation": "L'IGPN (ou toute autre autorité administrative indépendante), est chargée d'enquêter sur les dysfonctionnements de la police, pour assurer l'objectivité et l'indépendance de l'enquête."
   },
   {
     "id": "situationdd_ini_006",
@@ -304,4 +304,4 @@ let situationdd_INI = [
     "correct": ["con"],
     "explanation": "Même sans voter, le fait pour un élu d'être en situation de défendre les intérêts d'une structure  dont il dirige l'administration, alors que la collectivité qu'il représente lui accorde une subvention, pose un problème de conflit d'intérêt."
   }
-]
+];

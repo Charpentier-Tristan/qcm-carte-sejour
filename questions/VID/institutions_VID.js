@@ -1,4 +1,4 @@
-let institutions_VID = [
+var institutions_VID = [
   {
     "id": "institutions_vid_001",
     "theme": "institutions",
@@ -62,7 +62,7 @@ let institutions_VID = [
       { "id": "sen", "label": "Le président du Sénat" },
       { "id": "par", "label": "Le maire de Paris" },
       { "id": "jus", "label": "Le ministre de la Justice" },
-      { "id": "con", "label": "Le Conseil constitutionnel" }
+      { "id": "con", "label": "Le Conseil constitutionnel" },
       { "id": "snc", "label": "Le président de la SNCF" },
       { "id": "eur", "label": "La Commission européenne" }
     ],
@@ -170,6 +170,7 @@ let institutions_VID = [
       { "id": "deu", "label": "Deux ans" },
       { "id": "sep", "label": "Sept ans" },
       { "id": "aga", "label": "Elle dépend de son âge" }
+    ],
     "correct": ["six"],
     "explanation": "La durée d'un mandat est de six ans, comme pour tous les mandats locaux (conseillers départementaux, régionaux et municipaux)."
   },
@@ -242,4 +243,4 @@ let institutions_VID = [
     "correct": ["rep"],
     "explanation": "L'article 8 de la Constitution dit : \"Le président de la République nomme le Premier ministre. Il met fin à ses fonctions sur la présentation par celui-ci de la démission du Gouvernement. Sur la proposition du Premier ministre, il nomme les autres membres du Gouvernement et met fin à leurs fonctions\"."
   }
-]
+];

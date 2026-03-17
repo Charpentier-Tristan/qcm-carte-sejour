@@ -1,4 +1,4 @@
-let travailler_CRE = [
+var travailler_CRE = [
   {
     "id": "travailler_cre_001",
     "theme": "travailler",
@@ -115,4 +115,4 @@ let travailler_CRE = [
     "correct": ["six","inv","act"],
     "explanation": "Les conditions à réunir pour avoir droit aux allocations chômage sont : avoir travaillé au moins 6 mois au cours des quatre derniers mois ; avoir perdu involontairement son emploi ; s'inscrire à France Travail dans les 12 mois qui suivent la fin du dernier contrat ; rechercher activement un emploi ; ne pas avoir atteint l'âge de la retraite à taux plein ; être apte à travailler ; habiter sur le territoire français."
   }
-]
+];

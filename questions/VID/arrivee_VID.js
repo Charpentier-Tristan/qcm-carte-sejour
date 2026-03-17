@@ -1,4 +1,4 @@
-let arrivee_VID = [
+var arrivee_VID = [
   {
     "id": "arrivee_vid_001",
     "theme": "arrivee",
@@ -57,12 +57,12 @@ let arrivee_VID = [
     "type": "single",
     "question": "Les demandes de visa se font :",
     "answers": [
-      { "id": "frvi", "label": "En ligne sur France Visas" },
-      { "id": "mair", "label": "À la mairie du lieu de résidence" },
-      { "id": "frtr", "label": "En ligne sur France Travail" },
-      { "id": "pref", "label": "À la préfecture du département de résidence" },
-      { "id": "super", "label": "Dans un supermarché" },
-      { "id": "disco", "label": "Dans une discothèque" }
+      { "id": "frvi", "label": "en ligne sur France Visas" },
+      { "id": "mair", "label": "à la mairie du lieu de résidence" },
+      { "id": "frtr", "label": "en ligne sur France Travail" },
+      { "id": "pref", "label": "à la préfecture du département de résidence" },
+      { "id": "super", "label": "dans un supermarché" },
+      { "id": "disco", "label": "dans une discothèque" }
     ],
     "correct": ["frvi"],
     "explanation": "Après avoir rempli votre demande sur le site France Visa, vous devez prendre rendez-vous au consulat de France du pays dans lequel vous résidez. En plus de votre dossier de demande, et de vos documents d'identité, on pourra vous demander des précisions sur l'objet et les conditions de votre séjour en France."
@@ -214,13 +214,13 @@ let arrivee_VID = [
       { "id": "cimade", "label": "CIMADE" },
       { "id": "adate", "label": "ADATE" },
       { "id": "apardap", "label": "APARDAP" },
-      { "id": "secat", "label": "Secours Catholique" }
+      { "id": "secat", "label": "Secours Catholique" },
       { "id": "sepop", "label": "Secours Populaire" },
-      { "id": "restc", "label": "Restos du coeur" }
+      { "id": "restc", "label": "Restos du coeur" },
       { "id": "terra", "label": "France Terre d'Asile" },
       { "id": "gisti", "label": "GISTI" }
     ],
-    "correct": ["ada","cimade,"adate","apardap"],
+    "correct": ["ada","cimade","adate","apardap"],
     "explanation": "Toutes les associations d'aide ont l'occasion de rendre service ponctuellement à des demandeurs d'asile. Certaines associations se consacrent spécifiquement à cette tâche, comme l'ADA, la CIMADE, l'ADATE et l'APARDAP."
   },
   {
@@ -259,4 +259,4 @@ let arrivee_VID = [
     "correct": ["cinq"],
     "explanation": "D'après les chiffres du ministère de l'Intérieur, en 2025 52,1 % d'asiles ont été attribués. Ce chiffre totalise les premières attributions par l'OFPRA, les recours acceptés par la CNDA et les attributions aux Mineurs Isolés Étrangers."
   }
-]
+];

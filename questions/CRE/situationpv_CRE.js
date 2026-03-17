@@ -1,4 +1,4 @@
-let situationpv_CRE = [
+var situationpv_CRE = [
   {
     "id": "situationpv_cre_001",
     "theme": "situationpv",
@@ -221,7 +221,7 @@ let situationpv_CRE = [
       { "id": "moi", "label": "Oui si l'association propriétaire accepte de reverser la moitié du montant à la commune" }
     ],
     "correct": ["cul"],
-    "explanation": "Le principe de séparation interdit le financement public des édifices cultuels. La commune peut entretenir le terrain, mais pas l'édifice."
+    "explanation": "Le principe de séparation interdit le financement public des édifices cultuels. La commune peut entretenir le terrain, mais pas l'édifice, dont elle n'est pas propriétaire."
   },
   {
     "id": "situationpv_cre_015",
@@ -253,7 +253,7 @@ let situationpv_CRE = [
       { "id": "lic", "label": "une raison de le licencier" }
     ],
     "correct": ["dis"],
-    "explanation": "En contexte professionnel en France, un tel refus systématique, fondé sur le sexe de la collègue,  peut être jugé comme une atteinte à la dignité et à l'égalité, constituant du harcèlement discriminatoire."
+    "explanation": "En contexte professionnel en France, un tel refus systématique, fondé sur le sexe de la collègue, peut être jugé comme une atteinte à la dignité et à l'égalité, constituant du harcèlement discriminatoire."
   },
   {
     "id": "situationpv_cre_017",
@@ -271,4 +271,4 @@ let situationpv_CRE = [
     "correct": ["har"],
     "explanation": "Les injures à caractère raciste et les faits de harcèlement moral sont punis par la loi, même en l'absence de violences physiques."
   }
-]
+];

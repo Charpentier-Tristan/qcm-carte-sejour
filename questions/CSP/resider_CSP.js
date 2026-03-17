@@ -1,4 +1,4 @@
-let resider_CSP = [
+var resider_CSP = [
   {
     "id": "resider_csp_001",
     "theme": "resider",
@@ -61,6 +61,6 @@ let resider_CSP = [
       { "id": "pre", "label": "Il faut le déclarer à la préfecture" }
       ],
     "correct": ["mai"],
-    "explanation": "Le mariage civil, célébré par un officier de l’état civil à la mairie, est le seul mariage reconnu légalement en France."
+    "explanation": "Le mariage civil, célébré par un officier de l’état civil à la mairie, est le seul mariage reconnu légalement en France. Un mariage purement religieux célébré en France n’a donc aucune valeur juridique. Pour qu'un mariage célébré à l'étranger soit pleinement reconnu en France, l'acte de mariage doit être transcrit sur les registres de l'état civil de l'ambassade ou du consulat de France du lieu du mariage."
   }
-]
+];

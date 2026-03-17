@@ -1,4 +1,4 @@
-let territoire_CRE = [
+var territoire_CRE = [
   {
     "id": "territoire_cre_001",
     "theme": "territoire",
@@ -22,7 +22,7 @@ let territoire_CRE = [
     "id": "territoire_cre_002",
     "theme": "territoire",
     "level": "CRE",
-    "type": "single",
+    "type": "multi",
     "question": "Quel pays a une frontière terrestre avec la France métropolitaine ?",
     "answers": [
       { "id": "all", "label": "Allemagne" },
@@ -109,7 +109,7 @@ let territoire_CRE = [
       { "id": "vosges", "label": "Les Vosges" },
       { "id": "central", "label": "Le Massif Central" }
     ],
-    "correct": ["alpes"],
+    "correct": ["pyrenees"],
     "explanation": "Les Pyrénées sont entre la France et l'Espagne. Les Alpes sont situées entre la France et l'Italie, le Jura entre la France et la Suisse. Les Vosges et le Massif central sont entièrement en France."
   },
   {
@@ -129,7 +129,7 @@ let territoire_CRE = [
       { "id": "hel", "label": "Sainte-Hélène" }
       ],
     "correct": ["reu","may"],
-    "explanation": "La France possède plusieurs îles dans l'océan indien, dont les deux plus grandes sont Mayotte et La Réunion. Elles ont le statut de département et région d'outre-mer (DROM)"
+    "explanation": "La France possède plusieurs îles dans l'océan Indien, dont les deux plus grandes sont Mayotte et La Réunion. Elles ont le statut de département et région d'outre-mer (DROM)"
   },
   {
     "id": "territoire_cre_008",
@@ -311,4 +311,4 @@ let territoire_CRE = [
     "correct": ["par"],
     "explanation": "Le département le plus touristique en France est Paris, avec plus de 15 millions d'arrivées annuelles. Le second dans le classement est la Seine-et-Marne (parcs d'attraction)."
   }
-]
+];

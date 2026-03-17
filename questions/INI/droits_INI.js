@@ -1,4 +1,4 @@
-let droits_INI = [
+var droits_INI = [
   {
     "id": "droits_ini_001",
     "theme": "droits",
@@ -30,7 +30,7 @@ let droits_INI = [
       { "id": "rou", "label": "Le contrat social" }
       ],
     "correct": ["ddh"],
-    "explanation": "La Déclaration des droits de l'homme et du citoyen (DDHC) de 1789 fait partie du Bloc de constitutionnalité de la Ve République. Il y est écrit que nos droits sont \"imprescriptibles\" (article 2), ce qui signifie qu'ils ne peuvent pas nous être retirés. Cependant, ces droits et libertés sont limités par les droits des autres : \"La liberté consiste à faire tout ce qui ne nuit pas à autrui\" (article 4). Nos droits et libertés individuels sont limités par : l'intérêt général ; les libertés des autres ; la défense de l'ordre public ; le respect de la dignité humaine."
+    "explanation": "La Déclaration des droits de l'homme et du citoyen de 1789 fait partie du Bloc de constitutionnalité de la Ve République. Il y est écrit que nos droits sont \"imprescriptibles\" (article 2), ce qui signifie qu'ils ne peuvent pas nous être retirés. Cependant, ces droits et libertés sont limités par les droits des autres : \"La liberté consiste à faire tout ce qui ne nuit pas à autrui\" (article 4). Nos droits et libertés individuels sont limités par : l'intérêt général ; les libertés des autres ; la défense de l'ordre public ; le respect de la dignité humaine."
   },
   {
     "id": "droits_ini_003",
@@ -40,7 +40,7 @@ let droits_INI = [
     "question": "Concernant les droits individuels, quelle proposition est correcte ?",
     "answers": [
       { "id": "dis", "label": "Ils sont les mêmes pour tout le monde sans discrimination" },
-      { "id": "ric", "label": "Ils sont pour les riches riches" },
+      { "id": "ric", "label": "Ils sont pour les riches" },
       { "id": "hom", "label": "Ils sont pour les hommes" },
       { "id": "dih", "label": "Ils sont pour les plus de 18 ans" },
       { "id": "ele", "label": "Ils sont pour ceux qui votent" }
@@ -100,7 +100,7 @@ let droits_INI = [
       { "id": "rou", "label": "Du contrat social" }
       ],
     "correct": ["ddh"],
-    "explanation": "La Déclaration des droits de l'homme et du citoyen (DDHC) de 1789 fait partie du Bloc de constitutionnalité de la Ve République. Il y est écrit que nos droits sont \"imprescriptibles\" (article 2), ce qui signifie qu'ils ne peuvent pas nous être retirés. Cependant, ces droits et libertés sont limités par les droits des autres : \"La liberté consiste à faire tout ce qui ne nuit pas à autrui\" (article 4). Nos droits et libertés individuels sont limités par : l'intérêt général ; les libertés des autres ; la défense de l'ordre public ; le respect de la dignité humaine."
+    "explanation": "La Déclaration des droits de l'homme et du citoyen de 1789 fait partie du Bloc de constitutionnalité de la Ve République. Il y est écrit que nos droits sont \"imprescriptibles\" (article 2), ce qui signifie qu'ils ne peuvent pas nous être retirés. Cependant, ces droits et libertés sont limités par les droits des autres : \"La liberté consiste à faire tout ce qui ne nuit pas à autrui\" (article 4). Nos droits et libertés individuels sont limités par : l'intérêt général ; les libertés des autres ; la défense de l'ordre public ; le respect de la dignité humaine."
   },
   {
     "id": "droits_ini_007",
@@ -116,7 +116,7 @@ let droits_INI = [
       { "id": "tra", "label": "La liberté de travailler" }
       ],
     "correct": ["pen"],
-    "explanation": "La liberté d'expression est la liberté de penser et de dire ce que l'on pense. Elle est inscrite à l'article 11 de la Déclaration des droits de l'Homme et du citoyen. Elle fait partie des droits fondamentaux, dont la protection est nécessaire dans un État de droit. Tout en affirmant la liberté d'expression, l'article 11 de la DDHC en pose les limites : \"tout citoyen peut donc parler, écrire, imprimer librement, sauf à répondre de l'abus de cette liberté dans les cas déterminés par la loi\". Ces cas déterminés par la loi incluent les motifs d'intérêt général (secret défense), le devoir de réserve (secret professionnel), la protection des personnes (contre les injures ou la diffamation)."
+    "explanation": "La liberté d'expression est la liberté de penser et de dire ce que l'on pense. Elle est inscrite à l'article 11 de la Déclaration des droits de l'Homme et du citoyen. Elle fait partie des droits fondamentaux, dont la protection est nécessaire dans un État de droit. Tout en affirmant la liberté d'expression, l'article 11 de la Déclaration des droits de l'homme en pose les limites : \"tout citoyen peut donc parler, écrire, imprimer librement, sauf à répondre de l'abus de cette liberté dans les cas déterminés par la loi\". Ces cas déterminés par la loi incluent les motifs d'intérêt général (secret défense), le devoir de réserve (secret professionnel), la protection des personnes (contre les injures ou la diffamation)."
   },
   {
     "id": "droits_ini_008",
@@ -149,7 +149,7 @@ let droits_INI = [
       { "id": "rou", "label": "Le Code civil" }
       ],
     "correct": ["ddh"],
-    "explanation": "La Déclaration des droits de l'homme et du citoyen (DDHC) de 1789 fait partie du Bloc de constitutionnalité de la Ve République. Il y est écrit que nos droits sont \"imprescriptibles\" (article 2), ce qui signifie qu'ils ne peuvent pas nous être retirés. Cependant, ces droits et libertés sont limités par les droits des autres : \"La liberté consiste à faire tout ce qui ne nuit pas à autrui\" (article 4). Nos droits et libertés individuels sont limités par : l'intérêt général ; les libertés des autres ; la défense de l'ordre public ; le respect de la dignité humaine."
+    "explanation": "La Déclaration des droits de l'homme et du citoyen de 1789 fait partie du Bloc de constitutionnalité de la Ve République. Il y est écrit que nos droits sont \"imprescriptibles\" (article 2), ce qui signifie qu'ils ne peuvent pas nous être retirés. Cependant, ces droits et libertés sont limités par les droits des autres : \"La liberté consiste à faire tout ce qui ne nuit pas à autrui\" (article 4). Nos droits et libertés individuels sont limités par : l'intérêt général ; les libertés des autres ; la défense de l'ordre public ; le respect de la dignité humaine."
   },
   {
     "id": "droits_ini_010",
@@ -191,11 +191,11 @@ let droits_INI = [
     "type": "single",
     "question": "Une femme peut avorter :",
     "answers": [
-      { "id": "reg", "label": "Sans condition, mais dans un cadre règlementé" },
-      { "id": "cla", "label": "Clandestinement" },
-      { "id": "etr", "label": "En Ouzbékistan, mais pas en France" },
-      { "id": "sem", "label": "Toujours" },
-      { "id": "med", "label": "Avec sa voisine" }
+      { "id": "reg", "label": "sans condition, mais dans un cadre règlementé" },
+      { "id": "cla", "label": "clandestinement" },
+      { "id": "etr", "label": "en Ouzbékistan, mais pas en France" },
+      { "id": "sem", "label": "toujours" },
+      { "id": "med", "label": "avec sa voisine" }
       ],
     "correct": ["reg"],
     "explanation": "Chaque femme, sans condition d'âge, peut avoir recours à l'IVG (Interruption Volontaire de Grossesse) dans un cadre réglementé. Le droit à l'avortement permet aux femmes d'interrompre une grossesse sans risque d'être punies par la loi. Le 4 mars 2024, le Parlement a inscrit dans la Constitution le droit des femmes à recourir à l'IVG."
@@ -232,4 +232,4 @@ let droits_INI = [
     "correct": ["abo"],
     "explanation": "La loi du 9 octobre 1981 a mis définitivement fin à la peine capitale en France. La loi constitutionnelle du 23 février 2017 a inscrit l'abolition de la peine de mort dans la Constitution de la Ve République : l'article 66-1 affirme désormais clairement que \"nul ne peut être condamné à la peine de mort\"."
   }
-]
+];

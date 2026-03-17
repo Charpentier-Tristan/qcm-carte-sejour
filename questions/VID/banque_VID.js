@@ -1,4 +1,4 @@
-let banque_VID = [
+var banque_VID = [
   {
     "id": "banque_vid_001",
     "theme": "banque",
@@ -137,7 +137,7 @@ let banque_VID = [
       { "id": "agre", "label": "uniquement les montants agréés par la banque" }
     ],
     "correct": ["plaf"],
-    "explanation": "Le montant des achats par carte est limité par un montant maximum, le \"plafond\". Ce plafond est fixé par contrat et il est indiqué dans votre convention de compte. Il peut être relevé ponctuellement sur demande."
+    "explanation": "Le montant des achats par carte est limité par un montant maximum, le \"plafond\". Ce plafond est fixé par contrat et il est indiqué dans votre convention de compte. Il peut être relevé ponctuellement sur demande.",
   },
   {
     "id": "banque_vid_009",
@@ -190,4 +190,4 @@ let banque_VID = [
     "correct": ["banf"],
     "explanation": "Si une banque refuse de vous ouvrir un compte bancaire, vous pouvez saisir la Banque de France pour bénéficier de la procédure du droit au compte. La Banque de France désigne alors une banque, proche de votre domicile ou du lieu de votre choix, qui doit vous ouvrir un compte avec des services bancaires de base."
   }
-]
+];

@@ -1,4 +1,4 @@
-let situationpv_INI = [
+var situationpv_INI = [
   {
     "id": "situationpv_ini_001",
     "theme": "situationpv",
@@ -9,7 +9,7 @@ let situationpv_INI = [
       { "id": "ele", "label": "aux élèves" },
       { "id": "par", "label": "aux députés" },
       { "id": "per", "label": "aux sénateurs" },
-      { "id": "pro", "label": "aux français d\ outre-mer" },
+      { "id": "pro", "label": "aux français d'outre-mer" },
       { "id": "anc", "label": "aux étrangers" },
       { "id": "dir", "label": "au Président" }
     ],
@@ -246,4 +246,4 @@ let situationpv_INI = [
     "correct": ["dis"],
     "explanation": "Le principe d'égalité interdit les discriminations fondées sur le sexe. Des restrictions doivent être justifiées par des exigences professionnelles essentielles et proportionnées, et non par une exclusion générale."
   }
-]
+];

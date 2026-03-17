@@ -1,4 +1,4 @@
-let patrimoine_INI = [
+var patrimoine_INI = [
   {
     "id": "patrimoine_ini_001",
     "theme": "patrimoine",
@@ -169,11 +169,11 @@ let patrimoine_INI = [
     "type": "single",
     "question": "Qui était Jean de la Fontaine ?",
     "answers": [
-      { "id": "poe", "label": "un poète du temps de Louis XIV" },
-      { "id": "rom", "label": "un blogueur" },
-      { "id": "pei", "label": "un rappeur" },
-      { "id": "scu", "label": "un influenceur" },
-      { "id": "arc", "label": "un rocker" }
+      { "id": "poe", "label": "Un poète du temps de Louis XIV" },
+      { "id": "rom", "label": "Un blogueur" },
+      { "id": "pei", "label": "Un rappeur" },
+      { "id": "scu", "label": "Un influenceur" },
+      { "id": "arc", "label": "Un rocker" }
       ],
     "correct": ["poe"],
     "explanation": "Jean de la Fontaine (1621-1695) est un poète, fabuliste et romancier français du temps de Louis XIV. Dans ses fables, il met en scène des animaux avec des traits d'humains pour critiquer les Hommes."
@@ -226,4 +226,4 @@ let patrimoine_INI = [
     "correct": ["vin"],
     "explanation": "Noël est la fête chrétienne d'origine romaine qui célèbre la Nativité, le 25 décembre. La tradition du père Noël a ajouté une dimension profane à la fête chrétienne, plus orientée vers les enfants, la familles et les cadeaux."
   }
-]
+];

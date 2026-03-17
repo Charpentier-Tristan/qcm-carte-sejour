@@ -1,4 +1,4 @@
-let resider_INI = [
+var resider_INI = [
   {
     "id": "resider_ini_001",
     "theme": "resider",
@@ -63,4 +63,4 @@ let resider_INI = [
     "correct": ["mai"],
     "explanation": "Le mariage civil, célébré par un officier de l'état civil à la mairie, est le seul mariage reconnu légalement en France."
   }
-]
+];

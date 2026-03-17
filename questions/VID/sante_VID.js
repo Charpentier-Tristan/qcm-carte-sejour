@@ -1,4 +1,4 @@
-let sante_VID = [
+var sante_VID = [
   {
     "id": "sante_vid_001",
     "theme": "sante",
@@ -6,12 +6,12 @@ let sante_VID = [
     "type": "single",
     "question": "L'Aide Médicale de l'État concerne :",
     "answers": [
-      { "id": "etir", "label": "Les étrangers en situation irrégulière" },
-      { "id": "etna", "label": "Les étrangers naturalisés" },
-      { "id": "frab", "label": "Les français sans abri" },
-      { "id": "care", "label": "Les titulaires d'une carte de résident" },
-      { "id": "csp", "label": "Les titulaires d'une carte de séjour pluriannuel" },
-      { "id": "mie", "label": "Les mineurs isolés étrangers" }
+      { "id": "etir", "label": "les étrangers en situation irrégulière" },
+      { "id": "etna", "label": "les étrangers naturalisés" },
+      { "id": "frab", "label": "les français sans abri" },
+      { "id": "care", "label": "les titulaires d'une carte de résident" },
+      { "id": "csp", "label": "les titulaires d'une carte de séjour pluriannuel" },
+      { "id": "mie", "label": "les mineurs isolés étrangers" }
     ],
     "correct": ["etir"],
     "explanation": "L'aide médicale de l'État (AME) s'adresse aux étrangers en situation irrégulière et précaire. L'AME donne droit à la prise en charge à 100 % des soins médicaux et hospitaliers dans la limite des tarifs de la sécurité sociale."
@@ -23,11 +23,11 @@ let sante_VID = [
     "type": "single",
     "question": "La Protection Universelle Maladie concerne :",
     "answers": [
-      { "id": "etre", "label": "Les étrangers en situation régulière" },
-      { "id": "etir", "label": "Les étrangers en situation irrégulière" },
-      { "id": "trav", "label": "Uniquement les travailleurs" },
-      { "id": "franc", "label": "Uniquement les français" },
-      { "id": "tout", "label": "Toutes les personnes présentes sur le territoire" }
+      { "id": "etre", "label": "les étrangers en situation régulière" },
+      { "id": "etir", "label": "les étrangers en situation irrégulière" },
+      { "id": "trav", "label": "uniquement les travailleurs" },
+      { "id": "franc", "label": "uniquement les français" },
+      { "id": "tout", "label": "toutes les personnes présentes sur le territoire" }
     ],
     "correct": ["etre"],
     "explanation": "La protection universelle maladie (Puma) permet la prise en charge des frais de santé sans rupture de droits. Cela signifie que cette prise en charge est assurée même en cas de changement de situation professionnelle, familiale ou de résidence. Pour avoir droit à la Puma, on doit travailler ou résider en France de manière stable ou régulière."
@@ -71,12 +71,12 @@ let sante_VID = [
     "type": "single",
     "question": "Le sigle PASS signifie :",
     "answers": [
-      { "id": "acc", "label": "Permanence d'accès aux soins de santé" },
-      { "id": "asi", "label": "Précarité, asile, et sauvegarde sanitaire" },
-      { "id": "ass", "label": "Portail d'assimilation pour services sociaux" },
-      { "id": "abo", "label": "Porte d'abordage pour semaines de sécurité" },
-      { "id": "acc", "label": "Péri-accompagnement de septuagénaires sains" },
-      { "id": "ami", "label": "Protéines amino-saccharoïdes sélectionnées" }
+      { "id": "acc", "label": "permanence d'accès aux soins de santé" },
+      { "id": "asi", "label": "précarité, asile, et sauvegarde sanitaire" },
+      { "id": "ass", "label": "portail d'assimilation pour services sociaux" },
+      { "id": "abo", "label": "porte d'abordage pour semaines de sécurité" },
+      { "id": "acc", "label": "péri-accompagnement de septuagénaires sains" },
+      { "id": "ami", "label": "protéines amino-saccharoïdes sélectionnées" }
     ],
     "correct": ["acc"],
     "explanation": "Une permanence d'accès aux soins de santé (PASS) est une unité de soins hospitalière ouverte à toute personne malade en situation de précarité. Elle assure une prise en charge coordonnée (médicale, sociale, infirmière) ainsi que l'accompagnement dans un parcours de santé."
@@ -88,11 +88,11 @@ let sante_VID = [
     "type": "single",
     "question": "Pour un rendez-vous médical, si on ne parle pas français :",
     "answers": [
-      { "id": "int", "label": "On peut se faire accompagner d'un interprète" },
-      { "id": "com", "label": "On espère que le médecin saura comprendre" },
-      { "id": "dic", "label": "On amène un dictionnaire" },
-      { "id": "goo", "label": "On demande à Google traduction" },
-      { "id": "pay", "label": "On demande un médecin de son pays" }
+      { "id": "int", "label": "on peut se faire accompagner d'un interprète" },
+      { "id": "com", "label": "on espère que le médecin saura comprendre" },
+      { "id": "dic", "label": "on amène un dictionnaire" },
+      { "id": "goo", "label": "on demande à Google traduction" },
+      { "id": "pay", "label": "on demande un médecin de son pays" }
     ],
     "correct": ["int"],
     "explanation": "Pour les patients non francophones, il est préférable de faire appel à un interprète, qui peut être soit un proche de confiance, soit un interprète professionnel, mis à la disposition des établissements hospitaliers."
@@ -169,4 +169,4 @@ let sante_VID = [
     "correct": ["sid","hep"],
     "explanation": "Le Centre Gratuit d'Information de Dépistage et de Diagnostic (CeGIDD) assure des consultations de dépistages, de prise en charge et de traitement des infections sexuellement transmissibles (IST),  dont le SIDA et l'hépatite. Pour la tuberculose, il faut s'adresser au CLAT : Centre de Lutte Anti-Tuberculeuse."
   }
-]
+];

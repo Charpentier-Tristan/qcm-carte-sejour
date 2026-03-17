@@ -1,4 +1,4 @@
-let territoire_CSP = [
+var territoire_CSP = [
   {
     "id": "territoire_csp_001",
     "theme": "territoire",
@@ -164,7 +164,7 @@ let territoire_CSP = [
       { "id": "larochelle", "label": "La Rochelle" },
       { "id": "bordeaux", "label": "Bordeaux" },
       { "id": "marseille", "label": "Marseille" },
-      { "id": "paris", "label": "Paris" },
+      { "id": "biarritz", "label": "Biarritz" },
       { "id": "lyon", "label": "Lyon" },
       { "id": "strasbourg", "label": "Strasbourg" },
       { "id": "lille", "label": "Lille" },
@@ -172,7 +172,7 @@ let territoire_CSP = [
       { "id": "avignon", "label": "Avignon" }
     ],
     "correct": ["dunkerque", "nantes", "larochelle", "bordeaux", "marseille"],
-    "explanation": "Dunkerque, Nantes - Saint-Nazaire, La Rochelle, Bordeaux et Marseille sont les cinq ports maritimes les plus importants en France. Paris, Lyon, Strasbourg, Lille, Arles, Avignon, sont des ports fluviaux."
+    "explanation": "Dunkerque, Nantes - Saint-Nazaire, La Rochelle, Bordeaux et Marseille sont des ports maritimes importants en France. Lyon, Strasbourg, Lille, Arles, Avignon, sont des ports fluviaux."
   },
   {
     "id": "territoire_csp_010",
@@ -248,6 +248,6 @@ let territoire_CSP = [
       { "id": "oural", "label": "L'Oural" }
     ],
     "correct": ["alpes"],
-    "explanation": "Les Alpes sont situées entre la France et l'Italie. Les Pyrénées sont entre la France et l'Espagne, le Jura entre la France et la Suisse. Les Vosges et le Massif central sont entièrement en France. Les Appenins, les Carpates, l'Oural sont des montagnes européennes mais ne sont pas en France."
+    "explanation": "Les Alpes sont situées entre la France et l'Italie. Les Pyrénées sont entre la France et l'Espagne, le Jura entre la France et la Suisse. Les Vosges et le Massif central sont entièrement en France."
   }
-]
+];

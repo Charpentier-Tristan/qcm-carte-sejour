@@ -1,4 +1,4 @@
-let principes_VID = [
+var principes_VID = [
   {
     "id": "principes_vid_001",
     "theme": "principes",
@@ -48,7 +48,7 @@ let principes_VID = [
       { "id": "susd", "label": "1870" }
     ],
     "correct": ["seqq"],
-    "explanation": "Le 15 février 1794, la Convention nationale ordonne par décret que le pavillon de la Marine "sera formé des trois couleurs nationales, disposées en bandes verticalement, de manière que le bleu soit attaché à la gaule du pavillon, le blanc au milieu et le rouge flottant dans les airs"."
+    "explanation": "Le 15 février 1794, la Convention nationale ordonne par décret que le pavillon de la Marine \"sera formé des trois couleurs nationales, disposées en bandes verticalement, de manière que le bleu soit attaché à la gaule du pavillon, le blanc au milieu et le rouge flottant dans les airs\"."
   },
   {
     "id": "principes_vid_004",
@@ -77,7 +77,7 @@ let principes_VID = [
       { "id": "phr", "label": "Un bonnet phrygien" },
       { "id": "rien", "label": "Rien" },
       { "id": "cas", "label": "Une casquette" },
-      { "id": "bon", "label": "Un bonnet" },
+      { "id": "bon", "label": "Un bonnet de ski" },
       { "id": "pom", "label": "Un casque de pompier" },
       { "id": "fou", "label": "Un foulard" }
     ],
@@ -140,7 +140,7 @@ let principes_VID = [
     "theme": "principes",
     "level": "VID",
     "type": "single",
-    "question": "Citez les trois symboles de la République inscrits dans la Constitution de 1958",
+    "question": "Citez les trois symboles de la République inscrits dans la Constitution de 1958.",
     "answers": [
       { "id": "dhd", "label": "Le drapeau, l'hymne, la devise" },
       { "id": "mcq", "label": "Marianne, le coq, le 14 juillet" },
@@ -184,8 +184,7 @@ let principes_VID = [
       { "id": "dem", "label": "La démocratie" }
     ],
     "correct": ["ega"],
-    "explanation": "En France, l'égalité s'applique de différentes manières : l'égalité devant la loi : la loi est la même pour toutes les personnes ;
-    l'égalité des droits civiques : tous les citoyens français ont les mêmes droits civiques : voter, se présenter à une élection, participer à un conseil municipal ; l'égalité des droits sociaux : ces droits sont accessibles à tous : éducation, santé, logement, emploi, etc."
+    "explanation": "En France, l'égalité s'applique de différentes manières : l'égalité devant la loi : la loi est la même pour toutes les personnes ; l'égalité des droits civiques : tous les citoyens français ont les mêmes droits civiques : voter, se présenter à une élection, participer à un conseil municipal ; l'égalité des droits sociaux : ces droits sont accessibles à tous : éducation, santé, logement, emploi, etc."
   },
   {
     "id": "principes_vid_012",
@@ -211,12 +210,12 @@ let principes_VID = [
     "type": "single",
     "question": "Que garantit la valeur de liberté ?",
     "answers": [
-      { "id": "prdr", "label": "la protection des droits" },
-      { "id": "lidr", "label": "la limitation des droits" },
-      { "id": "inre", "label": "l'interdiction des religions" },
-      { "id": "regr", "label": "la restriction du droit de grève" },
-      { "id": "obfi", "label": "l'obligation fiscale" },
-      { "id": "enop", "label": "l'encadrement des opinions" }
+      { "id": "prdr", "label": "La protection des droits" },
+      { "id": "lidr", "label": "La limitation des droits" },
+      { "id": "inre", "label": "L'interdiction des religions" },
+      { "id": "regr", "label": "La restriction du droit de grève" },
+      { "id": "obfi", "label": "L'obligation fiscale" },
+      { "id": "enop", "label": "L'encadrement des opinions" }
     ],
     "correct": ["prdr"],
     "explanation": "En France, chaque personne peut penser, s'exprimer et vivre comme elle le souhaite. La seule limite est de ne pas empêcher une autre personne d'en faire autant. Il existe deux types de libertés, individuelles et collectives ; individuelles : exprimer une opinion, vivre avec la personne de son choix etc ; collective : participer à une manifestation, adhérer à un syndicat, créer une association, etc."
@@ -269,8 +268,7 @@ let principes_VID = [
       { "id": "con", "label": "Le pouvoir sur les consciences" }
     ],
     "correct": ["sep"],
-    "explanation": "La laïcité garantit que les institutions politiques ne favorisent aucune religion, permettant ainsi la liberté de conscience.
-    La laïcité n'est pas une croyance, mais le principe qui rend possible la coexistence de toutes les croyances."
+    "explanation": "La laïcité garantit que les institutions politiques ne favorisent aucune religion, permettant ainsi la liberté de conscience. La laïcité n'est pas une croyance, mais le principe qui rend possible la coexistence de toutes les croyances."
   },
   {
     "id": "principes_vid_017",
@@ -289,4 +287,4 @@ let principes_VID = [
     "correct": ["con"],
     "explanation": "La laïcité est devenue un principe à valeur constitutionnelle avec la Constitution du 4 octobre 1958, dont l'article 1er dit : \"La France est une République indivisible, laïque, démocratique et sociale\". Elle n'est pas un principe universel ni une loi européenne : chaque pays a ses propres règles."
   }
-]
+];

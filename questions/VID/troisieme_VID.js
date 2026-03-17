@@ -1,4 +1,4 @@
-let troisieme_VID = [
+var troisieme_VID = [
   {
     "id": "troisieme_vid_001",
     "theme": "troisieme",
@@ -271,4 +271,4 @@ let troisieme_VID = [
     "correct": ["con"],
     "explanation": "La loi sur les congés payés, adoptée en juin 1936, constitue l'un des symboles les plus forts du Front populaire."
   }
-]
+];

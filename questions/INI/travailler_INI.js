@@ -1,4 +1,4 @@
-let travailler_INI = [
+var travailler_INI = [
   {
     "id": "travailler_ini_001",
     "theme": "travailler",
@@ -143,4 +143,4 @@ let travailler_INI = [
     "correct": ["sei"],
     "explanation": "Il est possible de travailler dès l'âge de 16 ans. Tout mineur doit y être autorisé par son représentant légal (père ou mère, par exemple), sauf s'il est émancipé. La législation nationale peut autoriser l'emploi des personnes de 13 à 15 ans à des travaux légers, à condition que ces derniers ne soient pas susceptibles de porter préjudice à leur santé ni à leur scolarité."
   }
-]
+];

@@ -1,4 +1,4 @@
-let logement_VID = [
+var logement_VID = [
   {
     "id": "logement_vid_001",
     "theme": "logement",
@@ -26,7 +26,7 @@ let logement_VID = [
       { "id": "acc", "label": "Centre d'Accueil de Demandeurs d'asile" },
       { "id": "ass", "label": "Conseil et Assistance aux Demandeurs d'Asile" },
       { "id": "app", "label": "Chambre d'Appel pour Demandeurs d'Asile" },
-      { "id": "cum", "label": "Chambre d'Accumulation des Demandes d'Asile },
+      { "id": "cum", "label": "Chambre d'Accumulation des Demandes d'Asile" },
       { "id": "aid", "label": "Circuit d'Aide aux Demandes d'Asile" },
       { "id": "adm", "label": "Clarification de l'Administration pour les Demandeurs d'Asile" }
     ],
@@ -169,4 +169,4 @@ let logement_VID = [
     "correct": ["dou"],
     "explanation": "Selon une étude l'INSEE de 2017, sur l'ensemble des occupants de logements sociaux, 80 % sont Français de naissance, 8,6 % sont Français par naturalisation et 12 % sont étrangers."
   }
-]
+];

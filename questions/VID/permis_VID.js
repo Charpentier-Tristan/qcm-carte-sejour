@@ -1,4 +1,4 @@
-let permis_VID = [
+var permis_VID = [
   {
     "id": "permis_vid_001",
     "theme": "permis",
@@ -183,7 +183,7 @@ let permis_VID = [
       { "id": "aut", "label": "France Auto" }
     ],
     "correct": ["tit"],
-    "explanation": "Les démarches d'inscription se font sur France Titres. Elles commencent par l'obtention d'un NEPH (Numéro d'Enregistrement Préfectoral Harmonisé).
+    "explanation": "Les démarches d'inscription se font sur France Titres. Elles commencent par l'obtention d'un NEPH (Numéro d'Enregistrement Préfectoral Harmonisé)."
   },
   {
     "id": "permis_vid_012",
@@ -196,10 +196,10 @@ let permis_VID = [
       { "id": "sim", "label": "sur un simulateur de conduite" },
       { "id": "con", "label": "sur une console de jeu" },
       { "id": "agg", "label": "en dehors des agglomérations" },
-      { "id": "jam", "label": "jamais sur auto-route" },
+      { "id": "jam", "label": "jamais sur autoroute" },
       { "id": "sma", "label": "sur un smartphone" }
     ],
     "correct": ["dou"],
-    "explanation": "Une auto-école en ligne n'a pas d'agence physique, et donne ses rendez-vous au moyen d'une application mobile. C'est ce qui lui permet d\'annoncer des tarifs moins élevés. Mais elle est tenue au même apprentissage que les auto-écoles classiques : conduite avec un moniteur diplômé dans une voiture double commande."
+    "explanation": "Une auto-école en ligne n'a pas d'agence physique, et donne ses rendez-vous au moyen d'une application mobile. C'est ce qui lui permet d'annoncer des tarifs moins élevés. Mais elle est tenue au même apprentissage que les auto-écoles classiques : conduite avec un moniteur diplômé dans une voiture double commande."
   }
-]
+];

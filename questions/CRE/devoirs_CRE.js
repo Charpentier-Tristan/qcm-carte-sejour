@@ -1,4 +1,4 @@
-let devoirs_CRE = [
+var devoirs_CRE = [
   {
     "id": "devoirs_cre_001",
     "theme": "devoirs",
@@ -13,7 +13,7 @@ let devoirs_CRE = [
       { "id": "lib", "label": "C'est un espace de liberté absolue" }
       ],
     "correct": ["ris"],
-    "explanation": "Les réseaux sociaux sont le medium préféré des jeunes qui les utilisent pour communiquer, se divertir et s'informer. Ils peuvent toutefois représenter un danger en favorisant un phénomène d'addiction, en diffusant de fausses nouvelles ou en exposant les utilisateurs à un risque de harcèlement."
+    "explanation": "Les réseaux sociaux sont le medium préféré des jeunes qui les utilisent pour communiquer, se divertir et s'informer. Ils peuvent toutefois représenter un danger en favorisant un phénomène d'addiction, en diffusant de fausses nouvelles ou en exposant les utilisateurs à un risque de harcèlement.
   },
   {
     "id": "devoirs_cre_002",
@@ -80,7 +80,7 @@ let devoirs_CRE = [
       { "id": "qua", "label": "Acheter des produits de qualité pour soutenir le commerce" }
       ],
     "correct": ["imp","ass"],
-    "explanation": "Les citoyens français ont l'obligation de participer à la vie politique (vote), à la défense du pays (Journée Défense et Citoyenneté et à la justice (jurys d'assise). Tout résident sur le territoire français a l'obligation entre autres de payer des impôts et d'assurer l'assistance à personne en danger."
+    "explanation": "Les citoyens français ont l'obligation de participer à la vie politique (vote), à la défense du pays (Journée Défense et Citoyenneté) et à la justice (jurys d'assise). Tout résident sur le territoire français a l'obligation entre autres de payer des impôts et d'assurer l'assistance à personne en danger."
   },
   {
     "id": "devoirs_cre_006",
@@ -154,6 +154,7 @@ let devoirs_CRE = [
     "type": "single",
     "question": "Quel est le rôle de la police ?",
     "answers": [
+    "answers": [
       { "id": "urb", "label": "Assurer le respect des lois en ville" },
       { "id": "cri", "label": "Résoudre des crimes" },
       { "id": "cou", "label": "Arrêter des coupables" },
@@ -177,7 +178,7 @@ let devoirs_CRE = [
       { "id": "lac", "label": "Arrêter une personne pour lui conseiller de lacer sa chaussure" }
       ],
     "correct": ["sus"],
-    "explanation": "Une personne peut être condamnée pour non-assistance à personne en danger si elle est témoin d'une situation dans laquelle une personne fait face à un péril grave et imminent et qu'elle s'abstient volontairement d'intervenir pour porter secours ou alerter les secours, alors qu'elle pourrait intervenir sans se mettre elle même en danger."
+    "explanation": "Une personne peut être condamnée pour non-assistance à personne en danger si elle est témoin d'une situation dans laquelle une personne fait face à un péril grave et imminent et qu'elle s'abstient volontairement d'intervenir pour porter secours ou alerter les secours, alors qu'elle pourrait intervenir sans se mettre elle-même en danger."
   },
   {
     "id": "devoirs_cre_012",
@@ -308,4 +309,4 @@ let devoirs_CRE = [
     "correct": ["obl"],
     "explanation": "Le tri des déchets est une obligation légale. Ne pas les trier pas vos déchets, ou les trier mal, expose à une amende forfaitaire (article R632-1 du Code pénal)."
   }
-]
+];

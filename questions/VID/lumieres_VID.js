@@ -1,4 +1,4 @@
-let lumieres_VID = [
+var lumieres_VID = [
   {
     "id": "lumieres_vid_001",
     "theme": "lumieres",
@@ -243,4 +243,4 @@ let lumieres_VID = [
     "correct": ["huqa"],
     "explanation": "Les premières élections au suffrage universel masculin ont eu lieu sous la Seconde République, en 1848. Les premières élections françaises auxquelles les femmes ont pu participer sont les élections municipales de 1945."
   }
-]
+];

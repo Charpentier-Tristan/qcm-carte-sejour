@@ -1,4 +1,4 @@
-let parent_CSP = [
+var parent_CSP = [
   {
     "id": "parent_csp_001",
     "theme": "parent",
@@ -29,7 +29,7 @@ let parent_CSP = [
       { "id": "qui", "label": "15 ans" }
       ],
     "correct": ["sei"],
-    "explanation": "L'instruction est obligatoire pour tout enfant entre 3 et 16 ans. Pour les parents, ne pas respecter cette obligation est passible d'une peine de prison assortie d'une amende"
+    "explanation": "L'instruction est obligatoire pour tout enfant entre 3 et 16 ans. Pour les parents, ne pas respecter cette obligation est passible d'une peine de prison assortie d'une amende."
   },
   {
     "id": "parent_csp_003",
@@ -121,13 +121,13 @@ let parent_CSP = [
     "type": "single",
     "question": "Les enfants qui ne parlent pas français :",
     "answers": [
-      { "id": "dis", "label": "Sont soutenus par des dispositifs d'intégration adaptés" },
-      { "id": "exc", "label": "Sont exclus de l'école" },
-      { "id": "pay", "label": "Doivent payer un montant forfaitaire" },
-      { "id": "app", "label": "Ne reviendront à l'école qu'après avoir appris" },
-      { "id": "obl", "label": "Ne sont pas obligés d'aller à l'école" }
+      { "id": "dis", "label": "sont soutenus par des dispositifs d'intégration adaptés" },
+      { "id": "exc", "label": "sont exclus de l'école" },
+      { "id": "pay", "label": "doivent payer un montant forfaitaire" },
+      { "id": "app", "label": "ne reviendront à l'école qu'après avoir appris" },
+      { "id": "obl", "label": "ne sont pas obligés d'aller à l'école" }
       ],
     "correct": ["dis"],
-    "explanation": "En France, tous les enfants de 3 à 16 ans doivent aller à l’école. Cette obligation concerne donc aussi les enfants qui ne parlent pas français. Plusieurs dispositifs sont prévus pour leur enseigner le français, et les préparer à une scolarité normale."
+    "explanation": "En France, tous les enfants de 3 à 16 ans doivent aller à l’école. Cette obligation concerne donc aussi les enfants qui ne parlent pas français. Le code de l'éducation impose l'obligation de mettre en place des actions particulières pour l'accueil et la scolarisation des enfants ne parlant pas le français. Ces actions portent le nom d'Unités pédagogiques pour élèves allophones arrivants (UPE2A)."
   }
-]
+];

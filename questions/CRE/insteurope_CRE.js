@@ -1,4 +1,4 @@
-let insteurope_CRE = [
+var insteurope_CRE = [
   {
     "id": "insteurope_cre_001",
     "theme": "insteurope",
@@ -240,4 +240,4 @@ let insteurope_CRE = [
     "correct": ["fran","all","ita","bel"],
     "explanation": "Les six pays fondateurs de la Communauté Européenne du Charbon et de l'Acier (CECA) puis de la Communauté Économique Européenne (CEE) étaient la France, l'Allemagne, l'Italie, la Belgique, la Hollande et le Luxembourg."
   }
-]
+];

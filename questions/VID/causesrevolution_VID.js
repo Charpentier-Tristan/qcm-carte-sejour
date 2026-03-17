@@ -1,4 +1,4 @@
-let causesrevolution_VID = [
+var causesrevolution_VID = [
   {
     "id": "causesrevolution_vid_001",
     "theme": "causesrevolution",
@@ -152,7 +152,7 @@ let causesrevolution_VID = [
       { "id": "ineg", "label": "La diminution des inégalités" }
     ],
     "correct": ["tech"],
-    "explanation": "À partir du XVIIIe siècle, la croissance économique devioent supérieure à celle de la population. Cela s'explique essentiellement par le progrès technique (amélioration des facteurs de production, capital et travail, notamment) devenu plus important depuis la révolution industrielle."
+    "explanation": "À partir du XVIIIe siècle, la croissance économique devient supérieure à celle de la population. Cela s'explique essentiellement par le progrès technique (amélioration des facteurs de production, capital et travail, notamment) plus important depuis la révolution industrielle."
   },
   {
     "id": "causesrevolution_vid_010",
@@ -210,7 +210,7 @@ let causesrevolution_VID = [
     "theme": "causesrevolution",
     "level": "VID",
     "type": "single",
-    "question": "Sous l'Ancien Régime, qui était chargé de l'éducation des enfants ?",
+    "question": "Sous l'Ancien Régime, qui était chargé de l'instruction des enfants ?",
     "answers": [
       { "id": "cle", "label": "Le clergé" },
       { "id": "nob", "label": "La noblesse" },
@@ -255,4 +255,4 @@ let causesrevolution_VID = [
     "correct": ["nob"],
     "explanation": "Lors de la levée d'une armée, les jeunes nobles étaient convoqués au combat. Cette contribution, appelée \"impôt de sang\" dispensait les nobles du prélèvement d'impôt, au même titre que les institutions religieuses."
   }
-]
+];

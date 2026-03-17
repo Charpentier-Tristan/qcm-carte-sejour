@@ -1,4 +1,4 @@
-let orgarep_CSP = [
+var orgarep_CSP = [
   {
     "id": "orgarep_csp_001",
     "theme": "orgarep",
@@ -46,7 +46,7 @@ let orgarep_CSP = [
       { "id": "iea", "label": "Inventif, Excessif, Administratif" }
     ],
     "correct": ["lej"],
-    "explanation": "Pouvoir législatif (élaboration de la loi) ; Pouvoir exécutif (application de la loi) ; Autorité judiciaire (contrôle et sanction en cas de non-respect de la loi). La théorie de la séparation des pouvoirs plaide pour que chacun d'entre eux soit exercé par des organes distincts, indépendants les uns des autres."
+    "explanation": "Pouvoir législatif (élaboration de la loi) ; pouvoir exécutif (application de la loi) ; pouvoir judiciaire (contrôle et sanction en cas de non-respect de la loi). La théorie de la séparation des pouvoirs plaide pour que chacun d'entre eux soit exercé par des organes distincts, indépendants les uns des autres."
   },
   {
     "id": "orgarep_csp_004",
@@ -178,7 +178,7 @@ let orgarep_CSP = [
       { "id": "com", "label": "Le président de la communauté de communes" }
       ],
     "correct": ["mai"],
-    "explanation": "Le maire est à la fois exécutif de la commune et agent de l'Etat. Il est seul chargé de l'administration municipale, mais il peut procéder à des délégations de fonctions ou de signature. En outre, le maire est chargé des pouvoirs de police dans sa commune."
+    "explanation": "Le maire est à la fois exécutif de la commune et agent de l'État. Il est seul chargé de l'administration municipale, mais il peut procéder à des délégations de fonctions ou de signature. En outre, le maire est chargé des pouvoirs de police dans sa commune."
   },
   {
     "id": "orgarep_csp_012",
@@ -245,4 +245,4 @@ let orgarep_CSP = [
     "correct": ["rd"],
     "explanation": "La France est une République indivisible, laïque, démocratique et sociale, selon les principes inscrits dans l'article 1 de la Constitution de la Ve République de 1958."
   }
-]
+];

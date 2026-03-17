@@ -1,4 +1,4 @@
-let situationdd_CRE = [
+var situationdd_CRE = [
   {
     "id": "situationdd_cre_001",
     "theme": "situationdd",
@@ -54,7 +54,7 @@ let situationdd_CRE = [
     "type": "single",
     "question": "Une entreprise licencie un salarié qui a refusé de travailler le dimanche, jour de repos hebdomadaire traditionnel dans son secteur, pour des raisons familiales. Le licenciement est :",
     "answers": [
-      { "id": "con", "label": "illégal, si le salarié n'était pas tenu par contrat de travailler le dimanche si que son refus est légitime" },
+      { "id": "con", "label": "illégal, si le salarié n'était pas tenu par contrat de travailler le dimanche et si son refus est légitime" },
       { "id": "exe", "label": "légal, car le refus d'exécuter son contrat est une faute" },
       { "id": "der", "label": "légal si l'entreprise a obtenu une dérogation pour faire travailler le dimanche" },
       { "id": "rel", "label": "illégal, uniquement si le salarié invoque des raisons religieuses" },
@@ -132,11 +132,11 @@ let situationdd_CRE = [
     "theme": "situationdd",
     "level": "CRE",
     "type": "single",
-    "question": "Un père retire sa fille de l'école publique à l'âge de 14 ans, estimant qu'elle a acquis les connaissances suffisantes. Il déclare assumer lui-même son instruction à domicile. Cette situation est-elle conforme à la loi ?",
+    "question": "Un père retire sa fille de l'école publique à l'âge de 14 ans, estimant qu'elle a acquis les connaissances suffisantes. En a-t-il le droit ?",
     "answers": [
-      { "id": "obl", "label": "Non, car l'instruction est obligatoire jusqu'à 16 ans, même si elle peut être donnée dans la famille sous contrôle de l'État" },
-      { "id": "fam", "label": "Oui, l'instruction peut être dispensée dans la famille" },
-      { "id": "dec", "label": "Oui, à condition de déclarer l'instruction à domicile aux autorités" },
+      { "id": "obl", "label": "Non, car l'instruction est obligatoire jusqu'à 16 ans" },
+      { "id": "fam", "label": "Oui, l'instruction peut être dispensée librement dans la famille" },
+      { "id": "dec", "label": "Oui, à condition de déclarer le retrait aux autorités" },
       { "id": "int", "label": "Non, car l'instruction à domicile est interdite en France" },
       { "id": "lai", "label": "Non, car elle contredit le principe de laïcité" }
     ],
@@ -303,4 +303,4 @@ let situationdd_CRE = [
     "correct": ["equ"],
     "explanation": "Le principe du procès équitable et la présomption d'innocence peuvent justifier des restrictions à la diffusion des débats, pour préserver la sérénité de la justice, et éviter la pression de l'opinion sur les juges."
   }
-]
+];

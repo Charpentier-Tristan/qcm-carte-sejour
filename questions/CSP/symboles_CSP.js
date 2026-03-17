@@ -1,4 +1,4 @@
-let symboles_CSP = [
+var symboles_CSP = [
   {
     "id": "symboles_csp_001",
     "theme": "symboles",
@@ -438,8 +438,8 @@ let symboles_CSP = [
       ],
     "correct": ["ega"],
     "explanation": "Le principe d'égalité interdit les discriminations fondées sur le sexe. Des restrictions doivent être justifiées par des exigences professionnelles essentielles et proportionnées, et non par une exclusion générale."
-  },
-  {
+    },
+    {
     "id": "symboles_csp_027",
     "theme": "symboles",
     "level": "CSP",
@@ -475,4 +475,4 @@ let symboles_CSP = [
     "correct": ["sym"],
     "explanation": "La figure de Marianne apparaît pendant la Révolution française pour représenter la République. Avec son prénom féminin populaire, elle symbolise le fait que la République est fondée sur la volonté du peuple et la démocratie. Elle porte le bonnet phrygien, comme les esclaves de l'Antiquité qui avaient retrouvé leur liberté. De plus en plus utilisée au fil du temps, elle finit par devenir un symbole officiel de la République. Son buste figure dans toutes les mairies, son image est représentée sur les logos officiels."
   }
-]
+];

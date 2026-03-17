@@ -1,4 +1,4 @@
-let laique_CRE = [
+var laique_CRE = [
   {
     "id": "laique_cre_001",
     "theme": "laique",
@@ -6,11 +6,11 @@ let laique_CRE = [
     "type": "single",
     "question": "Pourquoi le principe de laïcité doit-il être respecté à l'école ?",
     "answers": [
-      { "id": "lib", "label": "pour permettre à chaque élève de penser librement" },
-      { "id": "viv", "label": "pour apprendre aux élèves à vivre sans religion" },
-      { "id": "rav", "label": "pour enseigner les ravages historiques des religions" },
-      { "id": "dec", "label": "pour décourager les élèves de leur pratique religieuse" },
-      { "id": "ath", "label": "pour enseigner les dangers de l'athéisme" }
+      { "id": "lib", "label": "Pour permettre à chaque élève de penser librement" },
+      { "id": "viv", "label": "Pour apprendre aux élèves à vivre sans religion" },
+      { "id": "rav", "label": "Pour enseigner les ravages historiques des religions" },
+      { "id": "dec", "label": "Pour décourager les élèves de leur pratique religieuse" },
+      { "id": "ath", "label": "Pour enseigner les dangers de l'athéisme" }
       ],
     "correct": ["lib"],
     "explanation": "Les écoles publiques sont neutres vis-à-vis des religions. Cette neutralité permet à chaque élève de penser librement et de construire lui-même ses opinions."
@@ -30,7 +30,7 @@ let laique_CRE = [
       { "id": "neqd", "label": "1992" }
     ],
     "correct": ["neuc"],
-    "explanation": "La \"Loi du 9 décembre 1905 concernant la séparation des Églises et de l'État\" instaure une nouvelle organisation fondée sur le principe républicain de laïcité, bien que ce terme n'apparaisse pas dans le texte de loi. Elle proclame la liberté de conscience et garantit le droit au libre exercice des cultes. En outre, la loi dispose que \"la République ne reconnaît, ne salarie ni ne subventionne aucun culte\". L'État se veut désormais neutre : il n'y a plus de religion légalement consacrée, et tous les cultes sont traités de manière égale. "
+    "explanation": "La \"Loi du 9 décembre 1905 concernant la séparation des Églises et de l'État\" instaure une nouvelle organisation fondée sur le principe républicain de laïcité, bien que ce terme n'apparaisse pas dans le texte de loi. Elle proclame la liberté de conscience et garantit le droit au libre exercice des cultes. En outre, la loi dispose que \"la République ne reconnaît, ne salarie ni ne subventionne aucun culte\". L'État se veut désormais neutre : il n'y a plus de religion légalement consacrée, et tous les cultes sont traités de manière égale."
   },
   {
     "id": "laique_cre_003",
@@ -80,7 +80,7 @@ let laique_CRE = [
       { "id": "dir", "label": "le directeur" }
     ],
     "correct": ["par"],
-    "explanation": "La loi du 15 mars 2004 dit \"Dans les écoles, les collèges et les lycées publics, le port de signes ou tenues par lesquels les élèves manifestent ostensiblement une appartenance religieuse est interdit\". Elle s’applique donc exclusivement aux élèves, collégiens et lycéens. Les enseignants, et par extension les fonctionnaires, ne doivent pas faire apparaître leurs convictions religieuses ou philosophiques depuis la loi Goblet de 1886. La loi ne concerne pas les parents d’élèves."
+    "explanation": "La loi du 15 mars 2004 dit : \"Dans les écoles, les collèges et les lycées publics, le port de signes ou tenues par lesquels les élèves manifestent ostensiblement une appartenance religieuse est interdit\". Elle s’applique donc exclusivement aux élèves, collégiens et lycéens. Les enseignants, et par extension les fonctionnaires, ne doivent pas faire apparaître leurs convictions religieuses ou philosophiques depuis la loi Goblet de 1886. La loi ne concerne pas les parents d’élèves."
   },
   {
     "id": "laique_cre_006",
@@ -228,4 +228,4 @@ let laique_CRE = [
     "correct": ["rep"],
     "explanation": "L'article 1er de la Constitution de 1958 commence par : \"La France est une République indivisible, laïque, démocratique et sociale. Elle assure l'égalité devant la loi de tous les citoyens sans distinction d'origine, de race ou de religion. Elle respecte toutes les croyances\"."
   }
-]
+];

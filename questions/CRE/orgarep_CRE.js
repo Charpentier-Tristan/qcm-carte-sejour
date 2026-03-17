@@ -1,11 +1,11 @@
-let orgarep_CRE = [
+var orgarep_CRE = [
   {
     "id": "orgarep_cre_001",
     "theme": "orgarep",
     "level": "CRE",
     "type": "single",
     "question": "Quelle est l'organisation administrative de la France ?",
-    "answers": [
+     "answers": [
       { "id": "coll", "label": "Elle est répartie entre l'État et les collectivités territoriales" },
       { "id": "ent", "label": "Elle est divisée en de multiples entités" },
       { "id": "tou", "label": "Elle est extrêmement touffue" },
@@ -225,7 +225,7 @@ let orgarep_CRE = [
       { "id": "ref", "label": "des préfets des régions et des départements" }
       ],
     "correct": ["deu"],
-    "explanation": "Le Parleemnt est composé de deux chambres : l'Assemblée nationale (députés), et le Sénat (sénateurs). Ces deux assemblées sont chargées de voter la loi, de contrôler l'action du Gouvernement et d'évaluer les politiques publiques."
+    "explanation": "Le Parlement est composé de deux chambres : l'Assemblée nationale (députés), et le Sénat (sénateurs). Ces deux assemblées sont chargées de voter la loi, de contrôler l'action du Gouvernement et d'évaluer les politiques publiques."
   },
   {
     "id": "orgarep_cre_015",
@@ -266,7 +266,7 @@ let orgarep_CRE = [
     "type": "single",
     "question": "Qui est le chef du Gouvernement ?",
     "answers": [
-      { "id": "pre", "label": "Le Prmeier ministre" },
+      { "id": "pre", "label": "Le Premier ministre" },
       { "id": "rep", "label": "Le président de la République" },
       { "id": "sen", "label": "Le président du Sénat" },
       { "id": "ass", "label": "La présidente de l'Assemblée nationale" },
@@ -373,4 +373,4 @@ let orgarep_CRE = [
     "correct": ["trc"],
     "explanation": "Au 1er janvier 2025, il y avait 34 875 communes sur le territoire national (incluant les départements d'outre-mer)."
   }
-]
+];

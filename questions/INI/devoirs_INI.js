@@ -1,4 +1,4 @@
-let devoirs_INI = [
+var devoirs_INI = [
   {
     "id": "devoirs_ini_001",
     "theme": "devoirs",
@@ -258,4 +258,4 @@ let devoirs_INI = [
     "correct": ["int"],
     "explanation": "Déposer, abandonner, jeter ou déverser tout type de déchets sur la voie publique ou privée est puni d'une amende forfaitaire. Une machine à laver cassée doit être évacuée comme encombrant. Les conditions de collecte des encombrants sont définies par les communes (collecte à date fixe ou sur rendez-vous, dépôt en déchetterie)."
   }
-]
+];
