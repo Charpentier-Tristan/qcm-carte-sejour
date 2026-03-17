@@ -257,7 +257,7 @@ var symboles_CRE = [
       { "id": "dis", "label": "Il fait des discours à la télévision" }
       ],
     "correct": ["del","min"],
-    "explanation": "L'article 225 du code pénal définit la discrimination et en fait un délit. Plusieurs institutions officielles sont chargées de la lutte contre les discriminations, dont le \"Défenseur des Droits" et la \"Haute Autorité de lutte contre les discriminations et pour l'égalité \" (HALDE). La lutte contre les discriminations est inscrite dans les orientations politiques des grands ministères. En 2017 a été créé le \"Ministère chargé de l'égalité entre les femmes et les hommes et de la lutte contre les discriminations\"."
+    "explanation": "L'article 225 du code pénal définit la discrimination et en fait un délit. Plusieurs institutions officielles sont chargées de la lutte contre les discriminations, dont le \"Défenseur des Droits\" et la \"Haute Autorité de lutte contre les discriminations et pour l'égalité \" (HALDE). La lutte contre les discriminations est inscrite dans les orientations politiques des grands ministères. En 2017 a été créé le \"Ministère chargé de l'égalité entre les femmes et les hommes et de la lutte contre les discriminations\"."
   },
   {
     "id": "symboles_cre_016",

@@ -13,7 +13,7 @@ var devoirs_CRE = [
       { "id": "lib", "label": "C'est un espace de liberté absolue" }
       ],
     "correct": ["ris"],
-    "explanation": "Les réseaux sociaux sont le medium préféré des jeunes qui les utilisent pour communiquer, se divertir et s'informer. Ils peuvent toutefois représenter un danger en favorisant un phénomène d'addiction, en diffusant de fausses nouvelles ou en exposant les utilisateurs à un risque de harcèlement.
+    "explanation": "Les réseaux sociaux sont le medium préféré des jeunes qui les utilisent pour communiquer, se divertir et s'informer. Ils peuvent toutefois représenter un danger en favorisant un phénomène d'addiction, en diffusant de fausses nouvelles ou en exposant les utilisateurs à un risque de harcèlement."
   },
   {
     "id": "devoirs_cre_002",
@@ -153,7 +153,6 @@ var devoirs_CRE = [
     "level": "CRE",
     "type": "single",
     "question": "Quel est le rôle de la police ?",
-    "answers": [
     "answers": [
       { "id": "urb", "label": "Assurer le respect des lois en ville" },
       { "id": "cri", "label": "Résoudre des crimes" },
