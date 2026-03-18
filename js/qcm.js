@@ -198,7 +198,8 @@ App.dom.onReady(function () {
 
   function loadThemeQuestions(themeId, level) {
     if (!themeId || !level) return Promise.reject(new Error("Theme ou niveau manquant"));
-    var code = typeof getLevelCode === "function" ? getLevelCode(level) : "";
+    var normalizedLevel = String(level || "").toLowerCase();
+    var code = normalizedLevel === "video" || normalizedLevel === "vid" ? "VID" : (typeof getLevelCode === "function" ? getLevelCode(level) : "");
     if (!code) return Promise.reject(new Error("Code niveau introuvable"));
     var varName = themeId + "_" + code;
     var path = "questions/" + code + "/" + themeId + "_" + code + ".js";

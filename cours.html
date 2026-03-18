@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cours video et documents PDF pour preparer l'examen civique.">
+  <title>Cours</title>
+  <link rel="stylesheet" href="css/style.css?v=20260318a">
+</head>
+<body>
+<header id="app-header" data-title="Cours" data-subtitle="Videos et fiches de revision"></header>
+
+<main id="coursePage">
+  <section class="card course-hero">
+    <p>Choisissez un cours dans la liste pour regarder la video et ouvrir la fiche PDF associee.</p>
+  </section>
+
+  <section class="course-layout">
+    <aside class="card course-sidebar">
+      <h2>Liste des cours</h2>
+      <div id="courseList" class="course-list" aria-label="Liste des cours"></div>
+    </aside>
+
+    <section class="card course-content">
+      <div id="courseEmptyState" class="course-empty">
+        <h2>Selectionnez un cours</h2>
+        <p>La video et le document PDF s'afficheront ici.</p>
+      </div>
+
+      <div id="courseViewer" class="course-viewer" hidden>
+        <div class="course-viewer-header">
+          <div>
+            <p class="small">Cours selectionne</p>
+            <h2 id="courseTitle">Cours</h2>
+          </div>
+          <div class="course-actions">
+            <a id="courseQcmLink" class="button" href="#">Lancer le QCM</a>
+            <a id="courseVideoLink" class="button" href="#" target="_blank" rel="noopener noreferrer">Ouvrir la video</a>
+            <a id="coursePdfLink" class="button course-secondary-button" href="#" target="_blank" rel="noopener noreferrer">Ouvrir le PDF</a>
+          </div>
+        </div>
+
+        <div class="course-video-frame">
+          <video id="courseVideo" controls preload="metadata">
+            Votre navigateur ne supporte pas la lecture video.
+          </video>
+        </div>
+
+        <p class="small course-help">
+          Si la video ne se lance pas dans la page, utilisez les boutons ci-dessus pour l'ouvrir dans un nouvel onglet.
+        </p>
+      </div>
+    </section>
+  </section>
+</main>
+
+<footer id="app-footer"></footer>
+
+<script src="js/app.core.js"></script>
+<script src="js/layout.js"></script>
+<script src="js/cours.js?v=20260318a"></script>
+</body>
+</html>
