@@ -35,7 +35,14 @@ App.dom.onReady(function () {
       <div class="header-nav">
         ${isHome || isError ? "" : `<button class="nav-back" type="button" aria-label="Retour">Retour</button>`}
       </div>
-      <h1><a class="home-link" href="index.html">${App.utils.escapeHtml(title)}</a></h1>
+      <h1>
+        <a class="home-link brand-lockup" href="index.html">
+          <span class="brand-mark">
+            <img class="brand-logo" src="assets/logo-fca.svg" alt="" width="52" height="52">
+          </span>
+          <span>${App.utils.escapeHtml(title)}</span>
+        </a>
+      </h1>
       ${subtitle ? `<h2${subtitleAttr}>${App.utils.escapeHtml(subtitle)}</h2>` : ""}
       <nav class="breadcrumb" aria-label="Chemin de navigation"></nav>
     `;

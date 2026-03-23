@@ -2,18 +2,19 @@
    THEME TOKENS
 ============================ */
 :root {
-  --bg: #f3f6fb;
-  --bg-2: #e7efff;
-  --text: #0b1021;
-  --muted: #5b6b8c;
+  --bg: #f8f6f8;
+  --bg-2: #eaf7f7;
+  --text: #241b38;
+  --muted: #6d6684;
   --card: #ffffff;
-  --accent: #3b6fff;
-  --accent-2: #4cc9ff;
-  --accent-3: #2bd67b;
-  --danger: #ff4d6d;
-  --warning: #ffb84d;
-  --shadow: 0 12px 30px rgba(16, 30, 66, 0.12);
-  --shadow-soft: 0 6px 18px rgba(16, 30, 66, 0.08);
+  --accent: #ff746d;
+  --accent-2: #d10067;
+  --accent-3: #1ec6c2;
+  --accent-4: #4b35e8;
+  --danger: #e14368;
+  --warning: #ffb35c;
+  --shadow: 0 12px 30px rgba(42, 21, 73, 0.12);
+  --shadow-soft: 0 6px 18px rgba(42, 21, 73, 0.08);
   --radius: 18px;
   --radius-pill: 999px;
 }
@@ -40,9 +41,10 @@ html, body {
 body {
   color: var(--text);
   background:
-    radial-gradient(1200px 500px at 10% -10%, #cfe0ff 0%, transparent 60%),
-    radial-gradient(900px 500px at 90% 0%, #bff2ff 0%, transparent 55%),
-    linear-gradient(180deg, #f0f4ff 0%, #e3ecff 100%);
+    radial-gradient(1200px 560px at 12% -10%, rgba(255, 116, 109, 0.26) 0%, transparent 58%),
+    radial-gradient(1000px 560px at 88% 2%, rgba(75, 53, 232, 0.20) 0%, transparent 58%),
+    radial-gradient(960px 520px at 18% 95%, rgba(30, 198, 194, 0.20) 0%, transparent 54%),
+    linear-gradient(180deg, #fffafb 0%, #f3f2fb 100%);
 }
 
 /* ============================
@@ -52,8 +54,8 @@ header {
   color: var(--text);
   padding: 1.6rem 1.5rem 1.2rem;
   text-align: center;
-  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
-  border-bottom: 1px solid rgba(24, 42, 90, 0.2);
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 52%, var(--accent-4) 100%);
+  border-bottom: 1px solid rgba(75, 53, 232, 0.18);
   backdrop-filter: blur(10px);
   box-shadow: var(--shadow-soft);
   position: relative;
@@ -67,7 +69,7 @@ header {
 
 .nav-back {
   background: rgba(255, 255, 255, 0.9);
-  color: var(--accent);
+  color: var(--accent-4);
   border: none;
   border-radius: var(--radius-pill);
   padding: 0.5rem 0.9rem;
@@ -83,6 +85,33 @@ header {
 .home-link {
   color: #ffffff;
   text-decoration: none;
+}
+
+.brand-lockup {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.85rem;
+}
+
+.brand-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  padding: 6px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 10px 24px rgba(42, 21, 73, 0.16);
+}
+
+.brand-logo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  flex: 0 0 auto;
+  filter: none;
 }
 
 .home-link:hover {
@@ -157,7 +186,7 @@ main {
   margin-bottom: 1.5rem;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
-  border: 1px solid rgba(24, 42, 90, 0.06);
+  border: 1px solid rgba(75, 53, 232, 0.08);
   backdrop-filter: blur(8px);
 }
 
@@ -169,7 +198,7 @@ button, a.button {
   padding: 0.95rem 1.6rem;
   margin: 0.5rem 0;
   font-size: 1.15rem;
-  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 58%, var(--accent-4) 100%);
   color: white;
   border: none;
   border-radius: var(--radius-pill);
@@ -222,9 +251,9 @@ button:active, a.button:active {
   width: 100%;
   padding: 0.9rem 1.2rem;
   margin-bottom: 0.9rem;
-  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #fcfbff 100%);
   color: var(--text);
-  border: 1px solid rgba(24, 42, 90, 0.12);
+  border: 1px solid rgba(75, 53, 232, 0.12);
   border-radius: 16px;
   text-align: left;
   cursor: pointer;
@@ -239,10 +268,10 @@ button:active, a.button:active {
 }
 
 .answer-btn.selected {
-  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%) !important;
+  background: linear-gradient(135deg, var(--accent-3) 0%, var(--accent-4) 100%) !important;
   color: #ffffff !important;
   border-color: transparent !important;
-  box-shadow: 0 14px 30px rgba(16, 30, 66, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  box-shadow: 0 14px 30px rgba(42, 21, 73, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.25);
 }
 
 .answer-btn.correct {
@@ -272,7 +301,7 @@ button:active, a.button:active {
   box-shadow: var(--shadow);
   transition: transform 0.2s ease;
   font-size: 1.1rem;
-  border: 1px solid rgba(24, 42, 90, 0.06);
+  border: 1px solid rgba(75, 53, 232, 0.08);
   background: var(--card);
 }
 
@@ -298,7 +327,7 @@ button:active, a.button:active {
 }
 
 .result-card .explanation {
-  background-color: #f4f7ff;
+  background-color: #f7f5ff;
   padding: 0.6rem 0.8rem;
   border-radius: 12px;
   margin-top: 0.6rem;
@@ -322,7 +351,7 @@ button:active, a.button:active {
 .button-featured {
   font-size: 1.25rem;
   font-weight: 700;
-  box-shadow: 0 18px 34px rgba(59, 111, 255, 0.22);
+  box-shadow: 0 18px 34px rgba(209, 0, 103, 0.22);
 }
 
 .choice-featured-note,
@@ -343,7 +372,7 @@ button:active, a.button:active {
 
 .theme-accordion-section {
   background: var(--card);
-  border: 1px solid rgba(24, 42, 90, 0.08);
+  border: 1px solid rgba(75, 53, 232, 0.08);
   border-radius: var(--radius);
   box-shadow: var(--shadow-soft);
   margin-bottom: 0.8rem;
@@ -356,7 +385,7 @@ button:active, a.button:active {
   padding: 0.95rem 3rem 0.95rem 1rem;
   font-weight: 700;
   color: var(--text);
-  background: linear-gradient(180deg, #f3f8ff 0%, #ffffff 100%);
+  background: linear-gradient(180deg, #fff4f6 0%, #ffffff 100%);
   position: relative;
 }
 
@@ -381,14 +410,14 @@ button:active, a.button:active {
 
 .theme-accordion-list {
   padding: 0.35rem 0.8rem 0.9rem 1.25rem;
-  background: linear-gradient(180deg, #ffffff 0%, #fbfdff 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #fbfaff 100%);
 }
 
 .theme-accordion-link {
   display: block;
   text-decoration: none;
   color: var(--text);
-  border: 1px solid rgba(24, 42, 90, 0.1);
+  border: 1px solid rgba(75, 53, 232, 0.1);
   border-radius: 12px;
   background: #ffffff;
   padding: 0.75rem 0.9rem;
@@ -428,10 +457,10 @@ button:active, a.button:active {
   text-align: center;
   padding: 2rem 2.2rem;
   background:
-    radial-gradient(circle at top left, rgba(76, 201, 255, 0.3), transparent 34%),
-    radial-gradient(circle at bottom right, rgba(59, 111, 255, 0.22), transparent 38%),
-    linear-gradient(145deg, #ffffff 0%, #eef4ff 100%);
-  border: 1px solid rgba(59, 111, 255, 0.12);
+    radial-gradient(circle at top left, rgba(255, 116, 109, 0.26), transparent 34%),
+    radial-gradient(circle at bottom right, rgba(30, 198, 194, 0.22), transparent 38%),
+    linear-gradient(145deg, #ffffff 0%, #f5f4ff 100%);
+  border: 1px solid rgba(209, 0, 103, 0.12);
 }
 
 .course-hero p {
@@ -452,7 +481,7 @@ button:active, a.button:active {
   top: 1rem;
   padding: 1rem;
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.96) 0%, rgba(245, 249, 255, 0.96) 100%);
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96) 0%, rgba(247, 244, 255, 0.96) 100%);
 }
 
 .course-sidebar h2 {
@@ -463,7 +492,7 @@ button:active, a.button:active {
 .course-content {
   padding: 1.3rem;
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, rgba(247, 250, 255, 0.98) 100%);
+    linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, rgba(250, 247, 255, 0.98) 100%);
 }
 
 .course-list {
@@ -479,9 +508,9 @@ button:active, a.button:active {
   text-align: left;
   margin: 0;
   padding: 0.95rem 1rem;
-  background: linear-gradient(180deg, #ffffff 0%, #f5f9ff 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #fbf8ff 100%);
   color: #16233f;
-  border: 1px solid rgba(24, 42, 90, 0.08);
+  border: 1px solid rgba(75, 53, 232, 0.08);
   border-radius: 16px;
   box-shadow: none;
   font-size: 1rem;
@@ -491,17 +520,17 @@ button:active, a.button:active {
 
 .course-link:hover {
   transform: translateX(4px);
-  box-shadow: 0 10px 20px rgba(16, 30, 66, 0.08);
-  border-color: rgba(59, 111, 255, 0.22);
+  box-shadow: 0 10px 20px rgba(42, 21, 73, 0.08);
+  border-color: rgba(209, 0, 103, 0.22);
   filter: none;
 }
 
 .course-link.active {
   background:
-    linear-gradient(135deg, rgba(59, 111, 255, 0.98) 0%, rgba(76, 201, 255, 0.98) 100%);
+    linear-gradient(135deg, rgba(255, 116, 109, 0.98) 0%, rgba(209, 0, 103, 0.98) 55%, rgba(75, 53, 232, 0.98) 100%);
   color: #ffffff;
   border-color: transparent;
-  box-shadow: 0 16px 28px rgba(59, 111, 255, 0.24);
+  box-shadow: 0 16px 28px rgba(209, 0, 103, 0.24);
 }
 
 .course-viewer-header {
@@ -541,13 +570,13 @@ button:active, a.button:active {
 }
 
 .course-secondary-button {
-  background: linear-gradient(135deg, #0b1021 0%, #35518f 100%);
+  background: linear-gradient(135deg, #1ec6c2 0%, #4b35e8 100%);
 }
 
 .course-video-frame {
   padding: 0.8rem;
   background:
-    linear-gradient(135deg, #081224 0%, #12284d 55%, #1f4f90 100%);
+    linear-gradient(135deg, #2a1749 0%, #4b35e8 55%, #1ec6c2 100%);
   border-radius: 24px;
   overflow: hidden;
   box-shadow: 0 24px 44px rgba(9, 20, 40, 0.22);
@@ -565,8 +594,8 @@ button:active, a.button:active {
   margin-top: 1rem;
   padding: 0.9rem 1rem;
   border-radius: 14px;
-  background: linear-gradient(180deg, #f6f9ff 0%, #eef4ff 100%);
-  border: 1px solid rgba(59, 111, 255, 0.12);
+  background: linear-gradient(180deg, #fff7f8 0%, #f2fbfb 100%);
+  border: 1px solid rgba(209, 0, 103, 0.12);
   color: #41506f;
 }
 
@@ -579,9 +608,9 @@ button:active, a.button:active {
   padding: 2rem;
   border-radius: 22px;
   background:
-    radial-gradient(circle at top left, rgba(76, 201, 255, 0.24), transparent 32%),
-    linear-gradient(145deg, #fbfdff 0%, #eef5ff 100%);
-  border: 1px dashed rgba(59, 111, 255, 0.28);
+    radial-gradient(circle at top left, rgba(255, 116, 109, 0.24), transparent 32%),
+    linear-gradient(145deg, #fffdfd 0%, #f1f7ff 100%);
+  border: 1px dashed rgba(75, 53, 232, 0.28);
 }
 
 .course-empty p {
@@ -596,8 +625,8 @@ footer {
   color: #ffffff;
   padding: 1.2rem 1.5rem 1.6rem;
   text-align: center;
-  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
-  border-top: 1px solid rgba(24, 42, 90, 0.2);
+  background: linear-gradient(135deg, var(--accent-3) 0%, var(--accent-4) 45%, var(--accent-2) 100%);
+  border-top: 1px solid rgba(75, 53, 232, 0.2);
   backdrop-filter: blur(10px);
   box-shadow: var(--shadow-soft);
   font-size: 1.05rem;
@@ -685,6 +714,22 @@ li {
   h1 {
     font-size: 2.2rem;
     line-height: 1.1;
+  }
+
+  .brand-lockup {
+    gap: 0.65rem;
+  }
+
+  .brand-mark {
+    width: 52px;
+    height: 52px;
+    padding: 5px;
+    border-radius: 16px;
+  }
+
+  .brand-logo {
+    width: 100%;
+    height: 100%;
   }
 
   h2 {

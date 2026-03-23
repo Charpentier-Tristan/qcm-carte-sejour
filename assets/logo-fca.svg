@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-16 -16 288 288" role="img" aria-labelledby="title desc">
+  <title id="title">Formation Civique Associative</title>
+  <desc id="desc">Logo compose de trois anneaux entrelaces corail, turquoise et indigo.</desc>
+  <defs>
+    <linearGradient id="gradTop" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff746d"/>
+      <stop offset="100%" stop-color="#d10067"/>
+    </linearGradient>
+    <linearGradient id="gradLeft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#17a9ad"/>
+      <stop offset="100%" stop-color="#1ec6c2"/>
+    </linearGradient>
+    <linearGradient id="gradRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4b35e8"/>
+      <stop offset="100%" stop-color="#6d7fe0"/>
+    </linearGradient>
+  </defs>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="44">
+    <circle cx="128" cy="78" r="66" stroke="url(#gradTop)"/>
+    <circle cx="76" cy="158" r="66" stroke="url(#gradLeft)"/>
+    <circle cx="180" cy="158" r="66" stroke="url(#gradRight)"/>
+  </g>
+</svg>
