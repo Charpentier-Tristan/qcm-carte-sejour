@@ -1,31 +1,47 @@
 App.dom.onReady(function () {
   var COURSE_BASE_URL = "https://cart-trieves.org/videos/";
-  var COURSE_IDS = [
-    "ancienregime",
-    "arrivee",
-    "banque",
-    "causesrevolution",
-    "chronologie",
-    "cinquieme",
-    "colonialisme",
-    "construction",
-    "esclavage",
-    "europe",
-    "geographie",
-    "guerres",
-    "ideesrecues",
-    "institutions",
-    "laicite",
-    "logement",
-    "lumieres",
-    "napoleon",
-    "permis",
-    "principes",
-    "raison",
-    "sante",
-    "travail",
-    "troisieme"
+  var COURSE_GROUPS = [
+    {
+      key: "histoire-france",
+      title: "Histoire de France",
+      ids: [
+        "ancienregime",
+        "causesrevolution",
+        "chronologie",
+        "cinquieme",
+        "colonialisme",
+        "esclavage",
+        "guerres",
+        "lumieres",
+        "napoleon",
+        "raison",
+        "troisieme"
+      ]
+    },
+    {
+      key: "vivre-france",
+      title: "Vivre en France",
+      ids: [
+        "arrivee",
+        "banque",
+        "construction",
+        "europe",
+        "geographie",
+        "ideesrecues",
+        "institutions",
+        "laicite",
+        "logement",
+        "permis",
+        "principes",
+        "sante",
+        "travail"
+      ]
+    }
   ];
+
+  var COURSE_IDS = COURSE_GROUPS.reduce(function (all, group) {
+    return all.concat(group.ids);
+  }, []);
 
   var COURSE_LABELS = {
     ancienregime: "L'Ancien Regime",
@@ -58,6 +74,19 @@ App.dom.onReady(function () {
     return COURSE_LABELS[courseId] || courseId;
   }
 
+  function getRequestedThemeKey() {
+    var params = new URLSearchParams(window.location.search);
+    return params.get("theme") || "";
+  }
+
+  function getVisibleGroups() {
+    var requestedThemeKey = getRequestedThemeKey();
+    var matchingGroup = COURSE_GROUPS.find(function (group) {
+      return group.key === requestedThemeKey;
+    });
+    return matchingGroup ? [matchingGroup] : COURSE_GROUPS;
+  }
+
   function buildVideoUrl(courseId) {
     return COURSE_BASE_URL + courseId + "_video.mp4";
   }
@@ -85,8 +114,24 @@ App.dom.onReady(function () {
     });
   }
 
+  function updateThemePresentation(visibleGroups) {
+    var headerSubtitle = App.dom.byId("courseThemeLabel");
+    var listTitle = App.dom.byId("courseListTitle");
+    var heroText = App.dom.byId("courseHeroText");
+
+    if (visibleGroups.length === 1) {
+      if (headerSubtitle) headerSubtitle.textContent = visibleGroups[0].title;
+      if (listTitle) listTitle.textContent = visibleGroups[0].title;
+      if (heroText) heroText.textContent = "Choisissez un cours de ce théme pour regarder la video et ouvrir la fiche PDF associee.";
+      return;
+    }
+
+    if (headerSubtitle) headerSubtitle.textContent = "Videos et fiches de revision";
+    if (listTitle) listTitle.innerHTML = "Th&egrave;mes des cours";
+    if (heroText) heroText.textContent = "Choisissez un cours dans la liste pour regarder la video et ouvrir la fiche PDF associee.";
+  }
+
   function renderCourse(courseId) {
-    var emptyState = App.dom.byId("courseEmptyState");
     var viewer = App.dom.byId("courseViewer");
     var title = App.dom.byId("courseTitle");
     var video = App.dom.byId("courseVideo");
@@ -98,7 +143,7 @@ App.dom.onReady(function () {
     var videoUrl = buildVideoUrl(courseId);
     var pdfUrl = buildPdfUrl(courseId);
 
-    if (!emptyState || !viewer || !title || !video || !qcmLink || !videoLink || !pdfLink) return;
+    if (!viewer || !title || !video || !qcmLink || !videoLink || !pdfLink) return;
 
     title.textContent = courseTitle;
     video.src = videoUrl;
@@ -107,19 +152,32 @@ App.dom.onReady(function () {
     videoLink.href = videoUrl;
     pdfLink.href = pdfUrl;
 
-    emptyState.hidden = true;
-    viewer.hidden = false;
     markActiveCourse(courseId);
     updateSelectedCourseLink(courseId);
   }
 
-  function renderCourseList() {
-    var container = App.dom.byId("courseList");
-    if (!container) return;
+  function enableSingleOpenBehavior(container) {
+    container.addEventListener("toggle", function (event) {
+      var opened = event.target;
+      if (!opened || opened.tagName !== "DETAILS" || !opened.open) return;
+      container.querySelectorAll("details.course-accordion-section").forEach(function (node) {
+        if (node !== opened) node.open = false;
+      });
+    }, true);
+  }
 
-    container.innerHTML = "";
+  function renderCourseGroup(group, useAccordion, isOpenByDefault) {
+    var section = document.createElement(useAccordion ? "details" : "section");
+    var heading = document.createElement("h3");
+    var list = document.createElement("div");
 
-    COURSE_IDS.forEach(function (courseId) {
+    section.className = useAccordion ? "course-accordion-section" : "course-group";
+    if (useAccordion) section.open = !!isOpenByDefault;
+    heading.className = useAccordion ? "course-accordion-title" : "course-group-title";
+    heading.textContent = group.title;
+    list.className = useAccordion ? "course-accordion-list" : "course-group-list";
+
+    group.ids.forEach(function (courseId) {
       var button = document.createElement("button");
       button.type = "button";
       button.className = "course-link";
@@ -128,17 +186,49 @@ App.dom.onReady(function () {
       button.addEventListener("click", function () {
         renderCourse(courseId);
       });
-      container.appendChild(button);
+      list.appendChild(button);
     });
+
+    if (useAccordion) {
+      var summary = document.createElement("summary");
+      summary.appendChild(heading);
+      section.appendChild(summary);
+    } else {
+      section.appendChild(heading);
+    }
+    section.appendChild(list);
+    return section;
   }
 
-  function getInitialCourseId() {
+  function renderCourseList(visibleGroups) {
+    var container = App.dom.byId("courseList");
+    if (!container) return;
+
+    container.innerHTML = "";
+    var useAccordion = visibleGroups.length > 1;
+
+    visibleGroups.forEach(function (group, index) {
+      container.appendChild(renderCourseGroup(group, useAccordion, index === 0));
+    });
+
+    if (useAccordion) enableSingleOpenBehavior(container);
+  }
+
+  function getInitialCourseId(visibleGroups) {
     var params = new URLSearchParams(window.location.search);
     var requested = params.get("course");
-    if (requested && COURSE_IDS.indexOf(requested) >= 0) return requested;
-    return COURSE_IDS[0];
+    var visibleIds = visibleGroups.reduce(function (all, group) {
+      return all.concat(group.ids);
+    }, []);
+
+    if (requested && visibleIds.indexOf(requested) >= 0 && COURSE_IDS.indexOf(requested) >= 0) {
+      return requested;
+    }
+    return visibleIds[0] || COURSE_IDS[0];
   }
 
-  renderCourseList();
-  renderCourse(getInitialCourseId());
+  var visibleGroups = getVisibleGroups();
+  updateThemePresentation(visibleGroups);
+  renderCourseList(visibleGroups);
+  renderCourse(getInitialCourseId(visibleGroups));
 });

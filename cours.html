@@ -10,26 +10,21 @@
   <link rel="shortcut icon" href="assets/logo-fca.svg">
 </head>
 <body>
-<header id="app-header" data-title="Cours" data-subtitle="Videos et fiches de revision"></header>
+<header id="app-header" data-title="Cours" data-subtitle="Videos et fiches de revision" data-subtitle-id="courseThemeLabel"></header>
 
 <main id="coursePage">
   <section class="card course-hero">
-    <p>Choisissez un cours dans la liste pour regarder la video et ouvrir la fiche PDF associee.</p>
+    <p id="courseHeroText">Choisissez un cours dans la liste pour regarder la video et ouvrir la fiche PDF associee.</p>
   </section>
 
   <section class="course-layout">
     <aside class="card course-sidebar">
-      <h2>Liste des cours</h2>
+      <h2 id="courseListTitle">Th&egrave;mes des cours</h2>
       <div id="courseList" class="course-list" aria-label="Liste des cours"></div>
     </aside>
 
     <section class="card course-content">
-      <div id="courseEmptyState" class="course-empty">
-        <h2>Selectionnez un cours</h2>
-        <p>La video et le document PDF s'afficheront ici.</p>
-      </div>
-
-      <div id="courseViewer" class="course-viewer" hidden>
+      <div id="courseViewer" class="course-viewer">
         <div class="course-viewer-header">
           <div>
             <p class="small">Cours selectionne</p>
@@ -60,6 +55,6 @@
 
 <script src="js/app.core.js"></script>
 <script src="js/layout.js?v=20260323b"></script>
-<script src="js/cours.js?v=20260318a"></script>
+<script src="js/cours.js?v=20260323b"></script>
 </body>
 </html>

@@ -348,6 +348,53 @@ button:active, a.button:active {
   margin-bottom: 1.1rem;
 }
 
+.home-accordion {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.home-accordion-section {
+  background: var(--card);
+  border: 1px solid rgba(75, 53, 232, 0.08);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-soft);
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.home-accordion-section summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 1rem 3rem 1rem 1rem;
+  font-weight: 700;
+  color: var(--text);
+  background: linear-gradient(180deg, #fff4f6 0%, #ffffff 100%);
+  position: relative;
+}
+
+.home-accordion-section summary::-webkit-details-marker {
+  display: none;
+}
+
+.home-accordion-section summary::after {
+  content: "+";
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.35rem;
+  font-weight: 400;
+  color: var(--accent);
+}
+
+.home-accordion-section[open] summary::after {
+  content: "−";
+}
+
+.home-accordion-list {
+  padding: 0.5rem 1rem 1rem;
+}
+
 .button-featured {
   font-size: 1.25rem;
   font-weight: 700;
@@ -501,6 +548,86 @@ button:active, a.button:active {
   max-height: 72vh;
   overflow-y: auto;
   padding-right: 0.2rem;
+}
+
+.course-group {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.course-accordion-section {
+  background: var(--card);
+  border: 1px solid rgba(75, 53, 232, 0.08);
+  border-radius: 18px;
+  box-shadow: var(--shadow-soft);
+  overflow: hidden;
+}
+
+.course-accordion-section + .course-accordion-section {
+  margin-top: 0.8rem;
+}
+
+.course-accordion-section summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 0.95rem 3rem 0.95rem 1rem;
+  background: linear-gradient(180deg, #fff4f6 0%, #ffffff 100%);
+  position: relative;
+}
+
+.course-accordion-section summary::-webkit-details-marker {
+  display: none;
+}
+
+.course-accordion-section summary::after {
+  content: "+";
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--accent);
+}
+
+.course-accordion-section[open] summary::after {
+  content: "−";
+}
+
+.course-accordion-title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--accent-4);
+}
+
+.course-accordion-list {
+  display: grid;
+  gap: 0.7rem;
+  padding: 0.35rem 0.8rem 0.9rem;
+  background: linear-gradient(180deg, #ffffff 0%, #fbfaff 100%);
+}
+
+.course-group + .course-group {
+  margin-top: 0.9rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(75, 53, 232, 0.12);
+}
+
+.course-group-title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--accent-4);
+}
+
+.course-group-list {
+  display: grid;
+  gap: 0.7rem;
 }
 
 .course-link {
@@ -784,6 +911,11 @@ li {
 
   .theme-buttons a.button {
     margin-bottom: 1rem;
+  }
+
+  .home-accordion-section summary {
+    font-size: 1.05rem;
+    line-height: 1.35;
   }
 
   .theme-accordion-section summary {
