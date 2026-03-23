@@ -1,4 +1,26 @@
 App.dom.onReady(function () {
+  function getParentUrl() {
+    var path = window.location.pathname || "";
+    var file = path.split("/").pop() || "";
+    var params = new URLSearchParams(window.location.search);
+    var level = params.get("level") || App.storage.getString("examLevel", "");
+    var activeQuizUrl = App.storage.getString("activeQuizUrl", "");
+
+    if (/choix\.html?$/.test(file)) {
+      return "index.html";
+    }
+
+    if (/qcm\.html?$/.test(file)) {
+      return level ? ("choix.html?level=" + encodeURIComponent(level)) : "index.html";
+    }
+
+    if (/resultat\.html?$/.test(file)) {
+      return activeQuizUrl || (level ? ("choix.html?level=" + encodeURIComponent(level)) : "index.html");
+    }
+
+    return "index.html";
+  }
+
   var headerEl = App.dom.byId("app-header");
   if (headerEl) {
     var title = headerEl.dataset.title || "";
@@ -18,15 +40,11 @@ App.dom.onReady(function () {
       <nav class="breadcrumb" aria-label="Chemin de navigation"></nav>
     `;
 
-    if (!isHome || ! isError) {
+    if (!isHome && !isError) {
       var backBtn = headerEl.querySelector(".nav-back");
       if (backBtn) {
         backBtn.addEventListener("click", function () {
-          if (window.history.length > 1) {
-            window.history.back();
-          } else {
-            window.location.href = "index.html";
-          }
+          window.location.href = getParentUrl();
         });
       }
     }
@@ -36,7 +54,7 @@ App.dom.onReady(function () {
       if (isHome) {
         sessionStorage.removeItem("breadcrumbs");
         breadcrumbEl.innerHTML = "<span class=\"crumb current\">Accueil</span>";
-      } else if (!isError){
+      } else if (!isError) {
         var homeCrumb = { title: "Accueil", url: "index.html" };
         var crumbs = [];
         try {
@@ -68,7 +86,7 @@ App.dom.onReady(function () {
 
         var maxCrumbs = 4;
         if (crumbs.length > maxCrumbs) {
-          crumbs = [crumbs[0]].concat(crumbs.slice(- (maxCrumbs - 1)));
+          crumbs = [crumbs[0]].concat(crumbs.slice(-(maxCrumbs - 1)));
         }
 
         sessionStorage.setItem("breadcrumbs", JSON.stringify(crumbs));
@@ -78,7 +96,7 @@ App.dom.onReady(function () {
           if (i === crumbs.length - 1) {
             return "<span class=\"crumb current\">" + label + "</span>";
           }
-          return "<a class=\"crumb\" href=\"" + App.utils.escapeHtml(c.url) + "\">" + label + "</a><span class=\"crumb-sep\">›</span>";
+          return "<a class=\"crumb\" href=\"" + App.utils.escapeHtml(c.url) + "\">" + label + "</a><span class=\"crumb-sep\">&rsaquo;</span>";
         }).join("");
       }
     } else if (breadcrumbEl) {
@@ -92,7 +110,7 @@ App.dom.onReady(function () {
     var contactLink = isMobile ? "" : "<span class=\"footer-sep\">|</span><a href=\"contact.html\" class=\"button\">Contact</a>";
     footerEl.innerHTML = `
       <p>
-        <a href="mentions-legales.html" class="button">Mentions légales</a>
+        <a href="mentions-legales.html" class="button">Mentions l&eacute;gales</a>
         ${contactLink}
         <span class="footer-sep">|</span>
         <a href="stats.html" class="button">Statistiques</a>

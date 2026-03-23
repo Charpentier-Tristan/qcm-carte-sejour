@@ -4,19 +4,19 @@ App.dom.onReady(function () {
 
   var THEME_SECTIONS = [
     {
-      title: "Principes et valeurs de la République",
+      title: "Principes et valeurs de la R\u00e9publique",
       items: [
         { label: "Devise et symboles", id: "symboles" },
-        { label: "Laïcité", id: "laique" },
+        { label: "La\u00efcit\u00e9", id: "laique" },
         { label: "Mises en situation", id: "situationpv" }
       ]
     },
     {
-      title: "Système institutionnel et politique",
+      title: "Syst\u00e8me institutionnel et politique",
       items: [
-        { label: "Démocratie et droit de vote", id: "vote" },
-        { label: "Organisation de la République", id: "orgarep" },
-        { label: "Institutions européennes", id: "insteurope" }
+        { label: "D\u00e9mocratie et droit de vote", id: "vote" },
+        { label: "Organisation de la R\u00e9publique", id: "orgarep" },
+        { label: "Institutions europ\u00e9ennes", id: "insteurope" }
       ]
     },
     {
@@ -28,20 +28,20 @@ App.dom.onReady(function () {
       ]
     },
     {
-      title: "Histoire géographie et culture",
+      title: "Histoire g\u00e9ographie et culture",
       items: [
-        { label: "Périodes et personnages historiques", id: "periodes" },
-        { label: "Territoire et géographie", id: "territoire" },
-        { label: "Patrimoine français", id: "patrimoine" }
+        { label: "P\u00e9riodes et personnages historiques", id: "periodes" },
+        { label: "Territoire et g\u00e9ographie", id: "territoire" },
+        { label: "Patrimoine fran\u00e7ais", id: "patrimoine" }
       ]
     },
     {
-      title: "Vivre dans la société française",
+      title: "Vivre dans la soci\u00e9t\u00e9 fran\u00e7aise",
       items: [
-        { label: "S'installer et résider en France", id: "resider" },
-        { label: "L'accès aux soins", id: "soins" },
+        { label: "S'installer et r\u00e9sider en France", id: "resider" },
+        { label: "L'acc\u00e8s aux soins", id: "soins" },
         { label: "Travailler en France", id: "travailler" },
-        { label: "Autorité parentale et système éducatif", id: "parent" }
+        { label: "Autorit\u00e9 parentale et syst\u00e8me \u00e9ducatif", id: "parent" }
       ]
     }
   ];
@@ -53,23 +53,32 @@ App.dom.onReady(function () {
     return header ? header.querySelector("h2") : null;
   }
 
+  function buildQuizUrl(options) {
+    var query = [
+      "type=" + encodeURIComponent(options.type),
+      "level=" + encodeURIComponent(options.level),
+      "restart=1"
+    ];
+    if (options.theme) query.push("theme=" + encodeURIComponent(options.theme));
+    return "qcm.html?" + query.join("&");
+  }
+
   function renderThemeLink(item, levelId) {
     var link = document.createElement("a");
 
     link.className = "theme-accordion-link";
-    link.href = "qcm.html?type=theme&theme=" + item.id + "&level=" + levelId;
+    link.href = buildQuizUrl({ type: "theme", theme: item.id, level: levelId });
     link.innerHTML = "<span>" + item.label + "</span>";
 
     return link;
   }
 
-  function renderSection(section, levelId, isOpenByDefault) {
+  function renderSection(section, levelId) {
     var details = document.createElement("details");
     var summary = document.createElement("summary");
     var list = document.createElement("div");
 
     details.className = "theme-accordion-section";
-    details.open = !!isOpenByDefault;
 
     summary.textContent = section.title;
     details.appendChild(summary);
@@ -97,8 +106,8 @@ App.dom.onReady(function () {
     var accordion = document.createElement("div");
     accordion.className = "themes-accordion";
 
-    THEME_SECTIONS.forEach(function (section, index) {
-      accordion.appendChild(renderSection(section, levelId, index === 0));
+    THEME_SECTIONS.forEach(function (section) {
+      accordion.appendChild(renderSection(section, levelId));
     });
 
     enableSingleOpenBehavior(accordion);
@@ -109,11 +118,17 @@ App.dom.onReady(function () {
   function renderExamButton(examListNode, levelId) {
     if (!examListNode) return;
     var examBtn = document.createElement("a");
-    examBtn.href = "qcm.html?type=examen&level=" + levelId;
-    examBtn.className = "button";
+    var examMeta = document.createElement("p");
+
+    examBtn.href = buildQuizUrl({ type: "examen", level: levelId });
+    examBtn.className = "button button-featured";
     examBtn.textContent = "Examen complet";
+
+    examMeta.className = "choice-featured-note";
+
     examListNode.innerHTML = "";
     examListNode.appendChild(examBtn);
+    examListNode.appendChild(examMeta);
   }
 
   var levelLabel = getLevelLabelNode();
@@ -131,6 +146,6 @@ App.dom.onReady(function () {
   if (levelLabel) levelLabel.textContent = "Niveau : " + label;
   App.storage.setString("examLevel", level);
 
-  if (themesList) renderThemeAccordion(themesList, level);
   renderExamButton(examList, level);
+  if (themesList) renderThemeAccordion(themesList, level);
 });

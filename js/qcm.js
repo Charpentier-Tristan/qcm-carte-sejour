@@ -4,6 +4,7 @@ App.dom.onReady(function () {
   var theme = params.get("theme");
   var exam = params.get("exam");
   var levelParam = params.get("level");
+  var restartRequested = params.get("restart") === "1";
   var THEME_QUESTION_LIMIT = 10;
   var EXAM_THEME_DISTRIBUTION = [
     { id: "symboles", count: 3 },
@@ -26,6 +27,7 @@ App.dom.onReady(function () {
   var EXAM_TOTAL_QUESTIONS = EXAM_THEME_DISTRIBUTION.reduce(function (sum, item) {
     return sum + item.count;
   }, 0);
+  var QUIZ_STATE_KEY = "activeQuizState";
 
   var questions = [];
   var current = 0;
@@ -33,8 +35,8 @@ App.dom.onReady(function () {
 
   var examLabels = {
     initiation: "Initiation",
-    pluriannuelle: "Carte de séjour pluriannuelle",
-    resident: "Carte de résident"
+    pluriannuelle: "Carte de s\u00e9jour pluriannuelle",
+    resident: "Carte de r\u00e9sident"
   };
 
   function getActiveLevel() {
@@ -42,8 +44,65 @@ App.dom.onReady(function () {
     return levelParam || stored || "";
   }
 
+  function buildQuizUrl() {
+    var parts = [
+      "type=" + encodeURIComponent(type || ""),
+      "level=" + encodeURIComponent(getActiveLevel())
+    ];
+    if (theme) parts.push("theme=" + encodeURIComponent(theme));
+    if (exam) parts.push("exam=" + encodeURIComponent(exam));
+    return "qcm.html?" + parts.join("&");
+  }
+
+  function buildQuizStateId() {
+    return [
+      type || "",
+      theme || "",
+      exam || "",
+      getActiveLevel()
+    ].join("|");
+  }
+
+  function persistQuizState(currentIndex) {
+    if (!questions.length) return;
+    App.storage.setString("activeQuizUrl", buildQuizUrl());
+    App.storage.setJSON(QUIZ_STATE_KEY, {
+      id: buildQuizStateId(),
+      type: type,
+      theme: theme,
+      exam: exam,
+      level: getActiveLevel(),
+      current: Math.max(0, Math.min(currentIndex, questions.length - 1)),
+      questions: questions,
+      userAnswers: userAnswers
+    });
+  }
+
+  function tryRestoreQuizState() {
+    if (restartRequested) {
+      App.storage.remove(QUIZ_STATE_KEY);
+      App.storage.remove("activeQuizUrl");
+      return false;
+    }
+
+    var saved = App.storage.getJSON(QUIZ_STATE_KEY, null);
+    if (!saved || saved.id !== buildQuizStateId()) return false;
+    if (!Array.isArray(saved.questions) || !saved.questions.length) return false;
+
+    questions = saved.questions;
+    userAnswers = Array.isArray(saved.userAnswers) ? saved.userAnswers : [];
+    current = typeof saved.current === "number" ? saved.current : 0;
+    App.storage.setString("activeQuizUrl", buildQuizUrl());
+    return true;
+  }
+
   function loadQuestions() {
     var level = getActiveLevel();
+    if (tryRestoreQuizState()) {
+      showQuestion();
+      return;
+    }
+
     if (type === "examen") {
       var header = App.dom.qs("header h1");
       var examLabel = examLabels[exam] || "Examen complet";
@@ -55,11 +114,14 @@ App.dom.onReady(function () {
       loadExamQuestions(level)
         .then(function (data) {
           if (!data || data.length === 0) {
-            redirectError("Aucune question trouvée pour ce niveau.", "Vérifiez les fichiers JS dans le dossier questions.");
+            redirectError("Aucune question trouv\u00e9e pour ce niveau.", "V\u00e9rifiez les fichiers JS dans le dossier questions.");
             return;
           }
           var normalized = data.map(App.quiz.normalizeQuestion);
           questions = App.utils.shuffleArray(normalized).slice(0, EXAM_TOTAL_QUESTIONS);
+          current = 0;
+          userAnswers = [];
+          persistQuizState(0);
           showQuestion();
         })
         .catch(function (e) {
@@ -72,15 +134,18 @@ App.dom.onReady(function () {
       loadThemeQuestions(theme, level)
         .then(function (data) {
           if (!data || data.length === 0) {
-            redirectError("Aucune question trouvée pour ce thème.", "Vérifiez le fichier JS du thème.");
+            redirectError("Aucune question trouv\u00e9e pour ce th\u00e8me.", "V\u00e9rifiez le fichier JS du th\u00e8me.");
             return;
           }
           var normalizedTheme = data.map(App.quiz.normalizeQuestion);
           questions = App.utils.shuffleArray(normalizedTheme).slice(0, THEME_QUESTION_LIMIT);
+          current = 0;
+          userAnswers = [];
+          persistQuizState(0);
           showQuestion();
         })
         .catch(function (e) {
-          redirectError("Fichier du thème introuvable.", e && e.message ? e.message : "");
+          redirectError("Fichier du th\u00e8me introuvable.", e && e.message ? e.message : "");
         });
     }
   }
@@ -92,6 +157,7 @@ App.dom.onReady(function () {
 
     if (current >= questions.length) {
       persistResults();
+      persistQuizState(questions.length - 1);
       window.location.href = "resultat.html";
       return;
     }
@@ -118,10 +184,20 @@ App.dom.onReady(function () {
 
     nextBtn.disabled = !(userAnswers[current] && userAnswers[current].length);
     nextBtn.textContent = isLastQuestion ? "Finir le test" : "Suivant";
-    nextBtn.onclick = function () { current++; showQuestion(); };
+    nextBtn.onclick = function () {
+      current++;
+      persistQuizState(Math.min(current, questions.length - 1));
+      showQuestion();
+    };
     prevBtn.style.display = current === 0 ? "none" : "";
     prevBtn.disabled = current === 0;
-    prevBtn.onclick = function () { current--; showQuestion(); };
+    prevBtn.onclick = function () {
+      current--;
+      persistQuizState(current);
+      showQuestion();
+    };
+
+    persistQuizState(current);
   }
 
   function selectAnswer(btn, answerId) {
@@ -130,6 +206,7 @@ App.dom.onReady(function () {
     btn.classList.add("selected");
     userAnswers[current] = [answerId];
     App.dom.byId("nextBtn").disabled = !(userAnswers[current] && userAnswers[current].length);
+    persistQuizState(current);
   }
 
   function calculateScore() {
