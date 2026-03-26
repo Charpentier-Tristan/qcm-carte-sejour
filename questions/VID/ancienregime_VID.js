@@ -90,7 +90,7 @@ var ancienregime_VID = [
     "theme": "ancienregime",
     "level": "VID",
     "type": "single",
-    "question": "En France, le roi était de religion~:",
+    "question": "En France, le roi était de religion :",
     "answers": [
       { "id": "catho", "label": "catholique" },
       { "id": "protest", "label": "protestante" },
@@ -108,7 +108,7 @@ var ancienregime_VID = [
     "theme": "ancienregime",
     "level": "VID",
     "type": "single",
-    "question": "En France le monarque était de droit~:",
+    "question": "En France le monarque était de droit :",
     "answers": [
       { "id": "div", "label": "divin" },
       { "id": "quat", "label": "quatrain" },
@@ -241,7 +241,7 @@ var ancienregime_VID = [
     "theme": "ancienregime",
     "level": "VID",
     "type": "single",
-    "question": "Sous l'Ancien Régime, la majorité des Français étaient~:",
+    "question": "Sous l'Ancien Régime, la majorité des Français étaient :",
     "answers": [
     { "id": "catho", "label": "catholiques" },
     { "id": "protest", "label": "protestants" },

@@ -45,7 +45,7 @@ var permis_VID = [
       { "id": "mai", "label": "à la mairie" },
       { "id": "pre", "label": "à la préfecture" },
       { "id": "int", "label": "sur internet" },
-      { "id": "frt", "label": "sur France titres" }
+      { "id": "frt", "label": "sur France Titres" }
     ],
     "correct": ["pos"],
     "explanation": "L'examen du code peut se passer à la Poste, moyennant 30 euros."

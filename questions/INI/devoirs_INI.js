@@ -172,7 +172,7 @@ var devoirs_INI = [
       { "id": "exp", "label": "À recruter des personnes contre leur volonté, pour les exploiter" },
       { "id": "sal", "label": "À embaucher des personnes en usine" },
       { "id": "dep", "label": "À envoyer des personnes en Suisse" },
-      { "id": "pub", "label": "À obliger des personnes à visiteer la mairie" },
+      { "id": "pub", "label": "À obliger des personnes à visiter la mairie" },
       { "id": "adm", "label": "À multiplier les documents administratifs" }
       ],
     "correct": ["exp"],
@@ -188,7 +188,7 @@ var devoirs_INI = [
       { "id": "par", "label": "Parler et se faire aider" },
       { "id": "tai", "label": "Se taire et se cacher" },
       { "id": "dem", "label": "Déménager" },
-      { "id": "par", "label": "Partir en forêt" },
+      { "id": "for", "label": "Partir en forêt" },
       { "id": "agr", "label": "Demander pardon" }
       ],
     "correct": ["par"],
@@ -236,7 +236,7 @@ var devoirs_INI = [
       { "id": "int", "label": "interdit et puni d'une amende" },
       { "id": "aut", "label": "autorisé dans votre rue" },
       { "id": "san", "label": "interdit sans les gants" },
-      { "id": "tol", "label": "bien sûr, si la bouteille est vide" },
+      { "id": "tol", "label": "recommandé, si la bouteille est vide" },
       { "id": "pou", "label": "préférable aux poubelles" }
       ],
     "correct": ["int"],
@@ -249,11 +249,11 @@ var devoirs_INI = [
     "type": "single",
     "question": "Déposer une machine à laver cassée sur le trottoir est :",
     "answers": [
-      { "id": "int", "label": "Interdit et puni d'une amende" },
-      { "id": "nor", "label": "Normal" },
-      { "id": "leg", "label": "Légal" },
-      { "id": "tol", "label": "Toléré la nuit" },
-      { "id": "dec", "label": "Déconseillé en ville" }
+      { "id": "int", "label": "interdit et puni d'une amende" },
+      { "id": "nor", "label": "normal" },
+      { "id": "leg", "label": "légal" },
+      { "id": "tol", "label": "toléré la nuit" },
+      { "id": "dec", "label": "déconseillé en ville" }
       ],
     "correct": ["int"],
     "explanation": "Déposer, abandonner, jeter ou déverser tout type de déchets sur la voie publique ou privée est puni d'une amende forfaitaire. Une machine à laver cassée doit être évacuée comme encombrant. Les conditions de collecte des encombrants sont définies par les communes (collecte à date fixe ou sur rendez-vous, dépôt en déchetterie)."

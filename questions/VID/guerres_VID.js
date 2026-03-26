@@ -207,7 +207,7 @@ var guerres_VID = [
     "theme": "guerres",
     "level": "VID",
     "type": "multi",
-    "question": "Sur quelle ville du Japon une bombe atomique a été lancée~?",
+    "question": "Sur quelle ville du Japon une bombe atomique a été lancée ?",
     "answers": [
       { "id": "hiro", "label": "Hiroshima" },
       { "id": "naga", "label": "Nagasaki" },

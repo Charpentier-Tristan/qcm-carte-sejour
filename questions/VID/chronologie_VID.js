@@ -21,7 +21,7 @@ var chronologie_VID = [
     "theme": "chronologie",
     "level": "VID",
     "type": "single",
-    "question": "Que s'est-il passé en 1315~?",
+    "question": "Que s'est-il passé en 1315 ?",
     "answers": [
       { "id": "serv", "label": "L'abolition du servage" },
       { "id": "mar", "label": "Le mariage de louis XIII" },
@@ -256,7 +256,7 @@ var chronologie_VID = [
     "theme": "chronologie",
     "level": "VID",
     "type": "single",
-    "question": "Quand la Révolution française a-t-elle commencé ?",
+    "question": "En quelle année la Révolution française a-t-elle commencé ?",
     "answers": [
       { "id": "quatre", "label": "1789" },
       { "id": "douze", "label": "1792" },

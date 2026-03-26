@@ -108,7 +108,7 @@ var laicite_VID = [
     "type": "single",
     "question": "La loi de 1905 s'applique :",
     "answers": [
-      { "id": "als", "label": "sur le territoire national sauf en Alsace-Moselle et dans certains territoires d'outre-mer" },
+      { "id": "als", "label": "sauf en Alsace-Moselle et dans certains territoires d'outre-mer" },
       { "id": "tou", "label": "sur tout le territoire national sans exception" },
       { "id": "cor", "label": "sauf en Corse et dans les autres territoires insulaires" },
       { "id": "mil", "label": "sauf dans les villes de plus d'un million d'habitants" },

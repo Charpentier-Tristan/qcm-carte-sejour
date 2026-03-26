@@ -63,7 +63,7 @@ var territoire_CSP = [
       { "id": "mediterranee", "label": "Méditerranée" },
       { "id": "adriatique", "label": "Adriatique" }
       ],
-    "correct": ["Atlantique"],
+    "correct": ["atlantique"],
     "explanation": "L'océan Atlantique borde la côte ouest. Il prend le nom de \"Manche\" au nord-ouest, entre la France et l'Angleterre, de \"mer du Nord\" ensuite."
   },
   {
@@ -71,7 +71,7 @@ var territoire_CSP = [
     "theme": "territoire",
     "level": "CSP",
     "type": "single",
-    "question": "Qu'est-ce que Paris",
+    "question": "Qu'est-ce que Paris ?",
     "answers": [
       { "id": "cap_france", "label": "La capitale de la France" },
       { "id": "siege_parlement", "label": "Le siège du parlement européen" },
@@ -96,7 +96,7 @@ var territoire_CSP = [
       { "id": "bruxelles", "label": "Bruxelles" },
       { "id": "newyork", "label": "New-York" }
     ],
-    "correct": ["Paris"],
+    "correct": ["paris"],
     "explanation": "Paris est la capitale de la France. C'est le siège du parlement et de la présidence de la République. C'est aussi la principale ville de France, avec 2 millions d’habitants dans la ville elle-même et 10 millions dans l’agglomération de 400 communes autour."
   },
   {
@@ -104,7 +104,7 @@ var territoire_CSP = [
     "theme": "territoire",
     "level": "CSP",
     "type": "single",
-    "question": "Sur quel continent se trouve la France métropolitaine",
+    "question": "Sur quel continent se trouve la France métropolitaine ?",
     "answers": [
       { "id": "europe", "label": "Le continent européen" },
       { "id": "afrique", "label": "Le continent africain" },

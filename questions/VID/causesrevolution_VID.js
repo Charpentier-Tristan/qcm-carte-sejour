@@ -243,7 +243,7 @@ var causesrevolution_VID = [
     "theme": "causesrevolution",
     "level": "VID",
     "type": "single",
-    "question": "L'\"impôt de sang\" était versé par :",
+    "question": "L'impôt de sang était versé par :",
     "answers": [
       { "id": "nob", "label": "les nobles sur les champs de bataille" },
       { "id": "cur", "label": "les curés lors de la messe" },

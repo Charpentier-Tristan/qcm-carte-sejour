@@ -14,7 +14,7 @@ var lumieres_VID = [
       { "id": "lihe", "label": "libres et heureux" }
     ],
     "correct": ["lieg"],
-    "explanation": "\"Les hommes naissent et demeurent libres et égaux en droit\" est la première phrase de l'article 1er de la Déclaration des droits de l'homme de 1789. La République \"assure l'égalité devant la loi de tous les citoyens sans distinction d'origine, de race ou de religion\", comme il est précisé par l'article 1er de la Constitution de 1958."
+    "explanation": "\"Les hommes naissent et demeurent libres et égaux en droits\" est la première phrase de l'article 1er de la Déclaration des droits de l'homme de 1789. La République \"assure l'égalité devant la loi de tous les citoyens sans distinction d'origine, de race ou de religion\", comme il est précisé par l'article 1er de la Constitution de 1958."
   },
   {
     "id": "lumieres_vid_002",
@@ -23,7 +23,7 @@ var lumieres_VID = [
     "type": "single",
     "question": "Compléter cette phrase : les hommes naissent et demeurent libres et égaux .....",
     "answers": [
-      { "id": "dro", "label": "en droit" },
+      { "id": "dro", "label": "en droits" },
       { "id": "ver", "label": "en vers" },
       { "id": "fra", "label": "en France" },
       { "id": "eur", "label": "en Europe" },
@@ -31,7 +31,7 @@ var lumieres_VID = [
       { "id": "tou", "label": "mais pas tous" }
     ],
     "correct": ["dro"],
-    "explanation": "\"Les hommes naissent et demeurent libres et égaux en droit\" est la première phrase de l'article 1er de la Déclaration des droits de l'homme de 1789. Encore faut-il savoir de quels droits il s'agit. L'article 2 précise qu'il s'agit \"des droits naturels et imprescriptibles de l'homme. Ces droits sont la liberté, la propriété, la sûreté, et la résistance à l'oppression\". Le droit de s'installer dans un autre pays que celui de naissance n'en fait pas partie."
+    "explanation": "\"Les hommes naissent et demeurent libres et égaux en droits\" est la première phrase de l'article 1er de la Déclaration des droits de l'homme de 1789. Encore faut-il savoir de quels droits il s'agit. L'article 2 précise qu'il s'agit \"des droits naturels et imprescriptibles de l'homme. Ces droits sont la liberté, la propriété, la sûreté, et la résistance à l'oppression\". Le droit de s'installer dans un autre pays que celui de naissance n'en fait pas partie."
   },
   {
     "id": "lumieres_vid_003",
@@ -48,14 +48,14 @@ var lumieres_VID = [
       { "id": "euso", "label": "européens sont" }
     ],
     "correct": ["nade"],
-    "explanation": "\"Les hommes naissent et demeurent libres et égaux en droit\" est la première phrase de l'article 1er de la Déclaration des droits de l'homme de 1789. Chacun conserverait-il ses droits de naissance quel que soit son pays ? Ce n'est pas l'avis du Conseil constitutionnel qui précise que \"les étrangers se trouvent placés dans une situation différente de celle des nationaux qui, eux, ont un droit général et absolu d'entrée et de séjour en France\"."
+    "explanation": "\"Les hommes naissent et demeurent libres et égaux en droits\" est la première phrase de l'article 1er de la Déclaration des droits de l'homme de 1789. Chacun conserverait-il ses droits de naissance quel que soit son pays ? Ce n'est pas l'avis du Conseil constitutionnel qui précise que \"les étrangers se trouvent placés dans une situation différente de celle des nationaux qui, eux, ont un droit général et absolu d'entrée et de séjour en France\"."
   },
   {
     "id": "lumieres_vid_004",
     "theme": "lumieres",
     "level": "VID",
     "type": "single",
-    "question": "\"Les hommes naissent et demeurent libres et égaux en droit\" est une citation de :",
+    "question": "\"Les hommes naissent et demeurent libres et égaux en droits\" est une citation de :",
     "answers": [
       { "id": "ddhc", "label": "la Déclaration des droits de l'homme et du citoyen de 1789" },
       { "id": "rou", "label": "Rousseau" },
@@ -65,7 +65,7 @@ var lumieres_VID = [
       { "id": "inte", "label": "le règlement du ministère de l'Intérieur" }
     ],
     "correct": ["ddhc"],
-    "explanation": "\"Les hommes naissent et demeurent libres et égaux en droit\" est la première phrase de l'article 1er de la Déclaration des droits de l'homme de 1789. L'article 1er de la Déclaration universelle des droits de l'homme de 1958 est : \"Tous les êtres humains naissent libres et égaux en dignité et en droits. Ils sont doués de raison et de conscience et doivent agir les uns envers les autres dans un esprit de fraternité\"."
+    "explanation": "\"Les hommes naissent et demeurent libres et égaux en droits\" est la première phrase de l'article 1er de la Déclaration des droits de l'homme de 1789. L'article 1er de la Déclaration universelle des droits de l'homme de 1958 est : \"Tous les êtres humains naissent libres et égaux en dignité et en droits. Ils sont doués de raison et de conscience et doivent agir les uns envers les autres dans un esprit de fraternité\"."
   },
   {
     "id": "lumieres_vid_005",

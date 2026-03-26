@@ -61,7 +61,7 @@ var territoire_NAT = [
       { "id": "jer", "label": "Jersey" },
       { "id": "ibi", "label": "Ibiza" }
       ],
-    "correct": ["cor","reu","haiti"],
+    "correct": ["cor","reu","tah"],
     "explanation": "Le territoire français inclut des centaines d'îles. La Corse, la Réunion et Tahiti font partie des plus grandes."
   },
   {

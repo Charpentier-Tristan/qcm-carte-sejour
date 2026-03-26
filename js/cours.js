@@ -1,73 +1,76 @@
 App.dom.onReady(function () {
   var COURSE_BASE_URL = "https://cart-trieves.org/videos/";
-  var COURSE_GROUPS = [
+  var FALLBACK_COURSE_GROUPS = [
     {
       key: "histoire-france",
       title: "Histoire de France",
       ids: [
+        "chronologie",
         "ancienregime",
         "causesrevolution",
-        "chronologie",
-        "cinquieme",
-        "colonialisme",
-        "esclavage",
-        "guerres",
+        "raison",
         "lumieres",
         "napoleon",
-        "raison",
-        "troisieme"
+        "esclavage",
+        "colonialisme",
+        "troisieme",
+        "guerres",
+        "cinquieme",
+        "construction"
       ]
     },
     {
       key: "vivre-france",
       title: "Vivre en France",
       ids: [
-        "arrivee",
-        "banque",
-        "construction",
-        "europe",
         "geographie",
+        "arrivee",
         "ideesrecues",
-        "institutions",
-        "laicite",
+        "sante",
+        "banque",
         "logement",
+        "travail",
         "permis",
         "principes",
-        "sante",
-        "travail"
+        "laicite",
+        "institutions",
+        "europe"
       ]
     }
   ];
+  var COURSE_GROUPS = App.data && Array.isArray(App.data.COURSE_GROUPS)
+    ? App.data.COURSE_GROUPS
+    : FALLBACK_COURSE_GROUPS;
 
   var COURSE_IDS = COURSE_GROUPS.reduce(function (all, group) {
     return all.concat(group.ids);
   }, []);
 
   var COURSE_LABELS = {
-    ancienregime: "L'Ancien Regime",
-    arrivee: "Arrivee en France",
-    banque: "Banque",
-    causesrevolution: "Causes de la Revolution",
+    ancienregime: "Ancien Régime",
+    arrivee: "Venir en France",
+    banque: "Compte bancaire",
+    causesrevolution: "Causes de la Révolution",
     chronologie: "Chronologie",
-    cinquieme: "Cinquieme Republique",
+    cinquieme: "Cinquième République",
     colonialisme: "Colonialisme",
-    construction: "Construction europeenne",
+    construction: "Construction européenne",
     esclavage: "Esclavage",
-    europe: "Europe",
-    geographie: "Geographie",
-    guerres: "Les guerres",
-    ideesrecues: "Idees recues",
-    institutions: "Institutions",
-    laicite: "Laicite",
+    europe: "Institutions Européennes",
+    geographie: "Géographie",
+    guerres: "Guerres Mondiales",
+    ideesrecues: "Idées reçues",
+    institutions: "Institutions de la République",
+    laicite: "Laïcité",
     logement: "Logement",
-    lumieres: "Les Lumieres",
-    napoleon: "Napoleon",
-    permis: "Permis",
-    principes: "Principes",
-    raison: "La raison",
-    sante: "Sante",
-    travail: "Travail",
-    troisieme: "Troisieme Republique"
+    lumieres: "Pensée des Lumières",
+    napoleon: "Napoléon Ier",
+    permis: "Permis de conduire",
+    principes: "Principes de la République",
+    raison: "Rationnalisme",
+    sante: "Soins de santé",
+    travail: "Travailler en France",
+    troisieme: "Troisième République"
   };
 
   function getCourseLabel(courseId) {
@@ -100,6 +103,7 @@ App.dom.onReady(function () {
   }
 
   function updateSelectedCourseLink(courseId) {
+    if (!courseId || courseId === "undefined") return;
     var params = new URLSearchParams(window.location.search);
     params.set("course", courseId);
     var nextUrl = window.location.pathname + "?" + params.toString();
@@ -138,6 +142,8 @@ App.dom.onReady(function () {
     var qcmLink = App.dom.byId("courseQcmLink");
     var videoLink = App.dom.byId("courseVideoLink");
     var pdfLink = App.dom.byId("coursePdfLink");
+    if (!courseId || courseId === "undefined") return;
+
     var courseTitle = getCourseLabel(courseId);
     var qcmUrl = buildQcmUrl(courseId);
     var videoUrl = buildVideoUrl(courseId);
@@ -217,6 +223,7 @@ App.dom.onReady(function () {
   function getInitialCourseId(visibleGroups) {
     var params = new URLSearchParams(window.location.search);
     var requested = params.get("course");
+    if (requested === "undefined") requested = "";
     var visibleIds = visibleGroups.reduce(function (all, group) {
       return all.concat(group.ids);
     }, []);
@@ -228,6 +235,9 @@ App.dom.onReady(function () {
   }
 
   var visibleGroups = getVisibleGroups();
+  if (!visibleGroups.length) {
+    visibleGroups = FALLBACK_COURSE_GROUPS;
+  }
   updateThemePresentation(visibleGroups);
   renderCourseList(visibleGroups);
   renderCourse(getInitialCourseId(visibleGroups));

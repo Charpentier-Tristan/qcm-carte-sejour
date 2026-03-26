@@ -86,9 +86,9 @@ var vote_INI = [
     "type": "single",
     "question": "Qui doit respecter la loi ?",
     "answers": [
-      { "id": "ter", "label": "toute personne présente sur le territoire national" },
-      { "id": "cit", "label": "les influenceurs" },
-      { "id": "fem", "label": "les blogueurs" },
+      { "id": "ter", "label": "Toute personne présente sur le territoire national" },
+      { "id": "cit", "label": "Les influenceurs" },
+      { "id": "fem", "label": "Les blogueurs" },
       { "id": "maj", "label": "Beyoncé" },
       { "id": "etr", "label": "Ed Sheeran" }
       ],
@@ -102,11 +102,11 @@ var vote_INI = [
     "type": "single",
     "question": "Quel est le rôle de l'autorité judiciaire ?",
     "answers": [
-      { "id": "app", "label": "faire appliquer la loi" },
-      { "id": "con", "label": "s'enrichir" },
-      { "id": "nou", "label": "aller au MacDo" },
-      { "id": "act", "label": "partir en vacances" },
-      { "id": "eco", "label": "écouter Taylor Swift" }
+      { "id": "app", "label": "Faire appliquer la loi" },
+      { "id": "con", "label": "S'enrichir" },
+      { "id": "nou", "label": "Aller au MacDo" },
+      { "id": "act", "label": "Partir en vacances" },
+      { "id": "eco", "label": "Écouter Taylor Swift" }
       ],
     "correct": ["app"],
     "explanation": "L'autorité judiciaire désigne l'ensemble des institutions dont la fonction est de faire appliquer la loi. L'autorité judiciaire est exercée par les juges et les magistrats. Ils appliquent les lois. Ils jugent et rendent la justice."
@@ -300,7 +300,7 @@ var vote_INI = [
       { "id": "deu", "label": "93 ans" },
       { "id": "vie", "label": "à vie" }
     ],
-    "correct": ["cin"],
+    "correct": ["six"],
     "explanation": "La moitié des sénateurs est renouvelée tous les trois ans au suffrage universel indirect. Les élections sénatoriales permettent à un collège électoral d'élire les sénateurs pour un mandat de 6 ans renouvelable. Ce collège électoral comprend les sénateurs, les députés, les conseillers régionaux élus dans le département, les conseillers départementaux (ou les conseillers des collectivités similaires à statut particulier) et les délégués des conseils municipaux."
   },
   {

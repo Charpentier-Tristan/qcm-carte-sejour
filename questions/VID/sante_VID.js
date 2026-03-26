@@ -75,7 +75,7 @@ var sante_VID = [
       { "id": "asi", "label": "précarité, asile, et sauvegarde sanitaire" },
       { "id": "ass", "label": "portail d'assimilation pour services sociaux" },
       { "id": "abo", "label": "porte d'abordage pour semaines de sécurité" },
-      { "id": "acc", "label": "péri-accompagnement de septuagénaires sains" },
+      { "id": "sep", "label": "péri-accompagnement de septuagénaires sains" },
       { "id": "ami", "label": "protéines amino-saccharoïdes sélectionnées" }
     ],
     "correct": ["acc"],

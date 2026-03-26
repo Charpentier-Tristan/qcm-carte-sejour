@@ -85,7 +85,7 @@ var institutions_VID = [
       { "id": "eur", "label": "Les commissaires européens" },
       { "id": "pre", "label": "Le président de la République" }
     ],
-    "correct": ["dep"],
+    "correct": ["dep","sen"],
     "explanation": "Le pouvoir législatif est exercé par le Parlement, composé de deux chambres : l'Assemblée nationale (députés), et le Sénat (sénateurs). Ces deux assemblées sont chargées de voter la loi, de contrôler l'action du Gouvernement et d'évaluer les politiques publiques."
   },
   {

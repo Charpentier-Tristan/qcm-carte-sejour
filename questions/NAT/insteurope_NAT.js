@@ -14,7 +14,7 @@ var insteurope_NAT = [
       { "id": "devi", "label": "2020" }
     ],
     "correct": ["quad"],
-    "explanation": "Le traité de Maastricht, définissant la constitution politique de l'Union Européenne, a été signé en 1992. Il définit la citoyenneté européenne dans son article 9~: \"est citoyen de l'Union toute personne ayant la nationalité d'un État membre\"."
+    "explanation": "Le traité de Maastricht, définissant la constitution politique de l'Union Européenne, a été signé en 1992. Il définit la citoyenneté européenne dans son article 9 : \"est citoyen de l'Union toute personne ayant la nationalité d'un État membre\"."
   },
   {
     "id": "insteurope_nat_002",

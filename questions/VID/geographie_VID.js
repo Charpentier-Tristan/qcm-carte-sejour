@@ -92,7 +92,7 @@ var geographie_VID = [
       { "id": "chy", "label": "Chypre" }
     ],
     "correct": ["all","bel","ita"],
-    "explanation": "Les pays ayant une frontière terrestre commune avec la France sont l'Allemagne au nord-est et la Belgique au nord. Au-dessous de l'Allemagne, la Suisse, puis l'Italie au sud-est. Enfin l'Espagne tout au sud. On trouve encore trois états plus petits qui ont des frontières avec la France~: le Luxembourg au Nord, entre la Belgique et l'Allemagne, Monaco au sud-est tout près de la frontière italienne, et l'Andorre au beau milieu des Pyrénées entre la France et l'Espagne."
+    "explanation": "Les pays ayant une frontière terrestre commune avec la France sont l'Allemagne au nord-est et la Belgique au nord. Au-dessous de l'Allemagne, la Suisse, puis l'Italie au sud-est. Enfin l'Espagne tout au sud. On trouve encore trois états plus petits qui ont des frontières avec la France : le Luxembourg au Nord, entre la Belgique et l'Allemagne, Monaco au sud-est tout près de la frontière italienne, et l'Andorre au beau milieu des Pyrénées entre la France et l'Espagne."
   },
   {
     "id": "geographie_vid_006",
@@ -111,7 +111,7 @@ var geographie_VID = [
       { "id": "bel", "label": "Belize" }
     ],
     "correct": ["and","lux","mon"],
-    "explanation": "Trois petits états plus petits ont une frontière avec la France~: le Luxembourg au Nord, entre la Belgique et l'Allemagne, Monaco au sud-est tout près de la frontière italienne, et l'Andorre au beau milieu des Pyrénées entre la France et l'Espagne."
+    "explanation": "Trois petits états plus petits ont une frontière avec la France : le Luxembourg au Nord, entre la Belgique et l'Allemagne, Monaco au sud-est tout près de la frontière italienne, et l'Andorre au beau milieu des Pyrénées entre la France et l'Espagne."
   },
   {
     "id": "geographie_vid_007",
@@ -196,7 +196,7 @@ var geographie_VID = [
       { "id": "mediterranee", "label": "Méditerranée" },
       { "id": "adriatique", "label": "Adriatique" }
     ],
-    "correct": ["Atlantique"],
+    "correct": ["atlantique"],
     "explanation": "L'océan Atlantique borde la côte ouest. Il prend le nom de \"Manche\" au nord-ouest, entre la France et l'Angleterre, de \"mer du Nord\" ensuite."
   },
   {
@@ -213,7 +213,7 @@ var geographie_VID = [
       { "id": "bruxelles", "label": "Bruxelles" },
       { "id": "newyork", "label": "New-York" }
     ],
-    "correct": ["Paris"],
+    "correct": ["paris"],
     "explanation": "Paris est la capitale de la France. C'est le siège du parlement et de la présidence de la République. C'est aussi la principale ville de France, avec 2 millions d'habitants dans la ville elle-même et 10 millions dans l'agglomération de 400 communes autour."
   },
   {

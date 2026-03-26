@@ -2,19 +2,38 @@ App.dom.onReady(function () {
   var resultsDiv = App.dom.byId("results");
   if (!resultsDiv) return;
 
+  function normalizeQuizContextLabel(label) {
+    var parts = String(label || "")
+      .split(" | ")
+      .map(function (part) { return part.trim(); })
+      .filter(Boolean);
+
+    if (parts.length % 2 === 0) {
+      var half = parts.length / 2;
+      var firstHalf = parts.slice(0, half).join(" | ");
+      var secondHalf = parts.slice(half).join(" | ");
+      if (firstHalf === secondHalf) {
+        return firstHalf;
+      }
+    }
+
+    return parts.join(" | ");
+  }
+
   var questions = App.storage.getJSON("questions", []);
   var lastScore = App.storage.getNumber("lastScore", 0);
   var totalQuestions = App.storage.getNumber("totalQuestions", 0);
-  var examTypeLabel = App.storage.getString("examTypeLabel", "");
-  var examLevel = App.storage.getString("examLevel", "");
+  var quizContextLabel = normalizeQuizContextLabel(App.storage.getString("quizContextLabel", ""));
+  if (quizContextLabel) {
+    App.storage.setString("quizContextLabel", quizContextLabel);
+  }
 
-  var html = "<h2>Score : " + lastScore + " / " + totalQuestions + "</h2>";
-  if (examTypeLabel) {
-    html += "<p>Type d'examen : " + App.utils.escapeHtml(examTypeLabel) + "</p>";
+  var html = "<div class=\"results-summary\">"
+    + "<h2>Score : " + lastScore + " / " + totalQuestions + "</h2>";
+  if (quizContextLabel) {
+    html += "<p>" + App.utils.escapeHtml(quizContextLabel) + "</p>";
   }
-  if (examLevel && typeof getLevelLabel === "function") {
-    html += "<p>Niveau : " + App.utils.escapeHtml(getLevelLabel(examLevel)) + "</p>";
-  }
+  html += "</div>";
 
   questions.forEach(function (q, i) {
     var userIds = q.userAnswerIds || [];
@@ -31,11 +50,12 @@ App.dom.onReady(function () {
     var explanationHtml = explanationText
       ? "<p class=\"explanation\">" + App.utils.escapeHtml(explanationText) + "</p>"
       : "";
+
     html += ""
       + "<div class=\"result-card " + (isCorrect ? "correct" : "wrong") + "\">"
       + "<h3>Q" + (i + 1) + ": " + questionText + "</h3>"
-      + (isCorrect ? "" : "<p>Ta réponse: " + userAnswer + "</p>")
-      + "<p>Bonne réponse: " + correctAnswer + "</p>"
+      + (isCorrect ? "" : "<p>Ta reponse: " + userAnswer + "</p>")
+      + "<p>Bonne reponse: " + correctAnswer + "</p>"
       + explanationHtml
       + "</div>";
   });

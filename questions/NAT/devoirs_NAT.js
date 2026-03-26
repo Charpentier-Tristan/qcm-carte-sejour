@@ -289,7 +289,7 @@ var devoirs_NAT = [
       { "id": "pri", "label": "elle ne pourra pas être employée dans une entreprise privée" },
       { "id": "ass", "label": "elle sera assignée à résidence à son domicile" }
       ],
-    "correct": ["vin"],
+    "correct": ["niv"],
     "explanation": "Selon l'article 131-26 du code pénal : l'interdiction des droits civiques, civils et de famille porte entre autres sur la suppression du droit de vote, qui entraîne l'inéligibilité et l'interdiction d'exercer une fonction publique."
   }
 ];

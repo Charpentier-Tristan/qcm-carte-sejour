@@ -188,7 +188,7 @@ var devoirs_CSP = [
       { "id": "par", "label": "Parler et se faire aider" },
       { "id": "tai", "label": "Se taire et se cacher" },
       { "id": "dem", "label": "Déménager dans une autre ville" },
-      { "id": "par", "label": "Partir se promener en forêt" },
+      { "id": "for", "label": "Partir se promener en forêt" },
       { "id": "agr", "label": "Demander pardon à son agresseur" }
       ],
     "correct": ["par"],

@@ -42,7 +42,7 @@ var vote_CRE = [
       { "id": "opi", "label": "l'opinion majoritaire" },
       { "id": "ass", "label": "l'Assemblée nationale" },
       { "id": "mar", "label": "Marianne" },
-      { "id": "uni", "label": "L'union des partis politiques" }
+      { "id": "uni", "label": "l'union des partis politiques" }
       ],
     "correct": ["vol"],
     "explanation": "Selon la Déclaration des droits de l'homme de 1789 (article 6) : \"La loi est l'expression de la volonté générale. Tous les citoyens ont droit de concourir personnellement, ou par leurs représentants, à sa formation. Elle doit être la même pour tous, soit qu'elle protège, soit qu'elle punisse\"."

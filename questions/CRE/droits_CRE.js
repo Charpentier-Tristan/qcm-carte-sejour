@@ -121,7 +121,7 @@ var droits_CRE = [
     "type": "single",
     "question": "Que contient la Constitution ?",
     "answers": [
-      { "id": "tex", "label": "Une description de l'organisation de l'État et les institutions" },
+      { "id": "tex", "label": "Une description de l'organisation de l'État et des institutions" },
       { "id": "des", "label": "La liste des infractions et des peines encourues" },
       { "id": "com", "label": "La compilation des documents historiques du pays" },
       { "id": "bud", "label": "Le détail du budget de la Nation" },

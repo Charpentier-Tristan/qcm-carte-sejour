@@ -4,7 +4,7 @@ App.dom.onReady(function () {
 
   var history = App.storage.getJSON("statsHistory", []);
   if (!Array.isArray(history) || history.length === 0) {
-    container.innerHTML = "<h2>Aucune statistique</h2><p>Faites un QCM pour voir vos stats.</p>";
+    container.innerHTML = "<h2>Aucune statistique</h2><p>Faites un quiz pour voir vos stats.</p>";
     return;
   }
 
@@ -29,7 +29,7 @@ App.dom.onReady(function () {
   container.innerHTML = ""
     + "<h2>Résumé</h2>"
     + "<p>Moyenne de bonnes réponses : " + avgPercent + "%</p>"
-    + "<p>Moyenne par QCM : " + avgScore + " bonnes réponses</p>"
+    + "<p>Moyenne par quiz : " + avgScore + " bonnes réponses</p>"
     + "<p>Total de questions répondues : " + totalQuestions + "</p>"
     + "<h2>Derniers résultats</h2>"
     + "<ul>" + recentHtml + "</ul>";

@@ -240,7 +240,7 @@ var laique_NAT = [
       { "id": "pre", "label": "Le préfet" }
       ],
     "correct": ["age"],
-    "explanation": "D'après la Charte de la laïcité dans les services publics~: \"Tout agent du service public incarne les valeurs de ce dernier et est tenu de se montrer exemplaire dans l’exercice de ses fonctions. Il doit traiter également tous les usagers et respecter leur liberté de conscience. Le principe de laïcité lui interdit de manifester ses convictions religieuses dans l’exercice de ses fonctions, quelles qu’elles soient\"."
+    "explanation": "D'après la Charte de la laïcité dans les services publics : \"Tout agent du service public incarne les valeurs de ce dernier et est tenu de se montrer exemplaire dans l’exercice de ses fonctions. Il doit traiter également tous les usagers et respecter leur liberté de conscience. Le principe de laïcité lui interdit de manifester ses convictions religieuses dans l’exercice de ses fonctions, quelles qu’elles soient\"."
   },
   {
     "id": "laique_nat_016",

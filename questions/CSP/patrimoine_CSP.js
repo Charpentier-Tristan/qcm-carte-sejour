@@ -176,7 +176,7 @@ var patrimoine_CSP = [
       { "id": "arc", "label": "un architecte de la Renaissance" }
       ],
     "correct": ["poe"],
-    "explanation": "Jean de la Fontaine (1621-1695) est un poète, fabuliste et romancier français du temps de Louis XIV. Dans ses fables, il met en scène des animaux avec des traits d'humains pour critiquer les Hommes."
+    "explanation": "Jean de la Fontaine (1621-1695) est un poète, fabuliste et romancier français du temps de Louis XIV. Dans ses fables, il met en scène des animaux avec des traits d'humains pour critiquer les hommes."
   },
   {
     "id": "patrimoine_csp_012",
@@ -224,6 +224,6 @@ var patrimoine_CSP = [
       { "id": "onz", "label": "Le 11 novembre" }
       ],
     "correct": ["vin"],
-    "explanation": "Noël est la fête chrétienne d'origine romaine qui célèbre la Nativité, le 25 décembre. La tradition du père Noël a ajouté une dimension profane à la fête chrétienne, plus orientée vers les enfants, la familles et les cadeaux."
+    "explanation": "Noël est la fête chrétienne d'origine romaine qui célèbre la Nativité, le 25 décembre. La tradition du père Noël a ajouté une dimension profane à la fête chrétienne, plus orientée vers les enfants, la famille et les cadeaux."
   }
 ];

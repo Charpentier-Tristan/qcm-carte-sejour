@@ -67,6 +67,27 @@ header {
   top: 1rem;
 }
 
+.header-help-link {
+  position: absolute;
+  right: 0.6rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 999px;
+  box-shadow: var(--shadow-soft);
+  text-decoration: none;
+}
+
+.header-help-icon {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+
 .nav-back {
   background: rgba(255, 255, 255, 0.9);
   color: var(--accent-4);
@@ -190,6 +211,29 @@ main {
   backdrop-filter: blur(8px);
 }
 
+.quiz-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.55rem 1rem;
+  margin-bottom: 0.9rem;
+}
+
+#counter,
+#quizContext {
+  margin: 0;
+}
+
+#counter {
+  font-weight: 700;
+  color: var(--accent-4);
+}
+
+#quizContext {
+  color: var(--muted);
+  font-size: 0.98rem;
+}
+
 /* ============================
    BOUTONS GÉNÉRAUX
 ============================ */
@@ -303,6 +347,23 @@ button:active, a.button:active {
   font-size: 1.1rem;
   border: 1px solid rgba(75, 53, 232, 0.08);
   background: var(--card);
+}
+
+.results-summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.results-summary h2,
+.results-summary p {
+  margin: 0;
+}
+
+.results-summary p {
+  color: var(--muted);
 }
 
 .result-card.correct {
@@ -833,6 +894,14 @@ li {
     top: 0.6rem;
   }
 
+  .header-help-link {
+    right: 0.5rem;
+    top: 0.6rem;
+    transform: none;
+    width: 40px;
+    height: 40px;
+  }
+
   .nav-back {
     font-size: 0.9rem;
     padding: 0.45rem 0.75rem;
@@ -872,6 +941,15 @@ li {
     padding: 1.3rem;
   }
 
+  .quiz-meta {
+    gap: 0.35rem 0.8rem;
+    margin-bottom: 0.8rem;
+  }
+
+  #quizContext {
+    font-size: 0.92rem;
+  }
+
   .answer-btn, .result-card, main#qcmContainer, main#results {
     font-size: 1.3rem;
   }
@@ -882,6 +960,10 @@ li {
 
   .result-card {
     padding: 1.2rem;
+  }
+
+  .results-summary {
+    gap: 0.25rem 0.8rem;
   }
 
   .result-card h3 {

@@ -97,7 +97,7 @@ var banque_VID = [
       { "id": "acpr", "label": "L'Autorité de Contrôle Prudentiel et de Résolution (ACPR)" },
       { "id": "acdc", "label": "L'Autorité de Contrôle des Chèques (ACDC)" },
       { "id": "hatvp", "label": "La Haute Autorité pour la Transparence de la Vie Publique (HATVP)" },
-      { "id": "hapa", "label": "La Haute Autorité de la Presse et de l'Audiovisuel" (HAPA)},
+      { "id": "hapa", "label": "La Haute Autorité de la Presse et de l'Audiovisuel (HAPA)"},
       { "id": "ccom", "label": "La Cour des Comptes" },
       { "id": "consco", "label": "Le Conseil Constitutionnel" }
     ],

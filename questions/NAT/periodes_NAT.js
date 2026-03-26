@@ -25,7 +25,7 @@ var periodes_NAT = [
       { "id": "degau", "label": "le général de Gaulle" },
       { "id": "mitter", "label": "François Mitterand" },
       { "id": "chirac", "label": "Jacques Chirac" },
-      { "id": "petain", "label": "le Maréchal Pétain" },
+      { "id": "petain", "label": "le maréchal Pétain" },
       { "id": "clem", "label": "Georges Clemenceau" },
       { "id": "ferry", "label": "Jules Ferry" },
       { "id": "debr", "label": "Michel Debré" },
@@ -33,7 +33,7 @@ var periodes_NAT = [
       { "id": "bras", "label": "Georges Brassens" }
     ],
     "correct": ["degau","mitter","chirac"],
-    "explanation": "Depuis 1958, la Cinquième République a eu huit présidents~: le général de Gaulle, Georges Pompidou, Valéry Giscard d'Estaing, François Mitterand, Jacques Chirac, Nicolas Sarkozy, François Hollande et Emmanuel Macron."
+    "explanation": "Depuis 1958, la Cinquième République a eu huit présidents : le général de Gaulle, Georges Pompidou, Valéry Giscard d'Estaing, François Mitterand, Jacques Chirac, Nicolas Sarkozy, François Hollande et Emmanuel Macron."
   },
   {
     "id": "periodes_nat_003",

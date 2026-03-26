@@ -97,7 +97,7 @@ var logement_VID = [
       { "id": "dsep", "label": "17" },
       { "id": "dhu", "label": "18" }
     ],
-    "correct": ["115"],
+    "correct": ["cqui"],
     "explanation": "Le 115 est le numéro national du SAMU social qui attribue les hébergements d'urgence disponibles. Le 15 est le numéro du SAMU tout court (Service d'Assistance Médicale d'Urgence). Le 17 c'est Police Secours, le 18 les Pompiers. Le 112 est le numéro d'urgence européen et le 114 est pour les malentendants."
   },
   {

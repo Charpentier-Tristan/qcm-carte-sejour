@@ -329,7 +329,7 @@ var periodes_INI = [
     "answers": [
       { "id": "trn", "label": "De 1939 à 1945" },
       { "id": "sid", "label": "De 722 à 833" },
-      { "id": "trn", "label": "De 2025 à 2026" },
+      { "id": "deu", "label": "De 2025 à 2026" },
       { "id": "trt", "label": "De 1337 à 1453" },
       { "id": "sid", "label": "En 1515" }
       ],

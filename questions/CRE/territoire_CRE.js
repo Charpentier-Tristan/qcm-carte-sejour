@@ -37,7 +37,7 @@ var territoire_CRE = [
       { "id": "chy", "label": "Chypre" }
     ],
     "correct": ["all","bel","ita"],
-    "explanation": "Les pays ayant une frontière terrestre commune avec la France métropolitaine sont l'Allemagne au nord-est et la Belgique au nord. Au-dessous de l'Allemagne, la Suisse, puis l'Italie au sud-est. Enfin l'Espagne tout au sud. On trouve encore trois états plus petits qui ont des frontières avec la France~: le Luxembourg au Nord, entre la Belgique et l'Allemagne, Monaco au sud-est tout près de la frontière italienne, et l'Andorre au beau milieu des Pyrénées entre la France et l'Espagne."
+    "explanation": "Les pays ayant une frontière terrestre commune avec la France métropolitaine sont l'Allemagne au nord-est et la Belgique au nord. Au-dessous de l'Allemagne, la Suisse, puis l'Italie au sud-est. Enfin l'Espagne tout au sud. On trouve encore trois états plus petits qui ont des frontières avec la France : le Luxembourg au Nord, entre la Belgique et l'Allemagne, Monaco au sud-est tout près de la frontière italienne, et l'Andorre au beau milieu des Pyrénées entre la France et l'Espagne."
   },
   {
     "id": "territoire_cre_003",
@@ -197,7 +197,7 @@ var territoire_CRE = [
       { "id": "bel", "label": "Belgique" }
       ],
     "correct": ["all"],
-    "explanation": "Les pays ayant une frontière commune avec la France métropolitaine sont l'Allemagne au nord-est et la Belgique au nord. Au-dessous de l'Allemagne, la Suisse, puis l'Italie au sud-est. Enfin l'Espagne tout au sud. On trouve encore trois états plus petits qui ont des frontières terrestres avec la France~: le Luxembourg au Nord, entre la Belgique et l'Allemagne, Monaco au sud-est tout près de la frontière italienne, et l'Andorre au beau milieu des Pyrénées entre la France et l'Espagne."
+    "explanation": "Les pays ayant une frontière commune avec la France métropolitaine sont l'Allemagne au nord-est et la Belgique au nord. Au-dessous de l'Allemagne, la Suisse, puis l'Italie au sud-est. Enfin l'Espagne tout au sud. On trouve encore trois états plus petits qui ont des frontières terrestres avec la France : le Luxembourg au Nord, entre la Belgique et l'Allemagne, Monaco au sud-est tout près de la frontière italienne, et l'Andorre au beau milieu des Pyrénées entre la France et l'Espagne."
   },
   {
     "id": "territoire_cre_012",

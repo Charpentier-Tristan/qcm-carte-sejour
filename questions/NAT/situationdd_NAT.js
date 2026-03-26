@@ -4,7 +4,7 @@ var situationdd_NAT = [
     "theme": "situationdd",
     "level": "NAT",
     "type": "single",
-    "question": "Une loi adoptée en urgence, sans débat parlementaire suffisant, restreint fortement la liberté de la presse, au prétexte de lutter contre le terrorisme ; Le Conseil constitutionnel, saisi, pourrait la censurer au motif :",
+    "question": "Une loi adoptée en urgence, sans débat parlementaire suffisant, restreint fortement la liberté de la presse, au prétexte de lutter contre le terrorisme ; le Conseil constitutionnel, saisi, pourrait la censurer au motif :",
     "answers": [
     { "id": "res", "label": "que la restriction apportée à une liberté fondamentale n'est pas proportionnée à l'objectif poursuivi" },
       { "id": "ter", "label": "qu'il n'a pas le droit de contrôler les lois de lutte contre le terrorisme" },
@@ -36,7 +36,7 @@ var situationdd_NAT = [
     "theme": "situationdd",
     "level": "NAT",
     "type": "single",
-    "question": "Un propriétaire d'un bien classé monument historique veut le détruire pour construire un immeuble moderne. L'État s'y oppose. Le propriétaire invoque son droit de propriété. La décision de l'État est",
+    "question": "Un propriétaire d'un bien classé monument historique veut le détruire pour construire un immeuble moderne. L'État s'y oppose. Le propriétaire invoque son droit de propriété. La décision de l'État est :",
     "answers": [
       { "id": "uti", "label": "légale, car la protection du patrimoine historique constitue une limitation d'utilité publique au droit de propriété" },
       { "id": "ass", "label": "légale si elle est validée par l'Assemblée nationale" },
@@ -100,7 +100,7 @@ var situationdd_NAT = [
     "theme": "situationdd",
     "level": "NAT",
     "type": "single",
-    "question": "Une loi instaure un couvre-feu national permanent de 21h à 6h, sauf dérogation exceptionnelle délivrée par la préfecture. Un citoyen conteste cette mesure devant le Conseil constitutionnel, arguant qu'elle porte une atteinte excessive à la liberté de circulation. Le Conseil pourrait annuler au motif : ",
+    "question": "Une loi instaure un couvre-feu national permanent de 21h à 6h, sauf dérogation exceptionnelle délivrée par la préfecture. Un citoyen conteste cette mesure devant le Conseil constitutionnel, arguant qu'elle porte une atteinte excessive à la liberté de circulation. Le Conseil pourrait annuler au motif :",
     "answers": [
       { "id": "exc", "label": "qu'une telle restriction permanente n'est pas proportionnée à l'objectif de sécurité publique en l'absence de circonstances exceptionnelles" },
       { "id": "lai", "label": "qu'il porte atteinte au principe de laïcité" },
@@ -228,7 +228,7 @@ var situationdd_NAT = [
     "theme": "situationdd",
     "level": "NAT",
     "type": "single",
-    "question": "Un parti politique diffuse pendant une campagne électorale un message audio profondément mensonger imitant la voix d'un candidat adverse pour le discréditer. Cette pratique, connue sous el nom de \"deepfake\" est :",
+    "question": "Un parti politique diffuse pendant une campagne électorale un message audio profondément mensonger imitant la voix d'un candidat adverse pour le discréditer. Cette pratique, connue sous le nom de \"deepfake\" est :",
     "answers": [
       { "id": "man", "label": "potentiellement constitutive de manipulation de l'information électorale et susceptible de sanctions" },
       { "id": "inn", "label": "une innovation de campagne couverte par la liberté d'expression" },

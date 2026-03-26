@@ -76,7 +76,7 @@ var patrimoine_CRE = [
       { "id": "gug", "label": "Le musée Guggenheim" },
       { "id": "pra", "label": "Le musée du Prado" },
       { "id": "muc", "label": "Le musée des civilisations de l'Europe et de la Méditerranée" },
-      { "id": "con", "label": "Le musée des confluences" }
+      { "id": "con", "label": "Le musée des Confluences" }
       ],
     "correct": ["lou"],
     "explanation": "Le Louvre est l'ancien palais des rois de France, abandonné par Louis XIV pour Versailles. Transformé en musée à la Révolution, il est actuellement le plus grand musée d'art du monde, recevant plus de huit millions de visiteurs par an."

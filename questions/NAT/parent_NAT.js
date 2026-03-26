@@ -41,7 +41,7 @@ var parent_NAT = [
       { "id": "tou", "label": "Dans tous les cas, au plus 5 jours après la naissance" },
       { "id": "hor", "label": "Dans le cas où l'enfant est né hors mariage" },
       { "id": "fem", "label": "Dans le cas où l'enfant est élevé par un couple de femmes" },
-      { "id": "hom", "label": "Dans le cas où l'enfant est élevé par un coule d'hommes" },
+      { "id": "hom", "label": "Dans le cas où l'enfant est élevé par un couple d'hommes" },
       { "id": "adu", "label": "Dans le cas où il y a suspicion d'adultère" }
       ],
     "correct": ["tou"],

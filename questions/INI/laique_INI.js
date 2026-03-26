@@ -58,7 +58,7 @@ var laique_INI = [
       { "id": "con", "label": "avoir ou ne pas avoir de religion" },
       { "id": "ass", "label": "insulter tout le monde" },
       { "id": "exp", "label": "griller des feux rouges" },
-      { "id": "man", "label": "traverser la roue" },
+      { "id": "man", "label": "traverser la rue" },
       { "id": "cir", "label": "frapper un religieux" }
       ],
     "correct": ["con"],
