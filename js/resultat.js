@@ -53,9 +53,9 @@ App.dom.onReady(function () {
 
     html += ""
       + "<div class=\"result-card " + (isCorrect ? "correct" : "wrong") + "\">"
-      + "<h3>Q" + (i + 1) + ": " + questionText + "</h3>"
-      + (isCorrect ? "" : "<p>Ta reponse: " + userAnswer + "</p>")
-      + "<p>Bonne reponse: " + correctAnswer + "</p>"
+      + "<h3>Q" + (i + 1) + " : " + questionText + "</h3>"
+      + (isCorrect ? "" : "<p>Ta reponse : " + userAnswer + "</p>")
+      + "<p>Bonne reponse : " + correctAnswer + "</p>"
       + explanationHtml
       + "</div>";
   });

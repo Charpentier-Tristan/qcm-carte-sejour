@@ -67,7 +67,7 @@ App.dom.onReady(function () {
     napoleon: "Napoléon Ier",
     permis: "Permis de conduire",
     principes: "Principes de la République",
-    raison: "Rationnalisme",
+    raison: "Rationalisme",
     sante: "Soins de santé",
     travail: "Travailler en France",
     troisieme: "Troisième République"
@@ -137,11 +137,11 @@ App.dom.onReady(function () {
 
   function renderCourse(courseId) {
     var viewer = App.dom.byId("courseViewer");
-    var title = App.dom.byId("courseTitle");
     var video = App.dom.byId("courseVideo");
     var qcmLink = App.dom.byId("courseQcmLink");
     var videoLink = App.dom.byId("courseVideoLink");
     var pdfLink = App.dom.byId("coursePdfLink");
+    var title = App.dom.byId("courseTitle");
     if (!courseId || courseId === "undefined") return;
 
     var courseTitle = getCourseLabel(courseId);
@@ -149,9 +149,9 @@ App.dom.onReady(function () {
     var videoUrl = buildVideoUrl(courseId);
     var pdfUrl = buildPdfUrl(courseId);
 
-    if (!viewer || !title || !video || !qcmLink || !videoLink || !pdfLink) return;
+    if (!viewer || !video || !qcmLink || !videoLink || !pdfLink) return;
 
-    title.textContent = courseTitle;
+    if (title) title.textContent = courseTitle;
     video.src = videoUrl;
     video.setAttribute("aria-label", "Video du cours " + courseTitle);
     qcmLink.href = qcmUrl;

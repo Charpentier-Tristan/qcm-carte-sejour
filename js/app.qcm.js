@@ -22,30 +22,30 @@ App.qcm = {
     };
 
     var COURSE_LABELS = {
-      ancienregime: "Ancien Regime",
+      ancienregime: "Ancien Régime",
       arrivee: "Venir en France",
       banque: "Compte bancaire",
-      causesrevolution: "Causes de la Revolution",
+      causesrevolution: "Causes de la Révolution",
       chronologie: "Chronologie",
-      cinquieme: "Cinquieme Republique",
+      cinquieme: "Cinquième République",
       colonialisme: "Colonialisme",
       construction: "Construction europeenne",
       esclavage: "Esclavage",
-      europe: "Institutions Europeennes",
-      geographie: "Geographie",
+      europe: "Institutions européennes",
+      geographie: "Géographie",
       guerres: "Guerres mondiales",
-      ideesrecues: "Idees recues",
-      institutions: "Institutions de la Republique",
-      laicite: "Laicite",
+      ideesrecues: "Idées reçues",
+      institutions: "Institutions de la République",
+      laicite: "Laïcité",
       logement: "Logement",
-      lumieres: "Pensee des Lumieres",
-      napoleon: "Napoleon Ier",
+      lumieres: "Pensée des Lumières",
+      napoleon: "Napoléon Ier",
       permis: "Permis de conduire",
-      principes: "Principes de la Republique",
-      raison: "Rationnalisme",
+      principes: "Principes de la République",
+      raison: "Rationalisme",
       sante: "Soins de sante",
       travail: "Travailler en France",
-      troisieme: "Troisieme Republique"
+      troisieme: "Troisième République"
     };
 
     var dom = {
