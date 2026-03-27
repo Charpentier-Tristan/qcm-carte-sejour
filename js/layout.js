@@ -4,7 +4,7 @@ App.dom.onReady(function () {
   if (headerEl) {
     var title = headerEl.dataset.title || "";
     headerEl.innerHTML = `
-      <a class="header-help-link" href="aide.html" title="Aide" aria-label="Aide">
+      <a class="header-help-link" href="./aide.html" title="Aide" aria-label="Aide">
         <img class="header-help-icon" src="assets/circle-question.svg" alt="" width="26" height="26">
       </a>
       <h1>
