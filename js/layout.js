@@ -4,11 +4,11 @@ App.dom.onReady(function () {
   if (headerEl) {
     var title = headerEl.dataset.title || "";
     headerEl.innerHTML = `
-      <a class="header-help-link" href="./aide.html" title="Aide" aria-label="Aide">
+      <a class="header-help-link" href="aide.html" title="Aide" aria-label="Aide">
         <img class="header-help-icon" src="assets/circle-question.svg" alt="" width="26" height="26">
       </a>
       <h1>
-        <a class="home-link brand-lockup" href="aide.html">
+        <a class="home-link brand-lockup" href="index.html">
           <span class="brand-mark">
             <img class="brand-logo" src="assets/logo_fca.png" alt="" width="52" height="52">
           </span>
