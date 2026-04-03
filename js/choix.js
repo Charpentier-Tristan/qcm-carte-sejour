@@ -28,7 +28,7 @@ App.dom.onReady(function () {
       ]
     },
     {
-      title: "Histoire g\u00e9ographie et culture",
+      title: "Histoire, g\u00e9ographie et culture",
       items: [
         { label: "P\u00e9riodes et personnages historiques", id: "periodes" },
         { label: "Territoire et g\u00e9ographie", id: "territoire" },

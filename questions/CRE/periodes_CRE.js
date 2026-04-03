@@ -131,7 +131,7 @@ var periodes_CRE = [
       { "id": "neu", "label": "1981" }
       ],
     "correct": ["nes"],
-    "explanation": "La révision constitutionnelle de 1962 a instauré l’élection du président de la République au suffrage universel. Celle-ci a eu lieu pour la première fois en décembre 1965, pour la réélection du général de Gaulle."
+    "explanation": "La révision constitutionnelle de 1962 a instauré l’élection du président de la République au suffrage universel direct. Celle-ci a eu lieu pour la première fois en décembre 1965, pour la réélection du général de Gaulle."
   },
   {
     "id": "periodes_cre_009",
@@ -252,7 +252,7 @@ var periodes_CRE = [
     "type": "single",
     "question": "En quelle année l'euro est-elle devenue la monnaie utilisée en France ?",
     "answers": [
-      { "id": "quan", "label": "1999" },
+      { "id": "quan", "label": "2002" },
       { "id": "cinu", "label": "1951" },
       { "id": "cins", "label": "1957" },
       { "id": "soit", "label": "1973" },
@@ -260,7 +260,7 @@ var periodes_CRE = [
       { "id": "deuv", "label": "2020" }
     ],
     "correct": ["quan"],
-    "explanation": "Le 1er janvier 1999, l'euro est devenu la monnaie unique de 11 États membres de l'Union européenne, dont la France. La zone euro compte actuellement 21 pays."
+    "explanation": "Le 1er janvier 1999, l'euro est devenu la monnaie unique de 11 États membres de l'Union européenne, dont la France. Les pièces et billets en euros ont été mis en circulation à compter du 1er janvier 2002. La zone euro compte actuellement 21 pays."
   },
   {
     "id": "periodes_cre_017",

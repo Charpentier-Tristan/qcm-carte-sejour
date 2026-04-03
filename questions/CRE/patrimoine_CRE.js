@@ -63,7 +63,7 @@ var patrimoine_CRE = [
       { "id": "gia", "label": "Alberto Giacometti" }
       ],
     "correct": ["cha","del"],
-    "explanation": "Sonia Delaunay (1885-1979) est née en Ukraine et a été naturalisée française en 1908. Marc Chagall (1887-1985) est né en Biélorussie et a été naturalisé français en 1937. Les autres ont tous travaillé à Paris mais n'ont pas été naturalisés."
+    "explanation": "De nombreux peintres comme Sonia Delaunay (1885-1979) ou Marc Chagall (1887-1985), nés à l'étranger, ont été naturalisés français. D'autres ont effectué la plus grande partie de leur carrière à Paris, sans devenir français."
   },
   {
     "id": "patrimoine_cre_005",
@@ -127,7 +127,7 @@ var patrimoine_CRE = [
       { "id": "rei", "label": "Notre-Dame de Reims" }
       ],
     "correct": ["par"],
-    "explanation": "La cathédrale Notre-Dame de Paris a été construite entre 1143 et 1365. Le violent incendie du 15 avril 2019 a détruit la flèche et la totalité de la toiture couvrant la nef, le choeur et le transept. Restaurée, elle a été réouverte au public en 2024."
+    "explanation": "La cathédrale Notre-Dame de Paris a été construite entre 1143 et 1365. Le violent incendie du 15 avril 2019 a détruit la flèche et la totalité de la toiture couvrant la nef, le chœur et le transept. Restaurée, elle a été réouverte au public en 2024."
   },
   {
     "id": "patrimoine_cre_009",
@@ -159,7 +159,7 @@ var patrimoine_CRE = [
       { "id": "moz", "label": "Mozart" }
       ],
     "correct": ["deb"],
-    "explanation": "Claude Debussy (1862-1918), est un des musiciens les plus novateurs au tournant du XX siècle. \"La mer\" et \"Prélude à l'après-midi d'un faune\" sont ses oeuvres les plus connues."
+    "explanation": "Claude Debussy (1862-1918), est un des musiciens les plus novateurs au tournant du XX siècle. \"La mer\" et \"Prélude à l'après-midi d'un faune\" sont ses œuvres les plus connues."
   },
   {
     "id": "patrimoine_cre_011",

@@ -322,7 +322,7 @@ var periodes_NAT = [
       { "id": "devi", "label": "2020" }
     ],
     "correct": ["quad"],
-    "explanation": "Le traité de Maastricht, définissant la constitution politique de l'Union Européenne, a été signé en 1992. Les autres étapes importantes sont 1951 (Communauté Européenne du Charbon et de l'Acier), 1957 (Traité de Rome : Communauté Économique Européenne), 1999 (monnaie Unique)."
+    "explanation": "Le traité de Maastricht, définissant la constitution politique de l'Union Européenne, a été signé en 1992. Les autres étapes importantes sont 1951 (Communauté Européenne du Charbon et de l'Acier), 1957 (Traité de Rome : Communauté Économique Européenne), 2002 (passage à l'euro)."
   },
   {
     "id": "periodes_nat_020",
@@ -525,7 +525,7 @@ var periodes_NAT = [
     "type": "single",
     "question": "En quelle année l'euro est-il devenu la monnaie officielle de la France ?",
     "answers": [
-      { "id": "quan", "label": "1999" },
+      { "id": "quan", "label": "2002" },
       { "id": "cinu", "label": "1951" },
       { "id": "cins", "label": "1957" },
       { "id": "soit", "label": "1973" },
@@ -533,7 +533,7 @@ var periodes_NAT = [
       { "id": "deuv", "label": "2020" }
     ],
     "correct": ["quan"],
-    "explanation": "Le 1er janvier 1999, l'euro est devenu la monnaie unique de 11 États membres de l'Union européenne, dont la France. La zone euro compte actuellement 21 pays."
+    "explanation": "Le 1er janvier 1999, l'euro est devenu la monnaie unique de 11 États membres de l'Union européenne, dont la France. Les pièces et billets en euros ont été mis en circulation à compter du 1er janvier 2002. La zone euro compte actuellement 21 pays."
   },
   {
     "id": "periodes_nat_033",

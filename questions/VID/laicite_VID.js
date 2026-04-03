@@ -6,7 +6,7 @@ var laicite_VID = [
     "type": "single",
     "question": "Qu'est-ce que la laïcité ?",
     "answers": [
-      { "id": "sep", "label": "La séparation de l'Église et de l'État" },
+      { "id": "sep", "label": "La séparation des Églises et de l'État" },
       { "id": "int", "label": "L'interdiction de pratiquer une religion" },
       { "id": "ath", "label": "Une forme d'athéisme" },
       { "id": "eta", "label": "La promotion d'une religion d'État" },
@@ -116,7 +116,7 @@ var laicite_VID = [
       { "id": "met", "label": "sur tout le territoire de la Métropole" }
     ],
     "correct": ["als"],
-    "explanation": "Du fait de leur rattachement à l'Allemagne lors du vote de la loi de séparation des églises et de l'État de 1905, l'Alsace et la Moselle bénéficient d'un statut dérogatoire fondé sur le Concordat de 1801 signé par Napoléon Bonaparte. En outre, la loi de 1905 ne s'applique pas à Mayotte, en Guyane, à Saint-Pierre-et-Miquelon, en Nouvelle-Calédonie, en Polynésie et à Wallis-et-Futuna."
+    "explanation": "Du fait de leur rattachement à l'Allemagne lors du vote de la loi de séparation des Églises et de l'État de 1905, l'Alsace et la Moselle bénéficient d'un statut dérogatoire fondé sur le Concordat de 1801 signé par Napoléon Bonaparte. En outre, la loi de 1905 ne s'applique pas à Mayotte, en Guyane, à Saint-Pierre-et-Miquelon, en Nouvelle-Calédonie, en Polynésie et à Wallis-et-Futuna."
   },
   {
     "id": "laicite_vid_008",

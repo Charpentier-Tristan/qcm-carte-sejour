@@ -29,7 +29,7 @@ App.qcm = {
       chronologie: "Chronologie",
       cinquieme: "Cinquième République",
       colonialisme: "Colonialisme",
-      construction: "Construction europeenne",
+      construction: "Construction européenne",
       esclavage: "Esclavage",
       europe: "Institutions européennes",
       geographie: "Géographie",
@@ -43,7 +43,7 @@ App.qcm = {
       permis: "Permis de conduire",
       principes: "Principes de la République",
       raison: "Rationalisme",
-      sante: "Soins de sante",
+      sante: "Soins de santé",
       travail: "Travailler en France",
       troisieme: "Troisième République"
     };

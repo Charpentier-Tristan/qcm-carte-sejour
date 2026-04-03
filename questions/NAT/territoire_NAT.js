@@ -215,7 +215,7 @@ var territoire_NAT = [
     "type": "single",
     "question": "Quelle est la population approximative de la France en 2025 ?",
     "answers": [
-      { "id": "son", "label": "69 millions" },
+      { "id": "son", "label": "68 millions" },
       { "id": "qua", "label": "40 millions" },
       { "id": "qud", "label": "92 millions" },
       { "id": "tre", "label": "13 millions" },

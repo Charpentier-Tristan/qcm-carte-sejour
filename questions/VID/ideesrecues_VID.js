@@ -88,7 +88,7 @@ var ideesrecues_VID = [
     "theme": "ideesrecues",
     "level": "VID",
     "type": "single",
-    "question": "À qui s'adresse l'Aide Médicale d''Etat ?",
+    "question": "À qui s'adresse l'Aide Médicale d'État ?",
     "answers": [
       { "id": "irr", "label": "Aux étrangers en situation irrégulière" },
       { "id": "etr", "label": "À tous les étrangers" },
@@ -97,14 +97,14 @@ var ideesrecues_VID = [
       { "id": "dem", "label": "Aux demandeurs d'asile" }
     ],
     "correct": ["irr"],
-    "explanation": "L'Aide Médicale d''Etat s'adresse aux étrangers en situation irrégulière. Assurer un minimum de soins à tous, permet d'une part de limiter les épidémies, d'autre part d'éviter que les maladies empirent et entraînent des soins plus coûteux."
+    "explanation": "L'Aide Médicale d'État s'adresse aux étrangers en situation irrégulière. Assurer un minimum de soins à tous, permet d'une part de limiter les épidémies, d'autre part d'éviter que les maladies empirent et entraînent des soins plus coûteux."
   },
   {
     "id": "ideesrecues_vid_007",
     "theme": "ideesrecues",
     "level": "VID",
     "type": "single",
-    "question": "Quel est le coût de l'Aide Médicale d'Etat par rapport aux dépenses annuelles de santé ?",
+    "question": "Quel est le coût de l'Aide Médicale d'État par rapport aux dépenses annuelles de santé ?",
     "answers": [
       { "id": "dem", "label": "0,5 %" },
       { "id": "tro", "label": "3 %" },
@@ -112,7 +112,7 @@ var ideesrecues_VID = [
       { "id": "vin", "label": "20 %" }
     ],
     "correct": ["dem"],
-    "explanation": "L'Aide Médicale d''Etat ne représente que 0,5 pour cent des dépenses annuelles de santé. Assurer un minimum de soins à tous, permet d'une part de limiter les épidémies, d'autre part d'éviter que les maladies empirent et entraînent des soins plus coûteux."
+    "explanation": "L'Aide Médicale d'État ne représente que 0,5 pour cent des dépenses annuelles de santé. Assurer un minimum de soins à tous, permet d'une part de limiter les épidémies, d'autre part d'éviter que les maladies empirent et entraînent des soins plus coûteux."
   },
   {
     "id": "ideesrecues_vid_008",

@@ -254,7 +254,7 @@ var situationdd_INI = [
       { "id": "vul", "label": "Non, sauf si la patiente est mineure" }
       ],
     "correct": ["ecr"],
-    "explanation": "le secret professionnel peut être levé avec le consentement exprès de la personne concernée. Sans ce consentement, il ne peut être violé, sauf exception légale très encadrée."
+    "explanation": "Le secret professionnel peut être levé avec le consentement exprès de la personne concernée. Sans ce consentement, il ne peut être violé, sauf exception légale très encadrée."
   },
   {
     "id": "situationdd_ini_017",

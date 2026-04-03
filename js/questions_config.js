@@ -14,7 +14,7 @@ App.data = {
     { id: "situationpv", label: "Mises en situation : Principes et valeurs de la Republique" },
     { id: "vote", label: "Democratie et droit de vote" },
     { id: "orgarep", label: "Organisation de la Republique" },
-    { id: "insteurope", label: "Institutions europeennes" },
+    { id: "insteurope", label: "Institutions européennes" },
     { id: "droits", label: "Droits fondamentaux" },
     { id: "devoirs", label: "Obligations et devoirs" },
     { id: "situationdd", label: "Mises en situation : Droits et devoirs" },

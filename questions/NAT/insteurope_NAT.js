@@ -46,7 +46,7 @@ var insteurope_NAT = [
       { "id": "rav", "label": "Ravel" }
       ],
     "correct": ["bee"],
-    "explanation": "L'Ode à la joie, hymne européen depuis 1985, prend sa source dans une oeuvre de Ludwig van Beethoven composée au début du XIXe siècle."
+    "explanation": "L'Ode à la joie, hymne européen depuis 1985, prend sa source dans une œuvre de Ludwig van Beethoven composée au début du XIXe siècle."
   },
   {
     "id": "insteurope_nat_004",
@@ -160,7 +160,7 @@ var insteurope_NAT = [
       { "id": "devi", "label": "2020" }
     ],
     "correct": ["quad"],
-    "explanation": "Le traité de Maastricht, définissant la constitution politique de l'Union Européenne, a été signé en 1992. Les autres étapes importantes sont 1951 (Communauté Européenne du Charbon et de l'Acier), 1957 (Traité de Rome : Communauté Économique Européenne), 1999 (monnaie Unique)."
+    "explanation": "Le traité de Maastricht, définissant la constitution politique de l'Union Européenne, a été signé en 1992. Les autres étapes importantes sont 1951 (Communauté Européenne du Charbon et de l'Acier), 1957 (Traité de Rome : Communauté Économique Européenne), 2002 (monnaie unique)."
   },
   {
     "id": "insteurope_nat_011",
@@ -177,7 +177,7 @@ var insteurope_NAT = [
       { "id": "mos", "label": "Le traité de Moscou" }
     ],
     "correct": ["maa"],
-    "explanation": "Le traité de Maastricht, définissant la constitution politique de l'Union Européenne, a été signé en 1992. Les autres étapes importantes sont 1951 (Communauté Européenne du Charbon et de l'Acier), 1957 (Traité de Rome : Communauté Économique Européenne), 1999 (monnaie Unique)."
+    "explanation": "Le traité de Maastricht, définissant la constitution politique de l'Union Européenne, a été signé en 1992. Les autres étapes importantes sont 1951 (Communauté Européenne du Charbon et de l'Acier), 1957 (Traité de Rome : Communauté Économique Européenne), 2002 (monnaie unique)."
   },
   {
     "id": "insteurope_nat_012",
@@ -227,7 +227,7 @@ var insteurope_NAT = [
       { "id": "fm", "label": "Les Feuilles mortes" }
     ],
     "correct": ["oj"],
-    "explanation": "L'Ode à la joie, hymne européen depuis 1985, prend sa source dans une oeuvre de Ludwig van Beethoven composée au début du XIXe siècle."
+    "explanation": "L'Ode à la joie, hymne européen depuis 1985, prend sa source dans une œuvre de Ludwig van Beethoven composée au début du XIXe siècle."
   },
   {
     "id": "insteurope_nat_015",

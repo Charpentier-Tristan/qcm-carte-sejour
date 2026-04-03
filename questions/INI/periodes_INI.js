@@ -155,7 +155,7 @@ var periodes_INI = [
       { "id": "devi", "label": "2030" }
     ],
     "correct": ["cins"],
-    "explanation": "Le traité instituant la Communauté Économique Européenne (CEE) a été signé à Rome en 1957. Les autres étapes importantes de la construction européenne sont 1951 (Communauté Européenne du Charbon et de l'Acier), 1992 (Traité de Maastricht : Union Européenne), 1999 (monnaie Unique)."
+    "explanation": "Le traité instituant la Communauté Économique Européenne (CEE) a été signé à Rome en 1957. Les autres étapes importantes de la construction européenne sont 1951 (Communauté Européenne du Charbon et de l'Acier), 1992 (Traité de Maastricht : Union Européenne), 2002 (monnaie unique)."
   },
   {
     "id": "periodes_ini_010",

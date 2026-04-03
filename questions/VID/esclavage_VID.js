@@ -44,7 +44,7 @@ var esclavage_VID = [
       { "id": "xviii", "label": "Louis XVIII" },
       { "id": "clem", "label": "Georges Clemenceau" },
       { "id": "ferry", "label": "Jules Ferry" },
-      { "id": "schoe", "label": "Victor Schoelcher" }
+      { "id": "schoe", "label": "Victor Schœlcher" }
     ],
     "correct": ["napo"],
     "explanation": "En 1802 Napoléon Bonaparte restaure l'esclavage et de la traite négrière dans les colonies françaises, abrogeant ainsi le décret du 4 février 1794 qui avait aboli l'esclavage sous la Révolution."
@@ -73,7 +73,7 @@ var esclavage_VID = [
     "type": "single",
     "question": "À quel homme politique est associée l'abolition de l'esclavage ?",
     "answers": [
-      { "id": "schoe", "label": "Victor Schoelcher" },
+      { "id": "schoe", "label": "Victor Schœlcher" },
       { "id": "clem", "label": "Georges Clémenceau" },
       { "id": "napo", "label": "Napoléon Bonaparte" },
       { "id": "aices", "label": "Aimé Césaire" },
@@ -81,7 +81,7 @@ var esclavage_VID = [
       { "id": "ferry", "label": "Jules Ferry" }
     ],
     "correct": ["schoe"],
-    "explanation": "Victor Schoelcher a milité pour l'abolition de l'esclavage. Nommé président de la commission d'abolition de l'esclavage, il est l'initiateur du décret du 27 avril 1848 qui abolit définitivement l'esclavage en France."
+    "explanation": "Victor Schœlcher a milité pour l'abolition de l'esclavage. Nommé président de la commission d'abolition de l'esclavage, il est l'initiateur du décret du 27 avril 1848 qui abolit définitivement l'esclavage en France."
   },
   {
     "id": "esclavage_vid_006",
@@ -165,7 +165,7 @@ var esclavage_VID = [
       { "id": "natio", "label": "Par le nationalisme" }
     ],
     "correct": ["enga"],
-    "explanation": "L'engagisme est le système d'utilisation de la main-d'oeuvre qui prend le relais de l'esclavage suite aux abolitions de 1833-34 dans l'espace colonial britannique et de 1848 dans l'espace colonial français."
+    "explanation": "L'engagisme est le système d'utilisation de la main-d'œuvre qui prend le relais de l'esclavage suite aux abolitions de 1833-34 dans l'espace colonial britannique et de 1848 dans l'espace colonial français."
   },
   {
     "id": "esclavage_vid_011",

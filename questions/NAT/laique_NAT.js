@@ -62,7 +62,7 @@ var laique_NAT = [
       { "id": "rec", "label": "les frais de réception de l'archevêque de Paris" }
       ],
     "correct": ["ent"],
-    "explanation": "L'article 13 de la \"Loi du 9 décembre 1905 concernant la séparation des Églises et de l'État\" précise : \"L'Etat, les départements, les communes et les établissements publics de coopération intercommunale pourront engager les dépenses nécessaires pour l'entretien et la conservation des édifices du culte dont la propriété leur est reconnue par la présente loi\". Il est donc possible pour l'État de financer l'entretien d'un lieu de culte dont il est propriétaire, qu'il soit ou non classé comme monument historique."
+    "explanation": "L'article 13 de la \"Loi du 9 décembre 1905 concernant la séparation des Églises et de l'État\" précise : \"L'État, les départements, les communes et les établissements publics de coopération intercommunale pourront engager les dépenses nécessaires pour l'entretien et la conservation des édifices du culte dont la propriété leur est reconnue par la présente loi\". Il est donc possible pour l'État de financer l'entretien d'un lieu de culte dont il est propriétaire, qu'il soit ou non classé comme monument historique."
   },
   {
     "id": "laique_nat_005",
@@ -200,7 +200,7 @@ var laique_NAT = [
     "type": "single",
     "question": "Qu'est-ce que la laïcité ?",
     "answers": [
-      { "id": "sep", "label": "La séparation de l'Église et de l'État" },
+      { "id": "sep", "label": "La séparation des Églises et de l'État" },
       { "id": "int", "label": "L'interdiction de pratiquer une religion" },
       { "id": "ath", "label": "Une forme d'athéisme" },
       { "id": "eta", "label": "La promotion d'une religion d'État" },

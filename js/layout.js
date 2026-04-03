@@ -8,7 +8,7 @@ App.dom.onReady(function () {
         <img class="header-help-icon" src="assets/circle-question.svg" alt="" width="26" height="26">
       </a>
       <h1>
-        <a class="home-link brand-lockup" href="index.html">
+        <a class="home-link brand-lockup" href="aide.html">
           <span class="brand-mark">
             <img class="brand-logo" src="assets/logo_fca.png" alt="" width="52" height="52">
           </span>

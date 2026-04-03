@@ -103,7 +103,7 @@ var insteurope_CSP = [
       { "id": "dol", "label": "Le dollar" }
       ],
     "correct": ["eur"],
-    "explanation": "Le 1er janvier 1999, l'euro est devenu la monnaie unique de 11 États membres de l'Union européenne, dont la France. La zone euro compte actuellement 21 pays."
+    "explanation": "Le 1er janvier 1999, l'euro est devenu la monnaie unique de 11 États membres de l'Union européenne, dont la France. Les pièces et billets en euros ont été mis en circulation à compter du 1er janvier 2002. La zone euro compte actuellement 21 pays."
   },
   {
     "id": "insteurope_csp_007",

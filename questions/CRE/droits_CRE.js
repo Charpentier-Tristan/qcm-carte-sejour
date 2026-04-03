@@ -224,7 +224,7 @@ var droits_CRE = [
       { "id": "res", "label": "Le recueil des lois et des résolutions" }
       ],
     "correct": ["con"],
-    "explanation": "La Constitution de la Ve république est une constitution écrite dite \"rigide\". Sa révision est difficile à mettre en oeuvre. Elle nécessite l'adoption d'une loi constitutionnelle, selon une procédure spéciale définie par l'article 89 de la Constitution elle-même."
+    "explanation": "La Constitution de la Ve république est une constitution écrite dite \"rigide\". Sa révision est difficile à mettre en œuvre. Elle nécessite l'adoption d'une loi constitutionnelle, selon une procédure spéciale définie par l'article 89 de la Constitution elle-même."
   },
   {
     "id": "droits_cre_015",
@@ -256,7 +256,7 @@ var droits_CRE = [
       { "id": "rel", "label": "Le droit de ne pas avoir de religion" }
       ],
     "correct": ["ces"],
-    "explanation": "le droit de grève est le droit pour une personne employée, de cesser le travail pour exprimer un désaccord. C'est un droit constitutionnel, garanti à chacun par le principe de liberté."
+    "explanation": "Le droit de grève est le droit pour une personne employée, de cesser le travail pour exprimer un désaccord. C'est un droit constitutionnel, garanti à chacun par le principe de liberté."
   },
   {
     "id": "droits_cre_017",

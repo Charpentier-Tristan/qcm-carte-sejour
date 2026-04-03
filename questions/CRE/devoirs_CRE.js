@@ -97,7 +97,7 @@ var devoirs_CRE = [
       { "id": "dec", "label": "Droits des gouvernants (motifs de leurs décisions)" }
       ],
     "correct": ["sec","diff"],
-    "explanation": "La liberté d'expression peut être limitée pour des motifs : d'intérêt général (sécurité nationale) ; de protection de droits de la personnalité (diffamation, discrimination) ; de protection de certains documents (secret défense, documents confidentiels confidentiels)."
+    "explanation": "La liberté d'expression peut être limitée pour des motifs : d'intérêt général (sécurité nationale) ; de protection de droits de la personnalité (diffamation, discrimination) ; de protection de certains documents (secret défense, documents confidentiels)."
   },
   {
     "id": "devoirs_cre_007",
@@ -290,7 +290,7 @@ var devoirs_CRE = [
       { "id": "mun", "label": "Les policiers municipaux" }
       ],
     "correct": ["crs"],
-    "explanation": "Le maintien de l'ordre se définit comme l’ensemble des opérations de police administrative et judiciaire mises en oeuvre par des forces de sécurité à l’occasion des manifestations sur la voie publique. Il est assuré par deux unités spécialisées de forces mobiles : les compagnies républicaines de sécurité (CRS) et les escadrons de gendarmerie mobile (EGM)."
+    "explanation": "Le maintien de l'ordre se définit comme l’ensemble des opérations de police administrative et judiciaire mises en œuvre par des forces de sécurité à l’occasion des manifestations sur la voie publique. Il est assuré par deux unités spécialisées de forces mobiles : les compagnies républicaines de sécurité (CRS) et les escadrons de gendarmerie mobile (EGM)."
   },
   {
     "id": "devoirs_cre_019",

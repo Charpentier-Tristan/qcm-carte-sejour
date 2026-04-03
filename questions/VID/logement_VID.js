@@ -73,12 +73,12 @@ var logement_VID = [
     "type": "single",
     "question": "Pour une location, une caution c'est :",
     "answers": [
-      { "id": "eng", "label": "Une personne qui s'engage à payer pour le locataire" },
-      { "id": "dro", "label": "Une somme d'argent qu'on verse pour avoir le droit de louer" },
-      { "id": "gar", "label": "Un dépôt de garantie en cas de dommage au logement" },
-      { "id": "pla", "label": "La personne qui paiera le loyer à la place du locataire" },
-      { "id": "loc", "label": "Un engagement signé par le locataire" },
-      { "id": "bai", "label": "Un engagement signé par le bailleur" }
+      { "id": "eng", "label": "une personne qui s'engage à payer pour le locataire" },
+      { "id": "dro", "label": "une somme d'argent qu'on verse pour avoir le droit de louer" },
+      { "id": "gar", "label": "un dépôt de garantie en cas de dommage au logement" },
+      { "id": "pla", "label": "la personne qui paiera le loyer à la place du locataire" },
+      { "id": "loc", "label": "un engagement signé par le locataire" },
+      { "id": "bai", "label": "un engagement signé par le bailleur" }
     ],
     "correct": ["eng"],
     "explanation": "La caution et le dépôt de garantie sont deux notions distinctes à ne pas confondre. La caution désigne la personne physique ou morale qui s'engage à payer les dettes locatives en cas de défaillance de paiement de la part du locataire. On a tendance à employer le terme \"caution\" pour désigner le dépôt de garantie, qui est une somme d'argent versée au bailleur par le locataire. Elle lui est restituée après l'état des lieux de sortie. Tout propriétaire peut demander cette garantie financière, même lorsqu'il s'agit d'un logement social. Dans le langage courant, on utilise l'expression \"se porter caution\" pour dire \"être garant\". S'il est obligatoire pour un locataire de souscrire une assurance habitation, la caution locative ne constitue pas une obligation."

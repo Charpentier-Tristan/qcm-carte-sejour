@@ -20,7 +20,7 @@ var patrimoine_NAT = [
     "theme": "patrimoine",
     "level": "NAT",
     "type": "multi",
-    "question": "Quelle oeuvre a été écrite par Victor Hugo ?",
+    "question": "Quelle œuvre a été écrite par Victor Hugo ?",
     "answers": [
       { "id": "dam", "label": "Notre-Dame de Paris" },
       { "id": "mis", "label": "Les Misérables" },

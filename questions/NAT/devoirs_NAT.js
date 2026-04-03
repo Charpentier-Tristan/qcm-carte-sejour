@@ -93,7 +93,7 @@ var devoirs_NAT = [
       { "id": "viq", "label": "24 ans" }
       ],
     "correct": ["dih"],
-    "explanation": "Le code de la santé publique interdit de vendre ou d'offrir de l'alcool à des mineurs de moins de 18 ans. Du plus, il interdit de recevoir dans les  débits de boissons des mineurs de moins de 16 ans qui ne sont pas accompagnés de leur père, mère, tuteur ou toute autre personne de plus de 18 ans en ayant la charge ou la surveillance."
+    "explanation": "Le code de la santé publique interdit de vendre ou d'offrir de l'alcool à des mineurs de moins de 18 ans. De plus, il interdit de recevoir dans les  débits de boissons des mineurs de moins de 16 ans qui ne sont pas accompagnés de leur père, mère, tuteur ou toute autre personne de plus de 18 ans en ayant la charge ou la surveillance."
   },
   {
     "id": "devoirs_nat_007",
@@ -160,7 +160,7 @@ var devoirs_NAT = [
       { "id": "dec", "label": "Droits des gouvernants (motifs de leurs décisions)" }
       ],
     "correct": ["sec","diff"],
-    "explanation": "La liberté d'expression peut être limitée pour des motifs : d'intérêt général (sécurité nationale) ; de protection de droits de la personnalité (diffamation, discrimination) ; de protection de certains documents (secret défense, documents confidentiels confidentiels)."
+    "explanation": "La liberté d'expression peut être limitée pour des motifs : d'intérêt général (sécurité nationale) ; de protection de droits de la personnalité (diffamation, discrimination) ; de protection de certains documents (secret défense, documents confidentiels)."
   },
   {
     "id": "devoirs_nat_011",
@@ -235,7 +235,7 @@ var devoirs_NAT = [
     "type": "single",
     "question": "Qu'est-ce que la citoyenneté numérique ?",
     "answers": [
-      { "id": "man", "label": "le maniement efficace et positif des technologies numériques" },
+      { "id": "man", "label": "Le maniement efficace et positif des technologies numériques" },
       { "id": "car", "label": "Le passage à une carte d'identité virtuelle" },
       { "id": "res", "label": "L'obligation d'exercer sa citoyenneté sur les réseaux sociaux" },
       { "id": "bur", "label": "L'initiation aux logiciels de bureautique" },

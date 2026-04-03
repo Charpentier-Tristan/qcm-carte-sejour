@@ -42,11 +42,11 @@ var symboles_CRE = [
     "type": "single",
     "question": "À quoi sert un titre de séjour ?",
     "answers": [
-      { "id": "att", "label": "à attester du droit d'un étranger à séjourner, et éventuellement travailler, en France" },
-      { "id": "jus", "label": "à justifier l'internement dans un centre de rétention administrative" },
-      { "id": "acc", "label": "à accélérer l'obligation de quitter le territoire français" },
-      { "id": "ofp", "label": "à obtenir plus rapidement un rendez-vous à l'OFPRA" },
-      { "id": "pre", "label": "à demander un rendez-vous à la préfecture" }
+      { "id": "att", "label": "À attester du droit d'un étranger à séjourner, et éventuellement travailler, en France" },
+      { "id": "jus", "label": "À justifier l'internement dans un centre de rétention administrative" },
+      { "id": "acc", "label": "À accélérer l'obligation de quitter le territoire français" },
+      { "id": "ofp", "label": "À obtenir plus rapidement un rendez-vous à l'OFPRA" },
+      { "id": "pre", "label": "À demander un rendez-vous à la préfecture" }
       ],
     "correct": ["att"],
     "explanation": "Le terme \"titre de séjour\" fait référence au droit d'un étranger de séjourner en France. La carte de séjour est un des documents qui justifie de ce droit, comme le visa ou le document de circulation. Tout étranger qui séjourne en France doit être titulaire d'un titre de séjour l'y autorisant."

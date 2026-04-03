@@ -20,7 +20,7 @@ var laique_CRE = [
     "theme": "laique",
     "level": "CRE",
     "type": "single",
-    "question": "En quelle année la loi de séparation des Églises et de l'Etat a-t-elle été votée ?",
+    "question": "En quelle année la loi de séparation des Églises et de l'État a-t-elle été votée ?",
     "answers": [
       { "id": "neuc", "label": "1905" },
       { "id": "huiq", "label": "1882" },
@@ -186,7 +186,7 @@ var laique_CRE = [
     "type": "single",
     "question": "Que représente la laïcité ?",
     "answers": [
-      { "id": "sep", "label": "La séparation de l'Église et de l'État" },
+      { "id": "sep", "label": "La séparation des Églises et de l'État" },
       { "id": "int", "label": "L'interdiction de pratiquer une religion" },
       { "id": "ath", "label": "Une forme d'athéisme" },
       { "id": "eta", "label": "La promotion d'une religion d'État" },

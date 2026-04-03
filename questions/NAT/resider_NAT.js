@@ -109,7 +109,7 @@ var resider_NAT = [
       { "id": "all", "label": "Les allocations familiales" }
       ],
     "correct": ["jur"],
-    "explanation": "Si les ressources financières d'une personne sont insuffisantes pour son procès devant un tribunal français, elle peut bénéficier d'une aide financière de l'Etat, appelée \"aide juridictionnelle\". Ses frais de procédure seront alors pris en charge totalement ou partiellement par l’Etat. En 2024, le Conseil constitutionnel a censuré comme contraires au principe d'égalité devant la justice, des dispositions législatives excluant les étrangers en situation irrégulière du bénéfice de l'aide juridictionnelle."
+    "explanation": "Si les ressources financières d'une personne sont insuffisantes pour son procès devant un tribunal français, elle peut bénéficier d'une aide financière de l'État, appelée \"aide juridictionnelle\". Ses frais de procédure seront alors pris en charge totalement ou partiellement par l’État. En 2024, le Conseil constitutionnel a censuré comme contraires au principe d'égalité devant la justice, des dispositions législatives excluant les étrangers en situation irrégulière du bénéfice de l'aide juridictionnelle."
   },
   {
     "id": "resider_nat_008",

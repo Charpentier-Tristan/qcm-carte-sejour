@@ -26,7 +26,7 @@ var situationpv_CRE = [
       { "id": "mai", "label": "légale, car le maire fait ce qu'il veut" },
       { "id": "ref", "label": "légale, si elle est approuvée par référendum communal" },
       { "id": "pre", "label": "illégale, car seul le préfet décidera" },
-      { "id": "pro", "label": "légale, si y a déjà trop d'étrangers" }
+      { "id": "pro", "label": "légale, s'il y a déjà trop d'étrangers" }
       ],
     "correct": ["dis"],
     "explanation": "L'attribution des logements sociaux doit se faire selon des critères sociaux, et non sur la base de l'origine géographique, qui constituerait une discrimination."
@@ -102,11 +102,11 @@ var situationpv_CRE = [
     "type": "single",
     "question": "Une loi impose à tous les candidats à un concours de la fonction publique de fournir une photographie d'identité. Cette mesure est :",
     "answers": [
-      { "id": "dis", "label": "Susceptible de favoriser des discriminations à l'embauche et contraire au principe d'égal accès aux emplois publics" },
-      { "id": "ide", "label": "Légitime pour identifier les candidats" },
-      { "id": "obl", "label": "Obligatoire pour des raisons de sécurité" },
-      { "id": "pub", "label": "Nécessaire pour ne pas effrayer le public" },
-      { "id": "ser", "label": "Utile pour trier les candidats sérieux" }
+      { "id": "dis", "label": "susceptible de favoriser des discriminations à l'embauche et contraire au principe d'égal accès aux emplois publics" },
+      { "id": "ide", "label": "légitime pour identifier les candidats" },
+      { "id": "obl", "label": "obligatoire pour des raisons de sécurité" },
+      { "id": "pub", "label": "nécessaire pour ne pas effrayer le public" },
+      { "id": "ser", "label": "utile pour trier les candidats sérieux" }
       ],
     "correct": ["dis"],
     "explanation": "L'utilisation de photographies dans les procédures de recrutement de la fonction publique est généralement interdite ou fortement déconseillée pour prévenir les risques de discrimination."
@@ -260,7 +260,7 @@ var situationpv_CRE = [
     "theme": "situationpv",
     "level": "CRE",
     "type": "single",
-    "question": "Un riverain insulte et menace verbalement quotidiennement des enfants qui traversent son jardin pour aller à l'école, en les traitant de \"racaille\". Aucun acte de violence physique n'est commise. Peut-il être poursuivi ?",
+    "question": "Un riverain insulte et menace verbalement quotidiennement des enfants qui traversent son jardin pour aller à l'école, en les traitant de \"racaille\". Aucun acte de violence physique n'est commis. Peut-il être poursuivi ?",
     "answers": [
       { "id": "har", "label": "Oui, pour harcèlement moral et injures à caractère raciste" },
       { "id": "par", "label": "Non, ce ne sont que des paroles" },

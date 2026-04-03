@@ -285,6 +285,6 @@ var europe_VID = [
       { "id": "fm", "label": "Les Feuilles mortes" }
     ],
     "correct": ["oj"],
-    "explanation": "L'Ode à la joie, hymne européen depuis 1985, prend sa source dans une oeuvre de Ludwig van Beethoven composée au début du XIXe siècle."
+    "explanation": "L'Ode à la joie, hymne européen depuis 1985, prend sa source dans une œuvre de Ludwig van Beethoven composée au début du XIXe siècle."
   }
 ];

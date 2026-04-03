@@ -103,7 +103,7 @@ var laique_INI = [
     "type": "single",
     "question": "Qu'est-ce que la laïcité ?",
     "answers": [
-      { "id": "sep", "label": "La séparation de l'Église et de l'État" },
+      { "id": "sep", "label": "La séparation des Églises et de l'État" },
       { "id": "int", "label": "L'interdiction des religions" },
       { "id": "ath", "label": "Le triomphe de l'athéisme" },
       { "id": "eta", "label": "La religion d'État" },

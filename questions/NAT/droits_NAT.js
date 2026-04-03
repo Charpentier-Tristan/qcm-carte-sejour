@@ -13,7 +13,7 @@ var droits_NAT = [
       { "id": "rel", "label": "À pratiquer librement sa religion" }
       ],
     "correct": ["ces"],
-    "explanation": "le droit de grève est le droit pour une personne employée, de cesser le travail pour exprimer un désaccord. C'est un droit constitutionnel, garanti à chacun par le principe de liberté."
+    "explanation": "Le droit de grève est le droit pour une personne employée, de cesser le travail pour exprimer un désaccord. C'est un droit constitutionnel, garanti à chacun par le principe de liberté."
   },
   {
     "id": "droits_nat_002",

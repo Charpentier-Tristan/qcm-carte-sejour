@@ -13,7 +13,7 @@ var orgarep_INI = [
       { "id": "vis", "label": "ils ne s'intéressent à rien" }
       ],
     "correct": ["exp"],
-    "explanation": "L'article 4 de la Constitution dit : \"Les partis et groupements politiques concourent à l'expression du suffrage.\". Les partis politiques ont deux fonctions : ils proposent des programmes politiques qu'ils souhaitent mettre en oeuvre ; ils sélectionnent les candidats pour les faire élire."
+    "explanation": "L'article 4 de la Constitution dit : \"Les partis et groupements politiques concourent à l'expression du suffrage.\". Les partis politiques ont deux fonctions : ils proposent des programmes politiques qu'ils souhaitent mettre en œuvre ; ils sélectionnent les candidats pour les faire élire."
   },
   {
     "id": "orgarep_ini_002",
@@ -178,7 +178,7 @@ var orgarep_INI = [
       { "id": "com", "label": "Voltaire" }
       ],
     "correct": ["mai"],
-    "explanation": "Le maire est à la fois exécutif de la commune et agent de l'Etat. Il est seul chargé de l'administration municipale, mais il peut procéder à des délégations de fonctions ou de signature. En outre, le maire est chargé des pouvoirs de police dans sa commune."
+    "explanation": "Le maire est à la fois exécutif de la commune et agent de l'État. Il est seul chargé de l'administration municipale, mais il peut procéder à des délégations de fonctions ou de signature. En outre, le maire est chargé des pouvoirs de police dans sa commune."
   },
   {
     "id": "orgarep_ini_012",

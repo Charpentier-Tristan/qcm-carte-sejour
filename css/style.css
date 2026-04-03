@@ -47,6 +47,10 @@ body {
     linear-gradient(180deg, #fffafb 0%, #f3f2fb 100%);
 }
 
+p {
+  text-align: justify;
+}
+
 /* ============================
    HEADER
 ============================ */
@@ -314,9 +318,11 @@ button:active, a.button:active {
   box-shadow: var(--shadow-soft);
 }
 
-.answer-btn:hover {
-  transform: translateY(-1px);
-  background: var(--bg-2) !important;
+@media (hover: hover) and (pointer: fine) {
+  .answer-btn:hover {
+    transform: translateY(-1px);
+    background: var(--bg-2) !important;
+  }
 }
 
 .answer-btn.selected {

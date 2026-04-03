@@ -13,7 +13,7 @@ var orgarep_CSP = [
       { "id": "vis", "label": "ils n'ont pas de vision d'avenir pour le pays" }
       ],
     "correct": ["exp"],
-    "explanation": "L'article 4 de la Constitution dit : \"Les partis et groupements politiques concourent à l'expression du suffrage.\". Les partis politiques ont deux fonctions : ils proposent des programmes politiques qu'ils souhaitent mettre en oeuvre ; ils sélectionnent les candidats pour les faire élire."
+    "explanation": "L'article 4 de la Constitution dit : \"Les partis et groupements politiques concourent à l'expression du suffrage.\". Les partis politiques ont deux fonctions : ils proposent des programmes politiques qu'ils souhaitent mettre en œuvre ; ils sélectionnent les candidats pour les faire élire."
   },
   {
     "id": "orgarep_csp_002",

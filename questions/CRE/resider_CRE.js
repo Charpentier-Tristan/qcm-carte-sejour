@@ -13,7 +13,7 @@ var resider_CRE = [
       { "id": "all", "label": "Les allocations familiales" }
       ],
     "correct": ["jur"],
-    "explanation": "Si les ressources financières d'une personne sont insuffisantes pour son procès devant un tribunal français, elle peut bénéficier d'une aide financière de l'Etat, appelée \"aide juridictionnelle\". Ses frais de procédure seront alors pris en charge totalement ou partiellement par l’Etat. En 2024, le Conseil constitutionnel a censuré comme contraires au principe d'égalité devant la justice, des dispositions législatives excluant les étrangers en situation irrégulière du bénéfice de l'aide juridictionnelle."
+    "explanation": "Si les ressources financières d'une personne sont insuffisantes pour son procès devant un tribunal français, elle peut bénéficier d'une aide financière de l'État, appelée \"aide juridictionnelle\". Ses frais de procédure seront alors pris en charge totalement ou partiellement par l’État. En 2024, le Conseil constitutionnel a censuré comme contraires au principe d'égalité devant la justice, des dispositions législatives excluant les étrangers en situation irrégulière du bénéfice de l'aide juridictionnelle."
   },
   {
     "id": "resider_cre_002",
@@ -41,10 +41,10 @@ var resider_CRE = [
     "question": "Un bail locatif est valide s'il est :",
     "answers": [
       { "id": "ecr", "label": "fait par écrit en autant d'exemplaires qu'il y a de parties, conformément au modèle règlementaire" },
-      { "id": "poi", "label": "Accompagné d'une poignée de main" },
-      { "id": "not", "label": "Signé par les deux parties devant notaire" },
-      { "id": "mai", "label": "Enregistré à la mairie du lieu du logement" },
-      { "id": "gre", "label": "Enregistré au greffe du tribunal de commerce" }
+      { "id": "poi", "label": "accompagné d'une poignée de main" },
+      { "id": "not", "label": "signé par les deux parties devant notaire" },
+      { "id": "mai", "label": "enregistré à la mairie du lieu du logement" },
+      { "id": "gre", "label": "enregistré au greffe du tribunal de commerce" }
       ],
     "correct": ["ecr"],
     "explanation": "Un bail locatif doit être fait par écrit en autant d'exemplaires qu'il y a de parties (propriétaire, locataire). Il peut prendre la forme d'un acte sous signature privée ou d'un acte authentique. Il doit être conforme au modèle de bail réglementaire. Il doit contenir une clause résolutoire qui permet la résiliation du bail lorsque le locataire ne verse pas le dépôt de garantie, ou ne paie pas le loyer ou les charges."

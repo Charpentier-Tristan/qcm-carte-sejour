@@ -176,7 +176,7 @@ var orgarep_CRE = [
       { "id": "com", "label": "Le président de la communauté de communes" }
       ],
     "correct": ["mai"],
-    "explanation": "Le maire est à la fois exécutif de la commune et agent de l'Etat. Il est seul chargé de l'administration municipale, mais il peut procéder à des délégations de fonctions ou de signature. En outre, le maire est chargé des pouvoirs de police dans sa commune."
+    "explanation": "Le maire est à la fois exécutif de la commune et agent de l'État. Il est seul chargé de l'administration municipale, mais il peut procéder à des délégations de fonctions ou de signature. En outre, le maire est chargé des pouvoirs de police dans sa commune."
   },
   {
     "id": "orgarep_cre_012",
@@ -315,7 +315,7 @@ var orgarep_CRE = [
     "type": "single",
     "question": "Depuis quand l'euro est-elle la monnaie unique ?",
     "answers": [
-      { "id": "quan", "label": "1999" },
+      { "id": "quan", "label": "2002" },
       { "id": "cinu", "label": "1951" },
       { "id": "cins", "label": "1957" },
       { "id": "soit", "label": "1973" },
@@ -323,7 +323,7 @@ var orgarep_CRE = [
       { "id": "deuv", "label": "2020" }
     ],
     "correct": ["quan"],
-    "explanation": "Le 1er janvier 1999, l'euro est devenu la monnaie unique de 11 États membres de l'Union européenne. La zone euro compte actuellement 21 pays."
+    "explanation": "Le 1er janvier 1999, l'euro est devenu la monnaie unique de 11 États membres de l'Union européenne, dont la France. Les pièces et billets en euros ont été mis en circulation à compter du 1er janvier 2002. La zone euro compte actuellement 21 pays."
   },
   {
     "id": "orgarep_cre_021",

@@ -16,7 +16,7 @@ App.dom.onReady(function () {
   });
 
   var avgPercent = totalQuestions ? Math.round((totalCorrect / totalQuestions) * 100) : 0;
-  var avgScore = history.length ? (totalCorrect / history.length).toFixed(1) : "0";
+  var totalQuizzes = history.length;
 
   var recent = history.slice().reverse().slice(0, 5);
 
@@ -28,9 +28,10 @@ App.dom.onReady(function () {
 
   container.innerHTML = ""
     + "<h2>Résumé</h2>"
-    + "<p>Moyenne de bonnes réponses : " + avgPercent + "%</p>"
-    + "<p>Moyenne par quiz : " + avgScore + " bonnes réponses</p>"
-    + "<p>Total de questions répondues : " + totalQuestions + "</p>"
+    + "<p>Pourcentage de bonnes réponses : " + avgPercent + "%</p>"
+    + "<p>Nombre total de questions : " + totalQuestions + "</p>"
+    + "<p>Nombre de quiz : " + totalQuizzes + "</p>"
+    + "<p>Nombre total de bonnes réponses : " + totalCorrect + "</p>"
     + "<h2>Derniers résultats</h2>"
     + "<ul>" + recentHtml + "</ul>";
 });

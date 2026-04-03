@@ -56,7 +56,7 @@ App.dom.onReady(function () {
     colonialisme: "Colonialisme",
     construction: "Construction européenne",
     esclavage: "Esclavage",
-    europe: "Institutions Européennes",
+    europe: "Institutions européennes",
     geographie: "Géographie",
     guerres: "Guerres Mondiales",
     ideesrecues: "Idées reçues",

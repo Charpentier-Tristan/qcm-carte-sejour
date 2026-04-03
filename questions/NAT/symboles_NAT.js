@@ -163,7 +163,6 @@ var symboles_NAT = [
       { "id": "mcq", "label": "Marianne, le coq, le 14 juillet" },
       { "id": "dcq", "label": "Le drapeau, le coq, le 14 juillet" },
       { "id": "mdd", "label": "La Marseillaise, le drapeau du PSG, le drapeau de l'OM" },
-      { "id": "qfc", "label": "Le 14 juillet, la finale du top 14, la coupe de France" },
       { "id": "mdf", "label": "Marianne, le drapeau rouge, la fleur de lys" }
     ],
     "correct": ["dhd"],
