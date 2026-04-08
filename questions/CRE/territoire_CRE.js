@@ -279,7 +279,7 @@ var territoire_CRE = [
       { "id": "marseille", "label": "Marseille" },
       { "id": "lille", "label": "Lille" },
       { "id": "toulouse", "label": "Toulouse" },
-      { "id": "bordeaux", "label": "Limoges" },
+      { "id": "bordeaux", "label": "Bordeaux" },
       { "id": "gra", "label": "Grasse" },
       { "id": "dun", "label": "Dunkerque" },
       { "id": "nan", "label": "Nancy" },

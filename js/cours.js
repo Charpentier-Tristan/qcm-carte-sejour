@@ -99,7 +99,7 @@ App.dom.onReady(function () {
   }
 
   function buildQcmUrl(courseId) {
-    return "qcm.html?type=theme&theme=" + encodeURIComponent(courseId) + "&level=video";
+    return "qcm.html?type=theme&theme=" + encodeURIComponent(courseId) + "&level=video&restart=1";
   }
 
   function updateSelectedCourseLink(courseId) {
