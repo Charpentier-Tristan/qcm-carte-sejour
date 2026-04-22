@@ -23,15 +23,27 @@ App.dom.onReady(function () {
   var questions = App.storage.getJSON("questions", []);
   var lastScore = App.storage.getNumber("lastScore", 0);
   var totalQuestions = App.storage.getNumber("totalQuestions", 0);
+  var quizDurationMs = App.storage.getNumber("quizDurationMs", 0);
   var quizContextLabel = normalizeQuizContextLabel(App.storage.getString("quizContextLabel", ""));
   if (quizContextLabel) {
     App.storage.setString("quizContextLabel", quizContextLabel);
+  }
+
+  function formatDuration(durationMs) {
+    var totalSeconds = Math.max(0, Math.round(durationMs / 1000));
+    var minutes = Math.floor(totalSeconds / 60);
+    var seconds = totalSeconds % 60;
+
+    return minutes + " min " + String(seconds).padStart(2, "0") + " s";
   }
 
   var html = "<div class=\"results-summary\">"
     + "<h2>Score : " + lastScore + " / " + totalQuestions + "</h2>";
   if (quizContextLabel) {
     html += "<p>" + App.utils.escapeHtml(quizContextLabel) + "</p>";
+  }
+  if (quizContextLabel.indexOf("Examen complet") !== -1 && quizDurationMs > 0) {
+    html += "<p>Temps passé : " + formatDuration(quizDurationMs) + "</p>";
   }
   html += "</div>";
 

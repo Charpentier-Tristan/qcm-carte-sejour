@@ -18,7 +18,8 @@ App.qcm = {
     var state = {
       questions: [],
       current: 0,
-      userAnswers: []
+      userAnswers: [],
+      startedAt: null
     };
 
     var COURSE_LABELS = {
@@ -156,6 +157,7 @@ App.qcm = {
         exam: config.exam,
         level: getActiveLevel(),
         current: Math.max(0, Math.min(currentIndex, state.questions.length - 1)),
+        startedAt: state.startedAt,
         questions: state.questions,
         userAnswers: state.userAnswers
       });
@@ -179,6 +181,7 @@ App.qcm = {
       state.questions = saved.questions;
       state.userAnswers = Array.isArray(saved.userAnswers) ? saved.userAnswers : [];
       state.current = typeof saved.current === "number" ? saved.current : 0;
+      state.startedAt = typeof saved.startedAt === "number" ? saved.startedAt : Date.now();
       App.storage.setString("activeQuizUrl", buildQuizUrl());
       return true;
     }
@@ -195,6 +198,7 @@ App.qcm = {
       state.questions = questions;
       state.current = 0;
       state.userAnswers = [];
+      state.startedAt = Date.now();
       saveQuizState(0);
       renderCurrentQuestion();
     }
@@ -321,10 +325,14 @@ App.qcm = {
       var history = App.storage.getJSON("statsHistory", []);
       var firstQuestion = state.questions[0] || null;
       var resultContext = getQuizContextParts(firstQuestion).join(" | ");
+      var durationMs = isExamQuiz() && typeof state.startedAt === "number"
+        ? Math.max(0, Date.now() - state.startedAt)
+        : 0;
 
       App.storage.setNumber("lastScore", score);
       App.storage.setNumber("totalQuestions", state.questions.length);
       App.storage.setString("quizContextLabel", resultContext);
+      App.storage.setNumber("quizDurationMs", durationMs);
       App.storage.setJSON("questions", state.questions.map(function (question, index) {
         return Object.assign({}, question, {
           userAnswerIds: state.userAnswers[index] || []
